@@ -1,14 +1,58 @@
 /* ═════════════════════════════════════════════════════════════════════════════
-   KadınımGuzelim — Demo Site v1.0
+   KadınımGuzelim — Demo Site v1.1 (P0 Hotfix)
    Shared JavaScript
    ═════════════════════════════════════════════════════════════════════════════ */
+
+let savedScrollY = 0;
+
+function lockScroll() {
+  savedScrollY = window.scrollY || window.pageYOffset;
+  document.body.style.position = 'fixed';
+  document.body.style.top = '-' + savedScrollY + 'px';
+  document.body.style.left = '0';
+  document.body.style.right = '0';
+  document.body.style.width = '100%';
+}
+
+function unlockScroll() {
+  document.body.style.position = '';
+  document.body.style.top = '';
+  document.body.style.left = '';
+  document.body.style.right = '';
+  document.body.style.width = '';
+  window.scrollTo(0, savedScrollY);
+}
+
+// ── Toast ───────────────────────────────────────────────────────────────────
+function showToast(message) {
+  let toast = document.getElementById('demoToast');
+  if (!toast) {
+    toast = document.createElement('div');
+    toast.id = 'demoToast';
+    toast.className = 'toast';
+    document.body.appendChild(toast);
+  }
+  toast.textContent = message;
+  toast.classList.add('show');
+  setTimeout(() => toast.classList.remove('show'), 2200);
+}
 
 // ── Mobile Navigation ───────────────────────────────────────────────────────
 function toggleMobileNav() {
   const nav = document.getElementById('mobileNav');
-  if (nav) {
-    nav.classList.toggle('active');
-    document.body.style.overflow = nav.classList.contains('active') ? 'hidden' : '';
+  const overlay = document.getElementById('mobileNavOverlay');
+  if (!nav) return;
+
+  const isOpen = nav.classList.contains('active');
+
+  if (isOpen) {
+    nav.classList.remove('active');
+    if (overlay) overlay.classList.remove('active');
+    unlockScroll();
+  } else {
+    nav.classList.add('active');
+    if (overlay) overlay.classList.add('active');
+    lockScroll();
   }
 }
 
@@ -16,10 +60,18 @@ function toggleMobileNav() {
 function toggleFilterDrawer() {
   const drawer = document.getElementById('filterDrawer');
   const overlay = document.getElementById('filterOverlay');
-  if (drawer && overlay) {
-    drawer.classList.toggle('active');
-    overlay.classList.toggle('active');
-    document.body.style.overflow = drawer.classList.contains('active') ? 'hidden' : '';
+  if (!drawer) return;
+
+  const isOpen = drawer.classList.contains('active');
+
+  if (isOpen) {
+    drawer.classList.remove('active');
+    if (overlay) overlay.classList.remove('active');
+    unlockScroll();
+  } else {
+    drawer.classList.add('active');
+    if (overlay) overlay.classList.add('active');
+    lockScroll();
   }
 }
 
@@ -30,7 +82,6 @@ function changeImage(thumb) {
     main.src = thumb.src;
     main.alt = thumb.alt;
   }
-  // Update active state on thumbs
   document.querySelectorAll('.product-gallery__thumbs img').forEach(img => {
     img.classList.remove('active');
   });
@@ -57,7 +108,6 @@ function toggleAccordion(trigger) {
 
   const isOpen = content.style.maxHeight && content.style.maxHeight !== '0px';
 
-  // Close all others
   document.querySelectorAll('.accordion-content').forEach(c => {
     c.style.maxHeight = '0px';
   });
@@ -73,7 +123,6 @@ function toggleAccordion(trigger) {
 
 // ── Swatch & Size Selection ─────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {
-  // Swatches
   document.querySelectorAll('.swatch').forEach(swatch => {
     swatch.addEventListener('click', function() {
       this.parentElement.querySelectorAll('.swatch').forEach(s => s.classList.remove('active'));
@@ -81,7 +130,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Size buttons
   document.querySelectorAll('.size-btn').forEach(btn => {
     btn.addEventListener('click', function() {
       if (this.disabled) return;
@@ -105,26 +153,10 @@ document.addEventListener('DOMContentLoaded', () => {
     handleMediaChange(mql);
   }
 
-  // Header hide/show on scroll
-  let lastScroll = 0;
-  const header = document.querySelector('.site-header');
-  if (header) {
-    window.addEventListener('scroll', () => {
-      const currentScroll = window.pageYOffset;
-      if (currentScroll > lastScroll && currentScroll > 100) {
-        header.style.transform = 'translateY(-100%)';
-      } else {
-        header.style.transform = 'translateY(0)';
-      }
-      lastScroll = currentScroll;
-    }, { passive: true });
-    header.style.transition = 'transform 300ms ease';
-  }
-
   // Product card hover quick-add (desktop)
   document.querySelectorAll('.category-grid .product-card').forEach(card => {
-    const img = card.querySelector('.product-card__image');
-    if (!img) return;
+    const imgWrap = card.querySelector('.product-card__image');
+    if (!imgWrap) return;
 
     const overlay = document.createElement('div');
     overlay.style.cssText = `
@@ -150,11 +182,51 @@ document.addEventListener('DOMContentLoaded', () => {
       border-radius: var(--radius-sm);
     `;
     overlay.appendChild(label);
-    img.style.position = 'relative';
-    img.appendChild(overlay);
+    imgWrap.appendChild(overlay);
 
     card.addEventListener('mouseenter', () => { overlay.style.opacity = '1'; });
     card.addEventListener('mouseleave', () => { overlay.style.opacity = '0'; });
+  });
+
+  // ESC key closes menu/drawer
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      const nav = document.getElementById('mobileNav');
+      const drawer = document.getElementById('filterDrawer');
+      if (nav && nav.classList.contains('active')) {
+        toggleMobileNav();
+      }
+      if (drawer && drawer.classList.contains('active')) {
+        toggleFilterDrawer();
+      }
+    }
+  });
+
+  // Dead link handler — show toast for placeholder links
+  document.querySelectorAll('a[href="#"], a[href="javascript:void(0)"]').forEach(link => {
+    // Skip real navigation links that happen to use # for anchors
+    if (link.getAttribute('onclick')) return;
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      showToast('Bu özellik demo sürümünde aktif değildir');
+    });
+  });
+
+  // Placeholder button handlers
+  document.querySelectorAll('button').forEach(btn => {
+    if (!btn.getAttribute('onclick') && btn.type !== 'submit') {
+      btn.addEventListener('click', (e) => {
+        // Let swatches, sizes, quantity, accordion work
+        if (btn.closest('.swatches') || btn.closest('.size-options') || btn.closest('.quantity') || btn.closest('.accordion-trigger')) {
+          return;
+        }
+        // Sticky CTA and desktop CTA show toast
+        if (btn.textContent.includes('SEPETE EKLE') || btn.textContent.includes('Favorilere')) {
+          e.preventDefault();
+          showToast('Bu özellik demo sürümünde aktif değildir');
+        }
+      });
+    }
   });
 });
 

@@ -15,7 +15,9 @@
   <!-- HEADER -->
   <header class="site-header">
     <div class="container">
-      <button class="mobile-menu-btn" aria-label="Menü" onclick="toggleMobileNav()">☰</button>
+      <button class="mobile-menu-btn" aria-label="Menü" onclick="toggleMobileNav()">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+          </button>
       <a href="index.html" class="logo">KadınımGuzelim</a>
       <nav class="nav-desktop">
         <a href="category.html">Gecelik</a>
@@ -26,16 +28,25 @@
         <a href="category.html">Büyük Beden</a>
       </nav>
       <div class="header-icons">
-        <a href="#" aria-label="Ara">🔍</a>
-        <a href="#" aria-label="Hesabım">👤</a>
-        <a href="#" aria-label="Sepet">🛒</a>
+        <a href="#" aria-label="Ara">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          </a>
+          <a href="#" aria-label="Hesabım">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+          </a>
+          <a href="#" aria-label="Sepet">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+          </a>
       </div>
     </div>
   </header>
 
   <!-- Mobile Nav -->
+  <div class="mobile-nav-overlay" id="mobileNavOverlay" onclick="toggleMobileNav()"></div>
   <nav class="mobile-nav" id="mobileNav">
-    <button class="mobile-nav-close" onclick="toggleMobileNav()">✕</button>
+    <button class="mobile-nav-close" onclick="toggleMobileNav()">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
     <ul>
       <li><a href="category.html">Gecelik</a></li>
       <li><a href="category.html">Sütyen</a></li>
@@ -57,10 +68,10 @@
   <div class="container">
     <div class="filter-bar">
       <button class="filter-btn" onclick="toggleFilterDrawer()">
-        <span>☰</span> Filtrele
+        <svg width="16" height="16" viewBox="0 0 24 24" style="display:inline-block;vertical-align:middle;margin-right:6px;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;fill:none;"><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg> Filtrele
       </button>
-      <button class="filter-btn">
-        <span>⇅</span> Sırala: En Yeni
+      <button class="filter-btn" onclick="showToast('Bu özellik demo sürümünde aktif değildir')">
+        <svg width="16" height="16" viewBox="0 0 24 24" style="display:inline-block;vertical-align:middle;margin-right:6px;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;fill:none;"><path d="M11 5h10"></path><path d="M11 9h7"></path><path d="M11 13h4"></path><path d="M3 17l4 4 4-4"></path><path d="M7 21V3"></path></svg> Sırala: En Yeni
       </button>
     </div>
   </div>

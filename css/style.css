@@ -225,17 +225,60 @@ ul, ol {
 }
 
 .header-icons a {
-  font-size: 18px;
-  line-height: 1;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-dark);
+}
+
+.header-icons a svg {
+  width: 22px;
+  height: 22px;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
 }
 
 .mobile-menu-btn {
-  font-size: 22px;
-  line-height: 1;
-  padding: var(--space-xs);
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  color: var(--color-dark);
+}
+
+.mobile-menu-btn svg {
+  width: 24px;
+  height: 24px;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
 }
 
 /* Mobile nav overlay */
+.mobile-nav-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  z-index: 199;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--transition-base);
+}
+
+.mobile-nav-overlay.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
 .mobile-nav {
   position: fixed;
   inset: 0;
@@ -244,6 +287,7 @@ ul, ol {
   padding: var(--space-xl);
   transform: translateX(-100%);
   transition: transform var(--transition-base);
+  overflow-y: auto;
 }
 
 .mobile-nav.active {
@@ -251,10 +295,25 @@ ul, ol {
 }
 
 .mobile-nav-close {
-  font-size: 28px;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   top: var(--space-lg);
   right: var(--space-lg);
+  color: var(--color-dark);
+}
+
+.mobile-nav-close svg {
+  width: 24px;
+  height: 24px;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
 }
 
 .mobile-nav ul {
@@ -268,6 +327,13 @@ ul, ol {
   font-family: var(--font-display);
   font-size: 28px;
   color: var(--color-dark);
+  display: block;
+  padding: var(--space-sm) 0;
+  transition: opacity var(--transition-fast);
+}
+
+.mobile-nav a:active {
+  opacity: 0.5;
 }
 
 /* ── COMPONENTS: HERO ──────────────────────────────────────────────────────── */
@@ -709,6 +775,15 @@ ul, ol {
   gap: 6px;
 }
 
+/* Filter drawer close button */
+.filter-drawer button[onclick*="toggleFilterDrawer"] {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Filter drawer */
 .filter-drawer {
   position: fixed;
@@ -848,6 +923,10 @@ ul, ol {
 }
 
 /* ── PRODUCT PAGE: QUANTITY & CTA ──────────────────────────────────────────── */
+.product-info__cta {
+  display: none;
+}
+
 .quantity {
   display: flex;
   align-items: center;
@@ -995,6 +1074,17 @@ ul, ol {
     flex: 0 0 200px;
   }
 
+  .product-info__cta {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+  }
+
+  .product-info__cta .btn {
+    width: 100%;
+    padding: 16px;
+  }
+
   .sticky-cta {
     display: none;
   }
@@ -1032,16 +1122,6 @@ ul, ol {
     align-items: start;
   }
 
-  .product-info__cta {
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-md);
-  }
-
-  .product-info__cta .btn {
-    width: 100%;
-    padding: 16px;
-  }
 }
 
 /* ═════════════════════════════════════════════════════════════════════════════
@@ -1053,6 +1133,62 @@ ul, ol {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
+}
+
+/* Active / tap feedback */
+button:active,
+.btn:active,
+a:active {
+  transform: scale(0.97);
+  transition: transform 100ms ease;
+}
+
+.product-card:active {
+  transform: scale(0.985);
+  transition: transform 100ms ease;
+}
+
+.category-card:active {
+  transform: scale(0.98);
+  transition: transform 100ms ease;
+}
+
+.mobile-menu-btn:active,
+.mobile-nav-close:active,
+.header-icons a:active {
+  transform: scale(0.92);
+}
+
+.swatch:active,
+.size-btn:active {
+  transform: scale(0.92);
+  transition: transform 100ms ease;
+}
+
+/* Toast notification */
+.toast {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%) translateY(120%);
+  background: var(--color-dark);
+  color: var(--color-white);
+  padding: 14px 28px;
+  border-radius: var(--radius-md);
+  font-family: var(--font-ui);
+  font-size: 13px;
+  font-weight: 500;
+  z-index: 400;
+  opacity: 0;
+  transition: transform 300ms ease, opacity 300ms ease;
+  pointer-events: none;
+  white-space: nowrap;
+  box-shadow: var(--shadow-md);
+}
+
+.toast.show {
+  transform: translateX(-50%) translateY(0);
+  opacity: 1;
 }
 
 /* Focus styles */
