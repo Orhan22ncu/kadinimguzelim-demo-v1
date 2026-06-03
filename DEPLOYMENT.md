@@ -113,3 +113,26 @@ The demo site is ready to be shown to Bürol Bey.
 ---
 
 *Generated: 2026-06-03*
+
+## Deployed URLs
+
+| Platform | URL | Status |
+|----------|-----|--------|
+| GitHub Pages | https://orhan22ncu.github.io/kadinimguzelim-demo-v1/ | ✅ Live |
+| Local | http://localhost:8766 | ✅ Development |
+
+## Vercel Deploy (Pending Auth)
+
+Vercel CLI requires authentication. To deploy to Vercel:
+
+```bash
+# Option 1: Vercel CLI (requires login)
+vercel login
+vercel --prod
+
+# Option 2: GitHub Integration
+# 1. Go to https://vercel.com/new
+# 2. Import github.com/Orhan22ncu/kadinimguzelim-demo-v1
+# 3. Framework: Other / Static
+# 4. Build: None / Output: .
+```
