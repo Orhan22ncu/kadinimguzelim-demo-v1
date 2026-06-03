@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KadınımGuzelim — Premium İç Giyim</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌹</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ════════════════════════════════════════════════════════════════════════
+       HEADER
+       ════════════════════════════════════════════════════════════════════════ -->
+  <header class="site-header">
+    <div class="container">
+      <button class="mobile-menu-btn" aria-label="Menü" onclick="toggleMobileNav()">☰</button>
+      <a href="index.html" class="logo">KadınımGuzelim</a>
+      <nav class="nav-desktop">
+        <a href="category.html">Gecelik</a>
+        <a href="category.html">Sütyen</a>
+        <a href="category.html">Fantazi</a>
+        <a href="category.html">Pijama</a>
+        <a href="category.html">Body & Korse</a>
+        <a href="category.html">Büyük Beden</a>
+      </nav>
+      <div class="header-icons">
+        <a href="#" aria-label="Ara">🔍</a>
+        <a href="#" aria-label="Hesabım">👤</a>
+        <a href="#" aria-label="Sepet">🛒</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Nav -->
+  <nav class="mobile-nav" id="mobileNav">
+    <button class="mobile-nav-close" onclick="toggleMobileNav()">✕</button>
+    <ul>
+      <li><a href="category.html">Gecelik</a></li>
+      <li><a href="category.html">Sütyen</a></li>
+      <li><a href="category.html">Fantazi</a></li>
+      <li><a href="category.html">Pijama</a></li>
+      <li><a href="category.html">Body & Korse</a></li>
+      <li><a href="category.html">Büyük Beden</a></li>
+    </ul>
+  </nav>
+
+  <!-- ════════════════════════════════════════════════════════════════════════
+       HERO
+       ════════════════════════════════════════════════════════════════════════ -->
+  <section class="hero">
+    <img 
+      class="hero__image" 
+      src="https://static.ticimax.cloud/cdn-cgi/image/width=-,quality=99/75855/uploads/urunresimleri/buyuk/ustu-dantelli-ekru-saten-sifon-gecelik-c-0ac6.jpg" 
+      alt="Model yatakta ekru saten gecelik ve sabahlık takımı giyiyor"
+      loading="eager"
+    >
+    <div class="hero__overlay"></div>
+    <div class="container hero__content">
+      <h1 class="hero__title">Bu gece<br>kendini şımart</h1>
+      <p class="hero__subtitle">Yeni saten koleksiyonuyla tanışın. Her bedende, her anında güzellik.</p>
+      <a href="category.html" class="hero__cta">Koleksiyonu Keşfet →</a>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════════════════
+       CATEGORY ENTRY
+       ════════════════════════════════════════════════════════════════════════ -->
+  <section class="py-2xl bg-white">
+    <div class="container">
+      <p class="section-label">Kategoriler</p>
+      <h2 class="section-title">Senin için seçtiklerimiz</h2>
+      <div class="category-grid">
+        <a href="category.html" class="category-card">
+          <img src="https://static.ticimax.cloud/cdn-cgi/image/width=-,quality=99/75855/uploads/urunresimleri/buyuk/dantelli-bordo-gecelik-sabahlik-takim-0a0-29.jpg" alt="Bordo gecelik" loading="lazy">
+          <div class="category-card__overlay">
+            <span class="category-card__name">Gecelik & Sabahlık</span>
+            <span class="category-card__count">48 ürün</span>
+          </div>
+        </a>
+        <a href="category.html" class="category-card">
+          <img src="https://static.ticimax.cloud/cdn-cgi/image/width=-,quality=99/75855/uploads/urunresimleri/buyuk/brodeli-c-cup-ekru-sutyen-takim-171c55.jpg" alt="Ekru sütyen takımı" loading="lazy">
+          <div class="category-card__overlay">
+            <span class="category-card__name">Sütyen Takımı</span>
+            <span class="category-card__count">127 ürün</span>
+          </div>
+        </a>
+        <a href="category.html" class="category-card">
+          <img src="https://static.ticimax.cloud/cdn-cgi/image/width=-,quality=99/75855/uploads/urunresimleri/dantelli-siyah-buyuk-beden-fantazi-gec-173c81.jpg" alt="Siyah fantazi gecelik" loading="lazy">
+          <div class="category-card__overlay">
+            <span class="category-card__name">Fantazi İç Giyim</span>
+            <span class="category-card__count">34 ürün</span>
+          </div>
+        </a>
+        <a href="category.html" class="category-card">
+          <img src="https://static.ticimax.cloud/cdn-cgi/image/width=-,quality=99/75855/uploads/urunresimleri/buyuk/dantelli-buyuk-beden-sortlu-pijama-tak-3c8-e3.jpg" alt="Lacivert pijama takımı" loading="lazy">
+          <div class="category-card__overlay">
+            <span class="category-card__name">Pijama Takımı</span>
+            <span class="category-card__count">89 ürün</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════════════════
+       NEW ARRIVALS
+       ════════════════════════════════════════════════════════════════════════ -->
+  <section class="py-2xl bg-cream">
+    <div class="container">
+      <div class="flex justify-between items-center">
+        <div>
+          <p class="section-label">Yeni Gelenler</p>
+          <h2 class="section-title">Bu haftanın en yenileri</h2>
+        </div>
+        <a href="category.html" class="text-sm font-medium" style="color: var(--color-dark);">Tümünü Gör →</a>
+      </div>
+      <div class="product-scroll">
+        <a href="product.html" class="product-card">
+          <div class="product-card__image">
+            <img src="https://static.ticimax.cloud/cdn-cgi/image/width=-,quality=99/75855/uploads/urunresimleri/buyuk/dantelli-ekru-saten-sifon-gecelik-saba-a23e-c.jpg" alt="Dantelli ekru saten gecelik" loading="lazy">
+            <span class="product-card__badge">Yeni</span>
+          </div>
+          <p class="product-card__name">Dantelli Ekru Saten Şifon Gecelik</p>
+          <p class="product-card__price">579 ₺</p>
+        </a>
+        <a href="product.html" class="product-card">
+          <div class="product-card__image">
+            <img src="https://static.ticimax.cloud/cdn-cgi/image/width=-,quality=99/75855/uploads/urunresimleri/buyuk/dantel-pembe-fantazi-bralet-sutyen-tak--978a-.jpg" alt="Pembe dantel bralet" loading="lazy">
+            <span class="product-card__badge">Yeni</span>
+          </div>
+          <p class="product-card__name">Dantel Pembe Fantazi Bralet</p>
+          <p class="product-card__price">329 ₺</p>
+        </a>
+        <a href="product.html" class="product-card">
+          <div class="product-card__image">
+            <img src="https://static.ticimax.cloud/cdn-cgi/image/width=-,quality=99/75855/uploads/urunresimleri/buyuk/brodeli-c-cup-kirmizi-sutyen-takim-2e-83f.jpg" alt="Kırmızı sütyen takımı" loading="lazy">
+            <span class="product-card__badge">Yeni</span>
+          </div>
+          <p class="product-card__name">Brodeli C Cup Kırmızı Sütyen Takımı</p>
+          <p class="product-card__price">379 ₺</p>
+        </a>
+        <a href="product.html" class="product-card">
+          <div class="product-card__image">
+            <img src="https://static.ticimax.cloud/cdn-cgi/image/width=-,quality=99/75855/uploads/urunresimleri/buyuk/dantelli-bordo-gecelik-sabahlik-takim-0a0-29.jpg" alt="Dantelli bordo gecelik" loading="lazy">
+            <span class="product-card__badge">Yeni</span>
+          </div>
+          <p class="product-card__name">Dantelli Bordo Gecelik Sabahlık</p>
+          <p class="product-card__price">499 ₺</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════════════════
+       FEATURED PRODUCTS
+       ════════════════════════════════════════════════════════════════════════ -->
+  <section class="py-2xl bg-white">
+    <div class="container">
+      <p class="section-label">Öne Çıkanlar</p>
+      <h2 class="section-title">Bu haftanın en çok sevilenleri</h2>
+      <div class="category-grid mt-xl">
+        <a href="product.html" class="product-card">
+          <div class="product-card__image" style="aspect-ratio: 3/4;">
+            <img src="https://static.ticimax.cloud/cdn-cgi/image/width=-,quality=99/75855/uploads/urunresimleri/buyuk/dantelli-ekru-saten-sifon-gecelik-saba-a23e-c.jpg" alt="Dantelli ekru gecelik" loading="lazy">
+          </div>
+          <div class="flex items-center gap-sm mt-sm">
+            <span class="stars">★★★★★</span>
+            <span class="text-sm font-semibold">4.9</span>
+            <span class="text-sm text-gray">(47)</span>
+          </div>
+          <p class="product-card__name">Dantelli Ekru Saten Gecelik</p>
+          <p class="product-card__price">579 ₺</p>
+        </a>
+        <a href="product.html" class="product-card">
+          <div class="product-card__image" style="aspect-ratio: 3/4;">
+            <img src="https://static.ticimax.cloud/cdn-cgi/image/width=-,quality=99/75855/uploads/urunresimleri/buyuk/bordo-saten-gecelik-sabahlik-takim-1-4df4.jpg" alt="Bordo saten gecelik" loading="lazy">
+          </div>
+          <div class="flex items-center gap-sm mt-sm">
+            <span class="stars">★★★★★</span>
+            <span class="text-sm font-semibold">4.8</span>
+            <span class="text-sm text-gray">(23)</span>
+          </div>
+          <p class="product-card__name">Bordo Saten Gecelik Sabahlık Takımı</p>
+          <p class="product-card__price">549 ₺</p>
+        </a>
+        <a href="product.html" class="product-card">
+          <div class="product-card__image" style="aspect-ratio: 3/4;">
+            <img src="https://static.ticimax.cloud/cdn-cgi/image/width=-,quality=99/75855/uploads/urunresimleri/buyuk/brodeli-c-cup-ekru-sutyen-takim-171c55.jpg" alt="Brodeli ekru sütyen" loading="lazy">
+          </div>
+          <div class="flex items-center gap-sm mt-sm">
+            <span class="stars">★★★★☆</span>
+            <span class="text-sm font-semibold">4.6</span>
+            <span class="text-sm text-gray">(12)</span>
+          </div>
+          <p class="product-card__name">Brodeli C Cup Ekru Sütyen Takımı</p>
+          <p class="product-card__price">379 ₺</p>
+        </a>
+        <a href="product.html" class="product-card">
+          <div class="product-card__image" style="aspect-ratio: 3/4;">
+            <img src="https://static.ticimax.cloud/cdn-cgi/image/width=-,quality=99/75855/uploads/urunresimleri/dantelli-siyah-buyuk-beden-fantazi-gec-173c81.jpg" alt="Dantelli siyah fantazi" loading="lazy">
+          </div>
+          <div class="flex items-center gap-sm mt-sm">
+            <span class="stars">★★★★★</span>
+            <span class="text-sm font-semibold">4.9</span>
+            <span class="text-sm text-gray">(31)</span>
+          </div>
+          <p class="product-card__name">Dantelli Siyah Fantazi Gecelik</p>
+          <p class="product-card__price">459 ₺</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════════════════
+       TRUST LAYER
+       ════════════════════════════════════════════════════════════════════════ -->
+  <section class="trust-layer bg-dark text-white">
+    <div class="container">
+      <div class="trust-grid">
+        <div class="trust-item">
+          <div class="trust-item__icon">🚚</div>
+          <p class="trust-item__title">Hızlı & Ücretsiz Kargo</p>
+          <p class="trust-item__desc">150₺ üzeri</p>
+        </div>
+        <div class="trust-item">
+          <div class="trust-item__icon">🔄</div>
+          <p class="trust-item__title">Kolay İade</p>
+          <p class="trust-item__desc">30 gün, ücretsiz</p>
+        </div>
+        <div class="trust-item">
+          <div class="trust-item__icon">🔒</div>
+          <p class="trust-item__title">Güvenli Ödeme</p>
+          <p class="trust-item__desc">Iyzico ile</p>
+        </div>
+        <div class="trust-item">
+          <div class="trust-item__icon">💬</div>
+          <p class="trust-item__title">7/24 Destek</p>
+          <p class="trust-item__desc">WhatsApp & Canlı Sohbet</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════════════════
+       BRAND STORY
+       ════════════════════════════════════════════════════════════════════════ -->
+  <section class="py-3xl bg-white">
+    <div class="container brand-story">
+      <div class="brand-story__image">
+        <img src="https://static.ticimax.cloud/cdn-cgi/image/width=-,quality=99/75855/uploads/urunresimleri/buyuk/brodeli-c-cup-ekru-sutyen-takim-171c55.jpg" alt="KadınımGuzelim marka hikayesi" loading="lazy">
+      </div>
+      <div>
+        <h2 class="brand-story__title">Her kadın güzeldir</h2>
+        <p class="brand-story__text">KadınımGuzelim, 2015'ten beri Türkiye'de üretilen, her bedende güzelliği kutlayan bir iç giyim markasıdır.</p>
+        <p class="brand-story__text">Her parça özenle seçilir. Her kumaş teninizle konuşur. Her beden değerlidir.</p>
+        <a href="#" class="brand-story__link">Bizi Tanıyın →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════════════════
+       INSTAGRAM LAYER
+       ════════════════════════════════════════════════════════════════════════ -->
+  <section class="py-2xl bg-cream">
+    <div class="container">
+      <h2 class="section-title" style="text-align: center;">@kadinimguzelim</h2>
+      <p class="text-gray" style="text-align: center; margin-top: var(--space-sm);">Günlük güzellik anlarınızı #kadinimguzelim ile paylaşın</p>
+      <div class="instagram-grid">
+        <img src="https://static.ticimax.cloud/cdn-cgi/image/width=-,quality=99/75855/uploads/urunresimleri/buyuk/brodeli-c-cup-ekru-sutyen-takim-171c55.jpg" alt="Instagram" loading="lazy">
+        <img src="https://static.ticimax.cloud/cdn-cgi/image/width=-,quality=99/75855/uploads/urunresimleri/buyuk/ustu-dantelli-ekru-saten-sifon-gecelik-c-0ac6.jpg" alt="Instagram" loading="lazy">
+        <img src="https://static.ticimax.cloud/cdn-cgi/image/width=-,quality=99/75855/uploads/urunresimleri/buyuk/dantel-pembe-fantazi-bralet-sutyen-tak--978a-.jpg" alt="Instagram" loading="lazy">
+        <img src="https://static.ticimax.cloud/cdn-cgi/image/width=-,quality=99/75855/uploads/urunresimleri/buyuk/brodeli-c-cup-kirmizi-sutyen-takim-2e-83f.jpg" alt="Instagram" loading="lazy">
+        <img src="https://static.ticimax.cloud/cdn-cgi/image/width=-,quality=99/75855/uploads/urunresimleri/buyuk/ince-askili-buyuk-beden-sortlu-pijama--22368-.jpg" alt="Instagram" loading="lazy">
+        <img src="https://static.ticimax.cloud/cdn-cgi/image/width=-,quality=99/75855/uploads/urunresimleri/buyuk/kadin-modal-genis-yaka-sifir-kol-body-41d3-9.jpg" alt="Instagram" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════════════════════════════
+       FOOTER
+       ════════════════════════════════════════════════════════════════════════ -->
+  <footer class="site-footer bg-dark text-white">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Kategoriler</h4>
+          <ul>
+            <li><a href="category.html">Gecelik</a></li>
+            <li><a href="category.html">Sütyen</a></li>
+            <li><a href="category.html">Fantazi</a></li>
+            <li><a href="category.html">Pijama</a></li>
+            <li><a href="category.html">Body & Korse</a></li>
+            <li><a href="category.html">Büyük Beden</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Müşteri Hizmetleri</h4>
+          <ul>
+            <li><a href="#">Sipariş Takibi</a></li>
+            <li><a href="#">İade Politikası</a></li>
+            <li><a href="#">Sık Sorulan Sorular</a></li>
+            <li><a href="#">Gizlilik Politikası</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Hakkımızda</h4>
+          <ul>
+            <li><a href="#">Biz Kimiz</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Sürdürülebilirlik</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Bülten</h4>
+          <p style="font-size: 13px; opacity: 0.7; margin-bottom: var(--space-md);">Yeni ürünlerden haberdar olun</p>
+          <form style="display: flex; gap: var(--space-sm);">
+            <input type="email" placeholder="E-posta adresiniz" style="flex: 1; padding: 10px; border: 1px solid rgba(255,255,255,0.2); background: transparent; color: white; font-size: 13px; border-radius: var(--radius-sm);">
+            <button type="submit" class="btn" style="padding: 10px 16px; background: var(--color-gold); color: var(--color-dark);">→</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copyright">© 2024 KadınımGuzelim. Tüm hakları saklıdır.</p>
+        <div class="footer-trust">
+          <span>Iyzico</span>
+          <span>SSL</span>
+          <span>Kapıda Ödeme</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

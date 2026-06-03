@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gecelik & Sabahlık — KadınımGuzelim</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌹</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container">
+      <button class="mobile-menu-btn" aria-label="Menü" onclick="toggleMobileNav()">☰</button>
+      <a href="index.html" class="logo">KadınımGuzelim</a>
+      <nav class="nav-desktop">
+        <a href="category.html">Gecelik</a>
+        <a href="category.html">Sütyen</a>
+        <a href="category.html">Fantazi</a>
+        <a href="category.html">Pijama</a>
+        <a href="category.html">Body & Korse</a>
+        <a href="category.html">Büyük Beden</a>
+      </nav>
+      <div class="header-icons">
+        <a href="#" aria-label="Ara">🔍</a>
+        <a href="#" aria-label="Hesabım">👤</a>
+        <a href="#" aria-label="Sepet">🛒</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Nav -->
+  <nav class="mobile-nav" id="mobileNav">
+    <button class="mobile-nav-close" onclick="toggleMobileNav()">✕</button>
+    <ul>
+      <li><a href="category.html">Gecelik</a></li>
+      <li><a href="category.html">Sütyen</a></li>
+      <li><a href="category.html">Fantazi</a></li>
+      <li><a href="category.html">Pijama</a></li>
+      <li><a href="category.html">Body & Korse</a></li>
+      <li><a href="category.html">Büyük Beden</a></li>
+    </ul>
+  </nav>
+
+  <!-- BREADCRUMB -->
+  <div class="container">
+    <nav class="breadcrumb">
+      <a href="index.html">Ana Sayfa</a> › <a href="category.html">İç Giyim</a> › Gecelik
+    </nav>
+  </div>
+
+  <!-- FILTER BAR -->
+  <div class="container">
+    <div class="filter-bar">
+      <button class="filter-btn" onclick="toggleFilterDrawer()">
+        <span>☰</span> Filtrele
+      </button>
+      <button class="filter-btn">
+        <span>⇅</span> Sırala: En Yeni
+      </button>
+    </div>
+  </div>
+
+  <!-- FILTER DRAWER (Mobile) -->
+  <div class="filter-drawer__overlay" id="filterOverlay" onclick="toggleFilterDrawer()"></div>
+  <div class="filter-drawer" id="filterDrawer" style="padding: var(--space-xl) var(--space-md);">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--space-xl);">
+      <h3 class="font-display text-lg">Filtrele</h3>
+      <button onclick="toggleFilterDrawer()" style="font-size: 24px;">✕</button>
+    </div>
+    <div style="margin-bottom: var(--space-xl);">
+      <p class="variant-label">Beden</p>
+      <div class="size-options" style="margin-top: var(--space-sm);">
+        <button class="size-btn active">S/M</button>
+        <button class="size-btn">L/XL</button>
+        <button class="size-btn">2XL/3XL</button>
+      </div>
+    </div>
+    <div style="margin-bottom: var(--space-xl);">
+      <p class="variant-label">Renk</p>
+      <div class="swatches" style="margin-top: var(--space-sm);">
+        <span class="swatch active" style="background: #7A1F1F;" title="Bordo"></span>
+        <span class="swatch" style="background: #1A1A1A;" title="Siyah"></span>
+        <span class="swatch" style="background: #F5F0EB; border-color: #ccc;" title="Ekru"></span>
+      </div>
+    </div>
+    <div style="margin-bottom: var(--space-xl);">
+      <p class="variant-label">Fiyat</p>
+      <div style="display: flex; gap: var(--space-sm); flex-wrap: wrap; margin-top: var(--space-sm);">
+        <button class="size-btn">0–200 ₺</button>
+        <button class="size-btn">200–400 ₺</button>
+        <button class="size-btn active">400–600 ₺</button>
+        <button class="size-btn">600+ ₺</button>
+      </div>
+    </div>
+    <button class="btn btn--primary w-full" onclick="toggleFilterDrawer()" style="position: sticky; bottom: var(--space-md);">
+      Uygula — 4 ürün
+    </button>
+  </div>
+
+  <!-- CATEGORY CONTENT -->
+  <section class="py-lg bg-white">
+    <div class="container">
+      <h1 class="section-title">Gecelik & Sabahlık</h1>
+      <p class="text-gray text-sm mt-sm">4 ürün</p>
+
+      <div class="category-grid mt-xl">
+        <a href="product.html" class="product-card">
+          <div class="product-card__image" style="aspect-ratio: 3/4;">
+            <img src="https://static.ticimax.cloud/cdn-cgi/image/width=-,quality=99/75855/uploads/urunresimleri/buyuk/dantelli-bordo-gecelik-sabahlik-takim-0a0-29.jpg" alt="Dantelli Bordo Gecelik" loading="lazy">
+            <span class="product-card__badge">Yeni</span>
+          </div>
+          <div class="flex items-center gap-sm mt-sm">
+            <span class="stars">★★★★★</span>
+            <span class="text-sm font-semibold">4.9</span>
+            <span class="text-sm text-gray">(23)</span>
+          </div>
+          <p class="product-card__name">Dantelli Bordo Gecelik Sabahlık Takımı</p>
+          <p class="product-card__price">499 ₺</p>
+        </a>
+
+        <a href="product.html" class="product-card">
+          <div class="product-card__image" style="aspect-ratio: 3/4;">
+            <img src="https://static.ticimax.cloud/cdn-cgi/image/width=-,quality=99/75855/uploads/urunresimleri/buyuk/bordo-saten-gecelik-sabahlik-takim-1-4df4.jpg" alt="Bordo Saten Gecelik" loading="lazy">
+          </div>
+          <div class="flex items-center gap-sm mt-sm">
+            <span class="stars">★★★★★</span>
+            <span class="text-sm font-semibold">4.8</span>
+            <span class="text-sm text-gray">(47)</span>
+          </div>
+          <p class="product-card__name">Bordo Saten Gecelik Sabahlık Takımı</p>
+          <p class="product-card__price">549 ₺</p>
+        </a>
+
+        <a href="product.html" class="product-card">
+          <div class="product-card__image" style="aspect-ratio: 3/4;">
+            <img src="https://static.ticimax.cloud/cdn-cgi/image/width=-,quality=99/75855/uploads/urunresimleri/buyuk/dantelli-ekru-saten-sifon-gecelik-saba-a23e-c.jpg" alt="Dantelli Ekru Gecelik" loading="lazy">
+            <span class="product-card__badge">Yeni</span>
+          </div>
+          <div class="flex items-center gap-sm mt-sm">
+            <span class="stars">★★★★☆</span>
+            <span class="text-sm font-semibold">4.6</span>
+            <span class="text-sm text-gray">(12)</span>
+          </div>
+          <p class="product-card__name">Dantelli Ekru Saten Şifon Gecelik</p>
+          <p class="product-card__price">579 ₺</p>
+        </a>
+
+        <a href="product.html" class="product-card">
+          <div class="product-card__image" style="aspect-ratio: 3/4;">
+            <img src="https://static.ticimax.cloud/cdn-cgi/image/width=-,quality=99/75855/uploads/urunresimleri/buyuk/ustu-dantelli-ekru-saten-sifon-gecelik-c-0ac6.jpg" alt="Üstü Dantelli Ekru Gecelik" loading="lazy">
+            <span class="product-card__badge">Yeni</span>
+          </div>
+          <div class="flex items-center gap-sm mt-sm">
+            <span class="stars">★★★★★</span>
+            <span class="text-sm font-semibold">4.9</span>
+            <span class="text-sm text-gray">(31)</span>
+          </div>
+          <p class="product-card__name">Üstü Dantelli Ekru Saten Gecelik</p>
+          <p class="product-card__price">599 ₺</p>
+        </a>
+      </div>
+
+      <!-- Pagination -->
+      <div class="pagination">
+        <a href="#">‹</a>
+        <a href="#" class="active">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <span style="display: flex; align-items: center; color: var(--color-gray);">...</span>
+        <a href="#">›</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST LAYER -->
+  <section class="trust-layer bg-dark text-white">
+    <div class="container">
+      <div class="trust-grid">
+        <div class="trust-item">
+          <div class="trust-item__icon">🚚</div>
+          <p class="trust-item__title">Hızlı & Ücretsiz Kargo</p>
+          <p class="trust-item__desc">150₺ üzeri</p>
+        </div>
+        <div class="trust-item">
+          <div class="trust-item__icon">🔄</div>
+          <p class="trust-item__title">Kolay İade</p>
+          <p class="trust-item__desc">30 gün, ücretsiz</p>
+        </div>
+        <div class="trust-item">
+          <div class="trust-item__icon">🔒</div>
+          <p class="trust-item__title">Güvenli Ödeme</p>
+          <p class="trust-item__desc">Iyzico ile</p>
+        </div>
+        <div class="trust-item">
+          <div class="trust-item__icon">💬</div>
+          <p class="trust-item__title">7/24 Destek</p>
+          <p class="trust-item__desc">WhatsApp & Canlı Sohbet</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer bg-dark text-white">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Kategoriler</h4>
+          <ul>
+            <li><a href="category.html">Gecelik</a></li>
+            <li><a href="category.html">Sütyen</a></li>
+            <li><a href="category.html">Fantazi</a></li>
+            <li><a href="category.html">Pijama</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Müşteri Hizmetleri</h4>
+          <ul>
+            <li><a href="#">Sipariş Takibi</a></li>
+            <li><a href="#">İade Politikası</a></li>
+            <li><a href="#">SSS</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Hakkımızda</h4>
+          <ul>
+            <li><a href="#">Biz Kimiz</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Bülten</h4>
+          <form style="display: flex; gap: var(--space-sm); margin-top: var(--space-md);">
+            <input type="email" placeholder="E-posta" style="flex: 1; padding: 10px; border: 1px solid rgba(255,255,255,0.2); background: transparent; color: white; font-size: 13px; border-radius: var(--radius-sm);">
+            <button type="submit" class="btn" style="padding: 10px 16px; background: var(--color-gold); color: var(--color-dark);">→</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copyright">© 2024 KadınımGuzelim. Tüm hakları saklıdır.</p>
+        <div class="footer-trust">
+          <span>Iyzico</span>
+          <span>SSL</span>
+          <span>Kapıda Ödeme</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
