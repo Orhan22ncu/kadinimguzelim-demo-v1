@@ -670,15 +670,6 @@ function initStickyVariant() {
   document.querySelectorAll('.size-btn, .swatch').forEach(el =>
     el.addEventListener('click', update));
 
-  add.addEventListener('click', (e) => {
-    if (!document.querySelector('.size-btn.active')) {
-      e.preventDefault();
-      const sizes = document.querySelector('.size-options');
-      if (sizes) sizes.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      showToast('Lütfen bir beden seçin');
-    }
-  });
-
   update();
 }
 
@@ -739,4 +730,143 @@ document.addEventListener('DOMContentLoaded', () => {
   if (main) targets.push(main);
   document.querySelectorAll('.product-card__image img').forEach(i => targets.push(i));
   targets.forEach(lqipBlurUp);
+});
+
+/* ═════════════════════════════════════════════════════════════════════════════
+   CART — localStorage, works across all pages (demo, no backend)
+   ═════════════════════════════════════════════════════════════════════════════ */
+const CART_KEY = 'kg_cart_v1';
+
+function cartRead() { try { return JSON.parse(localStorage.getItem(CART_KEY)) || []; } catch (e) { return []; } }
+function cartWrite(items) { localStorage.setItem(CART_KEY, JSON.stringify(items)); cartRefresh(); }
+function cartCount() { return cartRead().reduce((n, i) => n + i.qty, 0); }
+function cartTotal() { return cartRead().reduce((n, i) => n + i.price * i.qty, 0); }
+function formatTRY(n) { return n.toLocaleString('tr-TR') + ' ₺'; }
+function escapeHtml(s) { return String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c])); }
+function slugify(s) { return String(s).toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, ''); }
+
+let cartUI = null;
+function buildCartUI() {
+  if (cartUI) return cartUI;
+  const overlay = document.createElement('div');
+  overlay.className = 'cart-overlay';
+  const drawer = document.createElement('aside');
+  drawer.className = 'cart-drawer';
+  drawer.setAttribute('role', 'dialog');
+  drawer.setAttribute('aria-label', 'Sepetim');
+  drawer.innerHTML =
+    '<div class="cart-drawer__head"><h3>Sepetim</h3>' +
+    '<button class="cart-close" aria-label="Kapat" type="button"><svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></button></div>' +
+    '<div class="cart-items"></div>' +
+    '<div class="cart-drawer__foot"><div class="cart-total"><span class="label">Toplam</span><span class="value cart-total-value">0 ₺</span></div>' +
+    '<button class="btn btn--primary cart-checkout" type="button" style="width:100%;">Sepeti Onayla</button></div>';
+  document.body.appendChild(overlay);
+  document.body.appendChild(drawer);
+
+  overlay.addEventListener('click', closeCart);
+  drawer.querySelector('.cart-close').addEventListener('click', closeCart);
+  drawer.querySelector('.cart-checkout').addEventListener('click', () => showToast('Demo: sipariş akışı yakında aktif olacak'));
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && drawer.classList.contains('active')) closeCart(); });
+
+  cartUI = { overlay, drawer, items: drawer.querySelector('.cart-items'), total: drawer.querySelector('.cart-total-value') };
+  return cartUI;
+}
+
+function renderCart() {
+  const ui = buildCartUI();
+  const items = cartRead();
+  if (items.length === 0) {
+    ui.items.innerHTML = '<p class="cart-empty">Sepetiniz henüz boş.</p>';
+  } else {
+    ui.items.innerHTML = items.map((it, i) =>
+      '<div class="cart-item">' +
+      (it.image ? '<img src="' + it.image + '" alt="">' : '') +
+      '<div class="cart-item__body">' +
+      '<p class="cart-item__title">' + escapeHtml(it.title) + '</p>' +
+      '<p class="cart-item__meta">' + [it.size, it.color].filter(Boolean).map(escapeHtml).join(' · ') + '</p>' +
+      '<div class="cart-item__row">' +
+      '<span class="cart-qty"><button type="button" data-act="dec" data-i="' + i + '">−</button><span>' + it.qty + '</span><button type="button" data-act="inc" data-i="' + i + '">+</button></span>' +
+      '<span class="cart-item__price">' + formatTRY(it.price * it.qty) + '</span>' +
+      '</div>' +
+      '<button class="cart-item__remove" type="button" data-act="rm" data-i="' + i + '">Kaldır</button>' +
+      '</div></div>'
+    ).join('');
+    ui.items.querySelectorAll('button[data-act]').forEach(b => {
+      b.addEventListener('click', () => {
+        const i = +b.dataset.i, act = b.dataset.act, arr = cartRead();
+        if (!arr[i]) return;
+        if (act === 'inc') arr[i].qty++;
+        else if (act === 'dec') arr[i].qty = Math.max(1, arr[i].qty - 1);
+        else if (act === 'rm') arr.splice(i, 1);
+        cartWrite(arr);
+        renderCart();
+      });
+    });
+  }
+  ui.total.textContent = formatTRY(cartTotal());
+}
+
+function openCart() { const ui = buildCartUI(); renderCart(); ui.overlay.classList.add('active'); ui.drawer.classList.add('active'); lockScroll(); haptic(10); }
+function closeCart() { if (!cartUI) return; cartUI.overlay.classList.remove('active'); cartUI.drawer.classList.remove('active'); unlockScroll(); }
+
+function cartRefresh() {
+  const badge = document.querySelector('.cart-badge');
+  const c = cartCount();
+  if (badge) { badge.textContent = c; badge.classList.toggle('hidden', c === 0); }
+  if (cartUI && cartUI.drawer.classList.contains('active')) renderCart();
+}
+
+function addToCartFromPage() {
+  const titleEl = document.querySelector('.product-info h1');
+  const title = titleEl ? titleEl.textContent.trim() : 'Ürün';
+  const priceEl = document.querySelector('.product-info .text-2xl') ||
+    [...document.querySelectorAll('.product-info p')].find(p => /₺/.test(p.textContent));
+  const price = priceEl ? (parseInt(priceEl.textContent.replace(/[^\d]/g, ''), 10) || 0) : 0;
+  const sizeEl = document.querySelector('.size-btn.active');
+  const colorEl = document.querySelector('.swatch.active');
+  const size = sizeEl ? sizeEl.textContent.trim() : null;
+  const color = colorEl ? colorEl.getAttribute('title') : null;
+  const image = (document.getElementById('mainImage') || {}).src || '';
+  const qtyEl = document.getElementById('qtyInput');
+  const qty = qtyEl ? Math.max(1, parseInt(qtyEl.value, 10) || 1) : 1;
+
+  if (!size) {
+    const sizes = document.querySelector('.size-options');
+    if (sizes) sizes.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    showToast('Lütfen bir beden seçin');
+    return;
+  }
+
+  const id = [slugify(title), size, color].filter(Boolean).join('|');
+  const arr = cartRead();
+  const existing = arr.find(i => i.id === id);
+  if (existing) existing.qty += qty;
+  else arr.push({ id, title, price, size, color, image, qty });
+  cartWrite(arr);
+  haptic(12);
+  showToast('Sepete eklendi');
+  openCart();
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  buildCartUI();
+
+  const cartIcon = document.querySelector('.header-icons a[aria-label="Sepet"]');
+  if (cartIcon) {
+    const badge = document.createElement('span');
+    badge.className = 'cart-badge hidden';
+    badge.textContent = '0';
+    cartIcon.appendChild(badge);
+    cartIcon.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopImmediatePropagation(); // suppress the placeholder dead-link toast
+      openCart();
+    }, true);
+  }
+
+  [...document.querySelectorAll('button')]
+    .filter(b => /SEPETE EKLE/i.test(b.textContent))
+    .forEach(b => b.addEventListener('click', (e) => { e.preventDefault(); addToCartFromPage(); }));
+
+  cartRefresh();
 });

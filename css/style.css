@@ -1630,3 +1630,67 @@ body { max-width: 100%; }
 
 /* Sticky add button: keep the live variant label on one line */
 .sticky-cta .btn--primary { white-space: nowrap; }
+
+/* ── Cart drawer + badge (works across pages, localStorage) ──────────────────── */
+.cart-overlay {
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,0.45);
+  z-index: 399;
+  opacity: 0; pointer-events: none;
+  transition: opacity var(--transition-base);
+}
+.cart-overlay.active { opacity: 1; pointer-events: auto; }
+
+.cart-drawer {
+  position: fixed; top: 0; right: 0; bottom: 0;
+  width: min(92vw, 400px);
+  background: var(--color-white);
+  z-index: 400;
+  display: flex; flex-direction: column;
+  transform: translateX(100%);
+  transition: transform var(--transition-base);
+  box-shadow: -8px 0 30px rgba(0,0,0,0.18);
+}
+.cart-drawer.active { transform: translateX(0); }
+.cart-drawer__head {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: var(--space-lg);
+  border-bottom: 1px solid var(--color-cream-warm);
+}
+.cart-drawer__head h3 {
+  font-family: var(--font-ui);
+  font-size: 13px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
+  margin: 0;
+}
+.cart-close { background: none; border: none; cursor: pointer; color: var(--color-dark); display: grid; place-items: center; width: 36px; height: 36px; }
+.cart-close svg { width: 22px; height: 22px; stroke: currentColor; stroke-width: 2; fill: none; }
+
+.cart-items { flex: 1; overflow-y: auto; padding: var(--space-md) var(--space-lg); }
+.cart-empty { color: var(--color-gray); font-size: 14px; text-align: center; padding: var(--space-2xl) 0; }
+.cart-item { display: flex; gap: var(--space-md); padding: var(--space-md) 0; border-bottom: 1px solid var(--color-cream); }
+.cart-item img { width: 64px; height: 84px; object-fit: cover; border-radius: var(--radius-sm); flex-shrink: 0; }
+.cart-item__body { flex: 1; min-width: 0; }
+.cart-item__title { font-family: var(--font-body); font-size: 14px; color: var(--color-dark); margin: 0 0 2px; }
+.cart-item__meta { font-size: 12px; color: var(--color-gray); }
+.cart-item__row { display: flex; align-items: center; justify-content: space-between; margin-top: 8px; }
+.cart-qty { display: inline-flex; align-items: center; border: 1px solid var(--color-cream-warm); border-radius: 999px; }
+.cart-qty button { width: 28px; height: 28px; border: none; background: none; cursor: pointer; font-size: 16px; color: var(--color-dark); }
+.cart-qty span { min-width: 22px; text-align: center; font-size: 13px; }
+.cart-item__price { font-family: var(--font-ui); font-weight: 600; font-size: 14px; }
+.cart-item__remove { background: none; border: none; color: var(--color-gray); font-size: 12px; cursor: pointer; text-decoration: underline; margin-top: 6px; padding: 0; }
+
+.cart-drawer__foot { padding: var(--space-lg); border-top: 1px solid var(--color-cream-warm); }
+.cart-total { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: var(--space-md); }
+.cart-total .label { font-family: var(--font-ui); font-size: 12px; letter-spacing: 0.04em; text-transform: uppercase; color: var(--color-gray); }
+.cart-total .value { font-family: var(--font-ui); font-size: 20px; font-weight: 700; }
+
+.header-icons a[aria-label="Sepet"] { position: relative; }
+.cart-badge {
+  position: absolute; top: -6px; right: -8px;
+  min-width: 17px; height: 17px; padding: 0 4px;
+  border-radius: 999px;
+  background: var(--color-rose); color: #fff;
+  font-family: var(--font-ui); font-size: 10px; font-weight: 700;
+  display: flex; align-items: center; justify-content: center; line-height: 1;
+}
+.cart-badge.hidden { display: none; }
