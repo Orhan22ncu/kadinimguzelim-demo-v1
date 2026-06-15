@@ -815,15 +815,27 @@ function sortItems(items, sort) {
   else if (sort === 'desc') a.sort((x, y) => y.price - x.price);
   return a;
 }
+const PRICE_BUCKETS = [[0, 700, '0 – 700 ₺'], [700, 900, '700 – 900 ₺'], [900, 1100, '900 – 1.100 ₺'], [1100, Infinity, '1.100 ₺ +']];
+function catColors() { const s = new Set(); catState.items.forEach(p => (p.colors || []).forEach(c => { if (c && c !== 'Standart') s.add(c); })); return [...s]; }
+function filteredSorted() {
+  let a = catState.items;
+  if (catState.price) { const lo = catState.price[0], hi = catState.price[1]; a = a.filter(p => p.price >= lo && p.price < hi); }
+  if (catState.colors && catState.colors.size) a = a.filter(p => (p.colors || []).some(c => catState.colors.has(c)));
+  return sortItems(a, catState.sort);
+}
 function renderCatalogPage(reset) {
   const grid = document.getElementById('catalogGrid');
-  if (reset) { grid.innerHTML = ''; catState.shown = 0; }
-  const sorted = sortItems(catState.items, catState.sort);
-  const next = sorted.slice(catState.shown, catState.shown + CAT_PAGE);
+  const list = filteredSorted();
+  if (reset) {
+    grid.innerHTML = ''; catState.shown = 0;
+    const cnt = document.getElementById('catalogCount'); if (cnt) cnt.textContent = list.length + ' ürün';
+    if (!list.length) grid.innerHTML = '<p class="cart-empty" style="grid-column:1/-1;">Filtreye uygun ürün bulunamadı.</p>';
+  }
+  const next = list.slice(catState.shown, catState.shown + CAT_PAGE);
   grid.insertAdjacentHTML('beforeend', next.map(p => catCardHTML(p, catState.slug)).join(''));
   catState.shown += next.length;
   const more = document.getElementById('catMore');
-  if (more) more.style.display = catState.shown < catState.items.length ? '' : 'none';
+  if (more) more.style.display = catState.shown < list.length ? '' : 'none';
 }
 async function initCatalog() {
   const grid = document.getElementById('catalogGrid');
@@ -831,7 +843,7 @@ async function initCatalog() {
   const catName = new URLSearchParams(location.search).get('cat') || 'Gecelik';
   const catSlug = CAT_SLUG[catName] || 'gecelik';
   const products = await loadCategoryFeed(catSlug);
-  catState = { items: products, shown: 0, slug: catSlug, sort: 'rec' };
+  catState = { items: products, shown: 0, slug: catSlug, sort: 'rec', price: null, colors: new Set() };
 
   const heading = document.querySelector('.section-title'); if (heading) heading.textContent = catName;
   document.title = catName + ' — KadınımGuzelim';
@@ -844,9 +856,20 @@ async function initCatalog() {
 
   let controls = document.getElementById('catControls');
   if (!controls) { controls = document.createElement('div'); controls.id = 'catControls'; controls.className = 'cat-controls'; grid.parentElement.insertBefore(controls, grid); }
-  controls.innerHTML = '<label class="cat-sort">Sırala: <select id="catSort">' +
-    '<option value="rec">Önerilen</option><option value="asc">Fiyat: Düşükten Yükseğe</option><option value="desc">Fiyat: Yüksekten Düşüğe</option></select></label>';
+  const colorList = catColors();
+  controls.innerHTML =
+    '<label class="cat-ctrl">Sırala <select id="catSort"><option value="rec">Önerilen</option><option value="asc">Fiyat ↑</option><option value="desc">Fiyat ↓</option></select></label>' +
+    '<label class="cat-ctrl">Fiyat <select id="catPrice"><option value="-1">Tümü</option>' +
+      PRICE_BUCKETS.map((b, i) => '<option value="' + i + '">' + b[2] + '</option>').join('') + '</select></label>' +
+    (colorList.length > 1 ? '<div class="cat-colors">' + colorList.map(c => '<button type="button" class="color-chip" data-color="' + escapeHtml(c) + '">' + escapeHtml(c) + '</button>').join('') + '</div>' : '');
   document.getElementById('catSort').addEventListener('change', (e) => { catState.sort = e.target.value; renderCatalogPage(true); });
+  document.getElementById('catPrice').addEventListener('change', (e) => { const v = +e.target.value; catState.price = v < 0 ? null : [PRICE_BUCKETS[v][0], PRICE_BUCKETS[v][1]]; renderCatalogPage(true); });
+  controls.querySelectorAll('.color-chip').forEach(ch => ch.addEventListener('click', () => {
+    const c = ch.dataset.color;
+    if (catState.colors.has(c)) { catState.colors.delete(c); ch.classList.remove('active'); }
+    else { catState.colors.add(c); ch.classList.add('active'); }
+    renderCatalogPage(true);
+  }));
 
   let more = document.getElementById('catMore');
   if (!more) {
