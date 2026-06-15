@@ -72,12 +72,24 @@
       <div class="product-gallery">
         <div class="product-gallery__main">
           <img id="mainImage" src="https://static.ticimax.cloud/cdn-cgi/image/width=-,quality=99/75855/uploads/urunresimleri/buyuk/bordo-saten-gecelik-sabahlik-takim-1-4df4.jpg" alt="Bordo Saten Gecelik Sabahlık Takımı">
+          <div class="zoom-hint">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+            Yakınlaştır
+          </div>
         </div>
         <div class="product-gallery__thumbs">
           <img class="active" src="https://static.ticimax.cloud/cdn-cgi/image/width=-,quality=99/75855/uploads/urunresimleri/buyuk/bordo-saten-gecelik-sabahlik-takim-1-4df4.jpg" onclick="changeImage(this)" alt="Ön görünüm" loading="lazy">
           <img src="https://static.ticimax.cloud/cdn-cgi/image/width=-,quality=99/75855/uploads/urunresimleri/buyuk/dantelli-bordo-gecelik-sabahlik-takim-0a0-29.jpg" onclick="changeImage(this)" alt="Arka görünüm" loading="lazy">
           <img src="https://static.ticimax.cloud/cdn-cgi/image/width=-,quality=99/75855/uploads/urunresimleri/buyuk/dantelli-ekru-saten-sifon-gecelik-saba-a23e-c.jpg" onclick="changeImage(this)" alt="Detay" loading="lazy">
         </div>
+        <p class="evidence-hint">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          Ürünü yakından inceleyin: kumaş, dantel ve işçilik detayları satın almadan önce görünür.
+        </p>
+        <button type="button" class="callout-toggle" id="calloutToggle">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+          <span>Detayları Gizle</span>
+        </button>
       </div>
 
       <!-- Info -->
@@ -137,6 +149,22 @@
           <p class="text-sm text-gray">🚚 150₺ üzeri ücretsiz kargo</p>
           <p class="text-sm text-gray">🔄 30 gün içinde ücretsiz iade</p>
           <p class="text-sm text-gray">💬 WhatsApp'tan sipariş verebilirsiniz</p>
+        </div>
+
+        <!-- Fabric & Quality Evidence Card -->
+        <div class="fabric-card">
+          <p class="fabric-card__title">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.38 3.46 16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z"></path></svg>
+            Kumaş &amp; Kalite Detayları
+          </p>
+          <dl class="fabric-card__grid">
+            <div class="fabric-row"><dt>Doku</dt><dd>Yumuşak Saten</dd></div>
+            <div class="fabric-row"><dt>Esneklik</dt><dd>Orta</dd></div>
+            <div class="fabric-row"><dt>Transparanlık</dt><dd>Düşük</dd></div>
+            <div class="fabric-row"><dt>Dantel</dt><dd>Premium İşleme</dd></div>
+            <div class="fabric-row"><dt>Kalıp</dt><dd>Rahat Büyük Beden</dd></div>
+            <div class="fabric-row"><dt>İçerik</dt><dd>%100 Polyester Saten</dd></div>
+          </dl>
         </div>
       </div>
     </div>
