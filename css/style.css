@@ -1462,7 +1462,10 @@ button:focus-visible {
   font-size: 11px; letter-spacing: 0.02em;
   padding: 8px 14px;
   border-radius: 999px;
-  white-space: nowrap;
+  max-width: 86vw;
+  white-space: normal;
+  text-align: center;
+  line-height: 1.4;
   opacity: 0;
   pointer-events: none;
   transition: opacity 250ms ease;
@@ -1525,3 +1528,7 @@ button:focus-visible {
 @media (prefers-reduced-motion: reduce) {
   .product-gallery__main.motion img#mainImage { animation: none; }
 }
+
+/* ── Mobile: kill any horizontal page panning from off-canvas overlays ───────── */
+html, body { overflow-x: hidden; }
+body { max-width: 100%; }
