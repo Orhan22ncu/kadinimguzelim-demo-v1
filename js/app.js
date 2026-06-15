@@ -775,14 +775,36 @@ function populateProduct(p, all) {
   }
 }
 
-// ── Dynamic category grid from the feed ──────────────────────────────────────
+// ── Wire category nav links (header, mobile, footer, home tiles) to ?cat ──────
+const NAV_CATS = ['Gecelik', 'Sütyen', 'Fantazi', 'Pijama', 'Body & Korse', 'Büyük Beden'];
+function wireNav() {
+  document.querySelectorAll('a').forEach(a => {
+    const t = a.textContent.trim();
+    if (NAV_CATS.includes(t) && /category\.html/.test(a.getAttribute('href') || '')) {
+      a.href = 'category.html?cat=' + encodeURIComponent(t);
+    }
+  });
+}
+
+// ── Dynamic category grid from the feed (filtered by ?cat) ───────────────────
 async function initCatalog() {
   const grid = document.getElementById('catalogGrid');
   if (!grid) return;
-  const products = await loadFeed();
+  let products = await loadFeed();
   if (!products.length) return;
+  const cat = new URLSearchParams(location.search).get('cat');
+  if (cat) products = products.filter(p => (p.categories || [p.category]).includes(cat));
+
+  const heading = document.querySelector('.section-title');
+  if (heading && cat) heading.textContent = cat;
+  if (cat) document.title = cat + ' — KadınımGuzelim';
   const cnt = document.getElementById('catalogCount');
   if (cnt) cnt.textContent = products.length + ' ürün';
+
+  if (products.length === 0) {
+    grid.innerHTML = '<p class="cart-empty" style="grid-column:1/-1;">Bu kategoride ürün bulunamadı.</p>';
+    return;
+  }
   grid.innerHTML = products.map(p =>
     '<a href="product.html?p=' + encodeURIComponent(p.slug) + '" class="product-card">' +
     '<div class="product-card__image" style="aspect-ratio:3/4;"><img src="' + p.images[0] + '" alt="' + escapeHtml(p.title) + '" loading="lazy"></div>' +
@@ -801,7 +823,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   initStickyVariant();
 });
 
-document.addEventListener('DOMContentLoaded', initCatalog);
+document.addEventListener('DOMContentLoaded', () => { wireNav(); initCatalog(); });
 
 /* ═════════════════════════════════════════════════════════════════════════════
    CART — localStorage, works across all pages (demo, no backend)
