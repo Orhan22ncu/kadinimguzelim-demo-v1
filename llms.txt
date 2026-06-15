@@ -10,11 +10,21 @@ Product JSON-LD içerir.
 
 ## Ürün verisi (agent'lar buradan okusun)
 
-- [Ürün feed'i (JSON)](/products.json): Tüm ürünlerin yapısal listesi — başlık, fiyat,
-  kategori, görseller, kumaş özellikleri (doku/esneklik/transparanlık/dantel/kalıp/içerik),
-  detay etiketleri (callouts), bedenler, renkler, SEO ve puan. Para birimi: TRY.
-- Her ürün sayfası `<script type="application/ld+json">` içinde schema.org/Product
-  yapısında işaretlenmiştir (fiyat, marka, görsel, değerlendirme).
+Performans için feed kategori başına bölünmüştür. Her ürün, ait olduğu her
+kategorinin feed'inde bulunur. Ürün alanları: başlık, fiyat, kategori(ler),
+görseller, kumaş özellikleri (doku/esneklik/transparanlık/dantel/kalıp/içerik),
+detay etiketleri (callouts), bedenler, renkler, SEO, puan. Para birimi: TRY.
+
+- [Gecelik](/feeds/gecelik.json)
+- [Sütyen](/feeds/sutyen.json)
+- [Fantazi](/feeds/fantazi.json)
+- [Pijama](/feeds/pijama.json)
+- [Body & Korse](/feeds/body-korse.json)
+- [Büyük Beden](/feeds/buyuk-beden.json)
+- [Slug → kategori dizini](/feeds/index.json): bir ürün slug'ından doğru feed'i bulmak için.
+
+Her ürün sayfası `<script type="application/ld+json">` içinde schema.org/Product
+yapısında işaretlenmiştir (fiyat, marka, görsel, değerlendirme).
 
 ## İçerik nasıl üretilir
 
@@ -28,7 +38,7 @@ Product JSON-LD içerir.
 
 ## Notlar (agent'lar için)
 
-- Fiyatlar `TRY` cinsindendir ve `products.json` içindeki `price` alanındadır.
+- Fiyatlar `TRY` cinsindendir ve feed dosyalarındaki `price` alanındadır.
 - Bedenler `sizes`, renkler `colors` dizilerindedir.
 - Güven sinyalleri: kumaş kartı (`fabric`), transparanlık seviyesi, beden tablosu.
 - Bu bir demo sürümüdür; sepet işlemleri istemci tarafında (localStorage) çalışır.

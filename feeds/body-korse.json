@@ -1,0 +1,2933 @@
+{
+  "$schema": "https://kadinimguzelim.com/schema/product-feed-v1",
+  "generator": "KadınımGuzelim AI Product Studio",
+  "generatedAt": "2026-06-15",
+  "brand": "KadınımGuzelim",
+  "currency": "TRY",
+  "category": "Body & Korse",
+  "products": [
+    {
+      "id": "pamuklu-erkek-korse-atlet",
+      "slug": "pamuklu-erkek-korse-atlet",
+      "url": "product.html?p=pamuklu-erkek-korse-atlet",
+      "title": "Pamuklu Erkek Korse Atlet",
+      "price": 1090,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/pamuklu-erkek-korse-atlet-011c88.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/pamuklu-erkek-korse-atlet-9-9f63.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/pamuklu-erkek-korse-atlet-d-81d5.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/pamuklu-erkek-korse-atlet-4c46-b.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Pamuklu Erkek Korse Atlet toparlayıcı ve sıkılaştırıcı etkisiyle karın ve bel bölgesini destekler. Tam kalıp, nefes alabilen pamuklu konfor.",
+      "seo": {
+        "title": "Pamuklu Erkek Korse Atlet — KadınımGuzelim",
+        "description": "Pamuklu Erkek Korse Atlet toparlayıcı ve sıkılaştırıcı etkisiyle karın ve bel bölgesini destekler. Tam kalıp, nefes alabilen pamuklu konfor."
+      },
+      "tags": [
+        "pamuklu",
+        "erkek",
+        "korse",
+        "atlet"
+      ],
+      "rating": {
+        "value": 4.6,
+        "count": 40
+      }
+    },
+    {
+      "id": "yildizli-buyuk-beden-bustiyer-tayt-fitness-takim",
+      "slug": "yildizli-buyuk-beden-bustiyer-tayt-fitness-takim",
+      "url": "product.html?p=yildizli-buyuk-beden-bustiyer-tayt-fitness-takim",
+      "title": "Yıldızlı Büyük Beden Büstiyer Tayt Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse",
+        "Büyük Beden"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/yildizli-buyuk-beden-bustiyer-tayt-fit-e7db9c.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "2XL",
+        "3XL",
+        "4XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Geniş Büyük Beden",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [
+        "Geniş Kalıp"
+      ],
+      "description": "Yıldızlı Büyük Beden Büstiyer Tayt Fitness Takım toparlayıcı yapısı ve esnek kumaşıyla spor yaparken, koşarken konfor ve şıklık sunar.",
+      "seo": {
+        "title": "Yıldızlı Büyük Beden Büstiyer Tayt Fitness Takım — KadınımGuzelim",
+        "description": "Yıldızlı Büyük Beden Büstiyer Tayt Fitness Takım toparlayıcı yapısı ve esnek kumaşıyla spor yaparken, koşarken konfor ve şıklık sunar."
+      },
+      "tags": [
+        "yıldızlı",
+        "büyük",
+        "beden",
+        "büstiyer",
+        "tayt",
+        "fitness"
+      ],
+      "rating": {
+        "value": 4.7,
+        "count": 15
+      }
+    },
+    {
+      "id": "yildiz-desenli-buyuk-beden-bustiyer-tayt-fitness-takim",
+      "slug": "yildiz-desenli-buyuk-beden-bustiyer-tayt-fitness-takim",
+      "url": "product.html?p=yildiz-desenli-buyuk-beden-bustiyer-tayt-fitness-takim",
+      "title": "Yıldız Desenli Büyük Beden Büstiyer Tayt Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse",
+        "Büyük Beden"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/yildiz-desenli-buyuk-beden-bustiyer-ta-8-c9a5.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "2XL",
+        "3XL",
+        "4XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Geniş Büyük Beden",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [
+        "Geniş Kalıp"
+      ],
+      "description": "Yıldız Desenli Büyük Beden Büstiyer Tayt Fitness Takım toparlayıcı yapısı ve esnek kumaşıyla spor yaparken, koşarken konfor ve şıklık sunar.",
+      "seo": {
+        "title": "Yıldız Desenli Büyük Beden Büstiyer Tayt Fitness Takım — KadınımGuzelim",
+        "description": "Yıldız Desenli Büyük Beden Büstiyer Tayt Fitness Takım toparlayıcı yapısı ve esnek kumaşıyla spor yaparken, koşarken konfor ve şıklık sunar."
+      },
+      "tags": [
+        "yıldız",
+        "desenli",
+        "büyük",
+        "beden",
+        "büstiyer",
+        "tayt"
+      ],
+      "rating": {
+        "value": 4.9,
+        "count": 25
+      }
+    },
+    {
+      "id": "cok-renkli-buyuk-beden-bustiyer-tayt-fitness-takim",
+      "slug": "cok-renkli-buyuk-beden-bustiyer-tayt-fitness-takim",
+      "url": "product.html?p=cok-renkli-buyuk-beden-bustiyer-tayt-fitness-takim",
+      "title": "Çok Renkli Büyük Beden Büstiyer Tayt Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse",
+        "Büyük Beden"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/cok-renkli-buyuk-beden-bustiyer-tayt-f-3-b4d8.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "2XL",
+        "3XL",
+        "4XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Geniş Büyük Beden",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [
+        "Geniş Kalıp"
+      ],
+      "description": "Çok Renkli Büyük Beden Büstiyer Tayt Fitness Takım toparlayıcı yapısı ve esnek kumaşıyla spor yaparken, koşarken konfor ve şıklık sunar.",
+      "seo": {
+        "title": "Çok Renkli Büyük Beden Büstiyer Tayt Fitness Takım — KadınımGuzelim",
+        "description": "Çok Renkli Büyük Beden Büstiyer Tayt Fitness Takım toparlayıcı yapısı ve esnek kumaşıyla spor yaparken, koşarken konfor ve şıklık sunar."
+      },
+      "tags": [
+        "çok",
+        "renkli",
+        "büyük",
+        "beden",
+        "büstiyer",
+        "tayt"
+      ],
+      "rating": {
+        "value": 4.8,
+        "count": 34
+      }
+    },
+    {
+      "id": "beyaz-cizgili-buyuk-beden-bustiyer-tayt-fitness-takim",
+      "slug": "beyaz-cizgili-buyuk-beden-bustiyer-tayt-fitness-takim",
+      "url": "product.html?p=beyaz-cizgili-buyuk-beden-bustiyer-tayt-fitness-takim",
+      "title": "Beyaz Çizgili Büyük Beden Büstiyer Tayt Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse",
+        "Büyük Beden"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/beyaz-cizgili-buyuk-beden-bustiyer-tay-80-40d.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "2XL",
+        "3XL",
+        "4XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Geniş Büyük Beden",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [
+        "Geniş Kalıp"
+      ],
+      "description": "Beyaz Çizgili Büyük Beden Büstiyer Tayt Fitness Takım toparlayıcı yapısı ve esnek kumaşıyla spor yaparken, koşarken konfor ve şıklık sunar.",
+      "seo": {
+        "title": "Beyaz Çizgili Büyük Beden Büstiyer Tayt Fitness Takım — KadınımGuzelim",
+        "description": "Beyaz Çizgili Büyük Beden Büstiyer Tayt Fitness Takım toparlayıcı yapısı ve esnek kumaşıyla spor yaparken, koşarken konfor ve şıklık sunar."
+      },
+      "tags": [
+        "beyaz",
+        "çizgili",
+        "büyük",
+        "beden",
+        "büstiyer",
+        "tayt"
+      ],
+      "rating": {
+        "value": 4.6,
+        "count": 10
+      }
+    },
+    {
+      "id": "renkli-buyuk-beden-bustiyer-tayt-fitness-takim",
+      "slug": "renkli-buyuk-beden-bustiyer-tayt-fitness-takim",
+      "url": "product.html?p=renkli-buyuk-beden-bustiyer-tayt-fitness-takim",
+      "title": "Renkli Büyük Beden Büstiyer Tayt Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse",
+        "Büyük Beden"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/renkli-buyuk-beden-bustiyer-tayt-fitne-9f37-4.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/renkli-buyuk-beden-bustiyer-tayt-fitne-85-477.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "2XL",
+        "3XL",
+        "4XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Geniş Büyük Beden",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [
+        "Geniş Kalıp"
+      ],
+      "description": "Renkli Büyük Beden Büstiyer Tayt Fitness Takım toparlayıcı özel yapısı ve esnek kumaşıyla spor yaparken, koşarken konfor ve şıklık sunar.",
+      "seo": {
+        "title": "Renkli Büyük Beden Büstiyer Tayt Fitness Takım — KadınımGuzelim",
+        "description": "Renkli Büyük Beden Büstiyer Tayt Fitness Takım toparlayıcı özel yapısı ve esnek kumaşıyla spor yaparken, koşarken konfor ve şıklık sunar."
+      },
+      "tags": [
+        "renkli",
+        "büyük",
+        "beden",
+        "büstiyer",
+        "tayt",
+        "fitness"
+      ],
+      "rating": {
+        "value": 4.6,
+        "count": 30
+      }
+    },
+    {
+      "id": "yesil-desenli-buyuk-beden-bustiyer-tayt-fitness-takim",
+      "slug": "yesil-desenli-buyuk-beden-bustiyer-tayt-fitness-takim",
+      "url": "product.html?p=yesil-desenli-buyuk-beden-bustiyer-tayt-fitness-takim",
+      "title": "Yeşil Desenli Büyük Beden Büstiyer Tayt Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse",
+        "Büyük Beden"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/yesil-desenli-buyuk-beden-bustiyer-tay-8228-e.jpg"
+      ],
+      "colors": [
+        "Yeşil"
+      ],
+      "sizes": [
+        "2XL",
+        "3XL",
+        "4XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Geniş Büyük Beden",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [
+        "Geniş Kalıp"
+      ],
+      "description": "Yeşil Desenli Büyük Beden Büstiyer Tayt Fitness Takım toparlayıcı özel yapısı ve esnek kumaşıyla spor yaparken, koşarken konfor ve şıklık sunar.",
+      "seo": {
+        "title": "Yeşil Desenli Büyük Beden Büstiyer Tayt Fitness Takım — KadınımGuzelim",
+        "description": "Yeşil Desenli Büyük Beden Büstiyer Tayt Fitness Takım toparlayıcı özel yapısı ve esnek kumaşıyla spor yaparken, koşarken konfor ve şıklık sunar."
+      },
+      "tags": [
+        "yeşil",
+        "desenli",
+        "büyük",
+        "beden",
+        "büstiyer",
+        "tayt"
+      ],
+      "rating": {
+        "value": 4.6,
+        "count": 18
+      }
+    },
+    {
+      "id": "beyaz-cizgi-buyuk-beden-bustiyer-tayt-fitness-takim",
+      "slug": "beyaz-cizgi-buyuk-beden-bustiyer-tayt-fitness-takim",
+      "url": "product.html?p=beyaz-cizgi-buyuk-beden-bustiyer-tayt-fitness-takim",
+      "title": "Beyaz Çizgi Büyük Beden Büstiyer Tayt Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse",
+        "Büyük Beden"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/beyaz-cizgi-buyuk-beden-bustiyer-tayt--f3c5dc.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/beyaz-cizgi-buyuk-beden-bustiyer-tayt--f7a-46.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "2XL",
+        "3XL",
+        "4XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Geniş Büyük Beden",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [
+        "Geniş Kalıp"
+      ],
+      "description": "Beyaz Çizgi Büyük Beden Büstiyer Tayt Fitness Takım toparlayıcı özel yapısı ve esnek kumaşıyla spor yaparken, koşarken konfor ve şıklık sunar.",
+      "seo": {
+        "title": "Beyaz Çizgi Büyük Beden Büstiyer Tayt Fitness Takım — KadınımGuzelim",
+        "description": "Beyaz Çizgi Büyük Beden Büstiyer Tayt Fitness Takım toparlayıcı özel yapısı ve esnek kumaşıyla spor yaparken, koşarken konfor ve şıklık sunar."
+      },
+      "tags": [
+        "beyaz",
+        "çizgi",
+        "büyük",
+        "beden",
+        "büstiyer",
+        "tayt"
+      ],
+      "rating": {
+        "value": 4.9,
+        "count": 19
+      }
+    },
+    {
+      "id": "desenli-spor-tayt-bustiyer-fitness-takim",
+      "slug": "desenli-spor-tayt-bustiyer-fitness-takim",
+      "url": "product.html?p=desenli-spor-tayt-bustiyer-fitness-takim",
+      "title": "Desenli Spor Tayt Büstiyer Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/desenli-spor-tayt-bustiyer-fitness-tak-383f08.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/desenli-spor-tayt-bustiyer-fitness-tak-42ee-8.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/desenli-spor-tayt-bustiyer-fitness-tak-be92e-.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Desenli Spor Tayt Büstiyer Fitness Takım yoga ve günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Size özeli kaçırmayın.",
+      "seo": {
+        "title": "Desenli Spor Tayt Büstiyer Fitness Takım — KadınımGuzelim",
+        "description": "Desenli Spor Tayt Büstiyer Fitness Takım yoga ve günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Size özeli kaçırmayın."
+      },
+      "tags": [
+        "desenli",
+        "spor",
+        "tayt",
+        "büstiyer",
+        "fitness",
+        "takım"
+      ],
+      "rating": {
+        "value": 4.8,
+        "count": 22
+      }
+    },
+    {
+      "id": "cok-renkli-spor-tayt-bustiyer-fitness-takim",
+      "slug": "cok-renkli-spor-tayt-bustiyer-fitness-takim",
+      "url": "product.html?p=cok-renkli-spor-tayt-bustiyer-fitness-takim",
+      "title": "Çok Renkli Spor Tayt Büstiyer Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/cok-renkli-spor-tayt-bustiyer-fitness--2-5612.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/cok-renkli-spor-tayt-bustiyer-fitness--b-17f1.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Çok Renkli Spor Tayt Büstiyer Fitness Takım yoga ve günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Size özeli kaçırmayın.",
+      "seo": {
+        "title": "Çok Renkli Spor Tayt Büstiyer Fitness Takım — KadınımGuzelim",
+        "description": "Çok Renkli Spor Tayt Büstiyer Fitness Takım yoga ve günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Size özeli kaçırmayın."
+      },
+      "tags": [
+        "çok",
+        "renkli",
+        "spor",
+        "tayt",
+        "büstiyer",
+        "fitness"
+      ],
+      "rating": {
+        "value": 4.9,
+        "count": 37
+      }
+    },
+    {
+      "id": "mor-desenli-spor-tayt-bustiyer-fitness-takim",
+      "slug": "mor-desenli-spor-tayt-bustiyer-fitness-takim",
+      "url": "product.html?p=mor-desenli-spor-tayt-bustiyer-fitness-takim",
+      "title": "Mor Desenli Spor Tayt Büstiyer Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/mor-desenli-spor-tayt-bustiyer-fitness--0e38-.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/mor-desenli-spor-tayt-bustiyer-fitness-b5b6ba.jpg"
+      ],
+      "colors": [
+        "Mor"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Mor Desenli Spor Tayt Büstiyer Fitness Takım yoga ve günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Size özeli kaçırmayın.",
+      "seo": {
+        "title": "Mor Desenli Spor Tayt Büstiyer Fitness Takım — KadınımGuzelim",
+        "description": "Mor Desenli Spor Tayt Büstiyer Fitness Takım yoga ve günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Size özeli kaçırmayın."
+      },
+      "tags": [
+        "mor",
+        "desenli",
+        "spor",
+        "tayt",
+        "büstiyer",
+        "fitness"
+      ],
+      "rating": {
+        "value": 4.9,
+        "count": 25
+      }
+    },
+    {
+      "id": "cizgi-desenli-spor-tayt-bustiyer-fitness-takim",
+      "slug": "cizgi-desenli-spor-tayt-bustiyer-fitness-takim",
+      "url": "product.html?p=cizgi-desenli-spor-tayt-bustiyer-fitness-takim",
+      "title": "Çizgi Desenli Spor Tayt Büstiyer Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/cizgi-desenli-spor-tayt-bustiyer-fitne-f990a0.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/cizgi-desenli-spor-tayt-bustiyer-fitne--89337.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Çizgi Desenli Spor Tayt Büstiyer Fitness Takım yoga ve günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Size özeli kaçırmayın.",
+      "seo": {
+        "title": "Çizgi Desenli Spor Tayt Büstiyer Fitness Takım — KadınımGuzelim",
+        "description": "Çizgi Desenli Spor Tayt Büstiyer Fitness Takım yoga ve günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Size özeli kaçırmayın."
+      },
+      "tags": [
+        "çizgi",
+        "desenli",
+        "spor",
+        "tayt",
+        "büstiyer",
+        "fitness"
+      ],
+      "rating": {
+        "value": 4.7,
+        "count": 41
+      }
+    },
+    {
+      "id": "turkuaz-desenli-spor-tayt-bustiyer-fitness-takim",
+      "slug": "turkuaz-desenli-spor-tayt-bustiyer-fitness-takim",
+      "url": "product.html?p=turkuaz-desenli-spor-tayt-bustiyer-fitness-takim",
+      "title": "Turkuaz Desenli Spor Tayt Büstiyer Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/turkuaz-desenli-spor-tayt-bustiyer-fit-82885-.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/turkuaz-desenli-spor-tayt-bustiyer-fit-1a02-7.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Turkuaz Desenli Spor Tayt Büstiyer Fitness Takım yoga ve günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Size özeli kaçırmayın.",
+      "seo": {
+        "title": "Turkuaz Desenli Spor Tayt Büstiyer Fitness Takım — KadınımGuzelim",
+        "description": "Turkuaz Desenli Spor Tayt Büstiyer Fitness Takım yoga ve günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Size özeli kaçırmayın."
+      },
+      "tags": [
+        "turkuaz",
+        "desenli",
+        "spor",
+        "tayt",
+        "büstiyer",
+        "fitness"
+      ],
+      "rating": {
+        "value": 4.9,
+        "count": 11
+      }
+    },
+    {
+      "id": "beyaz-siyah-spor-tayt-bustiyer-fitness-takim",
+      "slug": "beyaz-siyah-spor-tayt-bustiyer-fitness-takim",
+      "url": "product.html?p=beyaz-siyah-spor-tayt-bustiyer-fitness-takim",
+      "title": "Beyaz Siyah Spor Tayt Büstiyer Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/beyaz-siyah-spor-tayt-bustiyer-fitness-964e-0.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/beyaz-siyah-spor-tayt-bustiyer-fitness-80e9ba.jpg"
+      ],
+      "colors": [
+        "Siyah"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Beyaz Siyah Spor Tayt Büstiyer Fitness Takım yoga ve günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Size özeli kaçırmayın.",
+      "seo": {
+        "title": "Beyaz Siyah Spor Tayt Büstiyer Fitness Takım — KadınımGuzelim",
+        "description": "Beyaz Siyah Spor Tayt Büstiyer Fitness Takım yoga ve günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Size özeli kaçırmayın."
+      },
+      "tags": [
+        "beyaz",
+        "siyah",
+        "spor",
+        "tayt",
+        "büstiyer",
+        "fitness"
+      ],
+      "rating": {
+        "value": 4.8,
+        "count": 36
+      }
+    },
+    {
+      "id": "puan-desenli-spor-tayt-bustiyer-fitness-takim",
+      "slug": "puan-desenli-spor-tayt-bustiyer-fitness-takim",
+      "url": "product.html?p=puan-desenli-spor-tayt-bustiyer-fitness-takim",
+      "title": "Puan Desenli Spor Tayt Büstiyer Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/puan-desenli-spor-tayt-bustiyer-fitnes-ac35f5.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/puan-desenli-spor-tayt-bustiyer-fitnes-402a-b.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Puan Desenli Spor Tayt Büstiyer Fitness Takım yoga ve günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Size özeli kaçırmayın.",
+      "seo": {
+        "title": "Puan Desenli Spor Tayt Büstiyer Fitness Takım — KadınımGuzelim",
+        "description": "Puan Desenli Spor Tayt Büstiyer Fitness Takım yoga ve günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Size özeli kaçırmayın."
+      },
+      "tags": [
+        "puan",
+        "desenli",
+        "spor",
+        "tayt",
+        "büstiyer",
+        "fitness"
+      ],
+      "rating": {
+        "value": 4.7,
+        "count": 21
+      }
+    },
+    {
+      "id": "genis-askili-spor-tayt-bustiyer-fitness-takim",
+      "slug": "genis-askili-spor-tayt-bustiyer-fitness-takim",
+      "url": "product.html?p=genis-askili-spor-tayt-bustiyer-fitness-takim",
+      "title": "Geniş Askılı Spor Tayt Büstiyer Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/genis-skili-spor-tayt-bustiyer-fitness-2e2463.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/genis-skili-spor-tayt-bustiyer-fitness-1e0-40.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [
+        "Ayarlanabilir Askı"
+      ],
+      "description": "Geniş Askılı Spor Tayt Büstiyer Fitness Takım yoga ve günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Size özeli kaçırmayın.",
+      "seo": {
+        "title": "Geniş Askılı Spor Tayt Büstiyer Fitness Takım — KadınımGuzelim",
+        "description": "Geniş Askılı Spor Tayt Büstiyer Fitness Takım yoga ve günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Size özeli kaçırmayın."
+      },
+      "tags": [
+        "geniş",
+        "askılı",
+        "spor",
+        "tayt",
+        "büstiyer",
+        "fitness"
+      ],
+      "rating": {
+        "value": 4.8,
+        "count": 12
+      }
+    },
+    {
+      "id": "rengarenk-spor-tayt-bustiyer-fitness-takim",
+      "slug": "rengarenk-spor-tayt-bustiyer-fitness-takim",
+      "url": "product.html?p=rengarenk-spor-tayt-bustiyer-fitness-takim",
+      "title": "Rengarenk Spor Tayt Büstiyer Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/rengarenk-spor-tayt-bustiyer-fitness-t-6932ed.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/rengarenk-spor-tayt-bustiyer-fitness-t-ef-a0a.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Rengarenk Spor Tayt Büstiyer Fitness Takım yoga ve günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Size özeli kaçırmayın.",
+      "seo": {
+        "title": "Rengarenk Spor Tayt Büstiyer Fitness Takım — KadınımGuzelim",
+        "description": "Rengarenk Spor Tayt Büstiyer Fitness Takım yoga ve günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Size özeli kaçırmayın."
+      },
+      "tags": [
+        "rengarenk",
+        "spor",
+        "tayt",
+        "büstiyer",
+        "fitness",
+        "takım"
+      ],
+      "rating": {
+        "value": 4.7,
+        "count": 15
+      }
+    },
+    {
+      "id": "beyaz-gri-spor-tayt-bustiyer-fitness-takim",
+      "slug": "beyaz-gri-spor-tayt-bustiyer-fitness-takim",
+      "url": "product.html?p=beyaz-gri-spor-tayt-bustiyer-fitness-takim",
+      "title": "Beyaz Gri Spor Tayt Büstiyer Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/beyaz-gri-spor-tayt-bustiyer-fitness-t-7fb-44.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/beyaz-gri-spor-tayt-bustiyer-fitness-t-860e-8.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Beyaz Gri Spor Tayt Büstiyer Fitness Takım yoga ve günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Size özeli kaçırmayın.",
+      "seo": {
+        "title": "Beyaz Gri Spor Tayt Büstiyer Fitness Takım — KadınımGuzelim",
+        "description": "Beyaz Gri Spor Tayt Büstiyer Fitness Takım yoga ve günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Size özeli kaçırmayın."
+      },
+      "tags": [
+        "beyaz",
+        "gri",
+        "spor",
+        "tayt",
+        "büstiyer",
+        "fitness"
+      ],
+      "rating": {
+        "value": 4.8,
+        "count": 8
+      }
+    },
+    {
+      "id": "kalin-aski-spor-tayt-bustiyer-fitness-takim",
+      "slug": "kalin-aski-spor-tayt-bustiyer-fitness-takim",
+      "url": "product.html?p=kalin-aski-spor-tayt-bustiyer-fitness-takim",
+      "title": "Kalın Askı Spor Tayt Büstiyer Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/kalin-aski-spor-tayt-bustiyer-fitness--d-4931.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [
+        "Ayarlanabilir Askı"
+      ],
+      "description": "Kalın Askı Spor Tayt Büstiyer Fitness Takım yoga ve günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Size özeli kaçırmayın.",
+      "seo": {
+        "title": "Kalın Askı Spor Tayt Büstiyer Fitness Takım — KadınımGuzelim",
+        "description": "Kalın Askı Spor Tayt Büstiyer Fitness Takım yoga ve günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Size özeli kaçırmayın."
+      },
+      "tags": [
+        "kalın",
+        "askı",
+        "spor",
+        "tayt",
+        "büstiyer",
+        "fitness"
+      ],
+      "rating": {
+        "value": 4.6,
+        "count": 38
+      }
+    },
+    {
+      "id": "kalin-askili-spor-tayt-bustiyer-fitness-takim",
+      "slug": "kalin-askili-spor-tayt-bustiyer-fitness-takim",
+      "url": "product.html?p=kalin-askili-spor-tayt-bustiyer-fitness-takim",
+      "title": "Kalın Askılı Spor Tayt Büstiyer Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/kalin-askili-spor-tayt-bustiyer-fitnes-9c9-7e.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/kalin-askili-spor-tayt-bustiyer-fitnes-b8-5f9.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/kalin-askili-spor-tayt-bustiyer-fitnes-304844.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [
+        "Ayarlanabilir Askı"
+      ],
+      "description": "Kalın Askılı Spor Tayt Büstiyer Fitness Takım ve günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Size özeli kaçırmayın.",
+      "seo": {
+        "title": "Kalın Askılı Spor Tayt Büstiyer Fitness Takım — KadınımGuzelim",
+        "description": "Kalın Askılı Spor Tayt Büstiyer Fitness Takım ve günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Size özeli kaçırmayın."
+      },
+      "tags": [
+        "kalın",
+        "askılı",
+        "spor",
+        "tayt",
+        "büstiyer",
+        "fitness"
+      ],
+      "rating": {
+        "value": 4.9,
+        "count": 39
+      }
+    },
+    {
+      "id": "dijital-desen-spor-tayt-bustiyer-fitness-takim",
+      "slug": "dijital-desen-spor-tayt-bustiyer-fitness-takim",
+      "url": "product.html?p=dijital-desen-spor-tayt-bustiyer-fitness-takim",
+      "title": "Dijital Desen Spor Tayt Büstiyer Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/dijital-desen-spor-tayt-bustiyer-fitne-113846.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Dijital Desen Spor Tayt Büstiyer Fitness Takım ve günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Size özeli kaçırmayın.",
+      "seo": {
+        "title": "Dijital Desen Spor Tayt Büstiyer Fitness Takım — KadınımGuzelim",
+        "description": "Dijital Desen Spor Tayt Büstiyer Fitness Takım ve günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Size özeli kaçırmayın."
+      },
+      "tags": [
+        "dijital",
+        "desen",
+        "spor",
+        "tayt",
+        "büstiyer",
+        "fitness"
+      ],
+      "rating": {
+        "value": 4.7,
+        "count": 31
+      }
+    },
+    {
+      "id": "dijital-desenli-spor-tayt-bustiyer-fitness-takim",
+      "slug": "dijital-desenli-spor-tayt-bustiyer-fitness-takim",
+      "url": "product.html?p=dijital-desenli-spor-tayt-bustiyer-fitness-takim",
+      "title": "Dijital Desenli Spor Tayt Büstiyer Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/dijital-desenli-spor-tayt-bustiyer-fit--0ac1f.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Dijital Desenli Spor Tayt Büstiyer Fitness Takım ve günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Size özeli kaçırmayın.",
+      "seo": {
+        "title": "Dijital Desenli Spor Tayt Büstiyer Fitness Takım — KadınımGuzelim",
+        "description": "Dijital Desenli Spor Tayt Büstiyer Fitness Takım ve günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Size özeli kaçırmayın."
+      },
+      "tags": [
+        "dijital",
+        "desenli",
+        "spor",
+        "tayt",
+        "büstiyer",
+        "fitness"
+      ],
+      "rating": {
+        "value": 4.6,
+        "count": 30
+      }
+    },
+    {
+      "id": "mavili-spor-tayt-bustiyer-fitness-takim",
+      "slug": "mavili-spor-tayt-bustiyer-fitness-takim",
+      "url": "product.html?p=mavili-spor-tayt-bustiyer-fitness-takim",
+      "title": "Dijital Desenli Spor Tayt Büstiyer Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/mavili-spor-tayt-bustiyer-fitness-taki-d-e07a.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Mavili Spor Tayt Büstiyer Fitness Takım ve günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Size özeli kaçırmayın.",
+      "seo": {
+        "title": "Dijital Desenli Spor Tayt Büstiyer Fitness Takım — KadınımGuzelim",
+        "description": "Mavili Spor Tayt Büstiyer Fitness Takım ve günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Size özeli kaçırmayın."
+      },
+      "tags": [
+        "dijital",
+        "desenli",
+        "spor",
+        "tayt",
+        "büstiyer",
+        "fitness"
+      ],
+      "rating": {
+        "value": 4.8,
+        "count": 30
+      }
+    },
+    {
+      "id": "ince-cizgili-tayt-bustiyer-fitness-takim",
+      "slug": "ince-cizgili-tayt-bustiyer-fitness-takim",
+      "url": "product.html?p=ince-cizgili-tayt-bustiyer-fitness-takim",
+      "title": "İnce Çizgili Tayt Büstiyer Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/ince-cizgili-tayt-bustiyer-fitness-tak-57-4f6.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "İnce Çizgili Tayt Büstiyer Fitness Takım ve günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Size özeli kaçırmayın.",
+      "seo": {
+        "title": "İnce Çizgili Tayt Büstiyer Fitness Takım — KadınımGuzelim",
+        "description": "İnce Çizgili Tayt Büstiyer Fitness Takım ve günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Size özeli kaçırmayın."
+      },
+      "tags": [
+        "ince",
+        "çizgili",
+        "tayt",
+        "büstiyer",
+        "fitness",
+        "takım"
+      ],
+      "rating": {
+        "value": 4.8,
+        "count": 20
+      }
+    },
+    {
+      "id": "rengarenk-cizgili-tayt-bustiyer-fitness-takim",
+      "slug": "rengarenk-cizgili-tayt-bustiyer-fitness-takim",
+      "url": "product.html?p=rengarenk-cizgili-tayt-bustiyer-fitness-takim",
+      "title": "Rengarenk Çizgili Tayt Büstiyer Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/rengarenk-cizgili-tayt-bustiyer-fitnes-9b7b-7.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/rengarenk-cizgili-tayt-bustiyer-fitnes-1-aaff.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Rengarenk Çizgili Tayt Büstiyer Fitness Takım ve günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Size özeli kaçırmayın.",
+      "seo": {
+        "title": "Rengarenk Çizgili Tayt Büstiyer Fitness Takım — KadınımGuzelim",
+        "description": "Rengarenk Çizgili Tayt Büstiyer Fitness Takım ve günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Size özeli kaçırmayın."
+      },
+      "tags": [
+        "rengarenk",
+        "çizgili",
+        "tayt",
+        "büstiyer",
+        "fitness",
+        "takım"
+      ],
+      "rating": {
+        "value": 4.6,
+        "count": 22
+      }
+    },
+    {
+      "id": "rengarenk-desen-tayt-bustiyer-fitness-takim",
+      "slug": "rengarenk-desen-tayt-bustiyer-fitness-takim",
+      "url": "product.html?p=rengarenk-desen-tayt-bustiyer-fitness-takim",
+      "title": "Rengarenk Desen Tayt Büstiyer Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/rengarenk-desen-tayt-bustiyer-fitness--3-abf8.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/rengarenk-desen-tayt-bustiyer-fitness--23-00d.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Rengarenk Desen Tayt Büstiyer Fitness Takım ve günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Size özeli kaçırmayın.",
+      "seo": {
+        "title": "Rengarenk Desen Tayt Büstiyer Fitness Takım — KadınımGuzelim",
+        "description": "Rengarenk Desen Tayt Büstiyer Fitness Takım ve günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Size özeli kaçırmayın."
+      },
+      "tags": [
+        "rengarenk",
+        "desen",
+        "tayt",
+        "büstiyer",
+        "fitness",
+        "takım"
+      ],
+      "rating": {
+        "value": 4.6,
+        "count": 30
+      }
+    },
+    {
+      "id": "beyaz-cizgi-desen-tayt-bustiyer-fitness-takim",
+      "slug": "beyaz-cizgi-desen-tayt-bustiyer-fitness-takim",
+      "url": "product.html?p=beyaz-cizgi-desen-tayt-bustiyer-fitness-takim",
+      "title": "Beyaz Çizgi Desen Tayt Büstiyer Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/beyaz-cizgi-desen-tayt-bustiyer-fitnes-c5342f.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/beyaz-cizgi-desen-tayt-bustiyer-fitnes-c7c128.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Beyaz Çizgi Desen Tayt Büstiyer Fitness Takım ve günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Size özeli kaçırmayın.",
+      "seo": {
+        "title": "Beyaz Çizgi Desen Tayt Büstiyer Fitness Takım — KadınımGuzelim",
+        "description": "Beyaz Çizgi Desen Tayt Büstiyer Fitness Takım ve günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Size özeli kaçırmayın."
+      },
+      "tags": [
+        "beyaz",
+        "çizgi",
+        "desen",
+        "tayt",
+        "büstiyer",
+        "fitness"
+      ],
+      "rating": {
+        "value": 4.9,
+        "count": 11
+      }
+    },
+    {
+      "id": "cizgi-desen-sort-bustiyer-fitness-takim",
+      "slug": "cizgi-desen-sort-bustiyer-fitness-takim",
+      "url": "product.html?p=cizgi-desen-sort-bustiyer-fitness-takim",
+      "title": "Çizgi Desen Şort Büstiyer Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/cizgi-desen-sort-bustiyer-fitness-taki-b18-7b.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/cizgi-desen-sort-bustiyer-fitness-taki--4d19-.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Çizgi Desen Şort Büstiyer Fitness Takım günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Tayt Büstiyer Takımı kaçırmayın.",
+      "seo": {
+        "title": "Çizgi Desen Şort Büstiyer Fitness Takım — KadınımGuzelim",
+        "description": "Çizgi Desen Şort Büstiyer Fitness Takım günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Tayt Büstiyer Takımı kaçırmayın."
+      },
+      "tags": [
+        "çizgi",
+        "desen",
+        "şort",
+        "büstiyer",
+        "fitness",
+        "takım"
+      ],
+      "rating": {
+        "value": 4.9,
+        "count": 15
+      }
+    },
+    {
+      "id": "cizgi-desen-siyah-sort-bustiyer-fitness-takim",
+      "slug": "cizgi-desen-siyah-sort-bustiyer-fitness-takim",
+      "url": "product.html?p=cizgi-desen-siyah-sort-bustiyer-fitness-takim",
+      "title": "Çizgi Desen Siyah Şort Büstiyer Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/cizgi-desen-siyah-sort-bustiyer-fitnes-e-acc8.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/cizgi-desen-siyah-sort-bustiyer-fitnes-380dc-.jpg"
+      ],
+      "colors": [
+        "Siyah"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Çizgi Desen Siyah Şort Büstiyer Fitness Takım günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Tayt Büstiyer Takımı kaçırmayın.",
+      "seo": {
+        "title": "Çizgi Desen Siyah Şort Büstiyer Fitness Takım — KadınımGuzelim",
+        "description": "Çizgi Desen Siyah Şort Büstiyer Fitness Takım günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Tayt Büstiyer Takımı kaçırmayın."
+      },
+      "tags": [
+        "çizgi",
+        "desen",
+        "siyah",
+        "şort",
+        "büstiyer",
+        "fitness"
+      ],
+      "rating": {
+        "value": 4.6,
+        "count": 40
+      }
+    },
+    {
+      "id": "rengarenk-desen-sort-bustiyer-fitness-takim",
+      "slug": "rengarenk-desen-sort-bustiyer-fitness-takim",
+      "url": "product.html?p=rengarenk-desen-sort-bustiyer-fitness-takim",
+      "title": "Rengarenk Desen Şort Büstiyer Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/rengarenk-desen-sort-bustiyer-fitness--5-4b80.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/rengarenk-desen-sort-bustiyer-fitness--f-7be2.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Rengarenk Desen Şort Büstiyer Fitness Takıma günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Tayt Büstiyer Takımı kaçırmayın.",
+      "seo": {
+        "title": "Rengarenk Desen Şort Büstiyer Fitness Takım — KadınımGuzelim",
+        "description": "Rengarenk Desen Şort Büstiyer Fitness Takıma günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Tayt Büstiyer Takımı kaçırmayın."
+      },
+      "tags": [
+        "rengarenk",
+        "desen",
+        "şort",
+        "büstiyer",
+        "fitness",
+        "takım"
+      ],
+      "rating": {
+        "value": 4.8,
+        "count": 30
+      }
+    },
+    {
+      "id": "turkuaz-siyah-sort-bustiyer-fitness-takim",
+      "slug": "turkuaz-siyah-sort-bustiyer-fitness-takim",
+      "url": "product.html?p=turkuaz-siyah-sort-bustiyer-fitness-takim",
+      "title": "Turkuaz Siyah Şort Büstiyer Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/turkuaz-siyah-sort-bustiyer-fitness-ta-d-4519.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/turkuaz-siyah-sort-bustiyer-fitness-ta-f82-e9.jpg"
+      ],
+      "colors": [
+        "Siyah"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Turkuaz Siyah Şort Büstiyer Fitness Takım günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Tayt Büstiyer Takımı kaçırmayın.",
+      "seo": {
+        "title": "Turkuaz Siyah Şort Büstiyer Fitness Takım — KadınımGuzelim",
+        "description": "Turkuaz Siyah Şort Büstiyer Fitness Takım günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Tayt Büstiyer Takımı kaçırmayın."
+      },
+      "tags": [
+        "turkuaz",
+        "siyah",
+        "şort",
+        "büstiyer",
+        "fitness",
+        "takım"
+      ],
+      "rating": {
+        "value": 4.6,
+        "count": 24
+      }
+    },
+    {
+      "id": "siyah-beyaz-sort-bustiyer-fitness-takim",
+      "slug": "siyah-beyaz-sort-bustiyer-fitness-takim",
+      "url": "product.html?p=siyah-beyaz-sort-bustiyer-fitness-takim",
+      "title": "Siyah Beyaz Şort Büstiyer Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/siyah-beyz-sort-bustiyer-fitness-takim--48f1-.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/siyah-beyz-sort-bustiyer-fitness-takim-926200.jpg"
+      ],
+      "colors": [
+        "Siyah"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Siyah Beyaz Şort Büstiyer Fitness Takım günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Tayt Büstiyer Takımı kaçırmayın.",
+      "seo": {
+        "title": "Siyah Beyaz Şort Büstiyer Fitness Takım — KadınımGuzelim",
+        "description": "Siyah Beyaz Şort Büstiyer Fitness Takım günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Tayt Büstiyer Takımı kaçırmayın."
+      },
+      "tags": [
+        "siyah",
+        "beyaz",
+        "şort",
+        "büstiyer",
+        "fitness",
+        "takım"
+      ],
+      "rating": {
+        "value": 4.9,
+        "count": 37
+      }
+    },
+    {
+      "id": "mor-cizgili-sort-bustiyer-fitness-takim",
+      "slug": "mor-cizgili-sort-bustiyer-fitness-takim",
+      "url": "product.html?p=mor-cizgili-sort-bustiyer-fitness-takim",
+      "title": "Mor Çizgili Şort Büstiyer Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/mor-cizgili-sort-bustiyer-fitness-taki-10-269.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/mor-cizgili-sort-bustiyer-fitness-taki-7-953b.jpg"
+      ],
+      "colors": [
+        "Mor"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Mor Çizgili Şort Büstiyer Fitness Takım günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Tayt Büstiyer Takımı kaçırmayın.",
+      "seo": {
+        "title": "Mor Çizgili Şort Büstiyer Fitness Takım — KadınımGuzelim",
+        "description": "Mor Çizgili Şort Büstiyer Fitness Takım günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Tayt Büstiyer Takımı kaçırmayın."
+      },
+      "tags": [
+        "mor",
+        "çizgili",
+        "şort",
+        "büstiyer",
+        "fitness",
+        "takım"
+      ],
+      "rating": {
+        "value": 4.7,
+        "count": 9
+      }
+    },
+    {
+      "id": "puan-desenli-sort-bustiyer-fitness-takim",
+      "slug": "puan-desenli-sort-bustiyer-fitness-takim",
+      "url": "product.html?p=puan-desenli-sort-bustiyer-fitness-takim",
+      "title": "Puan Desenli Şort Büstiyer Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/puan-desenli-sort-bustiyer-fitness-tak-0f-978.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/puan-desenli-sort-bustiyer-fitness-tak-a5-b86.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Puan Desenli Şort Büstiyer Fitness Takım günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Tayt Büstiyer Takımı kaçırmayın.",
+      "seo": {
+        "title": "Puan Desenli Şort Büstiyer Fitness Takım — KadınımGuzelim",
+        "description": "Puan Desenli Şort Büstiyer Fitness Takım günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Tayt Büstiyer Takımı kaçırmayın."
+      },
+      "tags": [
+        "puan",
+        "desenli",
+        "şort",
+        "büstiyer",
+        "fitness",
+        "takım"
+      ],
+      "rating": {
+        "value": 4.6,
+        "count": 36
+      }
+    },
+    {
+      "id": "puan-desen-sort-bustiyer-fitness-takim",
+      "slug": "puan-desen-sort-bustiyer-fitness-takim",
+      "url": "product.html?p=puan-desen-sort-bustiyer-fitness-takim",
+      "title": "Puan Desen Şort Büstiyer Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/puan-desen-sort-bustiyer-fitness-takim-17e988.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/puan-desen-sort-bustiyer-fitness-takim-4b1-80.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Puan Desen Şort Büstiyer Fitness Takım günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Tayt Büstiyer Takımı kaçırmayın.",
+      "seo": {
+        "title": "Puan Desen Şort Büstiyer Fitness Takım — KadınımGuzelim",
+        "description": "Puan Desen Şort Büstiyer Fitness Takım günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Tayt Büstiyer Takımı kaçırmayın."
+      },
+      "tags": [
+        "puan",
+        "desen",
+        "şort",
+        "büstiyer",
+        "fitness",
+        "takım"
+      ],
+      "rating": {
+        "value": 4.9,
+        "count": 27
+      }
+    },
+    {
+      "id": "siyah-ekru-sort-bustiyer-fitness-takim",
+      "slug": "siyah-ekru-sort-bustiyer-fitness-takim",
+      "url": "product.html?p=siyah-ekru-sort-bustiyer-fitness-takim",
+      "title": "Siyah Ekru Şort Büstiyer Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/siyah-ekru-sort-bustiyer-fitness-takim-6d7405.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/siyah-ekru-sort-bustiyer-fitness-takim-9-b001.jpg"
+      ],
+      "colors": [
+        "Siyah",
+        "Ekru"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Siyah Ekru Şort Büstiyer Fitness Takım günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Tayt Büstiyer Takımı kaçırmayın.",
+      "seo": {
+        "title": "Siyah Ekru Şort Büstiyer Fitness Takım — KadınımGuzelim",
+        "description": "Siyah Ekru Şort Büstiyer Fitness Takım günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Tayt Büstiyer Takımı kaçırmayın."
+      },
+      "tags": [
+        "siyah",
+        "ekru",
+        "şort",
+        "büstiyer",
+        "fitness",
+        "takım"
+      ],
+      "rating": {
+        "value": 4.9,
+        "count": 9
+      }
+    },
+    {
+      "id": "yanlari-desenli-sort-bustiyer-fitness-takim",
+      "slug": "yanlari-desenli-sort-bustiyer-fitness-takim",
+      "url": "product.html?p=yanlari-desenli-sort-bustiyer-fitness-takim",
+      "title": "Yanları Desenli Şort Büstiyer Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/yanlari-desenli-sort-bustiyer-fitness--1d8ee5.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/yanlari-desenli-sort-bustiyer-fitness--8-183a.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Yanları Desenli Şort Büstiyer Fitness Takım günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Tayt Büstiyer Takımı kaçırmayın.",
+      "seo": {
+        "title": "Yanları Desenli Şort Büstiyer Fitness Takım — KadınımGuzelim",
+        "description": "Yanları Desenli Şort Büstiyer Fitness Takım günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Tayt Büstiyer Takımı kaçırmayın."
+      },
+      "tags": [
+        "yanları",
+        "desenli",
+        "şort",
+        "büstiyer",
+        "fitness",
+        "takım"
+      ],
+      "rating": {
+        "value": 4.6,
+        "count": 32
+      }
+    },
+    {
+      "id": "desenli-sort-crop-bustiyer-fitness-takim",
+      "slug": "desenli-sort-crop-bustiyer-fitness-takim",
+      "url": "product.html?p=desenli-sort-crop-bustiyer-fitness-takim",
+      "title": "Desenli Şort Crop Büstiyer Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/desenli-sort-crop-bustiyer-fitness-tak-703332.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/desenli-sort-crop-bustiyer-fitness-tak--acc4-.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Desenli Şort Crop Büstiyer Fitness Takım günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Tayt Büstiyer Takımı kaçırmayın.",
+      "seo": {
+        "title": "Desenli Şort Crop Büstiyer Fitness Takım — KadınımGuzelim",
+        "description": "Desenli Şort Crop Büstiyer Fitness Takım günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Tayt Büstiyer Takımı kaçırmayın."
+      },
+      "tags": [
+        "desenli",
+        "şort",
+        "crop",
+        "büstiyer",
+        "fitness",
+        "takım"
+      ],
+      "rating": {
+        "value": 4.6,
+        "count": 36
+      }
+    },
+    {
+      "id": "dijital-desenli-sort-crop-bustiyer-fitness-takim",
+      "slug": "dijital-desenli-sort-crop-bustiyer-fitness-takim",
+      "url": "product.html?p=dijital-desenli-sort-crop-bustiyer-fitness-takim",
+      "title": "Dijital Desenli Şort Crop Büstiyer Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/dijital-desenli-sort-crop-bustiyer-fit-2-3273.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/dijital-desenli-sort-crop-bustiyer-fit-60-97e.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Dijital Desenli Şort Crop Büstiyer Fitness Takım günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Tayt Büstiyer Takımı kaçırmayın.",
+      "seo": {
+        "title": "Dijital Desenli Şort Crop Büstiyer Fitness Takım — KadınımGuzelim",
+        "description": "Dijital Desenli Şort Crop Büstiyer Fitness Takım günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Tayt Büstiyer Takımı kaçırmayın."
+      },
+      "tags": [
+        "dijital",
+        "desenli",
+        "şort",
+        "crop",
+        "büstiyer",
+        "fitness"
+      ],
+      "rating": {
+        "value": 4.8,
+        "count": 10
+      }
+    },
+    {
+      "id": "yanlari-dijital-desenli-sort-crop-bustiyer-fitness-takim",
+      "slug": "yanlari-dijital-desenli-sort-crop-bustiyer-fitness-takim",
+      "url": "product.html?p=yanlari-dijital-desenli-sort-crop-bustiyer-fitness-takim",
+      "title": "Yanları Dijital Desenli Şort Crop Büstiyer Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/yanlari-dijital-desenli-sort-crop-bust-038fb5.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/yanlari-dijital-desenli-sort-crop-bust-1-8c81.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Yanları Dijital Desenli Şort Crop Büstiyer Fitness Takım günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Tayt Büstiyer Takımı kaçırmayın.",
+      "seo": {
+        "title": "Yanları Dijital Desenli Şort Crop Büstiyer Fitness Takım — KadınımGuzelim",
+        "description": "Yanları Dijital Desenli Şort Crop Büstiyer Fitness Takım günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Tayt Büstiyer Takımı kaçırmayın."
+      },
+      "tags": [
+        "yanları",
+        "dijital",
+        "desenli",
+        "şort",
+        "crop",
+        "büstiyer"
+      ],
+      "rating": {
+        "value": 4.7,
+        "count": 37
+      }
+    },
+    {
+      "id": "desenli-yesil-siyah-sort-crop-bustiyer-fitness-takim",
+      "slug": "desenli-yesil-siyah-sort-crop-bustiyer-fitness-takim",
+      "url": "product.html?p=desenli-yesil-siyah-sort-crop-bustiyer-fitness-takim",
+      "title": "Desenli Yeşil Siyah Şort Crop Büstiyer Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/desenli-yesil-siyah-sort-crop-bustiyer--8339-.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/desenli-yesil-siyah-sort-crop-bustiyer-4958-9.jpg"
+      ],
+      "colors": [
+        "Siyah",
+        "Yeşil"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Desenli Yeşil Siyah Şort Crop Büstiyer Fitness Takım günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Tayt Büstiyer Takımı kaçırmayın.",
+      "seo": {
+        "title": "Desenli Yeşil Siyah Şort Crop Büstiyer Fitness Takım — KadınımGuzelim",
+        "description": "Desenli Yeşil Siyah Şort Crop Büstiyer Fitness Takım günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Tayt Büstiyer Takımı kaçırmayın."
+      },
+      "tags": [
+        "desenli",
+        "yeşil",
+        "siyah",
+        "şort",
+        "crop",
+        "büstiyer"
+      ],
+      "rating": {
+        "value": 4.8,
+        "count": 36
+      }
+    },
+    {
+      "id": "cizgili-sort-crop-bustiyer-fitness-takim",
+      "slug": "cizgili-sort-crop-bustiyer-fitness-takim",
+      "url": "product.html?p=cizgili-sort-crop-bustiyer-fitness-takim",
+      "title": "Çizgili Şort Crop Büstiyer Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/cizgili-sort-crop-bustiyer-fitness-tak-8e-0fe.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/cizgili-sort-crop-bustiyer-fitness-tak--d9acc.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Çizgili Şort Crop Büstiyer Fitness Takım günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Tayt Büstiyer Takımı kaçırmayın.",
+      "seo": {
+        "title": "Çizgili Şort Crop Büstiyer Fitness Takım — KadınımGuzelim",
+        "description": "Çizgili Şort Crop Büstiyer Fitness Takım günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Tayt Büstiyer Takımı kaçırmayın."
+      },
+      "tags": [
+        "çizgili",
+        "şort",
+        "crop",
+        "büstiyer",
+        "fitness",
+        "takım"
+      ],
+      "rating": {
+        "value": 4.7,
+        "count": 31
+      }
+    },
+    {
+      "id": "cizgili-renkli-sort-crop-bustiyer-fitness-takim",
+      "slug": "cizgili-renkli-sort-crop-bustiyer-fitness-takim",
+      "url": "product.html?p=cizgili-renkli-sort-crop-bustiyer-fitness-takim",
+      "title": "Çizgili Renkli Şort Crop Büstiyer Fitness Takım",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/cizgili-renkli-sort-crop-bustiyer-fitn-466dd-.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/cizgili-renkli-sort-crop-bustiyer-fitn-4aea6a.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Çizgili Renkli Şort Crop Büstiyer Fitness Takım günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Tayt Büstiyer Takımı kaçırmayın.",
+      "seo": {
+        "title": "Çizgili Renkli Şort Crop Büstiyer Fitness Takım — KadınımGuzelim",
+        "description": "Çizgili Renkli Şort Crop Büstiyer Fitness Takım günlük spor aktivitelerinde konforlu ve özgür bir kullanım sağlar. Tayt Büstiyer Takımı kaçırmayın."
+      },
+      "tags": [
+        "çizgili",
+        "renkli",
+        "şort",
+        "crop",
+        "büstiyer",
+        "fitness"
+      ],
+      "rating": {
+        "value": 4.7,
+        "count": 13
+      }
+    },
+    {
+      "id": "kadin-modal-genis-yaka-sifir-kol-body",
+      "slug": "kadin-modal-genis-yaka-sifir-kol-body",
+      "url": "product.html?p=kadin-modal-genis-yaka-sifir-kol-body",
+      "title": "Kadın Modal Geniş Yaka Sıfır Kol Body",
+      "price": 908,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/kadin-modal-genis-yaka-sifir-kol-body-41d3-9.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/kadin-modal-genis-yaka-sifir-kol-body-a93a-5.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/kadin-modal-genis-yaka-sifir-kol-body-4f-44a.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/kadin-modal-genis-yaka-sifir-kol-body-a0e4e1.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Kadın Modal Geniş Yaka Sıfır Kol Body yumuşak dokusu ve esnek yapısıyla gün boyu konfor sunar. Bayan Body ile güzelliği yaşayın, keyif alın.",
+      "seo": {
+        "title": "Kadın Modal Geniş Yaka Sıfır Kol Body — KadınımGuzelim",
+        "description": "Kadın Modal Geniş Yaka Sıfır Kol Body yumuşak dokusu ve esnek yapısıyla gün boyu konfor sunar. Bayan Body ile güzelliği yaşayın, keyif alın."
+      },
+      "tags": [
+        "kadın",
+        "modal",
+        "geniş",
+        "yaka",
+        "sıfır",
+        "kol"
+      ],
+      "rating": {
+        "value": 4.7,
+        "count": 27
+      }
+    },
+    {
+      "id": "double-orgu-toparlayici-straplez-bustiyer",
+      "slug": "double-orgu-toparlayici-straplez-bustiyer",
+      "url": "product.html?p=double-orgu-toparlayici-straplez-bustiyer",
+      "title": "Double Örgü Toparlayıcı Straplez Büstiyer",
+      "price": 635,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/double-orgu-toparlayici-straplez-busti-37d43d.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Double Örgü Toparlayıcı Straplez Büstiyer Kaymaz Yapı, Güçlü Destek ve Konfor Bir Arada. Straplez Büstiyer ile güzelliği yaşayın, tadını çıkarın.",
+      "seo": {
+        "title": "Double Örgü Toparlayıcı Straplez Büstiyer — KadınımGuzelim",
+        "description": "Double Örgü Toparlayıcı Straplez Büstiyer Kaymaz Yapı, Güçlü Destek ve Konfor Bir Arada. Straplez Büstiyer ile güzelliği yaşayın, tadını çıkarın."
+      },
+      "tags": [
+        "double",
+        "örgü",
+        "toparlayıcı",
+        "straplez",
+        "büstiyer"
+      ],
+      "rating": {
+        "value": 4.7,
+        "count": 41
+      }
+    },
+    {
+      "id": "genis-askili-bayan-korse-atlet",
+      "slug": "genis-askili-bayan-korse-atlet",
+      "url": "product.html?p=genis-askili-bayan-korse-atlet",
+      "title": "Geniş Askılı Bayan Korse Atlet",
+      "price": 545,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/genis-askili-bayan-korse-atlet-ab-471.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/genis-askili-bayan-korse-atlet-308616.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/genis-askili-bayan-korse-atlet-df3748.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/genis-askili-bayan-korse-atlet-baa8fa.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [
+        "Ayarlanabilir Askı"
+      ],
+      "description": "Geniş Askılı Bayan Korse Atlet toparlayıcı etkisi ve rahat yapısıyla gün boyu konfor ve fit görünüm sağlar. Aradığınız özellikle ile incelin.",
+      "seo": {
+        "title": "Geniş Askılı Bayan Korse Atlet — KadınımGuzelim",
+        "description": "Geniş Askılı Bayan Korse Atlet toparlayıcı etkisi ve rahat yapısıyla gün boyu konfor ve fit görünüm sağlar. Aradığınız özellikle ile incelin."
+      },
+      "tags": [
+        "geniş",
+        "askılı",
+        "bayan",
+        "korse",
+        "atlet"
+      ],
+      "rating": {
+        "value": 4.6,
+        "count": 26
+      }
+    },
+    {
+      "id": "seamless-toparlayici-siyah-bustiyer-korse",
+      "slug": "seamless-toparlayici-siyah-bustiyer-korse",
+      "url": "product.html?p=seamless-toparlayici-siyah-bustiyer-korse",
+      "title": "Seamless Toparlayıcı Siyah Büstiyer Korse",
+      "price": 545,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/seamless-toparlayici-siyah-bustiyer-ko-8559-6.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/seamless-toparlayici-siyah-bustiyer-ko-fec18-.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/seamless-toparlayici-siyah-bustiyer-ko-83c-8d.jpg"
+      ],
+      "colors": [
+        "Siyah"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Seamless Toparlayıcı Siyah Büstiyer Korse dikişsiz yapısı ile iz yapmadan toparlayıcı etki ve pürüzsüz görünüm sunar. Büstiyer Korse ile rahatlık",
+      "seo": {
+        "title": "Seamless Toparlayıcı Siyah Büstiyer Korse — KadınımGuzelim",
+        "description": "Seamless Toparlayıcı Siyah Büstiyer Korse dikişsiz yapısı ile iz yapmadan toparlayıcı etki ve pürüzsüz görünüm sunar. Büstiyer Korse ile rahatlık"
+      },
+      "tags": [
+        "seamless",
+        "toparlayıcı",
+        "siyah",
+        "büstiyer",
+        "korse"
+      ],
+      "rating": {
+        "value": 4.7,
+        "count": 19
+      }
+    },
+    {
+      "id": "yuksek-bel-bayan-pacali-ten-korse",
+      "slug": "yuksek-bel-bayan-pacali-ten-korse",
+      "url": "product.html?p=yuksek-bel-bayan-pacali-ten-korse",
+      "title": "Yüksek Bel Bayan Paçalı Ten Korse",
+      "price": 635,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/yuksek-bel-bayan-pacali-ten-korse-bc92-4.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Yüksek Bel Bayan Paçalı Ten Korse dikişsiz yapısı ile karın ve basen toparlayıcı etkisiyle pürüzsüz ve fit görünüm sunar. Sadece size özel.",
+      "seo": {
+        "title": "Yüksek Bel Bayan Paçalı Ten Korse — KadınımGuzelim",
+        "description": "Yüksek Bel Bayan Paçalı Ten Korse dikişsiz yapısı ile karın ve basen toparlayıcı etkisiyle pürüzsüz ve fit görünüm sunar. Sadece size özel."
+      },
+      "tags": [
+        "yüksek",
+        "bel",
+        "bayan",
+        "paçalı",
+        "ten",
+        "korse"
+      ],
+      "rating": {
+        "value": 4.6,
+        "count": 32
+      }
+    },
+    {
+      "id": "dikissiz-sporcu-toparlayici-sutyen-korse",
+      "slug": "dikissiz-sporcu-toparlayici-sutyen-korse",
+      "url": "product.html?p=dikissiz-sporcu-toparlayici-sutyen-korse",
+      "title": "Dikişsiz Sporcu Toparlayıcı Sütyen Korse",
+      "price": 454,
+      "category": "Sütyen",
+      "categories": [
+        "Sütyen",
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/dikissiz-sporcu-toparlayici-sutyen-kor-d9a1e3.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/dikissiz-sporcu-toparlayici-sutyen-kor-fd4650.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/dikissiz-sporcu-toparlayici-sutyen-kor-09-d10.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Dikişsiz Sporcu Toparlayıcı Sütyen Korse toparlayıcı yapısı ve esnek kumaşıyla spor ve günlük kullanımda maksimum konfor sunar. Sizde hemen göz atın.",
+      "seo": {
+        "title": "Dikişsiz Sporcu Toparlayıcı Sütyen Korse — KadınımGuzelim",
+        "description": "Dikişsiz Sporcu Toparlayıcı Sütyen Korse toparlayıcı yapısı ve esnek kumaşıyla spor ve günlük kullanımda maksimum konfor sunar. Sizde hemen göz atın."
+      },
+      "tags": [
+        "dikişsiz",
+        "sporcu",
+        "toparlayıcı",
+        "sütyen",
+        "korse"
+      ],
+      "rating": {
+        "value": 4.7,
+        "count": 19
+      }
+    },
+    {
+      "id": "dantelli-yuksek-bel-siyah-slip-korse",
+      "slug": "dantelli-yuksek-bel-siyah-slip-korse",
+      "url": "product.html?p=dantelli-yuksek-bel-siyah-slip-korse",
+      "title": "Dantelli Yüksek Bel Siyah Slip Korse",
+      "price": 817,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/dantelli-yuksek-bel-siyah-slip-korse-710827.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/dantelli-yuksek-bel-siyah-slip-korse-c5c82e.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/dantelli-yuksek-bel-siyah-slip-korse-220cce.jpg"
+      ],
+      "colors": [
+        "Siyah"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Orta",
+        "dantel": "Dantel Detaylı",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [
+        "Dantel Detayı"
+      ],
+      "description": "Dantelli Yüksek Bel Siyah Slip Korse esnek yapısı ve toparlayıcı etkisiyle gün boyu konfor ve fit görünüm sağlar. Slip Korse ile zarif olun.",
+      "seo": {
+        "title": "Dantelli Yüksek Bel Siyah Slip Korse — KadınımGuzelim",
+        "description": "Dantelli Yüksek Bel Siyah Slip Korse esnek yapısı ve toparlayıcı etkisiyle gün boyu konfor ve fit görünüm sağlar. Slip Korse ile zarif olun."
+      },
+      "tags": [
+        "dantelli",
+        "yüksek",
+        "bel",
+        "siyah",
+        "slip",
+        "korse"
+      ],
+      "rating": {
+        "value": 4.9,
+        "count": 35
+      }
+    },
+    {
+      "id": "gogsu-acik-siyah-elbise-korse",
+      "slug": "gogsu-acik-siyah-elbise-korse",
+      "url": "product.html?p=gogsu-acik-siyah-elbise-korse",
+      "title": "Göğsü Açık Siyah Elbise Korse",
+      "price": 726,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/gogsu-acik-siyah-elbise-korse-5-549f.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/gogsu-acik-siyah-elbise-korse-95-495.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/gogsu-acik-siyah-elbise-korse-475c-a.jpg"
+      ],
+      "colors": [
+        "Siyah"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Göğsü Açık Siyah Elbise Korse elbise altına uygun tasarımıyla pürüzsüz ve şık görünüm sağlar. Elbise Korse ile zarifliği yaşamalısınız.",
+      "seo": {
+        "title": "Göğsü Açık Siyah Elbise Korse — KadınımGuzelim",
+        "description": "Göğsü Açık Siyah Elbise Korse elbise altına uygun tasarımıyla pürüzsüz ve şık görünüm sağlar. Elbise Korse ile zarifliği yaşamalısınız."
+      },
+      "tags": [
+        "göğsü",
+        "açık",
+        "siyah",
+        "elbise",
+        "korse"
+      ],
+      "rating": {
+        "value": 4.9,
+        "count": 21
+      }
+    },
+    {
+      "id": "dikissiz-askili-siyah-body-korse",
+      "slug": "dikissiz-askili-siyah-body-korse",
+      "url": "product.html?p=dikissiz-askili-siyah-body-korse",
+      "title": "Dikişsiz Askılı Siyah Body Korse",
+      "price": 817,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/dikissiz-askili-siyah-body-korse-b24e-1.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/dikissiz-askili-siyah-body-korse-bf9eb3.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/dikissiz-askili-siyah-body-korse-f1d7c1.jpg"
+      ],
+      "colors": [
+        "Siyah"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [
+        "Ayarlanabilir Askı"
+      ],
+      "description": "Dikişsiz Askılı Siyah Body Korse iz yapmayan yapısı ve toparlayıcı etkisiyle pürüzsüz ve fit görünüm sağlar. Body Korse ile hızlıca toparlan.",
+      "seo": {
+        "title": "Dikişsiz Askılı Siyah Body Korse — KadınımGuzelim",
+        "description": "Dikişsiz Askılı Siyah Body Korse iz yapmayan yapısı ve toparlayıcı etkisiyle pürüzsüz ve fit görünüm sağlar. Body Korse ile hızlıca toparlan."
+      },
+      "tags": [
+        "dikişsiz",
+        "askılı",
+        "siyah",
+        "body",
+        "korse"
+      ],
+      "rating": {
+        "value": 4.9,
+        "count": 41
+      }
+    },
+    {
+      "id": "siyah-bayan-bel-korse",
+      "slug": "siyah-bayan-bel-korse",
+      "url": "product.html?p=siyah-bayan-bel-korse",
+      "title": "Siyah Bayan Bel Korse",
+      "price": 454,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/siyah-bayan-bel-korse-94766b.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/siyah-bayan-bel-korse-5ef6ca.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/siyah-bayan-bel-korse-d8d904.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/siyah-bayan-bel-korse-61-a67.jpg"
+      ],
+      "colors": [
+        "Siyah"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Siyah Bayan Bel Korse kıyafet altına uygun tasarımıyla pürüzsüz ve fit görünüm sağlar. Bel Korse ile ince olmanın tadını çıkarma vakti geldi.",
+      "seo": {
+        "title": "Siyah Bayan Bel Korse — KadınımGuzelim",
+        "description": "Siyah Bayan Bel Korse kıyafet altına uygun tasarımıyla pürüzsüz ve fit görünüm sağlar. Bel Korse ile ince olmanın tadını çıkarma vakti geldi."
+      },
+      "tags": [
+        "siyah",
+        "bayan",
+        "bel",
+        "korse"
+      ],
+      "rating": {
+        "value": 4.9,
+        "count": 15
+      }
+    },
+    {
+      "id": "askili-latex-sekillendirici-agrafli-korse",
+      "slug": "askili-latex-sekillendirici-agrafli-korse",
+      "url": "product.html?p=askili-latex-sekillendirici-agrafli-korse",
+      "title": "Askılı Latex Şekillendirici Agraflı Korse",
+      "price": 1363,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/askili-latex-sekillendirici-agrafli-ko-8b87-4.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/askili-latex-sekillendirici-agrafli-ko-71a77c.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/askili-latex-sekillendirici-agrafli-ko-633-46.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/askili-latex-sekillendirici-agrafli-ko-a234e-.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [
+        "Ayarlanabilir Askı"
+      ],
+      "description": "Askılı Latex Şekillendirici Agraflı Korse ayarlanabilir yapısı ve geniş beden seçeneği ile konforlu kullanım sunar. Siz sadece tadını çıkarın.",
+      "seo": {
+        "title": "Askılı Latex Şekillendirici Agraflı Korse — KadınımGuzelim",
+        "description": "Askılı Latex Şekillendirici Agraflı Korse ayarlanabilir yapısı ve geniş beden seçeneği ile konforlu kullanım sunar. Siz sadece tadını çıkarın."
+      },
+      "tags": [
+        "askılı",
+        "latex",
+        "şekillendirici",
+        "agraflı",
+        "korse"
+      ],
+      "rating": {
+        "value": 4.8,
+        "count": 8
+      }
+    },
+    {
+      "id": "anti-selulit-siyah-tayt-korse",
+      "slug": "anti-selulit-siyah-tayt-korse",
+      "url": "product.html?p=anti-selulit-siyah-tayt-korse",
+      "title": "Anti Selülit Siyah Tayt Korse",
+      "price": 807,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/anti-selulit-siyah-tayt-korse-e-442e.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/anti-selulit-siyah-tayt-korse-90d9-f.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/anti-selulit-siyah-tayt-korse-207636.jpg"
+      ],
+      "colors": [
+        "Siyah"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Anti Selülit Siyah Tayt Korse esnek kumaşı ve konforlu yapısıyla spor ve günlük kullanım için idealdir. Tayt Korse ile istemiş olduğun ince beden.",
+      "seo": {
+        "title": "Anti Selülit Siyah Tayt Korse — KadınımGuzelim",
+        "description": "Anti Selülit Siyah Tayt Korse esnek kumaşı ve konforlu yapısıyla spor ve günlük kullanım için idealdir. Tayt Korse ile istemiş olduğun ince beden."
+      },
+      "tags": [
+        "anti",
+        "selülit",
+        "siyah",
+        "tayt",
+        "korse"
+      ],
+      "rating": {
+        "value": 4.8,
+        "count": 22
+      }
+    },
+    {
+      "id": "double-yuksek-bel-boxer-siyah-lazer-korse",
+      "slug": "double-yuksek-bel-boxer-siyah-lazer-korse",
+      "url": "product.html?p=double-yuksek-bel-boxer-siyah-lazer-korse",
+      "title": "Double Yüksek Bel Boxer Siyah Lazer Korse",
+      "price": 2272,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/double-yuksek-bel-boxer-siyah-lazer-ko-af-4bb.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/double-yuksek-bel-boxer-siyah-lazer-ko-44b3-b.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/double-yuksek-bel-boxer-siyah-lazer-ko-cd521a.jpg"
+      ],
+      "colors": [
+        "Siyah"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Double Yüksek Bel Boxer Siyah Lazer Korse güçlü toparlayıcı etkisiyle ince ve pürüzsüz siluet sağlar. Lazer Korse ile güzelliği yaşayın.",
+      "seo": {
+        "title": "Double Yüksek Bel Boxer Siyah Lazer Korse — KadınımGuzelim",
+        "description": "Double Yüksek Bel Boxer Siyah Lazer Korse güçlü toparlayıcı etkisiyle ince ve pürüzsüz siluet sağlar. Lazer Korse ile güzelliği yaşayın."
+      },
+      "tags": [
+        "double",
+        "yüksek",
+        "bel",
+        "boxer",
+        "siyah",
+        "lazer"
+      ],
+      "rating": {
+        "value": 4.8,
+        "count": 16
+      }
+    },
+    {
+      "id": "dantelli-jartiyerli-bustiyer-takim",
+      "slug": "dantelli-jartiyerli-bustiyer-takim",
+      "url": "product.html?p=dantelli-jartiyerli-bustiyer-takim",
+      "title": "Dantelli Jartiyerli Büstiyer Takım",
+      "price": 908,
+      "category": "Body & Korse",
+      "categories": [
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/dantelli-jartiyerli-bustiyer-takim--4d8b-.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/dantelli-jartiyerli-bustiyer-takim-e9b1a4.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Orta",
+        "dantel": "Dantel Detaylı",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [
+        "Dantel Detayı"
+      ],
+      "description": "Dantelli Jartiyerli Büstiyer Takım ile Gecenin hikayesini sen yaz. Sana özel Büstiyer Takım ile geceleri daha tutkulu geçirin, tadını çıkarın.",
+      "seo": {
+        "title": "Dantelli Jartiyerli Büstiyer Takım — KadınımGuzelim",
+        "description": "Dantelli Jartiyerli Büstiyer Takım ile Gecenin hikayesini sen yaz. Sana özel Büstiyer Takım ile geceleri daha tutkulu geçirin, tadını çıkarın."
+      },
+      "tags": [
+        "dantelli",
+        "jartiyerli",
+        "büstiyer",
+        "takım"
+      ],
+      "rating": {
+        "value": 4.8,
+        "count": 10
+      }
+    },
+    {
+      "id": "destekli-bustiyerli-pembe-sutyen-takim",
+      "slug": "destekli-bustiyerli-pembe-sutyen-takim",
+      "url": "product.html?p=destekli-bustiyerli-pembe-sutyen-takim",
+      "title": "Destekli Büstiyerli Pembe Sütyen Takım",
+      "price": 1181,
+      "category": "Sütyen",
+      "categories": [
+        "Sütyen",
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/destekli-bustiyerli-pembe-sutyen-takim--95f6-.jpg"
+      ],
+      "colors": [
+        "Pembe"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Destekli Büstiyerli Pembe Sütyen Takım toparlayıcı yapısı ve konforlu kumaşıyla gün boyu rahatlık sunar. Sütyen Takım size özel üretildi.",
+      "seo": {
+        "title": "Destekli Büstiyerli Pembe Sütyen Takım — KadınımGuzelim",
+        "description": "Destekli Büstiyerli Pembe Sütyen Takım toparlayıcı yapısı ve konforlu kumaşıyla gün boyu rahatlık sunar. Sütyen Takım size özel üretildi."
+      },
+      "tags": [
+        "destekli",
+        "büstiyerli",
+        "pembe",
+        "sütyen",
+        "takım"
+      ],
+      "rating": {
+        "value": 4.8,
+        "count": 38
+      }
+    },
+    {
+      "id": "bustiyerli-kirmizi-fantazi-jartiyer-takim",
+      "slug": "bustiyerli-kirmizi-fantazi-jartiyer-takim",
+      "url": "product.html?p=bustiyerli-kirmizi-fantazi-jartiyer-takim",
+      "title": "Büstiyerli Kırmızı Fantazi Jartiyer Takım",
+      "price": 726,
+      "category": "Fantazi",
+      "categories": [
+        "Fantazi",
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/bustiyerli-kirmizi-fantazi-jartiyer-ta-609-ea.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/bustiyerli-kirmizi-fantazi-jartiyer-ta-40ba-9.jpg"
+      ],
+      "colors": [
+        "Kırmızı"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Büstiyerli Kırmızı Fantazi Jartiyer Takım feminen görünümü ve seksi yapısıyla özel anlar için üretildi. Fantazi Jartiyer ile gecenize renk katın.",
+      "seo": {
+        "title": "Büstiyerli Kırmızı Fantazi Jartiyer Takım — KadınımGuzelim",
+        "description": "Büstiyerli Kırmızı Fantazi Jartiyer Takım feminen görünümü ve seksi yapısıyla özel anlar için üretildi. Fantazi Jartiyer ile gecenize renk katın."
+      },
+      "tags": [
+        "büstiyerli",
+        "kırmızı",
+        "fantazi",
+        "jartiyer",
+        "takım"
+      ],
+      "rating": {
+        "value": 4.8,
+        "count": 14
+      }
+    }
+  ]
+}

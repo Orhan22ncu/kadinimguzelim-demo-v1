@@ -684,27 +684,37 @@ function initStickyVariant() {
   update();
 }
 
-// ── Product feed (shared) ────────────────────────────────────────────────────
-async function loadFeed() {
-  if (window.__kgFeed) return window.__kgFeed;
-  try {
-    const r = await fetch('products.json', { cache: 'no-cache' });
-    const data = await r.json();
-    window.__kgFeed = data.products || [];
-  } catch (e) { window.__kgFeed = []; }
-  return window.__kgFeed;
+// ── Per-category feeds (shared) ──────────────────────────────────────────────
+const CAT_SLUG = { 'Gecelik': 'gecelik', 'Sütyen': 'sutyen', 'Fantazi': 'fantazi', 'Pijama': 'pijama', 'Body & Korse': 'body-korse', 'Büyük Beden': 'buyuk-beden' };
+const __jsonCache = {};
+async function loadJSON(path) {
+  if (path in __jsonCache) return __jsonCache[path];
+  try { const r = await fetch(path, { cache: 'no-cache' }); __jsonCache[path] = await r.json(); }
+  catch (e) { __jsonCache[path] = null; }
+  return __jsonCache[path];
+}
+async function loadCategoryFeed(catSlug) {
+  const d = await loadJSON('feeds/' + catSlug + '.json');
+  return (d && d.products) || [];
 }
 
-// ── Data-driven PDP: product.html?p=<slug> populates from the feed ───────────
+// ── Data-driven PDP: product.html?p=<slug>[&c=<catSlug>] from per-cat feed ────
 async function initProductPage() {
-  const slug = new URLSearchParams(location.search).get('p');
+  const params = new URLSearchParams(location.search);
+  const slug = params.get('p');
   if (!slug) return; // no slug → keep the default hardcoded product
-  const products = await loadFeed();
+  let catSlug = params.get('c');
+  if (!catSlug) {
+    const idx = await loadJSON('feeds/index.json');   // slug → catSlug fallback
+    catSlug = idx && idx[slug];
+  }
+  if (!catSlug) return;
+  const products = await loadCategoryFeed(catSlug);
   const p = products.find(x => x.slug === slug || x.id === slug);
-  if (p) populateProduct(p, products);
+  if (p) populateProduct(p, products, catSlug);
 }
 
-function populateProduct(p, all) {
+function populateProduct(p, all, catSlug) {
   if (p.seo && p.seo.title) document.title = p.seo.title;
   const h1 = document.querySelector('.product-info h1'); if (h1) h1.textContent = p.title;
   const priceEl = document.querySelector('.product-info .text-2xl'); if (priceEl) priceEl.textContent = formatTRY(p.price);
@@ -768,7 +778,7 @@ function populateProduct(p, all) {
   const scroll = document.querySelector('.product-scroll');
   if (scroll && all) {
     scroll.innerHTML = all.filter(x => x.slug !== p.slug).slice(0, 6).map(x =>
-      '<a href="product.html?p=' + encodeURIComponent(x.slug) + '" class="product-card">' +
+      '<a href="product.html?p=' + encodeURIComponent(x.slug) + '&c=' + encodeURIComponent(catSlug || '') + '" class="product-card">' +
       '<div class="product-card__image"><img src="' + x.images[0] + '" alt="' + escapeHtml(x.title) + '" loading="lazy"></div>' +
       '<p class="product-card__name">' + escapeHtml(x.title) + '</p>' +
       '<p class="product-card__price">' + formatTRY(x.price) + '</p></a>').join('');
@@ -790,23 +800,22 @@ function wireNav() {
 async function initCatalog() {
   const grid = document.getElementById('catalogGrid');
   if (!grid) return;
-  let products = await loadFeed();
-  if (!products.length) return;
-  const cat = new URLSearchParams(location.search).get('cat');
-  if (cat) products = products.filter(p => (p.categories || [p.category]).includes(cat));
+  const catName = new URLSearchParams(location.search).get('cat') || 'Gecelik';
+  const catSlug = CAT_SLUG[catName] || 'gecelik';
+  const products = await loadCategoryFeed(catSlug);
 
   const heading = document.querySelector('.section-title');
-  if (heading && cat) heading.textContent = cat;
-  if (cat) document.title = cat + ' — KadınımGuzelim';
+  if (heading) heading.textContent = catName;
+  document.title = catName + ' — KadınımGuzelim';
   const cnt = document.getElementById('catalogCount');
   if (cnt) cnt.textContent = products.length + ' ürün';
 
-  if (products.length === 0) {
+  if (!products.length) {
     grid.innerHTML = '<p class="cart-empty" style="grid-column:1/-1;">Bu kategoride ürün bulunamadı.</p>';
     return;
   }
   grid.innerHTML = products.map(p =>
-    '<a href="product.html?p=' + encodeURIComponent(p.slug) + '" class="product-card">' +
+    '<a href="product.html?p=' + encodeURIComponent(p.slug) + '&c=' + catSlug + '" class="product-card">' +
     '<div class="product-card__image" style="aspect-ratio:3/4;"><img src="' + p.images[0] + '" alt="' + escapeHtml(p.title) + '" loading="lazy"></div>' +
     '<p class="product-card__name">' + escapeHtml(p.title) + '</p>' +
     '<p class="product-card__price">' + formatTRY(p.price) + '</p></a>').join('');

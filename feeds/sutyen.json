@@ -1,0 +1,650 @@
+{
+  "$schema": "https://kadinimguzelim.com/schema/product-feed-v1",
+  "generator": "KadınımGuzelim AI Product Studio",
+  "generatedAt": "2026-06-15",
+  "brand": "KadınımGuzelim",
+  "currency": "TRY",
+  "category": "Sütyen",
+  "products": [
+    {
+      "id": "dikissiz-sporcu-toparlayici-sutyen-korse",
+      "slug": "dikissiz-sporcu-toparlayici-sutyen-korse",
+      "url": "product.html?p=dikissiz-sporcu-toparlayici-sutyen-korse",
+      "title": "Dikişsiz Sporcu Toparlayıcı Sütyen Korse",
+      "price": 454,
+      "category": "Sütyen",
+      "categories": [
+        "Sütyen",
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/dikissiz-sporcu-toparlayici-sutyen-kor-d9a1e3.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/dikissiz-sporcu-toparlayici-sutyen-kor-fd4650.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/dikissiz-sporcu-toparlayici-sutyen-kor-09-d10.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Dikişsiz Sporcu Toparlayıcı Sütyen Korse toparlayıcı yapısı ve esnek kumaşıyla spor ve günlük kullanımda maksimum konfor sunar. Sizde hemen göz atın.",
+      "seo": {
+        "title": "Dikişsiz Sporcu Toparlayıcı Sütyen Korse — KadınımGuzelim",
+        "description": "Dikişsiz Sporcu Toparlayıcı Sütyen Korse toparlayıcı yapısı ve esnek kumaşıyla spor ve günlük kullanımda maksimum konfor sunar. Sizde hemen göz atın."
+      },
+      "tags": [
+        "dikişsiz",
+        "sporcu",
+        "toparlayıcı",
+        "sütyen",
+        "korse"
+      ],
+      "rating": {
+        "value": 4.7,
+        "count": 19
+      }
+    },
+    {
+      "id": "dantel-pembe-fantazi-bralet-sutyen-takimi",
+      "slug": "dantel-pembe-fantazi-bralet-sutyen-takimi",
+      "url": "product.html?p=dantel-pembe-fantazi-bralet-sutyen-takimi",
+      "title": "Dantel Pembe Fantazi Bralet Sütyen Takımı",
+      "price": 726,
+      "category": "Fantazi",
+      "categories": [
+        "Fantazi",
+        "Sütyen"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/dantel-pembe-fantazi-bralet-sutyen-tak--978a-.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/dantel-pembe-fantazi-bralet-sutyen-tak-6afe92.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/dantel-pembe-fantazi-bralet-sutyen-tak-8e-4e3.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/dantel-pembe-fantazi-bralet-sutyen-tak-d2af62.jpg"
+      ],
+      "colors": [
+        "Pembe"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Orta",
+        "dantel": "Dantel Detaylı",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [
+        "Dantel Detayı"
+      ],
+      "description": "Dantel Pembe Fantazi Bralet Sütyen Takımı ile Gecenin hikayesini sen yaz. Sana özel Sütyen Takım ile geceleri daha tutkulu geçirin, tadını çıkarın.",
+      "seo": {
+        "title": "Dantel Pembe Fantazi Bralet Sütyen Takımı — KadınımGuzelim",
+        "description": "Dantel Pembe Fantazi Bralet Sütyen Takımı ile Gecenin hikayesini sen yaz. Sana özel Sütyen Takım ile geceleri daha tutkulu geçirin, tadını çıkarın."
+      },
+      "tags": [
+        "dantel",
+        "pembe",
+        "fantazi",
+        "bralet",
+        "sütyen",
+        "takımı"
+      ],
+      "rating": {
+        "value": 4.6,
+        "count": 32
+      }
+    },
+    {
+      "id": "brodeli-c-cup-ekru-sutyen-takim",
+      "slug": "brodeli-c-cup-ekru-sutyen-takim",
+      "url": "product.html?p=brodeli-c-cup-ekru-sutyen-takim",
+      "title": "Brodeli C Cup Ekru Sütyen Takım",
+      "price": 817,
+      "category": "Sütyen",
+      "categories": [
+        "Sütyen"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/brodeli-c-cup-ekru-sutyen-takim-171c55.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/brodeli-c-cup-ekru-sutyen-takim-ed-df8.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/brodeli-c-cup-ekru-sutyen-takim-4752-b.jpg"
+      ],
+      "colors": [
+        "Ekru"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Brodeli C Cup Ekru Sütyen Takım zarif detayları ve toparlayıcı yapısıyla şık ve konforlu kullanım sunar. Sütyen Takım Modelleri size özel üretildi.",
+      "seo": {
+        "title": "Brodeli C Cup Ekru Sütyen Takım — KadınımGuzelim",
+        "description": "Brodeli C Cup Ekru Sütyen Takım zarif detayları ve toparlayıcı yapısıyla şık ve konforlu kullanım sunar. Sütyen Takım Modelleri size özel üretildi."
+      },
+      "tags": [
+        "brodeli",
+        "cup",
+        "ekru",
+        "sütyen",
+        "takım"
+      ],
+      "rating": {
+        "value": 4.6,
+        "count": 8
+      }
+    },
+    {
+      "id": "brodeli-c-cup-kirmizi-sutyen-takim",
+      "slug": "brodeli-c-cup-kirmizi-sutyen-takim",
+      "url": "product.html?p=brodeli-c-cup-kirmizi-sutyen-takim",
+      "title": "Brodeli C Cup Kırmızı Sütyen Takım",
+      "price": 817,
+      "category": "Sütyen",
+      "categories": [
+        "Sütyen"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/brodeli-c-cup-kirmizi-sutyen-takim-2e-83f.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/brodeli-c-cup-kirmizi-sutyen-takim-e-459e.jpg"
+      ],
+      "colors": [
+        "Kırmızı"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Brodeli C Cup Kırmızı Sütyen Takım zarif detayları ve toparlayıcı yapısıyla şık ve konforlu kullanım sunar. Sütyen Takım Modelleri size özel üretildi.",
+      "seo": {
+        "title": "Brodeli C Cup Kırmızı Sütyen Takım — KadınımGuzelim",
+        "description": "Brodeli C Cup Kırmızı Sütyen Takım zarif detayları ve toparlayıcı yapısıyla şık ve konforlu kullanım sunar. Sütyen Takım Modelleri size özel üretildi."
+      },
+      "tags": [
+        "brodeli",
+        "cup",
+        "kırmızı",
+        "sütyen",
+        "takım"
+      ],
+      "rating": {
+        "value": 4.6,
+        "count": 18
+      }
+    },
+    {
+      "id": "brodeli-c-cup-siyah-sutyen-takim",
+      "slug": "brodeli-c-cup-siyah-sutyen-takim",
+      "url": "product.html?p=brodeli-c-cup-siyah-sutyen-takim",
+      "title": "Brodeli C Cup Siyah Sütyen Takım",
+      "price": 817,
+      "category": "Sütyen",
+      "categories": [
+        "Sütyen"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/brodeli-c-cup-siyah-sutyen-takim-14-08f.jpg"
+      ],
+      "colors": [
+        "Siyah"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Brodeli C Cup Siyah Sütyen Takım zarif detayları ve toparlayıcı yapısıyla şık ve konforlu kullanım sunar. Sütyen Takım Modelleri size özel üretildi.",
+      "seo": {
+        "title": "Brodeli C Cup Siyah Sütyen Takım — KadınımGuzelim",
+        "description": "Brodeli C Cup Siyah Sütyen Takım zarif detayları ve toparlayıcı yapısıyla şık ve konforlu kullanım sunar. Sütyen Takım Modelleri size özel üretildi."
+      },
+      "tags": [
+        "brodeli",
+        "cup",
+        "siyah",
+        "sütyen",
+        "takım"
+      ],
+      "rating": {
+        "value": 4.7,
+        "count": 25
+      }
+    },
+    {
+      "id": "papatyali-mavi-desteksiz-sutyen-takim",
+      "slug": "papatyali-mavi-desteksiz-sutyen-takim",
+      "url": "product.html?p=papatyali-mavi-desteksiz-sutyen-takim",
+      "title": "Papatyalı Mavi Desteksiz Sütyen Takım",
+      "price": 817,
+      "category": "Sütyen",
+      "categories": [
+        "Sütyen"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/papatyali-mavi-desteksiz-sutyen-takim-4a932e.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/papatyali-mavi-desteksiz-sutyen-takim-1ac039.jpg"
+      ],
+      "colors": [
+        "Mavi"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Papatyalı Mavi Desteksiz Sütyen Takım zarif detayları ve toparlayıcı yapısıyla şık ve konforlu kullanım sunar. Sütyen Takım size özel üretildi.",
+      "seo": {
+        "title": "Papatyalı Mavi Desteksiz Sütyen Takım — KadınımGuzelim",
+        "description": "Papatyalı Mavi Desteksiz Sütyen Takım zarif detayları ve toparlayıcı yapısıyla şık ve konforlu kullanım sunar. Sütyen Takım size özel üretildi."
+      },
+      "tags": [
+        "papatyalı",
+        "mavi",
+        "desteksiz",
+        "sütyen",
+        "takım"
+      ],
+      "rating": {
+        "value": 4.8,
+        "count": 38
+      }
+    },
+    {
+      "id": "yesil-cicekli-desteksiz-sutyen-takim",
+      "slug": "yesil-cicekli-desteksiz-sutyen-takim",
+      "url": "product.html?p=yesil-cicekli-desteksiz-sutyen-takim",
+      "title": "Yeşil Çiçekli Desteksiz Sütyen Takım",
+      "price": 817,
+      "category": "Sütyen",
+      "categories": [
+        "Sütyen"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/yesil-cicekli-desteksiz-sutyen-takim-d88-ac.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/yesil-cicekli-desteksiz-sutyen-takim-2a-423.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/yesil-cicekli-desteksiz-sutyen-takim-b25397.jpg"
+      ],
+      "colors": [
+        "Yeşil"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Yeşil Çiçekli Desteksiz Sütyen Takım zarif detayları ve toparlayıcı yapısıyla şık ve konforlu kullanım sunar. Sütyen Takım size özel üretildi.",
+      "seo": {
+        "title": "Yeşil Çiçekli Desteksiz Sütyen Takım — KadınımGuzelim",
+        "description": "Yeşil Çiçekli Desteksiz Sütyen Takım zarif detayları ve toparlayıcı yapısıyla şık ve konforlu kullanım sunar. Sütyen Takım size özel üretildi."
+      },
+      "tags": [
+        "yeşil",
+        "çiçekli",
+        "desteksiz",
+        "sütyen",
+        "takım"
+      ],
+      "rating": {
+        "value": 4.8,
+        "count": 36
+      }
+    },
+    {
+      "id": "destekli-bustiyerli-pembe-sutyen-takim",
+      "slug": "destekli-bustiyerli-pembe-sutyen-takim",
+      "url": "product.html?p=destekli-bustiyerli-pembe-sutyen-takim",
+      "title": "Destekli Büstiyerli Pembe Sütyen Takım",
+      "price": 1181,
+      "category": "Sütyen",
+      "categories": [
+        "Sütyen",
+        "Body & Korse"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/destekli-bustiyerli-pembe-sutyen-takim--95f6-.jpg"
+      ],
+      "colors": [
+        "Pembe"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Destekli Büstiyerli Pembe Sütyen Takım toparlayıcı yapısı ve konforlu kumaşıyla gün boyu rahatlık sunar. Sütyen Takım size özel üretildi.",
+      "seo": {
+        "title": "Destekli Büstiyerli Pembe Sütyen Takım — KadınımGuzelim",
+        "description": "Destekli Büstiyerli Pembe Sütyen Takım toparlayıcı yapısı ve konforlu kumaşıyla gün boyu rahatlık sunar. Sütyen Takım size özel üretildi."
+      },
+      "tags": [
+        "destekli",
+        "büstiyerli",
+        "pembe",
+        "sütyen",
+        "takım"
+      ],
+      "rating": {
+        "value": 4.8,
+        "count": 38
+      }
+    },
+    {
+      "id": "bralet-lacivert-sutyen-takim",
+      "slug": "bralet-lacivert-sutyen-takim",
+      "url": "product.html?p=bralet-lacivert-sutyen-takim",
+      "title": "Bralet Lacivert Sütyen Takım",
+      "price": 726,
+      "category": "Sütyen",
+      "categories": [
+        "Sütyen"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/bralet-lacivert-sutyen-takim-0ac-9e.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/bralet-lacivert-sutyen-takim-c2-eba.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/bralet-lacivert-sutyen-takim-d44-8e.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/bralet-lacivert-sutyen-takim-038-9f.jpg"
+      ],
+      "colors": [
+        "Lacivert"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Bralet Lacivert Sütyen Takım hafif yapısı ve şık tasarımıyla konforlu ve zarif kullanım sunar. Sütyen Takım ile her an rahatlık yaşamalısınız.",
+      "seo": {
+        "title": "Bralet Lacivert Sütyen Takım — KadınımGuzelim",
+        "description": "Bralet Lacivert Sütyen Takım hafif yapısı ve şık tasarımıyla konforlu ve zarif kullanım sunar. Sütyen Takım ile her an rahatlık yaşamalısınız."
+      },
+      "tags": [
+        "bralet",
+        "lacivert",
+        "sütyen",
+        "takım"
+      ],
+      "rating": {
+        "value": 4.9,
+        "count": 27
+      }
+    },
+    {
+      "id": "seffaf-askili-destekli-sutyen",
+      "slug": "seffaf-askili-destekli-sutyen",
+      "url": "product.html?p=seffaf-askili-destekli-sutyen",
+      "title": "Şeffaf Askılı Destekli Sütyen",
+      "price": 481,
+      "category": "Sütyen",
+      "categories": [
+        "Sütyen"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/seffaf-askili-destekli-sutyen-af-596.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/seffaf-askili-destekli-sutyen-e-010d.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [
+        "Ayarlanabilir Askı"
+      ],
+      "description": "Şeffaf Askılı Destekli Sütyen esnek yapısı ve destekleyici tasarımıyla gün boyu rahatlık sağlar. Destekli Sütyen ile daha dolgulu bir görünüm.",
+      "seo": {
+        "title": "Şeffaf Askılı Destekli Sütyen — KadınımGuzelim",
+        "description": "Şeffaf Askılı Destekli Sütyen esnek yapısı ve destekleyici tasarımıyla gün boyu rahatlık sağlar. Destekli Sütyen ile daha dolgulu bir görünüm."
+      },
+      "tags": [
+        "şeffaf",
+        "askılı",
+        "destekli",
+        "sütyen"
+      ],
+      "rating": {
+        "value": 4.8,
+        "count": 38
+      }
+    },
+    {
+      "id": "jasmin-desteksiz-sutyen",
+      "slug": "jasmin-desteksiz-sutyen",
+      "url": "product.html?p=jasmin-desteksiz-sutyen",
+      "title": "Jasmin Desteksiz Sütyen",
+      "price": 635,
+      "category": "Sütyen",
+      "categories": [
+        "Sütyen"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/jasmin-desteksiz-sutyen-cb4-4d.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/jasmin-desteksiz-sutyen-c-b659.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/jasmin-desteksiz-sutyen-6-cd2e.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Düşük",
+        "dantel": "Yok",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [],
+      "description": "Jasmin Desteksiz Sütyen doğal görünüm sunan hafif yapısı ile gün boyu konfor sağlar. Desteksiz Sütyen Modelleri gün boyu rahatlık yaşayın.",
+      "seo": {
+        "title": "Jasmin Desteksiz Sütyen — KadınımGuzelim",
+        "description": "Jasmin Desteksiz Sütyen doğal görünüm sunan hafif yapısı ile gün boyu konfor sağlar. Desteksiz Sütyen Modelleri gün boyu rahatlık yaşayın."
+      },
+      "tags": [
+        "jasmin",
+        "desteksiz",
+        "sütyen"
+      ],
+      "rating": {
+        "value": 4.6,
+        "count": 10
+      }
+    },
+    {
+      "id": "dantelli-toparlayici-sutyen",
+      "slug": "dantelli-toparlayici-sutyen",
+      "url": "product.html?p=dantelli-toparlayici-sutyen",
+      "title": "Dantelli Toparlayıcı Sütyen",
+      "price": 545,
+      "category": "Sütyen",
+      "categories": [
+        "Sütyen"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/dantelli-toparlayici-sutyen-8e4e-7.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/dantelli-toparlayici-sutyen-9197b-.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/dantelli-toparlayici-sutyen-4dcea6.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/dantelli-toparlayici-sutyen-62ac5-.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Orta",
+        "dantel": "Dantel Detaylı",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [
+        "Dantel Detayı"
+      ],
+      "description": "Dantelli Toparlayıcı Sütyen göğüsleri şekillendirerek daha dik ve pürüzsüz bir görünüm sunar. Toparlayıcı Sütyen ile istemiş olduğunuz güzellik.",
+      "seo": {
+        "title": "Dantelli Toparlayıcı Sütyen — KadınımGuzelim",
+        "description": "Dantelli Toparlayıcı Sütyen göğüsleri şekillendirerek daha dik ve pürüzsüz bir görünüm sunar. Toparlayıcı Sütyen ile istemiş olduğunuz güzellik."
+      },
+      "tags": [
+        "dantelli",
+        "toparlayıcı",
+        "sütyen"
+      ],
+      "rating": {
+        "value": 4.8,
+        "count": 30
+      }
+    },
+    {
+      "id": "dantelli-bralet-fantazi-beyaz-jartiyer-takim",
+      "slug": "dantelli-bralet-fantazi-beyaz-jartiyer-takim",
+      "url": "product.html?p=dantelli-bralet-fantazi-beyaz-jartiyer-takim",
+      "title": "Dantelli Bralet Fantazi Beyaz Jartiyer Takım",
+      "price": 635,
+      "category": "Fantazi",
+      "categories": [
+        "Fantazi",
+        "Sütyen"
+      ],
+      "images": [
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/dantelli-bralet-fantazi-beyaz-jartiyer-64288f.jpg",
+        "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/dantelli-bralet-fantazi-beyaz-jartiyer--4472-.jpg"
+      ],
+      "colors": [
+        "Standart"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "2XL/3XL"
+      ],
+      "fabric": {
+        "doku": "Yumuşak Dokuma",
+        "esneklik": "Orta",
+        "transparanlik": "Orta",
+        "dantel": "Dantel Detaylı",
+        "kalip": "Rahat Kalıp",
+        "icerik": "Karışım kumaş"
+      },
+      "callouts": [
+        "Dantel Detayı"
+      ],
+      "description": "Dantelli Bralet Fantazi Beyaz Jartiyer Takım feminen görünümü ve seksi yapısıyla özel anlar için üretildi. Fantazi Jartiyer ile gecenize renk katın.",
+      "seo": {
+        "title": "Dantelli Bralet Fantazi Beyaz Jartiyer Takım — KadınımGuzelim",
+        "description": "Dantelli Bralet Fantazi Beyaz Jartiyer Takım feminen görünümü ve seksi yapısıyla özel anlar için üretildi. Fantazi Jartiyer ile gecenize renk katın."
+      },
+      "tags": [
+        "dantelli",
+        "bralet",
+        "fantazi",
+        "beyaz",
+        "jartiyer",
+        "takım"
+      ],
+      "rating": {
+        "value": 4.6,
+        "count": 38
+      }
+    }
+  ]
+}
