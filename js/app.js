@@ -23,6 +23,35 @@ function unlockScroll() {
   window.scrollTo(0, savedScrollY);
 }
 
+// Light haptic feedback (Android/Chrome; no-op where unsupported, e.g. iOS Safari).
+function haptic(ms) {
+  if (navigator.vibrate) { try { navigator.vibrate(ms || 8); } catch (e) {} }
+}
+
+// ── Size guide bottom sheet ──────────────────────────────────────────────────
+function openSizeSheet() {
+  const o = document.getElementById('sizeSheetOverlay');
+  const s = document.getElementById('sizeSheet');
+  if (!s) return;
+  s.classList.add('active');
+  if (o) o.classList.add('active');
+  lockScroll();
+  haptic(10);
+}
+function closeSizeSheet() {
+  const o = document.getElementById('sizeSheetOverlay');
+  const s = document.getElementById('sizeSheet');
+  if (!s) return;
+  s.classList.remove('active');
+  if (o) o.classList.remove('active');
+  unlockScroll();
+}
+document.addEventListener('keydown', (e) => {
+  if (e.key !== 'Escape') return;
+  const s = document.getElementById('sizeSheet');
+  if (s && s.classList.contains('active')) closeSizeSheet();
+});
+
 // ── Toast ───────────────────────────────────────────────────────────────────
 function showToast(message) {
   let toast = document.getElementById('demoToast');
@@ -53,6 +82,7 @@ function toggleMobileNav() {
     nav.classList.add('active');
     if (overlay) overlay.classList.add('active');
     lockScroll();
+    haptic(10);
   }
 }
 
@@ -407,6 +437,7 @@ function initFullscreenGallery() {
     render();
     fs.classList.add('open');
     lockScroll();
+    haptic(10);
     if (tip && window.matchMedia('(pointer: coarse)').matches) {
       tip.classList.add('show');
       setTimeout(() => tip.classList.remove('show'), 2800);
@@ -471,6 +502,7 @@ function initFullscreenGallery() {
       const now = Date.now();
       if (now - lastTap < 300 && Math.abs(t.clientX - tapX) < 30 && Math.abs(t.clientY - tapY) < 30) {
         if (scale > 1) resetZoom(true); else zoomToPoint(t.clientX, t.clientY, DBL_ZOOM);
+        haptic(8);
         mode = 'done'; lastTap = 0; e.preventDefault(); return;
       }
       lastTap = now; tapX = t.clientX; tapY = t.clientY;
@@ -494,10 +526,14 @@ function initFullscreenGallery() {
   }, { passive: false });
 
   img.addEventListener('touchend', (e) => {
-    if (mode === 'swipe' && !single) {
+    if (mode === 'swipe') {
       const dx = e.changedTouches[0].clientX - startX;
       const dy = e.changedTouches[0].clientY - startY;
-      if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy)) go(idx + (dx < 0 ? 1 : -1));
+      if (dy > 90 && dy > Math.abs(dx)) {
+        haptic(12); close();                       // swipe down to dismiss
+      } else if (!single && Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy)) {
+        haptic(8); go(idx + (dx < 0 ? 1 : -1));
+      }
     }
     if (mode === 'pinch' && scale < 1.05) resetZoom(true);
     if (e.touches.length === 0) mode = null;

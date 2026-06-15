@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=20260615c">
+  <link rel="stylesheet" href="css/style.css?v=20260615d">
 </head>
 <body>
 
@@ -131,7 +131,7 @@
             <button class="size-btn">L/XL</button>
             <button class="size-btn">2XL/3XL</button>
           </div>
-          <a href="#" class="text-sm text-rose mt-sm block">Beden Rehberi →</a>
+          <a href="#" class="text-sm text-rose mt-sm block" onclick="openSizeSheet(); return false;">Beden Rehberi →</a>
         </div>
 
         <!-- Quantity -->
@@ -312,6 +312,24 @@
     <button class="btn btn--primary" id="stickyAdd">SEPETE EKLE — 549 ₺</button>
   </div>
 
+  <!-- SIZE GUIDE BOTTOM SHEET -->
+  <div class="sheet-overlay" id="sizeSheetOverlay" onclick="closeSizeSheet()"></div>
+  <div class="sheet" id="sizeSheet" role="dialog" aria-modal="true" aria-label="Beden Rehberi">
+    <button class="sheet-close" onclick="closeSizeSheet()" aria-label="Kapat" type="button">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+    </button>
+    <h3 class="sheet-title">Beden Rehberi</h3>
+    <table>
+      <thead><tr><th>Beden</th><th>Göğüs (cm)</th><th>Bel (cm)</th><th>Basen (cm)</th></tr></thead>
+      <tbody>
+        <tr><td>S/M</td><td>82-90</td><td>64-72</td><td>90-98</td></tr>
+        <tr><td>L/XL</td><td>90-98</td><td>72-80</td><td>98-106</td></tr>
+        <tr><td>2XL/3XL</td><td>98-110</td><td>80-92</td><td>106-118</td></tr>
+      </tbody>
+    </table>
+    <p class="fit-note">Kalıp normaldir. İki beden arasındaysanız bir üst bedeni tercih etmenizi öneririz. Ölçüler yaklaşıktır — vücut ölçünüzü mezura ile alıp tablodan seçin.</p>
+  </div>
+
   <!-- FOOTER -->
   <footer class="site-footer bg-dark text-white" style="padding-bottom: 100px;">
     <div class="container">
@@ -359,6 +377,6 @@
     </div>
   </footer>
 
-  <script src="js/app.js?v=20260615c"></script>
+  <script src="js/app.js?v=20260615d"></script>
 </body>
 </html>
