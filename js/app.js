@@ -350,11 +350,14 @@ function initFullscreenGallery() {
       '<img class="fs-gallery__img" alt="">' +
       '<button class="fs-gallery__nav fs-gallery__nav--next" aria-label="Sonraki" type="button">' +
         '<svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"></polyline></svg></button>' +
+      '<div class="fs-gallery__tip">Çift dokun veya parmaklarını aç — kumaşı yakından incele</div>' +
     '</div>' +
     '<div class="fs-gallery__dots"></div>';
   document.body.appendChild(fs);
 
   const img = fs.querySelector('.fs-gallery__img');
+  const stage = fs.querySelector('.fs-gallery__stage');
+  const tip = fs.querySelector('.fs-gallery__tip');
   const dotsWrap = fs.querySelector('.fs-gallery__dots');
   const prevBtn = fs.querySelector('.fs-gallery__nav--prev');
   const nextBtn = fs.querySelector('.fs-gallery__nav--next');
@@ -380,14 +383,24 @@ function initFullscreenGallery() {
     img.src = slides[idx].src;
     img.alt = slides[idx].alt;
     dots.forEach((d, i) => d.classList.toggle('active', i === idx));
+    resetZoom(false);
   }
   function go(i) { idx = (i + slides.length) % slides.length; render(); }
   function currentMainIndex() {
     const i = slides.findIndex(s => s.src === mainImg.src);
     return i < 0 ? 0 : i;
   }
-  function open() { idx = currentMainIndex(); render(); fs.classList.add('open'); lockScroll(); }
-  function close() { fs.classList.remove('open'); unlockScroll(); }
+  function open() {
+    idx = currentMainIndex();
+    render();
+    fs.classList.add('open');
+    lockScroll();
+    if (tip && window.matchMedia('(pointer: coarse)').matches) {
+      tip.classList.add('show');
+      setTimeout(() => tip.classList.remove('show'), 2800);
+    }
+  }
+  function close() { fs.classList.remove('open'); unlockScroll(); resetZoom(false); }
 
   main.addEventListener('click', (e) => {
     if (e.target.closest('.callout-dot')) return; // dots handle their own taps
@@ -406,14 +419,76 @@ function initFullscreenGallery() {
     else if (e.key === 'ArrowRight' && !single) go(idx + 1);
   });
 
-  // Swipe (mobile)
-  let sx = 0;
-  fs.addEventListener('touchstart', (e) => { sx = e.touches[0].clientX; }, { passive: true });
-  fs.addEventListener('touchend', (e) => {
-    if (single) return;
-    const dx = e.changedTouches[0].clientX - sx;
-    if (Math.abs(dx) > 40) go(idx + (dx < 0 ? 1 : -1));
-  });
+  // ── Gesture engine: pinch-zoom · double-tap · pan · smart swipe ────────────
+  let scale = 1, tx = 0, ty = 0;
+  const ZOOM_MAX = 4, DBL_ZOOM = 2.6;
+  let mode = null, startX = 0, startY = 0, lastX = 0, lastY = 0;
+  let pinchDist0 = 0, pinchScale0 = 1, lastTap = 0, tapX = 0, tapY = 0;
+
+  function applyTransform(animate) {
+    img.style.transition = animate ? 'transform 220ms ease' : 'none';
+    img.style.transform = 'translate(' + tx + 'px,' + ty + 'px) scale(' + scale + ')';
+  }
+  function clampPan() {
+    const sr = stage.getBoundingClientRect();
+    const ir = img.getBoundingClientRect();
+    const overX = Math.max(0, (ir.width - sr.width) / 2);
+    const overY = Math.max(0, (ir.height - sr.height) / 2);
+    tx = Math.max(-overX, Math.min(overX, tx));
+    ty = Math.max(-overY, Math.min(overY, ty));
+  }
+  function resetZoom(animate) { scale = 1; tx = 0; ty = 0; applyTransform(animate); }
+  function zoomToPoint(px, py, z) {
+    const sr = stage.getBoundingClientRect();
+    const dx = px - (sr.left + sr.width / 2);
+    const dy = py - (sr.top + sr.height / 2);
+    scale = z; tx = -(z - 1) * dx; ty = -(z - 1) * dy;
+    clampPan(); applyTransform(true);
+  }
+  function touchDist(t) { return Math.hypot(t[0].clientX - t[1].clientX, t[0].clientY - t[1].clientY); }
+
+  img.addEventListener('touchstart', (e) => {
+    if (tip) tip.classList.remove('show');
+    if (e.touches.length === 2) {
+      mode = 'pinch'; pinchDist0 = touchDist(e.touches); pinchScale0 = scale;
+      e.preventDefault();
+    } else if (e.touches.length === 1) {
+      const t = e.touches[0];
+      startX = lastX = t.clientX; startY = lastY = t.clientY;
+      const now = Date.now();
+      if (now - lastTap < 300 && Math.abs(t.clientX - tapX) < 30 && Math.abs(t.clientY - tapY) < 30) {
+        if (scale > 1) resetZoom(true); else zoomToPoint(t.clientX, t.clientY, DBL_ZOOM);
+        mode = 'done'; lastTap = 0; e.preventDefault(); return;
+      }
+      lastTap = now; tapX = t.clientX; tapY = t.clientY;
+      mode = scale > 1 ? 'pan' : 'swipe';
+    }
+  }, { passive: false });
+
+  img.addEventListener('touchmove', (e) => {
+    if (mode === 'pinch' && e.touches.length >= 2) {
+      e.preventDefault();
+      scale = Math.max(1, Math.min(ZOOM_MAX, pinchScale0 * (touchDist(e.touches) / pinchDist0)));
+      if (scale === 1) { tx = 0; ty = 0; }
+      applyTransform(false); clampPan(); applyTransform(false);
+    } else if (mode === 'pan' && e.touches.length === 1) {
+      e.preventDefault();
+      const t = e.touches[0];
+      tx += t.clientX - lastX; ty += t.clientY - lastY;
+      lastX = t.clientX; lastY = t.clientY;
+      applyTransform(false); clampPan(); applyTransform(false);
+    }
+  }, { passive: false });
+
+  img.addEventListener('touchend', (e) => {
+    if (mode === 'swipe' && !single) {
+      const dx = e.changedTouches[0].clientX - startX;
+      const dy = e.changedTouches[0].clientY - startY;
+      if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy)) go(idx + (dx < 0 ? 1 : -1));
+    }
+    if (mode === 'pinch' && scale < 1.05) resetZoom(true);
+    if (e.touches.length === 0) mode = null;
+  }, { passive: false });
 }
 
 // ── Detail callout layer ─────────────────────────────────────────────────────

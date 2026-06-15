@@ -1444,3 +1444,29 @@ button:focus-visible {
   .product-gallery__main { cursor: pointer; }
   .zoom-lens, .zoom-panel { display: none !important; }
 }
+
+/* ── Fullscreen gesture zoom (pinch · double-tap · pan) ──────────────────────── */
+.fs-gallery__stage { touch-action: none; }
+.fs-gallery__img {
+  transform-origin: center center;
+  will-change: transform;
+  transform: translate(0, 0) scale(1);
+}
+.fs-gallery__tip {
+  position: absolute;
+  bottom: 16px; left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255,255,255,0.16);
+  color: #fff;
+  font-family: var(--font-ui);
+  font-size: 11px; letter-spacing: 0.02em;
+  padding: 8px 14px;
+  border-radius: 999px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 250ms ease;
+  z-index: 2;
+}
+.fs-gallery__tip.show { opacity: 1; }
+@media (hover: hover) and (pointer: fine) { .fs-gallery__tip { display: none; } }
