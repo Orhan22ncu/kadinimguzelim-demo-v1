@@ -1532,3 +1532,30 @@ button:focus-visible {
 /* ── Mobile: kill any horizontal page panning from off-canvas overlays ───────── */
 html, body { overflow-x: hidden; }
 body { max-width: 100%; }
+
+/* ── Inline swipeable gallery (mobile) ──────────────────────────────────────── */
+.inline-dots {
+  display: flex; justify-content: center; gap: 7px;
+  margin-top: var(--space-sm);
+}
+.inline-dots button {
+  width: 7px; height: 7px;
+  padding: 0; border: none;
+  border-radius: 50%;
+  background: var(--color-gray-light);
+  cursor: pointer;
+  transition: background var(--transition-fast), width var(--transition-fast);
+}
+.inline-dots button.active {
+  width: 18px; border-radius: 4px;
+  background: var(--color-dark);
+}
+@media (min-width: 768px) {
+  .inline-dots { display: none; }   /* desktop uses the thumb strip */
+}
+@media (max-width: 767px) {
+  .product-gallery__thumbs { display: none; } /* mobile uses swipe + dots */
+}
+
+/* Sticky add button: keep the live variant label on one line */
+.sticky-cta .btn--primary { white-space: nowrap; }

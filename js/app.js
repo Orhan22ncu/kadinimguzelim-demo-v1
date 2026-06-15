@@ -86,6 +86,7 @@ function changeImage(thumb) {
     img.classList.remove('active');
   });
   thumb.classList.add('active');
+  if (window.__syncInlineDots) window.__syncInlineDots();
 }
 
 // ── Quantity ────────────────────────────────────────────────────────────────
@@ -254,12 +255,22 @@ const PRODUCT_CALLOUTS = [
   { x: 46, y: 88, label: 'Düşük Transparanlık' }
 ];
 
+// Crisp variant for fullscreen pinch-zoom (loaded on demand, not on page load).
+function galleryHiRes(src) {
+  if (!/\/cdn-cgi\/image\//.test(src)) return src;
+  return src.replace(/\/cdn-cgi\/image\/[^/]+\//, '/cdn-cgi/image/width=1600,quality=88/');
+}
+// Path without the CDN transform segment — used to match images across sizes.
+function galleryBasePath(src) {
+  return src.replace(/\/cdn-cgi\/image\/[^/]+\//, '/');
+}
+
 function getGallerySlides() {
   const thumbs = document.querySelectorAll('.product-gallery__thumbs img');
-  const slides = [...thumbs].map(t => ({ src: t.src, alt: t.alt || '' }));
+  const slides = [...thumbs].map(t => ({ src: galleryHiRes(t.src), alt: t.alt || '' }));
   if (slides.length === 0) {
     const main = document.getElementById('mainImage');
-    if (main) slides.push({ src: main.src, alt: main.alt || '' });
+    if (main) slides.push({ src: galleryHiRes(main.src), alt: main.alt || '' });
   }
   return slides;
 }
@@ -387,7 +398,8 @@ function initFullscreenGallery() {
   }
   function go(i) { idx = (i + slides.length) % slides.length; render(); }
   function currentMainIndex() {
-    const i = slides.findIndex(s => s.src === mainImg.src);
+    const cur = galleryBasePath(mainImg.src);
+    const i = slides.findIndex(s => galleryBasePath(s.src) === cur);
     return i < 0 ? 0 : i;
   }
   function open() {
@@ -404,6 +416,7 @@ function initFullscreenGallery() {
 
   main.addEventListener('click', (e) => {
     if (e.target.closest('.callout-dot')) return; // dots handle their own taps
+    if (main.dataset.noFs) { delete main.dataset.noFs; return; } // a swipe just happened
     open();
   });
   closeBtn.addEventListener('click', close);
@@ -551,12 +564,96 @@ function initMotion() {
   }, true); // capture: runs before the fullscreen open handler
 }
 
+// ── Inline swipeable gallery + dots (mobile) ─────────────────────────────────
+function initInlineGallery() {
+  const main = document.querySelector('.product-gallery__main');
+  const mainImg = document.getElementById('mainImage');
+  if (!main || !mainImg) return;
+  const thumbs = [...document.querySelectorAll('.product-gallery__thumbs img')];
+  if (thumbs.length <= 1) return;
+
+  const dots = document.createElement('div');
+  dots.className = 'inline-dots';
+  thumbs.forEach((t, i) => {
+    const b = document.createElement('button');
+    b.type = 'button';
+    b.setAttribute('aria-label', (i + 1) + '. görsel');
+    b.addEventListener('click', () => select(i));
+    dots.appendChild(b);
+  });
+  main.insertAdjacentElement('afterend', dots); // sits above the (mobile-hidden) thumb strip
+  const dotEls = [...dots.children];
+
+  function currentIndex() {
+    const i = thumbs.findIndex(t => t.classList.contains('active'));
+    return i < 0 ? 0 : i;
+  }
+  function syncDots() {
+    const ci = currentIndex();
+    dotEls.forEach((d, i) => d.classList.toggle('active', i === ci));
+  }
+  function select(i) {
+    changeImage(thumbs[(i + thumbs.length) % thumbs.length]); // reuses src/alt + active logic
+    syncDots();
+  }
+  window.__syncInlineDots = syncDots;
+  syncDots();
+
+  // Swipe to change image; a tap (minimal movement) still opens fullscreen.
+  let sx = 0, sy = 0;
+  main.addEventListener('touchstart', (e) => {
+    if (e.touches.length !== 1) return;
+    sx = e.touches[0].clientX; sy = e.touches[0].clientY;
+  }, { passive: true });
+  main.addEventListener('touchend', (e) => {
+    if (main.classList.contains('motion') || e.changedTouches.length !== 1) return;
+    const dx = e.changedTouches[0].clientX - sx;
+    const dy = e.changedTouches[0].clientY - sy;
+    if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy)) {
+      select(currentIndex() + (dx < 0 ? 1 : -1));
+      main.dataset.noFs = '1'; // suppress the fullscreen click that follows a swipe
+      setTimeout(() => { delete main.dataset.noFs; }, 400);
+    }
+  }, { passive: true });
+}
+
+// ── Sticky CTA reflects the selected size/colour (+ size guard) ──────────────
+function initStickyVariant() {
+  const add = document.getElementById('stickyAdd');
+  if (!add) return;
+
+  function update() {
+    const size = document.querySelector('.size-btn.active');
+    const color = document.querySelector('.swatch.active');
+    const parts = ['SEPETE EKLE'];
+    if (size) parts.push(size.textContent.trim());
+    if (color && color.getAttribute('title')) parts.push(color.getAttribute('title'));
+    add.textContent = parts.join(' · ');
+  }
+  // Run after the existing handlers toggle .active (later listener = later in turn).
+  document.querySelectorAll('.size-btn, .swatch').forEach(el =>
+    el.addEventListener('click', update));
+
+  add.addEventListener('click', (e) => {
+    if (!document.querySelector('.size-btn.active')) {
+      e.preventDefault();
+      const sizes = document.querySelector('.size-options');
+      if (sizes) sizes.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      showToast('Lütfen bir beden seçin');
+    }
+  });
+
+  update();
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   if (!document.querySelector('.product-gallery')) return;
   initCallouts();        // before zoom so layer sits under lens interactions cleanly
   initPremiumZoom();
   initFullscreenGallery();
   initMotion();
+  initInlineGallery();
+  initStickyVariant();
 });
 
 /* ── Blur-up (LQIP) progressive image loading ────────────────────────────────
