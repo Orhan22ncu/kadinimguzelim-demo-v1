@@ -737,8 +737,16 @@ document.addEventListener('DOMContentLoaded', () => {
    ═════════════════════════════════════════════════════════════════════════════ */
 const CART_KEY = 'kg_cart_v1';
 
-function cartRead() { try { return JSON.parse(localStorage.getItem(CART_KEY)) || []; } catch (e) { return []; } }
-function cartWrite(items) { localStorage.setItem(CART_KEY, JSON.stringify(items)); cartRefresh(); }
+let cartMemory = null; // fallback when localStorage is unavailable (private mode, etc.)
+function cartRead() {
+  try { const v = localStorage.getItem(CART_KEY); return v ? JSON.parse(v) : (cartMemory || []); }
+  catch (e) { return cartMemory || []; }
+}
+function cartWrite(items) {
+  cartMemory = items;
+  try { localStorage.setItem(CART_KEY, JSON.stringify(items)); } catch (e) { /* private mode: keep in-memory */ }
+  cartRefresh();
+}
 function cartCount() { return cartRead().reduce((n, i) => n + i.qty, 0); }
 function cartTotal() { return cartRead().reduce((n, i) => n + i.price * i.qty, 0); }
 function formatTRY(n) { return n.toLocaleString('tr-TR') + ' ₺'; }
