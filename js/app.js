@@ -957,7 +957,7 @@ function buildCartUI() {
     '<div class="cart-drawer__head"><h3>Sepetim</h3>' +
     '<button class="cart-close" aria-label="Kapat" type="button"><svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></button></div>' +
     '<div class="cart-items"></div>' +
-    '<div class="cart-drawer__foot"><div class="cart-total"><span class="label">Toplam</span><span class="value cart-total-value">0 ₺</span></div>' +
+    '<div class="cart-drawer__foot"><div class="cart-ship"></div><div class="cart-total"><span class="label">Toplam</span><span class="value cart-total-value">0 ₺</span></div>' +
     '<button class="btn btn--primary cart-checkout" type="button" style="width:100%;">Sepeti Onayla</button></div>';
   document.body.appendChild(overlay);
   document.body.appendChild(drawer);
@@ -967,8 +967,21 @@ function buildCartUI() {
   drawer.querySelector('.cart-checkout').addEventListener('click', () => showToast('Demo: sipariş akışı yakında aktif olacak'));
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && drawer.classList.contains('active')) closeCart(); });
 
-  cartUI = { overlay, drawer, items: drawer.querySelector('.cart-items'), total: drawer.querySelector('.cart-total-value') };
+  cartUI = { overlay, drawer, items: drawer.querySelector('.cart-items'), total: drawer.querySelector('.cart-total-value'), ship: drawer.querySelector('.cart-ship') };
   return cartUI;
+}
+
+const FREE_SHIP = 150;
+function renderShipBar(ui) {
+  if (!ui.ship) return;
+  const total = cartTotal();
+  if (total <= 0) { ui.ship.innerHTML = ''; return; }
+  if (total >= FREE_SHIP) {
+    ui.ship.innerHTML = '<div class="ship-msg done">🎉 Ücretsiz kargoya hak kazandınız!</div><div class="ship-bar"><span style="width:100%"></span></div>';
+  } else {
+    const pct = Math.round(total / FREE_SHIP * 100);
+    ui.ship.innerHTML = '<div class="ship-msg">Ücretsiz kargoya <strong>' + formatTRY(FREE_SHIP - total) + '</strong> kaldı</div><div class="ship-bar"><span style="width:' + pct + '%"></span></div>';
+  }
 }
 
 function renderCart() {
@@ -1003,9 +1016,10 @@ function renderCart() {
     });
   }
   ui.total.textContent = formatTRY(cartTotal());
+  renderShipBar(ui);
 }
 
-function openCart() { const ui = buildCartUI(); renderCart(); ui.overlay.classList.add('active'); ui.drawer.classList.add('active'); lockScroll(); haptic(10); }
+function openCart() { if (typeof favUI !== 'undefined' && favUI) { favUI.ov.classList.remove('active'); favUI.dr.classList.remove('active'); } const ui = buildCartUI(); renderCart(); ui.overlay.classList.add('active'); ui.drawer.classList.add('active'); lockScroll(); haptic(10); }
 function closeCart() { if (!cartUI) return; cartUI.overlay.classList.remove('active'); cartUI.drawer.classList.remove('active'); unlockScroll(); }
 
 function cartRefresh() {
@@ -1089,3 +1103,96 @@ document.addEventListener('DOMContentLoaded', () => {
 
   cartRefresh();
 });
+
+/* ═════════════════════════════════════════════════════════════════════════════
+   HOME FEATURED + FAVORITES (wishlist)
+   ═════════════════════════════════════════════════════════════════════════════ */
+function homeCardHTML(it) {
+  return '<a href="product.html?p=' + encodeURIComponent(it.slug) + '&c=' + it.c + '" class="product-card">' +
+    '<div class="product-card__image" style="aspect-ratio:3/4;"><img src="' + it.image + '" alt="' + escapeHtml(it.title) + '" loading="lazy"></div>' +
+    '<p class="product-card__name">' + escapeHtml(it.title) + '</p>' +
+    '<p class="product-card__price">' + priceMarkup(it.price, it.slug) + '</p></a>';
+}
+async function initHome() {
+  const elNew = document.getElementById('homeNew'), elLoved = document.getElementById('homeLoved');
+  if (!elNew && !elLoved) return;
+  const data = await loadJSON('feeds/featured.json');
+  if (!data) return;
+  if (elNew && data['new']) elNew.innerHTML = data['new'].map(homeCardHTML).join('');
+  if (elLoved && data.loved) elLoved.innerHTML = data.loved.map(homeCardHTML).join('');
+}
+
+// ── Favorites (localStorage) ─────────────────────────────────────────────────
+const FAV_KEY = 'kg_fav_v1';
+let favMem = null;
+function favRead() { try { const v = localStorage.getItem(FAV_KEY); return v ? JSON.parse(v) : (favMem || []); } catch (e) { return favMem || []; } }
+function favWrite(a) { favMem = a; try { localStorage.setItem(FAV_KEY, JSON.stringify(a)); } catch (e) {} favRefresh(); }
+function favHas(slug) { return favRead().some(f => f.slug === slug); }
+function favToggle(it) {
+  const a = favRead(); const i = a.findIndex(f => f.slug === it.slug);
+  if (i >= 0) { a.splice(i, 1); showToast('Favorilerden çıkarıldı'); }
+  else { a.push(it); showToast('Favorilere eklendi'); haptic(10); }
+  favWrite(a);
+}
+
+let favUI = null;
+function buildFavUI() {
+  if (favUI) return favUI;
+  const ov = document.createElement('div'); ov.className = 'cart-overlay';
+  const dr = document.createElement('aside'); dr.className = 'cart-drawer'; dr.setAttribute('role', 'dialog'); dr.setAttribute('aria-label', 'Favorilerim');
+  dr.innerHTML = '<div class="cart-drawer__head"><h3>Favorilerim</h3><button class="cart-close" type="button" aria-label="Kapat"><svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></button></div><div class="cart-items"></div>';
+  document.body.appendChild(ov); document.body.appendChild(dr);
+  ov.addEventListener('click', closeFav);
+  dr.querySelector('.cart-close').addEventListener('click', closeFav);
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && dr.classList.contains('active')) closeFav(); });
+  favUI = { ov, dr, items: dr.querySelector('.cart-items') };
+  return favUI;
+}
+function renderFav() {
+  const ui = buildFavUI(); const a = favRead();
+  ui.items.innerHTML = a.length ? a.map(f =>
+    '<div class="cart-item">' + (f.image ? '<img src="' + f.image + '" alt="">' : '') +
+    '<div class="cart-item__body"><p class="cart-item__title">' + escapeHtml(f.title) + '</p>' +
+    '<p class="cart-item__price">' + formatTRY(f.price) + '</p>' +
+    '<div class="cart-item__row"><a class="cart-item__remove" style="color:var(--color-rose);" href="product.html?p=' + encodeURIComponent(f.slug) + '&c=' + (f.c || '') + '">Ürüne git →</a>' +
+    '<button class="cart-item__remove" type="button" data-slug="' + escapeHtml(f.slug) + '">Kaldır</button></div></div></div>').join('')
+    : '<p class="cart-empty">Henüz favoriniz yok. Beğendiklerinizi ♥ ile kaydedin.</p>';
+  ui.items.querySelectorAll('button[data-slug]').forEach(b => b.addEventListener('click', () => { favWrite(favRead().filter(f => f.slug !== b.dataset.slug)); renderFav(); }));
+}
+function openFav() { if (cartUI) { cartUI.overlay.classList.remove('active'); cartUI.drawer.classList.remove('active'); } const ui = buildFavUI(); renderFav(); ui.ov.classList.add('active'); ui.dr.classList.add('active'); lockScroll(); haptic(8); }
+function closeFav() { if (favUI) { favUI.ov.classList.remove('active'); favUI.dr.classList.remove('active'); unlockScroll(); } }
+function favRefresh() {
+  const b = document.querySelector('.fav-badge'); const c = favRead().length;
+  if (b) { b.textContent = c; b.classList.toggle('hidden', c === 0); }
+  if (favUI && favUI.dr.classList.contains('active')) renderFav();
+}
+
+function currentProductForFav() {
+  const params = new URLSearchParams(location.search);
+  const title = (document.querySelector('.product-info h1') || {}).textContent;
+  const t = title ? title.trim() : 'Ürün';
+  const priceEl = document.querySelector('.product-info .text-2xl .price-now') || document.querySelector('.product-info .text-2xl');
+  const price = priceEl ? (parseInt(priceEl.textContent.replace(/[^\d]/g, ''), 10) || 0) : 0;
+  const image = (document.getElementById('mainImage') || {}).src || '';
+  return { slug: params.get('p') || slugify(t), title: t, price, image, c: params.get('c') || '' };
+}
+
+function initFavorites() {
+  const icons = document.querySelector('.header-icons');
+  const cartIcon = icons && icons.querySelector('a[aria-label="Sepet"]');
+  if (icons && cartIcon && !icons.querySelector('.fav-icon')) {
+    const a = document.createElement('a');
+    a.href = '#'; a.className = 'fav-icon'; a.setAttribute('aria-label', 'Favorilerim');
+    a.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true" style="stroke:currentColor;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round;"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg><span class="fav-badge hidden">0</span>';
+    icons.insertBefore(a, cartIcon);
+    a.addEventListener('click', (e) => { e.preventDefault(); e.stopImmediatePropagation(); openFav(); }, true);
+  }
+  if (document.querySelector('.product-gallery')) {
+    [...document.querySelectorAll('.product-info__cta .btn--outline, .sticky-cta .btn--heart')].forEach(btn => {
+      btn.addEventListener('click', (e) => { e.preventDefault(); e.stopImmediatePropagation(); favToggle(currentProductForFav()); }, true);
+    });
+  }
+  favRefresh();
+}
+
+document.addEventListener('DOMContentLoaded', () => { initHome(); initFavorites(); });

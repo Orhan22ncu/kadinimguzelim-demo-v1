@@ -1718,3 +1718,24 @@ body { max-width: 100%; }
 .search-close svg { width: 24px; height: 24px; stroke: currentColor; stroke-width: 2; fill: none; }
 .search-results { flex: 1; overflow-y: auto; padding: var(--space-lg); }
 .search-hint { color: var(--color-gray); font-size: 13px; margin: 0 0 var(--space-md); }
+
+/* ── Favorites icon + badge ──────────────────────────────────────────────────── */
+.header-icons .fav-icon { position: relative; }
+.fav-badge {
+  position: absolute; top: -6px; right: -8px;
+  min-width: 17px; height: 17px; padding: 0 4px;
+  border-radius: 999px;
+  background: var(--color-dark); color: #fff;
+  font-family: var(--font-ui); font-size: 10px; font-weight: 700;
+  display: flex; align-items: center; justify-content: center; line-height: 1;
+}
+.fav-badge.hidden { display: none; }
+
+/* ── Cart free-shipping progress bar ─────────────────────────────────────────── */
+.cart-ship { margin-bottom: var(--space-md); }
+.ship-msg { font-family: var(--font-ui); font-size: 12px; color: var(--color-gray); margin-bottom: 6px; }
+.ship-msg.done { color: #2e7d4f; font-weight: 600; }
+.ship-msg strong { color: var(--color-rose); }
+.ship-bar { height: 6px; background: var(--color-cream-warm); border-radius: 999px; overflow: hidden; }
+.ship-bar span { display: block; height: 100%; background: var(--color-gold); transition: width 300ms ease; }
+.ship-msg.done + .ship-bar span { background: #2e7d4f; }
