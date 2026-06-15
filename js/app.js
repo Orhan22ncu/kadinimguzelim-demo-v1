@@ -717,7 +717,7 @@ async function initProductPage() {
 function populateProduct(p, all, catSlug) {
   if (p.seo && p.seo.title) document.title = p.seo.title;
   const h1 = document.querySelector('.product-info h1'); if (h1) h1.textContent = p.title;
-  const priceEl = document.querySelector('.product-info .text-2xl'); if (priceEl) priceEl.textContent = formatTRY(p.price);
+  const priceEl = document.querySelector('.product-info .text-2xl'); if (priceEl) priceEl.innerHTML = priceMarkup(p.price, p.slug);
 
   const bc = document.querySelector('.breadcrumb');
   if (bc) bc.innerHTML = '<a href="index.html">Ana Sayfa</a> › <a href="category.html">' +
@@ -797,28 +797,117 @@ function wireNav() {
 }
 
 // ── Dynamic category grid from the feed (filtered by ?cat) ───────────────────
+const CAT_PAGE = 24;
+let catState = { items: [], shown: 0, slug: '', sort: 'rec' };
+
+function catCardHTML(p, catSlug) {
+  return '<div class="product-card-wrap">' +
+    '<a href="product.html?p=' + encodeURIComponent(p.slug) + '&c=' + catSlug + '" class="product-card">' +
+    '<div class="product-card__image" style="aspect-ratio:3/4;"><img src="' + p.images[0] + '" alt="' + escapeHtml(p.title) + '" loading="lazy"></div>' +
+    '<p class="product-card__name">' + escapeHtml(p.title) + '</p>' +
+    '<p class="product-card__price">' + priceMarkup(p.price, p.slug) + '</p></a>' +
+    '<button class="card-add" type="button" data-slug="' + escapeHtml(p.slug) + '">Sepete Ekle</button>' +
+    '</div>';
+}
+function sortItems(items, sort) {
+  const a = items.slice();
+  if (sort === 'asc') a.sort((x, y) => x.price - y.price);
+  else if (sort === 'desc') a.sort((x, y) => y.price - x.price);
+  return a;
+}
+function renderCatalogPage(reset) {
+  const grid = document.getElementById('catalogGrid');
+  if (reset) { grid.innerHTML = ''; catState.shown = 0; }
+  const sorted = sortItems(catState.items, catState.sort);
+  const next = sorted.slice(catState.shown, catState.shown + CAT_PAGE);
+  grid.insertAdjacentHTML('beforeend', next.map(p => catCardHTML(p, catState.slug)).join(''));
+  catState.shown += next.length;
+  const more = document.getElementById('catMore');
+  if (more) more.style.display = catState.shown < catState.items.length ? '' : 'none';
+}
 async function initCatalog() {
   const grid = document.getElementById('catalogGrid');
   if (!grid) return;
   const catName = new URLSearchParams(location.search).get('cat') || 'Gecelik';
   const catSlug = CAT_SLUG[catName] || 'gecelik';
   const products = await loadCategoryFeed(catSlug);
+  catState = { items: products, shown: 0, slug: catSlug, sort: 'rec' };
 
-  const heading = document.querySelector('.section-title');
-  if (heading) heading.textContent = catName;
+  const heading = document.querySelector('.section-title'); if (heading) heading.textContent = catName;
   document.title = catName + ' — KadınımGuzelim';
-  const cnt = document.getElementById('catalogCount');
-  if (cnt) cnt.textContent = products.length + ' ürün';
+  const cnt = document.getElementById('catalogCount'); if (cnt) cnt.textContent = products.length + ' ürün';
 
   if (!products.length) {
     grid.innerHTML = '<p class="cart-empty" style="grid-column:1/-1;">Bu kategoride ürün bulunamadı.</p>';
     return;
   }
-  grid.innerHTML = products.map(p =>
-    '<a href="product.html?p=' + encodeURIComponent(p.slug) + '&c=' + catSlug + '" class="product-card">' +
-    '<div class="product-card__image" style="aspect-ratio:3/4;"><img src="' + p.images[0] + '" alt="' + escapeHtml(p.title) + '" loading="lazy"></div>' +
-    '<p class="product-card__name">' + escapeHtml(p.title) + '</p>' +
-    '<p class="product-card__price">' + formatTRY(p.price) + '</p></a>').join('');
+
+  let controls = document.getElementById('catControls');
+  if (!controls) { controls = document.createElement('div'); controls.id = 'catControls'; controls.className = 'cat-controls'; grid.parentElement.insertBefore(controls, grid); }
+  controls.innerHTML = '<label class="cat-sort">Sırala: <select id="catSort">' +
+    '<option value="rec">Önerilen</option><option value="asc">Fiyat: Düşükten Yükseğe</option><option value="desc">Fiyat: Yüksekten Düşüğe</option></select></label>';
+  document.getElementById('catSort').addEventListener('change', (e) => { catState.sort = e.target.value; renderCatalogPage(true); });
+
+  let more = document.getElementById('catMore');
+  if (!more) {
+    more = document.createElement('button'); more.id = 'catMore'; more.type = 'button';
+    more.className = 'btn btn--outline cat-more'; more.textContent = 'Daha Fazla Göster';
+    grid.parentElement.appendChild(more);
+    more.addEventListener('click', () => renderCatalogPage(false));
+  }
+
+  if (!grid.dataset.qa) {
+    grid.dataset.qa = '1';
+    grid.addEventListener('click', (e) => {
+      const btn = e.target.closest('.card-add');
+      if (!btn) return;
+      e.preventDefault(); e.stopPropagation();
+      const p = catState.items.find(x => x.slug === btn.dataset.slug);
+      if (p) cartAddItem({ title: p.title, price: p.price, size: (p.sizes || [])[0] || null, color: (p.colors || [])[0] || null, image: p.images[0], qty: 1 });
+    });
+  }
+
+  renderCatalogPage(true);
+}
+
+// ── Search overlay (queries feeds/search.json) ───────────────────────────────
+let searchUI = null;
+function buildSearchUI() {
+  if (searchUI) return searchUI;
+  const ov = document.createElement('div'); ov.className = 'search-overlay';
+  ov.innerHTML = '<div class="search-head"><input type="search" class="search-input" placeholder="Ürün ara…" autocomplete="off">' +
+    '<button class="search-close" aria-label="Kapat" type="button"><svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></button></div>' +
+    '<div class="search-results"></div>';
+  document.body.appendChild(ov);
+  const input = ov.querySelector('.search-input'), results = ov.querySelector('.search-results');
+  ov.querySelector('.search-close').addEventListener('click', closeSearch);
+  ov.addEventListener('click', (e) => { if (e.target === ov) closeSearch(); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && ov.classList.contains('active')) closeSearch(); });
+  let t; input.addEventListener('input', () => { clearTimeout(t); t = setTimeout(() => runSearch(input.value), 200); });
+  searchUI = { ov, input, results };
+  return searchUI;
+}
+async function runSearch(q) {
+  const ui = buildSearchUI();
+  q = (q || '').trim().toLocaleLowerCase('tr-TR');
+  if (q.length < 2) { ui.results.innerHTML = '<p class="search-hint">En az 2 harf yazın…</p>'; return; }
+  const data = await loadJSON('feeds/search.json');
+  const items = (data && data.items) || [];
+  const hits = items.filter(it => it.title.toLocaleLowerCase('tr-TR').includes(q)).slice(0, 40);
+  ui.results.innerHTML = hits.length
+    ? '<p class="search-hint">' + hits.length + ' sonuç</p><div class="category-grid">' + hits.map(it =>
+        '<a href="product.html?p=' + encodeURIComponent(it.slug) + '&c=' + it.c + '" class="product-card">' +
+        '<div class="product-card__image" style="aspect-ratio:3/4;"><img src="' + it.image + '" alt="' + escapeHtml(it.title) + '" loading="lazy"></div>' +
+        '<p class="product-card__name">' + escapeHtml(it.title) + '</p>' +
+        '<p class="product-card__price">' + priceMarkup(it.price, it.slug) + '</p></a>').join('') + '</div>'
+    : '<p class="search-hint">Sonuç bulunamadı.</p>';
+}
+function openSearch() { const ui = buildSearchUI(); ui.ov.classList.add('active'); lockScroll(); setTimeout(() => ui.input.focus(), 60); }
+function closeSearch() { if (searchUI) { searchUI.ov.classList.remove('active'); unlockScroll(); } }
+function initSearch() {
+  const icon = document.querySelector('.header-icons a[aria-label="Ara"]');
+  if (!icon) return;
+  icon.addEventListener('click', (e) => { e.preventDefault(); e.stopImmediatePropagation(); openSearch(); }, true);
 }
 
 document.addEventListener('DOMContentLoaded', async () => {
@@ -832,7 +921,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   initStickyVariant();
 });
 
-document.addEventListener('DOMContentLoaded', () => { wireNav(); initCatalog(); });
+document.addEventListener('DOMContentLoaded', () => { wireNav(); initSearch(); initCatalog(); });
 
 /* ═════════════════════════════════════════════════════════════════════════════
    CART — localStorage, works across all pages (demo, no backend)
@@ -947,15 +1036,35 @@ function addToCartFromPage() {
     return;
   }
 
+  cartAddItem({ title, price, size, color, image, qty });
+}
+
+// Shared add: merges same variant, persists, opens drawer.
+function cartAddItem({ title, price, size, color, image, qty }) {
   const id = [slugify(title), size, color].filter(Boolean).join('|');
   const arr = cartRead();
   const existing = arr.find(i => i.id === id);
-  if (existing) existing.qty += qty;
-  else arr.push({ id, title, price, size, color, image, qty });
+  if (existing) existing.qty += (qty || 1);
+  else arr.push({ id, title, price, size, color, image, qty: qty || 1 });
   cartWrite(arr);
   haptic(12);
   showToast('Sepete eklendi');
   openCart();
+}
+
+// ── Campaign pricing (demo): show a struck list price + discount badge ───────
+const KG_DISCOUNTS = [0, 0, 0, 15, 20, 20, 25, 30, 30, 40];
+function discountFor(slug) {
+  let h = 0; for (const c of String(slug)) h = (h * 31 + c.charCodeAt(0)) >>> 0;
+  return KG_DISCOUNTS[h % KG_DISCOUNTS.length];
+}
+function priceMarkup(price, slug) {
+  const d = discountFor(slug);
+  if (!d) return '<span class="price-now">' + formatTRY(price) + '</span>';
+  const list = Math.round((price * 100 / (100 - d)) / 5) * 5;
+  return '<span class="price-now sale">' + formatTRY(price) + '</span>' +
+    '<span class="price-old">' + formatTRY(list) + '</span>' +
+    '<span class="price-off">%' + d + '</span>';
 }
 
 document.addEventListener('DOMContentLoaded', () => {
