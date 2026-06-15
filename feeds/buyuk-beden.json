@@ -1,6 +1,6 @@
 {
   "$schema": "https://kadinimguzelim.com/schema/product-feed-v1",
-  "generator": "KadınımGuzelim AI Product Studio",
+  "generator": "KadınımGuzelim AI Product Studio (gerçek fiyat: KDV dahil + indirimOrani)",
   "generatedAt": "2026-06-15",
   "brand": "KadınımGuzelim",
   "currency": "TRY",
@@ -11,7 +11,9 @@
       "slug": "leopar-desenli-buyuk-beden-penye-gecelik",
       "url": "product.html?p=leopar-desenli-buyuk-beden-penye-gecelik",
       "title": "Leopar Desen Büyük Beden Penye Gecelik",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -65,7 +67,9 @@
       "slug": "dantel-yakali-leopar-desen-buyuk-beden-gecelik",
       "url": "product.html?p=dantel-yakali-leopar-desen-buyuk-beden-gecelik",
       "title": "Dantel Yakalı Leopar Desen Büyük Beden Gecelik",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -119,7 +123,9 @@
       "slug": "v-yaka-kolsuz-buyuk-beden-gecelik-",
       "url": "product.html?p=v-yaka-kolsuz-buyuk-beden-gecelik-",
       "title": "V Yaka Kolsuz Büyük Beden Gecelik",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -171,7 +177,9 @@
       "slug": "v-yaka-kolsuz-leoparli-buyuk-beden-gecelik-",
       "url": "product.html?p=v-yaka-kolsuz-leoparli-buyuk-beden-gecelik-",
       "title": "V Yaka Kolsuz Leoparlı Büyük Beden Gecelik",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -225,7 +233,9 @@
       "slug": "kisa-kollu-cepli-leoparli-buyuk-beden-gecelik",
       "url": "product.html?p=kisa-kollu-cepli-leoparli-buyuk-beden-gecelik",
       "title": "Kısa Kollu Cepli Leoparlı Büyük Beden Gecelik",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -278,7 +288,9 @@
       "slug": "dantel-detayli-leoparli-buyuk-beden-gecelik-",
       "url": "product.html?p=dantel-detayli-leoparli-buyuk-beden-gecelik-",
       "title": "Dantel Detaylı Leoparlı Büyük Beden Gecelik",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -332,7 +344,9 @@
       "slug": "dugmeli-yaka-buyuk-beden-gecelik",
       "url": "product.html?p=dugmeli-yaka-buyuk-beden-gecelik",
       "title": "Düğmeli Yaka Büyük Beden Gecelik",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -383,7 +397,9 @@
       "slug": "boydan-dugmeli-leopar-buyuk-beden-gecelik",
       "url": "product.html?p=boydan-dugmeli-leopar-buyuk-beden-gecelik",
       "title": "Boydan Düğmeli Leopar Büyük Beden Gecelik",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -436,7 +452,9 @@
       "slug": "kol-ustu-dantelli-leopar-buyuk-beden-gecelik",
       "url": "product.html?p=kol-ustu-dantelli-leopar-buyuk-beden-gecelik",
       "title": "Kol Üstü Dantelli Leopar Büyük Beden Gecelik",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -490,7 +508,9 @@
       "slug": "dantel-detayli-leopar-buyuk-beden-gecelik",
       "url": "product.html?p=dantel-detayli-leopar-buyuk-beden-gecelik",
       "title": "Dantel Detaylı Leopar Büyük Beden Gecelik",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -544,7 +564,9 @@
       "slug": "yilan-desenli-buyuk-beden-gecelik-",
       "url": "product.html?p=yilan-desenli-buyuk-beden-gecelik-",
       "title": "Yılan Desenli Büyük Beden Gecelik",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -595,7 +617,9 @@
       "slug": "beli-buzgulu-kisa-kollu-buyuk-beden-gecelik",
       "url": "product.html?p=beli-buzgulu-kisa-kollu-buyuk-beden-gecelik",
       "title": "Beli Büzgülü Kısa Kollu Büyük Beden Gecelik",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -647,7 +671,9 @@
       "slug": "uzun-kollu-buyuk-beden-gecelik",
       "url": "product.html?p=uzun-kollu-buyuk-beden-gecelik",
       "title": "Uzun Kollu Büyük Beden Gecelik",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -697,7 +723,9 @@
       "slug": "zebra-desen-askili-buyuk-beden-gecelik",
       "url": "product.html?p=zebra-desen-askili-buyuk-beden-gecelik",
       "title": "Zebra Desen Askılı Büyük Beden Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 985,
+      "discount": 29,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -750,7 +778,9 @@
       "slug": "meyve-desenli-buyuk-beden-tunik-gecelik",
       "url": "product.html?p=meyve-desenli-buyuk-beden-tunik-gecelik",
       "title": "Meyve Desenli Büyük Beden Tunik Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 985,
+      "discount": 29,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -802,7 +832,9 @@
       "slug": "ip-askili-desenli-buyuk-beden-tunik-gecelik-",
       "url": "product.html?p=ip-askili-desenli-buyuk-beden-tunik-gecelik-",
       "title": "Büyük Beden İp Askılı Desenli Tunik Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 985,
+      "discount": 29,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -855,7 +887,9 @@
       "slug": "ince-askili-desenli-buyuk-beden-tunik-gecelik",
       "url": "product.html?p=ince-askili-desenli-buyuk-beden-tunik-gecelik",
       "title": "İnce Askılı Desenli Büyük Beden Tunik Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 985,
+      "discount": 29,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -908,7 +942,9 @@
       "slug": "mor-cicekli-ince-askili-buyuk-beden-tunik-gecelik",
       "url": "product.html?p=mor-cicekli-ince-askili-buyuk-beden-tunik-gecelik",
       "title": "Mor Çiçekli İnce Askılı Büyük Beden Tunik Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 985,
+      "discount": 29,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -961,7 +997,9 @@
       "slug": "cok-renkli-ince-askili-buyuk-beden-tunik-gecelik",
       "url": "product.html?p=cok-renkli-ince-askili-buyuk-beden-tunik-gecelik",
       "title": "Çok Renkli İnce Askılı Büyük Beden Tunik Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 985,
+      "discount": 29,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -1014,7 +1052,9 @@
       "slug": "cizgili-ince-askili-bordo-buyuk-beden-tunik-gecelik",
       "url": "product.html?p=cizgili-ince-askili-bordo-buyuk-beden-tunik-gecelik",
       "title": "Çizgili İnce Askılı Bordo Büyük Beden Tunik Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 985,
+      "discount": 29,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -1067,7 +1107,9 @@
       "slug": "kisa-kollu-buyuk-beden-tunik-gecelik",
       "url": "product.html?p=kisa-kollu-buyuk-beden-tunik-gecelik",
       "title": "Kısa Kollu Büyük Beden Tunik Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 985,
+      "discount": 29,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -1119,7 +1161,9 @@
       "slug": "gul-desenli-askili-buyuk-beden-tunik-gecelik",
       "url": "product.html?p=gul-desenli-askili-buyuk-beden-tunik-gecelik",
       "title": "Gül Desenli Askılı Büyük Beden Tunik Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 985,
+      "discount": 29,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -1171,7 +1215,9 @@
       "slug": "leopar-desenli-askili-buyuk-beden-tunik-gecelik",
       "url": "product.html?p=leopar-desenli-askili-buyuk-beden-tunik-gecelik",
       "title": "Leopar Desenli Askılı Büyük Beden Tunik Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 985,
+      "discount": 29,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -1225,7 +1271,9 @@
       "slug": "leopar-desenli-dantelli-buyuk-beden-tunik-gecelik",
       "url": "product.html?p=leopar-desenli-dantelli-buyuk-beden-tunik-gecelik",
       "title": "Leopar Desenli Dantelli Büyük Beden Tunik Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 985,
+      "discount": 29,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -1279,7 +1327,9 @@
       "slug": "dantelli-kirmizi-buyuk-beden-tunik-gecelik",
       "url": "product.html?p=dantelli-kirmizi-buyuk-beden-tunik-gecelik",
       "title": "Dantelli Kırmızı Büyük Beden Tunik Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 985,
+      "discount": 29,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -1332,7 +1382,9 @@
       "slug": "dantelli-zebra-desenli-buyuk-beden-tunik-gecelik",
       "url": "product.html?p=dantelli-zebra-desenli-buyuk-beden-tunik-gecelik",
       "title": "Dantelli Zebra Desenli Büyük Beden Tunik Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 985,
+      "discount": 29,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -1385,7 +1437,9 @@
       "slug": "baklava-desenli-lacivert-buyuk-beden-tunik-gecelik",
       "url": "product.html?p=baklava-desenli-lacivert-buyuk-beden-tunik-gecelik",
       "title": "Baklava Desenli Lacivert Büyük Beden Tunik Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 985,
+      "discount": 29,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -1437,7 +1491,9 @@
       "slug": "siyah-pembe-buyuk-beden-sort-takim",
       "url": "product.html?p=siyah-pembe-buyuk-beden-sort-takim",
       "title": "Siyah Pembe Büyük Beden Şort Takım",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -1489,7 +1545,9 @@
       "slug": "dantel-askili-buyuk-beden-sort-takim",
       "url": "product.html?p=dantel-askili-buyuk-beden-sort-takim",
       "title": "Dantel Askılı Büyük Beden Şort Takım",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -1542,7 +1600,9 @@
       "slug": "yakasi-dantel-buyuk-beden-sort-takim",
       "url": "product.html?p=yakasi-dantel-buyuk-beden-sort-takim",
       "title": "Yakası Dantel Büyük Beden Şort Takım",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -1594,7 +1654,9 @@
       "slug": "ince-askili-buyuk-beden-sortlu-pijama-takim",
       "url": "product.html?p=ince-askili-buyuk-beden-sortlu-pijama-takim",
       "title": "İnce Askılı Büyük Beden Şortlu Pijama Takım",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -1647,7 +1709,9 @@
       "slug": "dantelli-buyuk-beden-sortlu-pijama-takim",
       "url": "product.html?p=dantelli-buyuk-beden-sortlu-pijama-takim",
       "title": "Dantelli Büyük Beden Şortlu Pijama Takım",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -1700,7 +1764,9 @@
       "slug": "kisa-kollu-buyuk-beden-sortlu-pijama-takimi",
       "url": "product.html?p=kisa-kollu-buyuk-beden-sortlu-pijama-takimi",
       "title": "Kısa Kollu Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -1752,7 +1818,9 @@
       "slug": "desenli-kisa-kollu-buyuk-beden-sortlu-pijama-takimi",
       "url": "product.html?p=desenli-kisa-kollu-buyuk-beden-sortlu-pijama-takimi",
       "title": "Desenli Kısa Kollu Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -1804,7 +1872,9 @@
       "slug": "cicekli-buyuk-beden-sortlu-pijama-takimi",
       "url": "product.html?p=cicekli-buyuk-beden-sortlu-pijama-takimi",
       "title": "Çiçekli Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -1856,7 +1926,9 @@
       "slug": "kollari-dantelli-buyuk-beden-sortlu-pijama-takimi",
       "url": "product.html?p=kollari-dantelli-buyuk-beden-sortlu-pijama-takimi",
       "title": "Kolları Dantelli Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -1909,7 +1981,9 @@
       "slug": "kolsuz-siyah-buyuk-beden-sortlu-pijama-takimi",
       "url": "product.html?p=kolsuz-siyah-buyuk-beden-sortlu-pijama-takimi",
       "title": "Kolsuz Siyah Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -1961,7 +2035,9 @@
       "slug": "kirmizi-siyah-buyuk-beden-sortlu-pijama-takimi",
       "url": "product.html?p=kirmizi-siyah-buyuk-beden-sortlu-pijama-takimi",
       "title": "Kırmızı Siyah Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -2014,7 +2090,9 @@
       "slug": "siyah-buyuk-beden-sortlu-pijama-takimi",
       "url": "product.html?p=siyah-buyuk-beden-sortlu-pijama-takimi",
       "title": "Siyah Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -2066,7 +2144,9 @@
       "slug": "bisiklet-yaka-buyuk-beden-sortlu-pijama-takimi",
       "url": "product.html?p=bisiklet-yaka-buyuk-beden-sortlu-pijama-takimi",
       "title": "Bisiklet Yaka Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -2118,7 +2198,9 @@
       "slug": "alti-leoparli-buyuk-beden-sortlu-pijama-takimi",
       "url": "product.html?p=alti-leoparli-buyuk-beden-sortlu-pijama-takimi",
       "title": "Altı Leoparlı Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -2171,7 +2253,9 @@
       "slug": "love-yazili-buyuk-beden-sortlu-pijama-takimi",
       "url": "product.html?p=love-yazili-buyuk-beden-sortlu-pijama-takimi",
       "title": "Love Yazılı Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -2223,7 +2307,9 @@
       "slug": "bulut-desenli-buyuk-beden-sortlu-pijama-takimi",
       "url": "product.html?p=bulut-desenli-buyuk-beden-sortlu-pijama-takimi",
       "title": "Bulut Desenli Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -2275,7 +2361,9 @@
       "slug": "siyah-beyaz-buyuk-beden-sortlu-pijama-takimi",
       "url": "product.html?p=siyah-beyaz-buyuk-beden-sortlu-pijama-takimi",
       "title": "Siyah Beyaz Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -2327,7 +2415,9 @@
       "slug": "bordo-mavi-buyuk-beden-sortlu-pijama-takimi",
       "url": "product.html?p=bordo-mavi-buyuk-beden-sortlu-pijama-takimi",
       "title": "Bordo Mavi Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -2380,7 +2470,9 @@
       "slug": "dekolte-yaka-buyuk-beden-sortlu-pijama-takimi",
       "url": "product.html?p=dekolte-yaka-buyuk-beden-sortlu-pijama-takimi",
       "title": "Dekolte Yaka Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -2432,7 +2524,9 @@
       "slug": "pudra-buyuk-beden-sortlu-pijama-takimi",
       "url": "product.html?p=pudra-buyuk-beden-sortlu-pijama-takimi",
       "title": "Pudra Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -2484,7 +2578,9 @@
       "slug": "pembe-siyah-buyuk-beden-sortlu-pijama-takimi",
       "url": "product.html?p=pembe-siyah-buyuk-beden-sortlu-pijama-takimi",
       "title": "Pembe Siyah Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -2537,7 +2633,9 @@
       "slug": "cepli-siyah-buyuk-beden-sortlu-pijama-takimi",
       "url": "product.html?p=cepli-siyah-buyuk-beden-sortlu-pijama-takimi",
       "title": "Cepli Siyah Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -2589,7 +2687,9 @@
       "slug": "leopar-siyah-buyuk-beden-sortlu-pijama-takimi-ldy-10438",
       "url": "product.html?p=leopar-siyah-buyuk-beden-sortlu-pijama-takimi-ldy-10438",
       "title": "Leopar Siyah Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -2643,7 +2743,9 @@
       "slug": "dugmeli-siyah-buyuk-beden-sortlu-pijama-takimi",
       "url": "product.html?p=dugmeli-siyah-buyuk-beden-sortlu-pijama-takimi",
       "title": "Düğmeli Siyah Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -2695,7 +2797,9 @@
       "slug": "v-yaka-buyuk-beden-sortlu-pijama-takimi",
       "url": "product.html?p=v-yaka-buyuk-beden-sortlu-pijama-takimi",
       "title": "V Yaka Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -2748,7 +2852,9 @@
       "slug": "dantel-kenarli-buyuk-beden-sortlu-pijama-takimi-ldy-10442",
       "url": "product.html?p=dantel-kenarli-buyuk-beden-sortlu-pijama-takimi-ldy-10442",
       "title": "Dantel Kenarlı Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -2801,7 +2907,9 @@
       "slug": "askili-lacivert-buyuk-beden-sortlu-pijama-takimi-ldy-10443",
       "url": "product.html?p=askili-lacivert-buyuk-beden-sortlu-pijama-takimi-ldy-10443",
       "title": "Askılı Lacivert Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -2854,7 +2962,9 @@
       "slug": "leopar-desen-cepli-buyuk-beden-sortlu-pijama-takimi",
       "url": "product.html?p=leopar-desen-cepli-buyuk-beden-sortlu-pijama-takimi",
       "title": "Leopar Desen Cepli Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -2907,7 +3017,9 @@
       "slug": "dantelli-cepli-siyah-buyuk-beden-sort-takim",
       "url": "product.html?p=dantelli-cepli-siyah-buyuk-beden-sort-takim",
       "title": "Dantelli Cepli Siyah Büyük Beden Şort Takım",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -2959,7 +3071,9 @@
       "slug": "zincir-detayli-buyuk-beden-gece-elbisesi",
       "url": "product.html?p=zincir-detayli-buyuk-beden-gece-elbisesi",
       "title": "Zincir Detaylı Büyük Beden Gece Elbisesi",
-      "price": 1363,
+      "price": 1499,
+      "listPrice": 2237,
+      "discount": 33,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -3010,7 +3124,9 @@
       "slug": "pul-islemeli-siyah-buyuk-beden-gece-elbisesi",
       "url": "product.html?p=pul-islemeli-siyah-buyuk-beden-gece-elbisesi",
       "title": "Pul İşlemeli Siyah Büyük Beden Gece Elbisesi",
-      "price": 1363,
+      "price": 1499,
+      "listPrice": 2237,
+      "discount": 33,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -3062,7 +3178,9 @@
       "slug": "pul-islemeli-beyaz-buyuk-beden-gece-elbisesi",
       "url": "product.html?p=pul-islemeli-beyaz-buyuk-beden-gece-elbisesi",
       "title": "Pul İşlemeli Beyaz Büyük Beden Gece Elbisesi",
-      "price": 1363,
+      "price": 1499,
+      "listPrice": 2237,
+      "discount": 33,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -3114,7 +3232,9 @@
       "slug": "dokulu-siyah-pullu-buyuk-beden-gece-elbisesi",
       "url": "product.html?p=dokulu-siyah-pullu-buyuk-beden-gece-elbisesi",
       "title": "Dokulu Siyah Pullu Büyük Beden Gece Elbisesi",
-      "price": 1363,
+      "price": 1499,
+      "listPrice": 2237,
+      "discount": 33,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -3164,7 +3284,9 @@
       "slug": "boyundan-baglama-pullu-kirmizi-buyuk-beden-gece-elbisesi",
       "url": "product.html?p=boyundan-baglama-pullu-kirmizi-buyuk-beden-gece-elbisesi",
       "title": "Boyundan Bağlama Pullu Kırmızı Büyük Beden Gece Elbisesi",
-      "price": 1363,
+      "price": 1499,
+      "listPrice": 2237,
+      "discount": 33,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -3217,7 +3339,9 @@
       "slug": "dekolteli-pullu-kirmizi-buyuk-beden-gece-elbisesi",
       "url": "product.html?p=dekolteli-pullu-kirmizi-buyuk-beden-gece-elbisesi",
       "title": "Dekolteli Pullu Kırmızı Büyük Beden Gece Elbisesi",
-      "price": 1363,
+      "price": 1499,
+      "listPrice": 2237,
+      "discount": 33,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -3270,7 +3394,9 @@
       "slug": "buzgulu-pullu-lacivert-buyuk-beden-gece-elbisesi",
       "url": "product.html?p=buzgulu-pullu-lacivert-buyuk-beden-gece-elbisesi",
       "title": "Büzgülü Pullu Lacivert Büyük Beden Gece Elbisesi",
-      "price": 1363,
+      "price": 1499,
+      "listPrice": 2237,
+      "discount": 33,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -3323,7 +3449,9 @@
       "slug": "askili-pullu-bordo-buyuk-beden-gece-elbisesi",
       "url": "product.html?p=askili-pullu-bordo-buyuk-beden-gece-elbisesi",
       "title": "Askılı Pullu Bordo Büyük Beden Gece Elbisesi",
-      "price": 1363,
+      "price": 1499,
+      "listPrice": 2237,
+      "discount": 33,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -3375,7 +3503,9 @@
       "slug": "gogus-dekolteli-simli-mor-buyuk-beden-gece-elbisesi",
       "url": "product.html?p=gogus-dekolteli-simli-mor-buyuk-beden-gece-elbisesi",
       "title": "Göğüs Dekolteli Simli Mor Büyük Beden Gece Elbisesi",
-      "price": 1363,
+      "price": 1499,
+      "listPrice": 2237,
+      "discount": 33,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -3427,7 +3557,9 @@
       "slug": "pul-islemeli-pembe-buyuk-beden-gece-elbisesi",
       "url": "product.html?p=pul-islemeli-pembe-buyuk-beden-gece-elbisesi",
       "title": "Pul İşlemeli Pembe Büyük Beden Gece Elbisesi",
-      "price": 1363,
+      "price": 1499,
+      "listPrice": 2237,
+      "discount": 33,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -3479,7 +3611,9 @@
       "slug": "pul-islemeli-yesil-buyuk-beden-gece-elbisesi",
       "url": "product.html?p=pul-islemeli-yesil-buyuk-beden-gece-elbisesi",
       "title": "Pul İşlemeli Yeşil Büyük Beden Gece Elbisesi",
-      "price": 1363,
+      "price": 1499,
+      "listPrice": 2237,
+      "discount": 33,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -3491,7 +3625,7 @@
         "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/pul-islemeli-yesil-buyuk-beden-gece-el-6e2d32.jpg"
       ],
       "colors": [
-        "Yeşil"
+        "Standart"
       ],
       "sizes": [
         "2XL",
@@ -3532,7 +3666,9 @@
       "slug": "simli-isiltili-buyuk-beden-gece-elbisesi",
       "url": "product.html?p=simli-isiltili-buyuk-beden-gece-elbisesi",
       "title": "Simli Işıltılı Büyük Beden Gece Elbisesi",
-      "price": 1363,
+      "price": 1499,
+      "listPrice": 2237,
+      "discount": 33,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -3585,7 +3721,9 @@
       "slug": "isiltili-pullu-siyah-buyuk-beden-gece-elbisesi",
       "url": "product.html?p=isiltili-pullu-siyah-buyuk-beden-gece-elbisesi",
       "title": "Işıltılı Pullu Siyah Büyük Beden Gece Elbisesi",
-      "price": 1363,
+      "price": 1499,
+      "listPrice": 2237,
+      "discount": 33,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -3638,7 +3776,9 @@
       "slug": "isiltili-zincirli-siyah-buyuk-beden-gece-elbisesi",
       "url": "product.html?p=isiltili-zincirli-siyah-buyuk-beden-gece-elbisesi",
       "title": "Işıltılı Zincirli Siyah Büyük Beden Gece Elbisesi",
-      "price": 1363,
+      "price": 1499,
+      "listPrice": 2237,
+      "discount": 33,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -3689,7 +3829,9 @@
       "slug": "cicek-desenli-saten-buyuk-beden-gecelik",
       "url": "product.html?p=cicek-desenli-saten-buyuk-beden-gecelik",
       "title": "Çiçek Desenli Saten Büyük Beden Gecelik",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -3742,7 +3884,9 @@
       "slug": "cicek-desenli-mavi-buyuk-beden-gecelik",
       "url": "product.html?p=cicek-desenli-mavi-buyuk-beden-gecelik",
       "title": "Çiçek Desenli Mavi Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -3794,7 +3938,9 @@
       "slug": "kelebek-desenli-siyah-saten-buyuk-beden-gecelik",
       "url": "product.html?p=kelebek-desenli-siyah-saten-buyuk-beden-gecelik",
       "title": "Kelebek Desenli Siyah Saten Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -3847,7 +3993,9 @@
       "slug": "yirtmacli-saten-siyah-buyuk-beden-gecelik",
       "url": "product.html?p=yirtmacli-saten-siyah-buyuk-beden-gecelik",
       "title": "Yırtmaçlı Saten Siyah Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -3901,7 +4049,9 @@
       "slug": "dekolteli-saten-siyah-buyuk-beden-gecelik",
       "url": "product.html?p=dekolteli-saten-siyah-buyuk-beden-gecelik",
       "title": "Dekolteli Saten Siyah Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -3954,7 +4104,9 @@
       "slug": "boyundan-askili-kirmizi-buyuk-beden-gecelik",
       "url": "product.html?p=boyundan-askili-kirmizi-buyuk-beden-gecelik",
       "title": "Boyundan Askılı Kırmızı Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -4007,7 +4159,9 @@
       "slug": "saks-mavi-saten-buyuk-beden-gecelik",
       "url": "product.html?p=saks-mavi-saten-buyuk-beden-gecelik",
       "title": "Saks Mavi Saten Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -4060,7 +4214,9 @@
       "slug": "capraz-askili-dantelli-dekolteli-buyuk-beden-gecelik",
       "url": "product.html?p=capraz-askili-dantelli-dekolteli-buyuk-beden-gecelik",
       "title": "Çapraz Askılı Dantelli Dekolteli Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -4114,7 +4270,9 @@
       "slug": "zincir-suslu-lacivert-buyuk-beden-gecelik",
       "url": "product.html?p=zincir-suslu-lacivert-buyuk-beden-gecelik",
       "title": "Zincir Süslü Lacivert Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -4166,7 +4324,9 @@
       "slug": "genis-dantelli-yesil-saten-buyuk-beden-gecelik",
       "url": "product.html?p=genis-dantelli-yesil-saten-buyuk-beden-gecelik",
       "title": "Geniş Dantelli Yeşil Saten Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -4177,7 +4337,7 @@
         "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/genis-dantelli-yesil-saten-buyuk-beden-27-410.jpg"
       ],
       "colors": [
-        "Yeşil"
+        "Standart"
       ],
       "sizes": [
         "2XL",
@@ -4220,7 +4380,9 @@
       "slug": "dantelli-yirtmacli-mavi-saten-buyuk-beden-gecelik",
       "url": "product.html?p=dantelli-yirtmacli-mavi-saten-buyuk-beden-gecelik",
       "title": "Dantelli Yırtmaçlı Mavi Saten Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -4274,7 +4436,9 @@
       "slug": "sirt-dekolteli-siyah-buyuk-beden-gecelik",
       "url": "product.html?p=sirt-dekolteli-siyah-buyuk-beden-gecelik",
       "title": "Sırt Dekolteli Siyah Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -4326,7 +4490,9 @@
       "slug": "dantelli-siyah-buyuk-beden-fantazi-gecelik",
       "url": "product.html?p=dantelli-siyah-buyuk-beden-fantazi-gecelik",
       "title": "Dantelli Siyah Büyük Beden Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -4380,7 +4546,9 @@
       "slug": "dantelli-mor-buyuk-beden-fantazi-gecelik",
       "url": "product.html?p=dantelli-mor-buyuk-beden-fantazi-gecelik",
       "title": "Dantelli Mor Büyük Beden Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -4434,7 +4602,9 @@
       "slug": "dantelli-bordo-buyuk-beden-fantazi-gecelik",
       "url": "product.html?p=dantelli-bordo-buyuk-beden-fantazi-gecelik",
       "title": "Dantelli Bordo Büyük Beden Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -4488,7 +4658,9 @@
       "slug": "dantelli-bordo-fantazi-buyuk-beden-gecelik",
       "url": "product.html?p=dantelli-bordo-fantazi-buyuk-beden-gecelik",
       "title": "Dantelli Bordo Fantezi Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -4543,7 +4715,9 @@
       "slug": "dantelli-siyah-fantazi-buyuk-beden-gecelik",
       "url": "product.html?p=dantelli-siyah-fantazi-buyuk-beden-gecelik",
       "title": "Dantelli Siyah Fantazi Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -4599,7 +4773,9 @@
       "slug": "gogus-dekolteli-cicekli-ekru-buyuk-beden-gecelik",
       "url": "product.html?p=gogus-dekolteli-cicekli-ekru-buyuk-beden-gecelik",
       "title": "Göğüs Dekolteli Çiçekli Ekru Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -4652,7 +4828,9 @@
       "slug": "cicekli-dantelli-buyuk-beden-tulum-gecelik",
       "url": "product.html?p=cicekli-dantelli-buyuk-beden-tulum-gecelik",
       "title": "Çiçekli Dantelli Büyük Beden Tulum Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -4706,7 +4884,9 @@
       "slug": "mor-cicekli-dantelli-buyuk-beden-tulum-gecelik",
       "url": "product.html?p=mor-cicekli-dantelli-buyuk-beden-tulum-gecelik",
       "title": "Mor Çiçekli Dantelli Büyük Beden Tulum Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -4760,7 +4940,9 @@
       "slug": "cicekli-siyah-dantelli-buyuk-beden-fantazi-gecelik",
       "url": "product.html?p=cicekli-siyah-dantelli-buyuk-beden-fantazi-gecelik",
       "title": "Çiçekli Siyah Dantelli Büyük Beden Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -4814,7 +4996,9 @@
       "slug": "seksi-mini-dantelli-buyuk-beden-fantazi-gecelik",
       "url": "product.html?p=seksi-mini-dantelli-buyuk-beden-fantazi-gecelik",
       "title": "Seksi Mini Dantelli Büyük Beden Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -4869,7 +5053,9 @@
       "slug": "pembe-gullu-dantelli-saten-buyuk-beden-gecelik",
       "url": "product.html?p=pembe-gullu-dantelli-saten-buyuk-beden-gecelik",
       "title": "Pembe Güllü Dantelli Saten Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -4924,7 +5110,9 @@
       "slug": "desenli-dantelli-koyu-yesil-buyuk-beden-fantazi-gecelik",
       "url": "product.html?p=desenli-dantelli-koyu-yesil-buyuk-beden-fantazi-gecelik",
       "title": "Desenli Dantelli Koyu Yeşil Büyük Beden Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -4936,7 +5124,7 @@
         "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/desenli-dantelli-koyu-yesil-buyuk-bede-52-c29.jpg"
       ],
       "colors": [
-        "Yeşil"
+        "Standart"
       ],
       "sizes": [
         "2XL",
@@ -4978,7 +5166,9 @@
       "slug": "dantelli-mini-pembe-buyuk-beden-fantazi-gecelik",
       "url": "product.html?p=dantelli-mini-pembe-buyuk-beden-fantazi-gecelik",
       "title": "Dantelli Mini Pembe Büyük Beden Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -5033,7 +5223,9 @@
       "slug": "3-parca-dantelli-siyah-buyuk-beden-fantazi-gecelik",
       "url": "product.html?p=3-parca-dantelli-siyah-buyuk-beden-fantazi-gecelik",
       "title": "3 Parça Dantelli Siyah Büyük Beden Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -5087,7 +5279,9 @@
       "slug": "genis-dantelli-ekru-buyuk-beden-fantazi-gecelik",
       "url": "product.html?p=genis-dantelli-ekru-buyuk-beden-fantazi-gecelik",
       "title": "Geniş Dantelli Ekru Büyük Beden Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -5141,7 +5335,9 @@
       "slug": "sirt-dekolteli-buyuk-beden-saten-gecelik",
       "url": "product.html?p=sirt-dekolteli-buyuk-beden-saten-gecelik",
       "title": "Sırt Dekolteli Büyük Beden Saten Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -5194,7 +5390,9 @@
       "slug": "dantelli-acik-bej-buyuk-beden-saten-gecelik",
       "url": "product.html?p=dantelli-acik-bej-buyuk-beden-saten-gecelik",
       "title": "Dantelli Açık Bej Büyük Beden Saten Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -5248,7 +5446,9 @@
       "slug": "yanlari-acik-bordo-buyuk-beden-fantazi-gecelik",
       "url": "product.html?p=yanlari-acik-bordo-buyuk-beden-fantazi-gecelik",
       "title": "Yanları Açık Bordo Büyük Beden Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -5301,7 +5501,9 @@
       "slug": "cicekli-buyuk-beden-saten-pijama-takimi",
       "url": "product.html?p=cicekli-buyuk-beden-saten-pijama-takimi",
       "title": "Çiçekli Büyük Beden Saten Pijama Takımı",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 1970,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -5354,7 +5556,9 @@
       "slug": "cicek-desenli-buyuk-beden-saten-pijama-takimi",
       "url": "product.html?p=cicek-desenli-buyuk-beden-saten-pijama-takimi",
       "title": "Çiçek Desenli Büyük Beden Saten Pijama Takımı",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 1970,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -5407,7 +5611,9 @@
       "slug": "cicek-desenli-buyuk-beden-gri-saten-pijama-takimi",
       "url": "product.html?p=cicek-desenli-buyuk-beden-gri-saten-pijama-takimi",
       "title": "Çiçek Desenli Büyük Beden Gri Saten Pijama Takımı",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 1970,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -5460,7 +5666,9 @@
       "slug": "buyuk-cicekli-buyuk-beden-saten-pijama-takimi",
       "url": "product.html?p=buyuk-cicekli-buyuk-beden-saten-pijama-takimi",
       "title": "Büyük Çiçekli Büyük Beden Saten Pijama Takımı",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 1970,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -5513,7 +5721,9 @@
       "slug": "buyuk-cicekli-buyuk-beden-siyah-saten-pijama-takimi",
       "url": "product.html?p=buyuk-cicekli-buyuk-beden-siyah-saten-pijama-takimi",
       "title": "Büyük Çiçekli Büyük Beden Siyah Saten Pijama Takımı",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 1970,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -5567,7 +5777,9 @@
       "slug": "gul-desenli-buyuk-beden-saten-pijama-takimi",
       "url": "product.html?p=gul-desenli-buyuk-beden-saten-pijama-takimi",
       "title": "Gül Desenli Büyük Beden Saten Pijama Takımı",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 1970,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -5620,7 +5832,9 @@
       "slug": "leopar-desenli-buyuk-beden-saten-pijama-takimi",
       "url": "product.html?p=leopar-desenli-buyuk-beden-saten-pijama-takimi",
       "title": "Leopar Desenli Büyük Beden Saten Pijama Takımı",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 1970,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -5674,7 +5888,9 @@
       "slug": "dekolteli-desenli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=dekolteli-desenli-buyuk-beden-pijama-takimi",
       "title": "Dekolteli Desenli Büyük Beden Pijama Takımı",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 1970,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -5727,7 +5943,9 @@
       "slug": "cicek-desenli-buyuk-beden-krem-pijama-takimi",
       "url": "product.html?p=cicek-desenli-buyuk-beden-krem-pijama-takimi",
       "title": "Çiçek Desenli Büyük Beden Krem Pijama Takımı",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 1970,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -5779,7 +5997,9 @@
       "slug": "cicek-desenli-buyuk-beden-yesil-pijama-takimi",
       "url": "product.html?p=cicek-desenli-buyuk-beden-yesil-pijama-takimi",
       "title": "Çiçek Desenli Büyük Beden Yeşil Pijama Takımı",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 1970,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -5790,7 +6010,7 @@
         "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/cicek-desenli-buyuk-beden-yesil-pijama-d-d90e.jpg"
       ],
       "colors": [
-        "Yeşil"
+        "Standart"
       ],
       "sizes": [
         "2XL",
@@ -5831,7 +6051,9 @@
       "slug": "mor-cicekli-buyuk-beden-beyaz-pijama-takimi",
       "url": "product.html?p=mor-cicekli-buyuk-beden-beyaz-pijama-takimi",
       "title": "Mor Çiçekli Büyük Beden Beyaz Pijama Takımı",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 1970,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -5884,7 +6106,9 @@
       "slug": "cicekli-buyuk-beden-renkli-pijama-takimi",
       "url": "product.html?p=cicekli-buyuk-beden-renkli-pijama-takimi",
       "title": "Çiçekli Büyük Beden Renkli Pijama Takımı",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 1970,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -5936,7 +6160,9 @@
       "slug": "beyaz-cicekli-buyuk-beden-yesil-pijama-takimi",
       "url": "product.html?p=beyaz-cicekli-buyuk-beden-yesil-pijama-takimi",
       "title": "Beyaz Çiçekli Büyük Beden Yeşil Pijama Takımı",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 1970,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -5947,7 +6173,7 @@
         "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/beyaz-cicekli-buyuk-beden-yesil-pijama--a572-.jpg"
       ],
       "colors": [
-        "Yeşil"
+        "Standart"
       ],
       "sizes": [
         "2XL",
@@ -5988,7 +6214,9 @@
       "slug": "gul-cicekli-buyuk-beden-dekolteli-pijama-takimi",
       "url": "product.html?p=gul-cicekli-buyuk-beden-dekolteli-pijama-takimi",
       "title": "Gül Çiçekli Büyük Beden Dekolteli Pijama Takımı",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 1970,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -6041,7 +6269,9 @@
       "slug": "genis-pacali-cicekli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=genis-pacali-cicekli-buyuk-beden-pijama-takimi",
       "title": "Geniş Paçalı Çiçekli Büyük Beden Pijama Takımı",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 1970,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -6093,7 +6323,9 @@
       "slug": "ispanyol-paca-cicekli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=ispanyol-paca-cicekli-buyuk-beden-pijama-takimi",
       "title": "İspanyol Paça Çiçekli Büyük Beden Pijama Takımı",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 1970,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -6145,7 +6377,9 @@
       "slug": "firfir-etekli-yesil-buyuk-beden-yazlik-elbise",
       "url": "product.html?p=firfir-etekli-yesil-buyuk-beden-yazlik-elbise",
       "title": "Fırfır Etekli Yeşil Büyük Beden Yazlık Elbise",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -6155,7 +6389,7 @@
         "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/firfir-etekli-yesil-buyuk-beden-yazlik--75488.jpg"
       ],
       "colors": [
-        "Yeşil"
+        "Standart"
       ],
       "sizes": [
         "2XL",
@@ -6196,7 +6430,9 @@
       "slug": "cicekli-yirtmacli-mavi-buyuk-beden-yazlik-elbise",
       "url": "product.html?p=cicekli-yirtmacli-mavi-buyuk-beden-yazlik-elbise",
       "title": "Çiçekli Yırtmaçlı Mavi Büyük Beden Yazlık Elbise",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -6247,7 +6483,9 @@
       "slug": "boyundan-baglamali-desenli-buyuk-beden-yazlik-elbise",
       "url": "product.html?p=boyundan-baglamali-desenli-buyuk-beden-yazlik-elbise",
       "title": "Boyundan Bağlamalı Desenli Büyük Beden Yazlık Elbise",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -6298,7 +6536,9 @@
       "slug": "capraz-askili-desenli-buyuk-beden-yazlik-elbise",
       "url": "product.html?p=capraz-askili-desenli-buyuk-beden-yazlik-elbise",
       "title": "Çapraz Askılı Desenli Büyük Beden Yazlık Elbise",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -6350,7 +6590,9 @@
       "slug": "yildizli-buyuk-beden-bustiyer-tayt-fitness-takim",
       "url": "product.html?p=yildizli-buyuk-beden-bustiyer-tayt-fitness-takim",
       "title": "Yıldızlı Büyük Beden Büstiyer Tayt Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse",
@@ -6401,7 +6643,9 @@
       "slug": "yildiz-desenli-buyuk-beden-bustiyer-tayt-fitness-takim",
       "url": "product.html?p=yildiz-desenli-buyuk-beden-bustiyer-tayt-fitness-takim",
       "title": "Yıldız Desenli Büyük Beden Büstiyer Tayt Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse",
@@ -6452,7 +6696,9 @@
       "slug": "cok-renkli-buyuk-beden-bustiyer-tayt-fitness-takim",
       "url": "product.html?p=cok-renkli-buyuk-beden-bustiyer-tayt-fitness-takim",
       "title": "Çok Renkli Büyük Beden Büstiyer Tayt Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse",
@@ -6503,7 +6749,9 @@
       "slug": "beyaz-cizgili-buyuk-beden-bustiyer-tayt-fitness-takim",
       "url": "product.html?p=beyaz-cizgili-buyuk-beden-bustiyer-tayt-fitness-takim",
       "title": "Beyaz Çizgili Büyük Beden Büstiyer Tayt Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse",
@@ -6554,7 +6802,9 @@
       "slug": "renkli-buyuk-beden-bustiyer-tayt-fitness-takim",
       "url": "product.html?p=renkli-buyuk-beden-bustiyer-tayt-fitness-takim",
       "title": "Renkli Büyük Beden Büstiyer Tayt Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse",
@@ -6606,7 +6856,9 @@
       "slug": "yesil-desenli-buyuk-beden-bustiyer-tayt-fitness-takim",
       "url": "product.html?p=yesil-desenli-buyuk-beden-bustiyer-tayt-fitness-takim",
       "title": "Yeşil Desenli Büyük Beden Büstiyer Tayt Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse",
@@ -6616,7 +6868,7 @@
         "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/yesil-desenli-buyuk-beden-bustiyer-tay-8228-e.jpg"
       ],
       "colors": [
-        "Yeşil"
+        "Standart"
       ],
       "sizes": [
         "2XL",
@@ -6657,7 +6909,9 @@
       "slug": "beyaz-cizgi-buyuk-beden-bustiyer-tayt-fitness-takim",
       "url": "product.html?p=beyaz-cizgi-buyuk-beden-bustiyer-tayt-fitness-takim",
       "title": "Beyaz Çizgi Büyük Beden Büstiyer Tayt Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse",
@@ -6709,7 +6963,9 @@
       "slug": "pacasi-dantel-buyuk-beden-siyah-tayt",
       "url": "product.html?p=pacasi-dantel-buyuk-beden-siyah-tayt",
       "title": "Paçası Dantel Büyük Beden Siyah Tayt",
-      "price": 454,
+      "price": 499,
+      "listPrice": 624,
+      "discount": 20,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -6760,7 +7016,9 @@
       "slug": "diz-ustu-buyuk-beden-siyah-tayt",
       "url": "product.html?p=diz-ustu-buyuk-beden-siyah-tayt",
       "title": "Diz Üstü Büyük Beden Siyah Tayt",
-      "price": 454,
+      "price": 499,
+      "listPrice": 624,
+      "discount": 20,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -6810,7 +7068,9 @@
       "slug": "diz-ustu-dantelli-buyuk-beden-siyah-tayt",
       "url": "product.html?p=diz-ustu-dantelli-buyuk-beden-siyah-tayt",
       "title": "Diz Üstü Dantelli Büyük Beden Siyah Tayt",
-      "price": 454,
+      "price": 499,
+      "listPrice": 624,
+      "discount": 20,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -6861,7 +7121,9 @@
       "slug": "uzun-buyuk-beden-siyah-tayt",
       "url": "product.html?p=uzun-buyuk-beden-siyah-tayt",
       "title": "Uzun Büyük Beden Siyah Tayt",
-      "price": 454,
+      "price": 499,
+      "listPrice": 624,
+      "discount": 20,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -6910,7 +7172,9 @@
       "slug": "gri-seritli-uzun-buyuk-beden-siyah-tayt",
       "url": "product.html?p=gri-seritli-uzun-buyuk-beden-siyah-tayt",
       "title": "Gri Şeritli Uzun Büyük Beden Siyah Tayt",
-      "price": 454,
+      "price": 499,
+      "listPrice": 624,
+      "discount": 20,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -6960,7 +7224,9 @@
       "slug": "yaldiz-seritli-uzun-buyuk-beden-siyah-tayt",
       "url": "product.html?p=yaldiz-seritli-uzun-buyuk-beden-siyah-tayt",
       "title": "Yaldız Şeritli Uzun Büyük Beden Siyah Tayt",
-      "price": 454,
+      "price": 499,
+      "listPrice": 624,
+      "discount": 20,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -7010,7 +7276,9 @@
       "slug": "kirmizi-seritli-uzun-buyuk-beden-siyah-tayt",
       "url": "product.html?p=kirmizi-seritli-uzun-buyuk-beden-siyah-tayt",
       "title": "Kırmızı Şeritli Uzun Büyük Beden Siyah Tayt",
-      "price": 454,
+      "price": 499,
+      "listPrice": 624,
+      "discount": 20,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -7061,7 +7329,9 @@
       "slug": "beyaz-seritli-uzun-buyuk-beden-siyah-tayt",
       "url": "product.html?p=beyaz-seritli-uzun-buyuk-beden-siyah-tayt",
       "title": "Beyaz Şeritli Uzun Büyük Beden Siyah Tayt",
-      "price": 454,
+      "price": 499,
+      "listPrice": 624,
+      "discount": 20,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -7111,7 +7381,9 @@
       "slug": "kapri-buyuk-beden-siyah-tayt",
       "url": "product.html?p=kapri-buyuk-beden-siyah-tayt",
       "title": "Kapri Büyük Beden Siyah Tayt",
-      "price": 454,
+      "price": 499,
+      "listPrice": 624,
+      "discount": 20,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -7162,7 +7434,9 @@
       "slug": "pacasi-gupurlu-buyuk-beden-gri-tayt",
       "url": "product.html?p=pacasi-gupurlu-buyuk-beden-gri-tayt",
       "title": "Paçası Güpürlü Büyük Beden Gri Tayt",
-      "price": 454,
+      "price": 499,
+      "listPrice": 624,
+      "discount": 20,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -7212,7 +7486,9 @@
       "slug": "pacasi-gupurlu-buyuk-beden-uzun-gri-tayt",
       "url": "product.html?p=pacasi-gupurlu-buyuk-beden-uzun-gri-tayt",
       "title": "Paçası Güpürlü Büyük Beden Uzun Gri Tayt",
-      "price": 454,
+      "price": 499,
+      "listPrice": 624,
+      "discount": 20,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -7262,7 +7538,9 @@
       "slug": "pacaci-gupurlu-buyuk-beden-uzun-siyah-tayt",
       "url": "product.html?p=pacaci-gupurlu-buyuk-beden-uzun-siyah-tayt",
       "title": "Paçası Güpürlü Büyük Beden Uzun Siyah Tayt",
-      "price": 454,
+      "price": 499,
+      "listPrice": 624,
+      "discount": 20,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -7312,7 +7590,9 @@
       "slug": "gupurlu-buyuk-beden-kapri-siyah-tayt",
       "url": "product.html?p=gupurlu-buyuk-beden-kapri-siyah-tayt",
       "title": "Güpürlü Büyük Beden Kapri Siyah Tayt",
-      "price": 454,
+      "price": 499,
+      "listPrice": 624,
+      "discount": 20,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -7362,7 +7642,9 @@
       "slug": "tasli-buyuk-beden-scuba-siyah-tayt",
       "url": "product.html?p=tasli-buyuk-beden-scuba-siyah-tayt",
       "title": "Taşlı Büyük Beden Scuba Siyah Tayt",
-      "price": 545,
+      "price": 599,
+      "listPrice": 799,
+      "discount": 25,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -7413,7 +7695,9 @@
       "slug": "pacasi-tasli-buyuk-beden-scuba-siyah-tayt",
       "url": "product.html?p=pacasi-tasli-buyuk-beden-scuba-siyah-tayt",
       "title": "Paçası Taşlı Büyük Beden Scuba Siyah Tayt",
-      "price": 545,
+      "price": 599,
+      "listPrice": 799,
+      "discount": 25,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -7464,7 +7748,9 @@
       "slug": "kayik-yaka-buyuk-beden-pijama-takimi",
       "url": "product.html?p=kayik-yaka-buyuk-beden-pijama-takimi",
       "title": "Kayık Yaka Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -7517,7 +7803,9 @@
       "slug": "alti-cizgili-buyuk-beden-pijama-takimi",
       "url": "product.html?p=alti-cizgili-buyuk-beden-pijama-takimi",
       "title": "Altı Çizgili Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -7569,7 +7857,9 @@
       "slug": "dantelli-cicekli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=dantelli-cicekli-buyuk-beden-pijama-takimi",
       "title": "Dantelli Çiçekli Büyük Beden Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": null,
+      "discount": 0,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -7622,7 +7912,9 @@
       "slug": "tul-detayli-cicekli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=tul-detayli-cicekli-buyuk-beden-pijama-takimi",
       "title": "Tül Detaylı Çiçekli Büyük Beden Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": null,
+      "discount": 0,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -7674,7 +7966,9 @@
       "slug": "gul-desenli-fusya-buyuk-beden-pijama-takimi",
       "url": "product.html?p=gul-desenli-fusya-buyuk-beden-pijama-takimi",
       "title": "Gül Desenli Fuşya Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -7726,7 +8020,9 @@
       "slug": "gul-desenli-lila-buyuk-beden-pijama-takimi",
       "url": "product.html?p=gul-desenli-lila-buyuk-beden-pijama-takimi",
       "title": "Gül Desenli Lila Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -7778,7 +8074,9 @@
       "slug": "gul-desenli-haki-buyuk-beden-pijama-takimi",
       "url": "product.html?p=gul-desenli-haki-buyuk-beden-pijama-takimi",
       "title": "Gül Desenli Haki Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -7830,7 +8128,9 @@
       "slug": "desenli-mor-buyuk-beden-pijama-takimi",
       "url": "product.html?p=desenli-mor-buyuk-beden-pijama-takimi",
       "title": "Desenli Mor Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -7882,7 +8182,9 @@
       "slug": "baklava-desenli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=baklava-desenli-buyuk-beden-pijama-takimi",
       "title": "Baklava Desenli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -7934,7 +8236,9 @@
       "slug": "cok-renkli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=cok-renkli-buyuk-beden-pijama-takimi",
       "title": "Çok Renkli Büyük Beden Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -7986,7 +8290,9 @@
       "slug": "baklava-desenli-lacivert-buyuk-beden-pijama-takimi",
       "url": "product.html?p=baklava-desenli-lacivert-buyuk-beden-pijama-takimi",
       "title": "Baklava Desenli Lacivert Büyük Beden Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -8038,7 +8344,9 @@
       "slug": "leoparli-ip-aski-buyuk-beden-pijama-takimi",
       "url": "product.html?p=leoparli-ip-aski-buyuk-beden-pijama-takimi",
       "title": "Leoparlı İp Askı Büyük Beden Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -8092,7 +8400,9 @@
       "slug": "desenli-kisa-kol-buyuk-beden-pijama-takimi",
       "url": "product.html?p=desenli-kisa-kol-buyuk-beden-pijama-takimi",
       "title": "Desenli Kısa Kol Büyük Beden Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -8144,7 +8454,9 @@
       "slug": "bordo-mavi-buyuk-beden-pijama-takimi",
       "url": "product.html?p=bordo-mavi-buyuk-beden-pijama-takimi",
       "title": "Bordo Mavi Büyük Beden Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -8197,7 +8509,9 @@
       "slug": "file-yakali-buyuk-beden-pijama-takimi",
       "url": "product.html?p=file-yakali-buyuk-beden-pijama-takimi",
       "title": "File Yakalı Büyük Beden Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -8249,7 +8563,9 @@
       "slug": "v-yakali-pudra-buyuk-beden-pijama-takimi",
       "url": "product.html?p=v-yakali-pudra-buyuk-beden-pijama-takimi",
       "title": "V Yakalı Pudra Büyük Beden Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -8302,7 +8618,9 @@
       "slug": "siyah-puanli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=siyah-puanli-buyuk-beden-pijama-takimi",
       "title": "Siyah Puanlı Büyük Beden Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -8354,7 +8672,9 @@
       "slug": "pembe-ekru-buyuk-beden-pijama-takimi",
       "url": "product.html?p=pembe-ekru-buyuk-beden-pijama-takimi",
       "title": "Pembe Ekru Büyük Beden Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -8407,7 +8727,9 @@
       "slug": "dantel-suslu-buyuk-beden-bayan-pijama-takimi",
       "url": "product.html?p=dantel-suslu-buyuk-beden-bayan-pijama-takimi",
       "title": "Dantel Süslü Büyük Beden Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -8460,7 +8782,9 @@
       "slug": "ince-cizgili-buyuk-beden-bayan-pijama-takimi",
       "url": "product.html?p=ince-cizgili-buyuk-beden-bayan-pijama-takimi",
       "title": "İnce Çizgili Büyük Beden Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -8512,7 +8836,9 @@
       "slug": "yuvarlak-yaka-buyuk-beden-bayan-pijama-takimi",
       "url": "product.html?p=yuvarlak-yaka-buyuk-beden-bayan-pijama-takimi",
       "title": "Yuvarlak Yaka Büyük Beden Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -8564,7 +8890,9 @@
       "slug": "dantel-suslu-leoparli-buyuk-beden-bayan-pijama-takimi",
       "url": "product.html?p=dantel-suslu-leoparli-buyuk-beden-bayan-pijama-takimi",
       "title": "Dantel Süslü Leoparlı Büyük Beden Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -8618,7 +8946,9 @@
       "slug": "yazili-siyah-buyuk-beden-bayan-pijama-takimi",
       "url": "product.html?p=yazili-siyah-buyuk-beden-bayan-pijama-takimi",
       "title": "Yazılı Siyah Büyük Beden Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -8670,7 +9000,9 @@
       "slug": "genis-kollu-buyuk-beden-bayan-pijama-takimi",
       "url": "product.html?p=genis-kollu-buyuk-beden-bayan-pijama-takimi",
       "title": "Geniş Kollu Büyük Beden Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -8722,7 +9054,9 @@
       "slug": "dantel-yakali-buyuk-beden-bayan-pijama-takimi",
       "url": "product.html?p=dantel-yakali-buyuk-beden-bayan-pijama-takimi",
       "title": "Dantel Yakalı Büyük Beden Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -8775,7 +9109,9 @@
       "slug": "cep-detayli-buyuk-beden-bayan-pijama-takimi",
       "url": "product.html?p=cep-detayli-buyuk-beden-bayan-pijama-takimi",
       "title": "Cep Detaylı Büyük Beden Bayan Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -8826,7 +9162,9 @@
       "slug": "omuz-dekolte-buyuk-beden-bayan-pijama-takimi",
       "url": "product.html?p=omuz-dekolte-buyuk-beden-bayan-pijama-takimi",
       "title": "Omuz Dekolte Büyük Beden Bayan Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1665,
+      "discount": 40,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -8877,7 +9215,9 @@
       "slug": "ustu-dekolteli-buyuk-beden-bayan-pijama-takimi",
       "url": "product.html?p=ustu-dekolteli-buyuk-beden-bayan-pijama-takimi",
       "title": "Üstü Dekolteli Büyük Beden Bayan Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -8928,7 +9268,9 @@
       "slug": "yaka-dugmeli-buyuk-beden-bayan-pijama-takimi",
       "url": "product.html?p=yaka-dugmeli-buyuk-beden-bayan-pijama-takimi",
       "title": "Yaka Düğmeli Büyük Beden Bayan Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -8980,7 +9322,9 @@
       "slug": "dantelli-gullu-buyuk-beden-bayan-pijama-takimi",
       "url": "product.html?p=dantelli-gullu-buyuk-beden-bayan-pijama-takimi",
       "title": "Dantelli Güllü Büyük Beden Bayan Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -9033,7 +9377,9 @@
       "slug": "petrol-yesili-buyuk-beden-bayan-pijama-takimi",
       "url": "product.html?p=petrol-yesili-buyuk-beden-bayan-pijama-takimi",
       "title": "Petrol Yeşili Büyük Beden Bayan Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -9044,7 +9390,7 @@
         "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/petrol-yesili-buyuk-beden-bayan-pijama-fd48-4.jpg"
       ],
       "colors": [
-        "Yeşil"
+        "Standart"
       ],
       "sizes": [
         "2XL",
@@ -9085,7 +9431,9 @@
       "slug": "dantelli-siyah-buyuk-beden-fantazi-jartiyer-takim",
       "url": "product.html?p=dantelli-siyah-buyuk-beden-fantazi-jartiyer-takim",
       "title": "Dantelli Siyah Büyük Beden Fantazi Jartiyer Takım",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -9138,7 +9486,9 @@
       "slug": "mini-siyah-buyuk-beden-fantazi-jartiyer-takim",
       "url": "product.html?p=mini-siyah-buyuk-beden-fantazi-jartiyer-takim",
       "title": "Mini Siyah Büyük Beden Fantazi Jartiyer Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -9190,7 +9540,9 @@
       "slug": "mini-kirmizi-buyuk-beden-fantazi-jartiyer-takim",
       "url": "product.html?p=mini-kirmizi-buyuk-beden-fantazi-jartiyer-takim",
       "title": "Mini Kırmızı Büyük Beden Fantazi Jartiyer Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -9242,7 +9594,9 @@
       "slug": "dekolteli-siyah-buyuk-beden-fantazi-jartiyer-takim",
       "url": "product.html?p=dekolteli-siyah-buyuk-beden-fantazi-jartiyer-takim",
       "title": "Dekolteli Siyah Büyük Beden Fantazi Jartiyer Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -9294,7 +9648,9 @@
       "slug": "seksi-siyah-buyuk-beden-fantazi-jartiyer-takim",
       "url": "product.html?p=seksi-siyah-buyuk-beden-fantazi-jartiyer-takim",
       "title": "Seksi Siyah Büyük Beden Fantazi Jartiyer Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -9346,7 +9702,9 @@
       "slug": "seksi-kirmizi-buyuk-beden-fantazi-jartiyer-takim",
       "url": "product.html?p=seksi-kirmizi-buyuk-beden-fantazi-jartiyer-takim",
       "title": "Seksi Kırmızı Büyük Beden Fantazi Jartiyer Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -9397,7 +9755,9 @@
       "slug": "siyah-dantelli-buyuk-beden-fantazi-jartiyer-takim",
       "url": "product.html?p=siyah-dantelli-buyuk-beden-fantazi-jartiyer-takim",
       "title": "Siyah Dantelli Büyük Beden Fantazi Jartiyer Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -9450,7 +9810,9 @@
       "slug": "lame-siyah-buyuk-beden-fantazi-jartiyer-takim",
       "url": "product.html?p=lame-siyah-buyuk-beden-fantazi-jartiyer-takim",
       "title": "Lame Siyah Büyük Beden Fantazi Jartiyer Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -9502,7 +9864,9 @@
       "slug": "lame-kirmizi-buyuk-beden-fantazi-jartiyer-takim",
       "url": "product.html?p=lame-kirmizi-buyuk-beden-fantazi-jartiyer-takim",
       "title": "Lame Kırmızı Büyük Beden Fantazi Jartiyer Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -9554,7 +9918,9 @@
       "slug": "parlak-kirmizi-buyuk-beden-fantazi-jartiyer-takim",
       "url": "product.html?p=parlak-kirmizi-buyuk-beden-fantazi-jartiyer-takim",
       "title": "Parlak Kırmızı Büyük Beden Fantazi Jartiyer Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -9606,7 +9972,9 @@
       "slug": "parlak-siyah-buyuk-beden-fantazi-jartiyer-takim",
       "url": "product.html?p=parlak-siyah-buyuk-beden-fantazi-jartiyer-takim",
       "title": "Parlak Siyah Büyük Beden Fantazi Jartiyer Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -9658,7 +10026,9 @@
       "slug": "dantelli-lame-bordo-buyuk-beden-fantazi-gecelik",
       "url": "product.html?p=dantelli-lame-bordo-buyuk-beden-fantazi-gecelik",
       "title": "Dantelli Lame Bordo Büyük Beden Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1289,
+      "discount": 38,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -9712,7 +10082,9 @@
       "slug": "dantelli-lame-siyah-buyuk-beden-fantazi-gecelik",
       "url": "product.html?p=dantelli-lame-siyah-buyuk-beden-fantazi-gecelik",
       "title": "Dantelli Lame Siyah Büyük Beden Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -9766,7 +10138,9 @@
       "slug": "lame-kirmizi-buyuk-beden-fantazi-gecelik-takim",
       "url": "product.html?p=lame-kirmizi-buyuk-beden-fantazi-gecelik-takim",
       "title": "Lame Kırmızı Büyük Beden Fantazi Gecelik Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -9819,7 +10193,9 @@
       "slug": "lame-siyah-buyuk-beden-fantazi-gecelik-takim",
       "url": "product.html?p=lame-siyah-buyuk-beden-fantazi-gecelik-takim",
       "title": "Lame Siyah Büyük Beden Fantazi Gecelik Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -9872,7 +10248,9 @@
       "slug": "parlak-siyah-buyuk-beden-fantazi-gecelik-takim",
       "url": "product.html?p=parlak-siyah-buyuk-beden-fantazi-gecelik-takim",
       "title": "Parlak Siyah Büyük Beden Fantazi Gecelik Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -9925,7 +10303,9 @@
       "slug": "gogus-dekolte-buyuk-beden-fantazi-gecelik",
       "url": "product.html?p=gogus-dekolte-buyuk-beden-fantazi-gecelik",
       "title": "Göğüs Dekolte Büyük Beden Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -9977,7 +10357,9 @@
       "slug": "gogus-dekolte-kirmizi-buyuk-beden-fantazi-gecelik",
       "url": "product.html?p=gogus-dekolte-kirmizi-buyuk-beden-fantazi-gecelik",
       "title": "Göğüs Dekolte Kırmızı Büyük Beden Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -10029,7 +10411,9 @@
       "slug": "buyuk-beden-fantazi-denizci-kostumu",
       "url": "product.html?p=buyuk-beden-fantazi-denizci-kostumu",
       "title": "Büyük Beden Fantazi Denizci Kostümü",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -10080,7 +10464,9 @@
       "slug": "buyuk-beden-fantazi-ekoseli-kostum",
       "url": "product.html?p=buyuk-beden-fantazi-ekoseli-kostum",
       "title": "Büyük Beden Fantazi Ekoseli Kostüm",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -10131,7 +10517,9 @@
       "slug": "buyuk-beden-fantazi-mor-ekoseli-kostum",
       "url": "product.html?p=buyuk-beden-fantazi-mor-ekoseli-kostum",
       "title": "Büyük Beden Fantazi Mor Ekoseli Kostüm",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -10183,7 +10571,9 @@
       "slug": "buyuk-beden-fantazi-hizmetci-kostumu",
       "url": "product.html?p=buyuk-beden-fantazi-hizmetci-kostumu",
       "title": "Büyük Beden Fantazi Hizmetçi Kostümü",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -10234,7 +10624,9 @@
       "slug": "bordo-buyuk-beden-saten-sabahlik",
       "url": "product.html?p=bordo-buyuk-beden-saten-sabahlik",
       "title": "Bordo Büyük Beden Saten Sabahlık",
-      "price": 1181,
+      "price": 1299,
+      "listPrice": 1687,
+      "discount": 23,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -10286,7 +10678,9 @@
       "slug": "siyah-buyuk-beden-saten-sabahlik",
       "url": "product.html?p=siyah-buyuk-beden-saten-sabahlik",
       "title": "Siyah Büyük Beden Saten Sabahlık",
-      "price": 1181,
+      "price": 1299,
+      "listPrice": 1687,
+      "discount": 23,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -10338,7 +10732,9 @@
       "slug": "beyaz-buyuk-beden-saten-sabahlik",
       "url": "product.html?p=beyaz-buyuk-beden-saten-sabahlik",
       "title": "Beyaz Büyük Beden Saten Sabahlık",
-      "price": 1181,
+      "price": 1299,
+      "listPrice": 1687,
+      "discount": 23,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -10390,7 +10786,9 @@
       "slug": "pembe-buyuk-beden-saten-sabahlik",
       "url": "product.html?p=pembe-buyuk-beden-saten-sabahlik",
       "title": "Pembe Büyük Beden Saten Sabahlık",
-      "price": 1181,
+      "price": 1299,
+      "listPrice": 1687,
+      "discount": 23,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -10441,7 +10839,9 @@
       "slug": "buyuk-beden-ip-askili-bayan-atlet",
       "url": "product.html?p=buyuk-beden-ip-askili-bayan-atlet",
       "title": "Büyük Beden İp Askılı Bayan Atlet",
-      "price": 181,
+      "price": 199,
+      "listPrice": 265,
+      "discount": 25,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -10491,7 +10891,9 @@
       "slug": "dantel-isleme-buyuk-beden-fantazi-lacivert-gecelik",
       "url": "product.html?p=dantel-isleme-buyuk-beden-fantazi-lacivert-gecelik",
       "title": "Dantel İşleme Büyük Beden Fantazi Lacivert Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 1226,
+      "discount": 43,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -10547,7 +10949,9 @@
       "slug": "dantel-isleme-buyuk-beden-fantazi-kirmizi-gecelik",
       "url": "product.html?p=dantel-isleme-buyuk-beden-fantazi-kirmizi-gecelik",
       "title": "Dantel İşleme Büyük Beden Fantazi Kırmızı Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 1226,
+      "discount": 43,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -10603,7 +11007,9 @@
       "slug": "dantel-isleme-buyuk-beden-fantazi-yesil-gecelik",
       "url": "product.html?p=dantel-isleme-buyuk-beden-fantazi-yesil-gecelik",
       "title": "Dantel İşleme Büyük Beden Fantazi Yeşil Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 1226,
+      "discount": 43,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -10617,7 +11023,7 @@
         "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/dantel-isleme-buyuk-beden-fantazi-yesi-29f565.jpg"
       ],
       "colors": [
-        "Yeşil"
+        "Standart"
       ],
       "sizes": [
         "2XL",
@@ -10659,7 +11065,9 @@
       "slug": "dantel-isleme-buyuk-beden-fantazi-siyah-gecelik",
       "url": "product.html?p=dantel-isleme-buyuk-beden-fantazi-siyah-gecelik",
       "title": "Dantel İşleme Büyük Beden Fantazi Siyah Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 1226,
+      "discount": 43,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -10715,7 +11123,9 @@
       "slug": "yanlari-yirtmac-buyuk-beden-fantazi-siyah-gecelik",
       "url": "product.html?p=yanlari-yirtmac-buyuk-beden-fantazi-siyah-gecelik",
       "title": "Etkileyici Duruş",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -10763,7 +11173,9 @@
       "slug": "genis-kollu-buyuk-beden-fantazi-siyah-gecelik",
       "url": "product.html?p=genis-kollu-buyuk-beden-fantazi-siyah-gecelik",
       "title": "Geniş Kollu Büyük Beden Fantazi Siyah Gecelik",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -10816,7 +11228,9 @@
       "slug": "3-parca-buyuk-beden-fantazi-gecelik-takim",
       "url": "product.html?p=3-parca-buyuk-beden-fantazi-gecelik-takim",
       "title": "3 Parça Büyük Beden Fantazi Gecelik Takım",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -10870,7 +11284,9 @@
       "slug": "firfirli-buyuk-beden-siyah-fantazi-gecelik",
       "url": "product.html?p=firfirli-buyuk-beden-siyah-fantazi-gecelik",
       "title": "Fırfırlı Büyük Beden Siyah Fantazi Gecelik",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -10924,7 +11340,9 @@
       "slug": "derin-yirtmac-buyuk-beden-kirmizi-fantazi-gecelik",
       "url": "product.html?p=derin-yirtmac-buyuk-beden-kirmizi-fantazi-gecelik",
       "title": "Derin Yırtmaç Büyük Beden Kırmızı Fantazi Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 985,
+      "discount": 29,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -10978,7 +11396,9 @@
       "slug": "derin-yirtmac-buyuk-beden-siyah-fantazi-gecelik",
       "url": "product.html?p=derin-yirtmac-buyuk-beden-siyah-fantazi-gecelik",
       "title": "Derin Yırtmaç Büyük Beden Siyah Fantazi Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 985,
+      "discount": 29,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -11031,7 +11451,9 @@
       "slug": "full-dantel-buyuk-beden-siyah-fantazi-gecelik",
       "url": "product.html?p=full-dantel-buyuk-beden-siyah-fantazi-gecelik",
       "title": "Full Dantel Büyük Beden Siyah Fantazi Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 985,
+      "discount": 29,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -11085,7 +11507,9 @@
       "slug": "full-dantel-buyuk-beden-kirmizi-fantazi-gecelik",
       "url": "product.html?p=full-dantel-buyuk-beden-kirmizi-fantazi-gecelik",
       "title": "Full Dantel Büyük Beden Kırmızı Fantazi Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 985,
+      "discount": 29,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -11139,7 +11563,9 @@
       "slug": "gogus-dekolte-buyuk-beden-kirmizi-fantazi-gecelik",
       "url": "product.html?p=gogus-dekolte-buyuk-beden-kirmizi-fantazi-gecelik",
       "title": "Göğüs Dekolte Büyük Beden Kırmızı Fantazi Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 1226,
+      "discount": 43,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -11194,7 +11620,9 @@
       "slug": "gogus-dekolte-buyuk-beden-siyah-fantazi-gecelik",
       "url": "product.html?p=gogus-dekolte-buyuk-beden-siyah-fantazi-gecelik",
       "title": "Göğüs Dekolte Büyük Beden Siyah Fantazi Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 1226,
+      "discount": 43,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -11248,7 +11676,9 @@
       "slug": "uclari-capraz-buyuk-beden-siyah-fantazi-gecelik",
       "url": "product.html?p=uclari-capraz-buyuk-beden-siyah-fantazi-gecelik",
       "title": "Uçları Çapraz Büyük Beden Siyah Fantazi Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 1226,
+      "discount": 43,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -11301,7 +11731,9 @@
       "slug": "uclari-capraz-buyuk-beden-kirmizi-fantazi-gecelik",
       "url": "product.html?p=uclari-capraz-buyuk-beden-kirmizi-fantazi-gecelik",
       "title": "Uçları Çapraz Büyük Beden Kırmızı Fantazi Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 1226,
+      "discount": 43,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -11354,7 +11786,9 @@
       "slug": "mini-yirtmaclar-buyuk-beden-kirmizi-fantazi-gecelik",
       "url": "product.html?p=mini-yirtmaclar-buyuk-beden-kirmizi-fantazi-gecelik",
       "title": "Mini Yırtmaçlar Büyük Beden Kırmızı Fantazi Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 985,
+      "discount": 29,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -11409,7 +11843,9 @@
       "slug": "mini-yirtmaclar-buyuk-beden-siyah-fantazi-gecelik",
       "url": "product.html?p=mini-yirtmaclar-buyuk-beden-siyah-fantazi-gecelik",
       "title": "Mini Yırtmaçlar Büyük Beden Siyah Fantazi Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 985,
+      "discount": 29,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -11464,7 +11900,9 @@
       "slug": "cift-derin-yirtmacli-buyuk-beden-beyaz-gecelik",
       "url": "product.html?p=cift-derin-yirtmacli-buyuk-beden-beyaz-gecelik",
       "title": "Çift Derin Yırtmaçlı Büyük Beden Beyaz Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 1226,
+      "discount": 43,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -11517,7 +11955,9 @@
       "slug": "cift-derin-yirtmacli-buyuk-beden-kirmizi-gecelik",
       "url": "product.html?p=cift-derin-yirtmacli-buyuk-beden-kirmizi-gecelik",
       "title": "Çift Derin Yırtmaçlı Büyük Beden Kırmızı Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 1226,
+      "discount": 43,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -11570,7 +12010,9 @@
       "slug": "cift-derin-yirtmacli-buyuk-beden-siyah-gecelik",
       "url": "product.html?p=cift-derin-yirtmacli-buyuk-beden-siyah-gecelik",
       "title": "Çift Derin Yırtmaçlı Büyük Beden Siyah Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 1226,
+      "discount": 43,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -11622,7 +12064,9 @@
       "slug": "cift-derin-yirtmacli-buyuk-beden-desenli-gecelik",
       "url": "product.html?p=cift-derin-yirtmacli-buyuk-beden-desenli-gecelik",
       "title": "Çift Derin Yırtmaçlı Büyük Beden Desenli Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 1226,
+      "discount": 43,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -11676,7 +12120,9 @@
       "slug": "dantelli-siyah-buyuk-beden-saten-gecelik-sabahlik-takim",
       "url": "product.html?p=dantelli-siyah-buyuk-beden-saten-gecelik-sabahlik-takim",
       "title": "Dantelli Siyah Büyük Beden Saten Gecelik Sabahlık Takım",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -11732,7 +12178,9 @@
       "slug": "dantelli-beyaz-buyuk-beden-saten-gecelik-sabahlik-takim",
       "url": "product.html?p=dantelli-beyaz-buyuk-beden-saten-gecelik-sabahlik-takim",
       "title": "Dantelli Beyaz Büyük Beden Saten Gecelik Sabahlık Takım",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -11787,7 +12235,9 @@
       "slug": "dantelli-lacivert-buyuk-beden-saten-gecelik-sabahlik-takim",
       "url": "product.html?p=dantelli-lacivert-buyuk-beden-saten-gecelik-sabahlik-takim",
       "title": "Dantelli Lacivert Büyük Beden Saten Gecelik Sabahlık Takım",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -11843,7 +12293,9 @@
       "slug": "dantelli-siyah-buyuk-beden-saten-gecelik-sabahlik-takim1",
       "url": "product.html?p=dantelli-siyah-buyuk-beden-saten-gecelik-sabahlik-takim1",
       "title": "Dantelli Siyah Büyük Beden Saten Gecelik Sabahlık Takım",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -11896,7 +12348,9 @@
       "slug": "dantelli-kirmizi-buyuk-beden-saten-gecelik-sabahlik-takim",
       "url": "product.html?p=dantelli-kirmizi-buyuk-beden-saten-gecelik-sabahlik-takim",
       "title": "Dantelli Kırmızı Büyük Beden Saten Gecelik Sabahlık Takım",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -11949,7 +12403,9 @@
       "slug": "dantelli-bordo-buyuk-beden-saten-gecelik-sabahlik-takim",
       "url": "product.html?p=dantelli-bordo-buyuk-beden-saten-gecelik-sabahlik-takim",
       "title": "Dantelli Bordo Büyük Beden Saten Gecelik Sabahlık Takım",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -12004,7 +12460,9 @@
       "slug": "siyah-buyuk-beden-dantelli-saten-gecelik-sabahlik-takim",
       "url": "product.html?p=siyah-buyuk-beden-dantelli-saten-gecelik-sabahlik-takim",
       "title": "Siyah Büyük Beden Dantelli Saten Gecelik Sabahlık Takım",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -12058,7 +12516,9 @@
       "slug": "krem-buyuk-beden-dantelli-saten-gecelik-sabahlik-takim",
       "url": "product.html?p=krem-buyuk-beden-dantelli-saten-gecelik-sabahlik-takim",
       "title": "Krem Büyük Beden Dantelli Saten Gecelik Sabahlık Takım",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -12111,7 +12571,9 @@
       "slug": "krem-buyuk-beden-dantelli-saten-gecelik-sabahlik",
       "url": "product.html?p=krem-buyuk-beden-dantelli-saten-gecelik-sabahlik",
       "title": "Krem Büyük Beden Dantelli Saten Gecelik Sabahlık",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -12164,7 +12626,9 @@
       "slug": "vizon-buyuk-beden-dantelli-saten-gecelik-sabahlik",
       "url": "product.html?p=vizon-buyuk-beden-dantelli-saten-gecelik-sabahlik",
       "title": "Vizon Büyük Beden Dantelli Saten Gecelik Sabahlık",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -12217,7 +12681,9 @@
       "slug": "murdum-buyuk-beden-dantelli-saten-gecelik-sabahlik",
       "url": "product.html?p=murdum-buyuk-beden-dantelli-saten-gecelik-sabahlik",
       "title": "Mürdüm Büyük Beden Dantelli Saten Gecelik Sabahlık",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -12270,7 +12736,9 @@
       "slug": "beyaz-buyuk-beden-dantelli-saten-gecelik-sabahlik",
       "url": "product.html?p=beyaz-buyuk-beden-dantelli-saten-gecelik-sabahlik",
       "title": "Beyaz Büyük Beden Dantelli Saten Gecelik Sabahlık",
-      "price": 1680,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -12323,7 +12791,9 @@
       "slug": "beyaz-buyuk-beden-dantel-saten-gecelik-sabahlik",
       "url": "product.html?p=beyaz-buyuk-beden-dantel-saten-gecelik-sabahlik",
       "title": "Beyaz Büyük Beden Dantel Saten Gecelik Sabahlık",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -12376,7 +12846,9 @@
       "slug": "kirmizi-buyuk-beden-dantel-saten-gecelik-sabahlik",
       "url": "product.html?p=kirmizi-buyuk-beden-dantel-saten-gecelik-sabahlik",
       "title": "Kırmızı Büyük Beden Dantel Saten Gecelik Sabahlık",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -12430,7 +12902,9 @@
       "slug": "gri-buyuk-beden-dantel-saten-gecelik-sabahlik",
       "url": "product.html?p=gri-buyuk-beden-dantel-saten-gecelik-sabahlik",
       "title": "Gri Büyük Beden Dantel Saten Gecelik Sabahlık",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -12483,7 +12957,9 @@
       "slug": "lacivert-buyuk-beden-dantel-saten-gecelik-sabahlik",
       "url": "product.html?p=lacivert-buyuk-beden-dantel-saten-gecelik-sabahlik",
       "title": "Lacivert Büyük Beden Dantel Saten Gecelik Sabahlık",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -12536,7 +13012,9 @@
       "slug": "vizon-buyuk-beden-dantel-saten-gecelik-sabahlik",
       "url": "product.html?p=vizon-buyuk-beden-dantel-saten-gecelik-sabahlik",
       "title": "Vizon Büyük Beden Dantel Saten Gecelik Sabahlık",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -12589,7 +13067,9 @@
       "slug": "su-yesili-buyuk-beden-dantelli-saten-gecelik-sabahlik",
       "url": "product.html?p=su-yesili-buyuk-beden-dantelli-saten-gecelik-sabahlik",
       "title": "Su Yeşili Büyük Beden Dantelli Saten Gecelik Sabahlık",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -12599,7 +13079,7 @@
         "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/su-yesili-buyuk-beden-dantelli-saten-g-9fe-41.jpg"
       ],
       "colors": [
-        "Yeşil"
+        "Standart"
       ],
       "sizes": [
         "2XL",
@@ -12642,7 +13122,9 @@
       "slug": "bordo-buyuk-beden-dantelli-saten-gecelik-sabahlik",
       "url": "product.html?p=bordo-buyuk-beden-dantelli-saten-gecelik-sabahlik",
       "title": "Bordo Büyük Beden Dantelli Saten Gecelik Sabahlık",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -12695,7 +13177,9 @@
       "slug": "siyah-buyuk-beden-dantelli-saten-gecelik-sabahlik",
       "url": "product.html?p=siyah-buyuk-beden-dantelli-saten-gecelik-sabahlik",
       "title": "Siyah Büyük Beden Dantelli Saten Gecelik Sabahlık",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -12749,7 +13233,9 @@
       "slug": "siyah-buyuk-beden-yirtmacli-saten-gecelik-sabahlik",
       "url": "product.html?p=siyah-buyuk-beden-yirtmacli-saten-gecelik-sabahlik",
       "title": "Siyah Büyük Beden Yırtmaçlı Saten Gecelik Sabahlık",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -12802,7 +13288,9 @@
       "slug": "vizon-buyuk-beden-dantel-suslu-saten-gecelik-sabahlik",
       "url": "product.html?p=vizon-buyuk-beden-dantel-suslu-saten-gecelik-sabahlik",
       "title": "Vizon Büyük Beden Dantel Süslü Saten Gecelik Sabahlık",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -12855,7 +13343,9 @@
       "slug": "beyaz-buyuk-beden-dantel-suslu-saten-gecelik-sabahlik",
       "url": "product.html?p=beyaz-buyuk-beden-dantel-suslu-saten-gecelik-sabahlik",
       "title": "Beyaz Büyük Beden Dantel Süslü Saten Gecelik Sabahlık",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -12909,7 +13399,9 @@
       "slug": "kirmizi-buyuk-beden-dantel-suslu-saten-gecelik-sabahlik",
       "url": "product.html?p=kirmizi-buyuk-beden-dantel-suslu-saten-gecelik-sabahlik",
       "title": "Kırmızı Büyük Beden Dantel Süslü Saten Gecelik Sabahlık",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -12963,7 +13455,9 @@
       "slug": "lacivert-buyuk-beden-dantel-suslu-saten-gecelik-sabahlik",
       "url": "product.html?p=lacivert-buyuk-beden-dantel-suslu-saten-gecelik-sabahlik",
       "title": "Lacivert Büyük Beden Dantel Süslü Saten Gecelik Sabahlık",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -13016,7 +13510,9 @@
       "slug": "su-yesil-buyuk-beden-dantelli-saten-gecelik-sabahlik",
       "url": "product.html?p=su-yesil-buyuk-beden-dantelli-saten-gecelik-sabahlik",
       "title": "Su Yeşil Büyük Beden Dantelli Saten Gecelik Sabahlık",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -13027,7 +13523,7 @@
         "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/su-yesil-buyuk-beden-dantelli-saten-ge-db02-1.jpg"
       ],
       "colors": [
-        "Yeşil"
+        "Standart"
       ],
       "sizes": [
         "2XL",
@@ -13070,7 +13566,9 @@
       "slug": "lacivert-buyuk-beden-kenar-dantelli-saten-gecelik-sabahlik",
       "url": "product.html?p=lacivert-buyuk-beden-kenar-dantelli-saten-gecelik-sabahlik",
       "title": "Lacivert Büyük Beden Kenar Dantelli Saten Gecelik Sabahlık",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -13124,7 +13622,9 @@
       "slug": "kirmizi-buyuk-beden-capraz-dantelli-saten-gecelik-sabahlik",
       "url": "product.html?p=kirmizi-buyuk-beden-capraz-dantelli-saten-gecelik-sabahlik",
       "title": "Kırmızı Büyük Beden Çapraz Dantelli Saten Gecelik Sabahlık",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -13178,7 +13678,9 @@
       "slug": "mor-buyuk-beden-dantel-yirtmacli-saten-gecelik-sabahlik",
       "url": "product.html?p=mor-buyuk-beden-dantel-yirtmacli-saten-gecelik-sabahlik",
       "title": "Mor Büyük Beden Dantel Yırtmaçlı Saten Gecelik Sabahlık",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -13232,7 +13734,9 @@
       "slug": "vizon-buyuk-beden-cicek-dantel-saten-gecelik-sabahlik",
       "url": "product.html?p=vizon-buyuk-beden-cicek-dantel-saten-gecelik-sabahlik",
       "title": "Vizon Büyük Beden Çiçek Dantel Saten Gecelik Sabahlık",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -13286,7 +13790,9 @@
       "slug": "siyah-buyuk-beden-cicek-dantel-saten-gecelik-sabahlik",
       "url": "product.html?p=siyah-buyuk-beden-cicek-dantel-saten-gecelik-sabahlik",
       "title": "Siyah Büyük Beden Çiçek Dantel Saten Gecelik Sabahlık",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -13340,7 +13846,9 @@
       "slug": "krem-buyuk-beden-zarif-dantelli-saten-gecelik-sabahlik",
       "url": "product.html?p=krem-buyuk-beden-zarif-dantelli-saten-gecelik-sabahlik",
       "title": "Krem Büyük Beden Zarif Dantelli Saten Gecelik Sabahlık",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -13393,7 +13901,9 @@
       "slug": "beyaz-buyuk-beden-yirtmacli-saten-gecelik-sabahlik",
       "url": "product.html?p=beyaz-buyuk-beden-yirtmacli-saten-gecelik-sabahlik",
       "title": "Beyaz Büyük Beden Yırtmaçlı Saten Gecelik Sabahlık",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -13446,7 +13956,9 @@
       "slug": "bordo-buyuk-beden-genis-dantelli-saten-gecelik-sabahlik",
       "url": "product.html?p=bordo-buyuk-beden-genis-dantelli-saten-gecelik-sabahlik",
       "title": "Bordo Büyük Beden Geniş Dantelli Saten Gecelik Sabahlık",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -13500,7 +14012,9 @@
       "slug": "puskullu-bordo-buyuk-beden-gecelik",
       "url": "product.html?p=puskullu-bordo-buyuk-beden-gecelik",
       "title": "Püsküllü Bordo Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -13550,7 +14064,9 @@
       "slug": "dantelli-lacivert-buyuk-beden-gecelik",
       "url": "product.html?p=dantelli-lacivert-buyuk-beden-gecelik",
       "title": "Dantelli Lacivert Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -13601,7 +14117,9 @@
       "slug": "dekolteli-dantelli-siyah-saten-buyuk-beden-gecelik",
       "url": "product.html?p=dekolteli-dantelli-siyah-saten-buyuk-beden-gecelik",
       "title": "Dekolteli Dantelli Siyah Saten Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -13654,7 +14172,9 @@
       "slug": "dekolteli-dantelli-pudra-saten-buyuk-beden-gecelik",
       "url": "product.html?p=dekolteli-dantelli-pudra-saten-buyuk-beden-gecelik",
       "title": "Dekolteli Dantelli Pudra Saten Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -13707,7 +14227,9 @@
       "slug": "yari-dantelli-pembe-saten-buyuk-beden-gecelik",
       "url": "product.html?p=yari-dantelli-pembe-saten-buyuk-beden-gecelik",
       "title": "Yarı Dantelli Pembe Saten Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -13760,7 +14282,9 @@
       "slug": "uzun-dantelli-beyaz-saten-buyuk-beden-gecelik",
       "url": "product.html?p=uzun-dantelli-beyaz-saten-buyuk-beden-gecelik",
       "title": "Uzun Dantelli Beyaz Saten Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -13813,7 +14337,9 @@
       "slug": "capraz-dantelli-siyah-saten-buyuk-beden-gecelik",
       "url": "product.html?p=capraz-dantelli-siyah-saten-buyuk-beden-gecelik",
       "title": "Çapraz Dantelli Siyah Saten Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -13867,7 +14393,9 @@
       "slug": "gul-dantelli-su-yesili-saten-buyuk-beden-gecelik",
       "url": "product.html?p=gul-dantelli-su-yesili-saten-buyuk-beden-gecelik",
       "title": "Gül Dantelli Su Yeşili Saten Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -13877,7 +14405,7 @@
         "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/gul-dantelli-su-yesili-saten-buyuk-bed-bb-587.jpg"
       ],
       "colors": [
-        "Yeşil"
+        "Standart"
       ],
       "sizes": [
         "2XL",
@@ -13920,7 +14448,9 @@
       "slug": "gogus-ustu-dantelli-su-yesili-saten-buyuk-beden-gecelik",
       "url": "product.html?p=gogus-ustu-dantelli-su-yesili-saten-buyuk-beden-gecelik",
       "title": "Göğüs Üstü Dantelli Su Yeşili Saten Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -13930,7 +14460,7 @@
         "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/gogus-ustu-dantelli-su-yesili-saten-bu-8ce410.jpg"
       ],
       "colors": [
-        "Yeşil"
+        "Standart"
       ],
       "sizes": [
         "2XL",
@@ -13973,7 +14503,9 @@
       "slug": "zarif-dantelli-lacivert-saten-buyuk-beden-gecelik",
       "url": "product.html?p=zarif-dantelli-lacivert-saten-buyuk-beden-gecelik",
       "title": "Zarif Dantelli Lacivert Saten Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -14026,7 +14558,9 @@
       "slug": "zarif-dantelli-koyu-lacivert-saten-buyuk-beden-gecelik",
       "url": "product.html?p=zarif-dantelli-koyu-lacivert-saten-buyuk-beden-gecelik",
       "title": "Zarif Dantelli Koyu Lacivert Saten Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -14079,7 +14613,9 @@
       "slug": "mini-yirtmacli-murdum-saten-buyuk-beden-gecelik",
       "url": "product.html?p=mini-yirtmacli-murdum-saten-buyuk-beden-gecelik",
       "title": "Mini Yırtmaçlı Mürdüm Saten Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -14131,7 +14667,9 @@
       "slug": "cicek-dantel-bordo-saten-buyuk-beden-gecelik",
       "url": "product.html?p=cicek-dantel-bordo-saten-buyuk-beden-gecelik",
       "title": "Çiçek Dantel Bordo Saten Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -14184,7 +14722,9 @@
       "slug": "uzun-dantel-bordo-saten-buyuk-beden-gecelik",
       "url": "product.html?p=uzun-dantel-bordo-saten-buyuk-beden-gecelik",
       "title": "Uzun Dantel Bordo Saten Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -14237,7 +14777,9 @@
       "slug": "ince-dantel-beyaz-saten-buyuk-beden-gecelik",
       "url": "product.html?p=ince-dantel-beyaz-saten-buyuk-beden-gecelik",
       "title": "İnce Dantel Beyaz Saten Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -14290,7 +14832,9 @@
       "slug": "cicek-dantel-krem-saten-buyuk-beden-gecelik",
       "url": "product.html?p=cicek-dantel-krem-saten-buyuk-beden-gecelik",
       "title": "Çiçek Dantel Krem Saten Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -14343,7 +14887,9 @@
       "slug": "capraz-dantel-krem-saten-buyuk-beden-gecelik",
       "url": "product.html?p=capraz-dantel-krem-saten-buyuk-beden-gecelik",
       "title": "Çapraz Dantel Krem Saten Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -14396,7 +14942,9 @@
       "slug": "uclari-tul-vizon-saten-buyuk-beden-gecelik",
       "url": "product.html?p=uclari-tul-vizon-saten-buyuk-beden-gecelik",
       "title": "Uçları Tül Vizon Saten Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -14448,7 +14996,9 @@
       "slug": "tul-dantelli-murdum-saten-buyuk-beden-gecelik",
       "url": "product.html?p=tul-dantelli-murdum-saten-buyuk-beden-gecelik",
       "title": "Tül Dantelli Mürdüm Saten Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -14501,7 +15051,9 @@
       "slug": "dantelli-beyaz-seksi-buyuk-beden-gecelik",
       "url": "product.html?p=dantelli-beyaz-seksi-buyuk-beden-gecelik",
       "title": "Dantelli Beyaz Seksi Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -14553,7 +15105,9 @@
       "slug": "genis-dantelli-beyaz-saten-seksi-buyuk-beden-gecelik",
       "url": "product.html?p=genis-dantelli-beyaz-saten-seksi-buyuk-beden-gecelik",
       "title": "Geniş Dantelli Beyaz Saten Seksi Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -14606,7 +15160,9 @@
       "slug": "cicek-dantelli-gri-saten-seksi-buyuk-beden-gecelik",
       "url": "product.html?p=cicek-dantelli-gri-saten-seksi-buyuk-beden-gecelik",
       "title": "Çiçek Dantelli Gri Saten Seksi Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -14659,7 +15215,9 @@
       "slug": "dantel-yakali-laci-saten-seksi-buyuk-beden-gecelik",
       "url": "product.html?p=dantel-yakali-laci-saten-seksi-buyuk-beden-gecelik",
       "title": "Dantel Yakalı Laci Saten Seksi Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -14712,7 +15270,9 @@
       "slug": "genis-dantel-pudra-seksi-saten-seksi-buyuk-beden-gecelik",
       "url": "product.html?p=genis-dantel-pudra-seksi-saten-seksi-buyuk-beden-gecelik",
       "title": "Geniş Dantel Pudra Seksi Saten Seksi Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -14765,7 +15325,9 @@
       "slug": "dantel-isleme-su-yesil-saten-seksi-buyuk-beden-gecelik",
       "url": "product.html?p=dantel-isleme-su-yesil-saten-seksi-buyuk-beden-gecelik",
       "title": "Dantel İşleme Su Yeşil Saten Seksi Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -14775,7 +15337,7 @@
         "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/dantel-isleme-su-yesil-saten-seksi-buy-9838-6.jpg"
       ],
       "colors": [
-        "Yeşil"
+        "Standart"
       ],
       "sizes": [
         "2XL",
@@ -14818,7 +15380,9 @@
       "slug": "dantelli-dekolteli-bordo-saten-seksi-buyuk-beden-gecelik",
       "url": "product.html?p=dantelli-dekolteli-bordo-saten-seksi-buyuk-beden-gecelik",
       "title": "Dantelli Dekolteli Bordo Saten Seksi Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -14871,7 +15435,9 @@
       "slug": "dantelli-dekolteli-siyah-saten-seksi-buyuk-beden-gecelik",
       "url": "product.html?p=dantelli-dekolteli-siyah-saten-seksi-buyuk-beden-gecelik",
       "title": "Dantelli Dekolteli Siyah Saten Seksi Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -14924,7 +15490,9 @@
       "slug": "dantelli-dekolteli-kirmizi-saten-seksi-buyuk-beden-gecelik",
       "url": "product.html?p=dantelli-dekolteli-kirmizi-saten-seksi-buyuk-beden-gecelik",
       "title": "Dantelli Dekolteli Kırmızı Saten Seksi Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -14977,7 +15545,9 @@
       "slug": "hos-dantelli-krem-saten-seksi-buyuk-beden-gecelik",
       "url": "product.html?p=hos-dantelli-krem-saten-seksi-buyuk-beden-gecelik",
       "title": "Hoş Dantelli Krem Saten Seksi Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -15030,7 +15600,9 @@
       "slug": "hos-dantelli-lacivert-saten-seksi-buyuk-beden-gecelik",
       "url": "product.html?p=hos-dantelli-lacivert-saten-seksi-buyuk-beden-gecelik",
       "title": "Hoş Dantelli Lacivert Saten Seksi Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -15083,7 +15655,9 @@
       "slug": "dantelli-yirtmac-beyaz-saten-seksi-buyuk-beden-gecelik",
       "url": "product.html?p=dantelli-yirtmac-beyaz-saten-seksi-buyuk-beden-gecelik",
       "title": "Dantelli Yırtmaç Beyaz Saten Seksi Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -15136,7 +15710,9 @@
       "slug": "dantelli-dekolteli-bordo-saten-seksi-buyuk-beden-gecelik1",
       "url": "product.html?p=dantelli-dekolteli-bordo-saten-seksi-buyuk-beden-gecelik1",
       "title": "Dantelli Dekolteli Bordo Saten Seksi Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -15189,7 +15765,9 @@
       "slug": "capraz-dantelli-dekolteli-kirmizi-seksi-buyuk-beden-gecelik",
       "url": "product.html?p=capraz-dantelli-dekolteli-kirmizi-seksi-buyuk-beden-gecelik",
       "title": "Çapraz Dantelli Dekolteli Kırmızı Seksi Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -15241,7 +15819,9 @@
       "slug": "gul-dantelli-siyah-saten-seksi-buyuk-beden-gecelik",
       "url": "product.html?p=gul-dantelli-siyah-saten-seksi-buyuk-beden-gecelik",
       "title": "Gül Dantelli Siyah Saten Seksi Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -15294,7 +15874,9 @@
       "slug": "serit-dantelli-vizon-saten-seksi-buyuk-beden-gecelik",
       "url": "product.html?p=serit-dantelli-vizon-saten-seksi-buyuk-beden-gecelik",
       "title": "Şerit Dantelli Vizon Saten Seksi Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -15347,7 +15929,9 @@
       "slug": "dantelli-saten-kirmizi-seksi-buyuk-beden-gecelik",
       "url": "product.html?p=dantelli-saten-kirmizi-seksi-buyuk-beden-gecelik",
       "title": "Dantelli Saten Kırmızı Seksi Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -15400,7 +15984,9 @@
       "slug": "dantelli-siyah-saten-buyuk-beden-sort-takim",
       "url": "product.html?p=dantelli-siyah-saten-buyuk-beden-sort-takim",
       "title": "Dantelli Siyah Saten Büyük Beden Şort Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -15452,7 +16038,9 @@
       "slug": "dantelli-kirmizi-saten-buyuk-beden-sort-takim",
       "url": "product.html?p=dantelli-kirmizi-saten-buyuk-beden-sort-takim",
       "title": "Dantelli Kırmızı Saten Büyük Beden Şort Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -15504,7 +16092,9 @@
       "slug": "dantelli-bordo-saten-buyuk-beden-sort-takim",
       "url": "product.html?p=dantelli-bordo-saten-buyuk-beden-sort-takim",
       "title": "Dantelli Bordo Saten Büyük Beden Şort Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -15556,7 +16146,9 @@
       "slug": "dantelli-krem-saten-buyuk-beden-sort-takim",
       "url": "product.html?p=dantelli-krem-saten-buyuk-beden-sort-takim",
       "title": "Dantelli Krem Saten Büyük Beden Şort Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -15608,7 +16200,9 @@
       "slug": "dantelli-vizon-saten-buyuk-beden-sort-takim",
       "url": "product.html?p=dantelli-vizon-saten-buyuk-beden-sort-takim",
       "title": "Dantelli Vizon Saten Büyük Beden Şort Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -15660,7 +16254,9 @@
       "slug": "dantelli-beyaz-saten-buyuk-beden-sort-takim",
       "url": "product.html?p=dantelli-beyaz-saten-buyuk-beden-sort-takim",
       "title": "Dantelli Beyaz Saten Büyük Beden Şort Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -15712,7 +16308,9 @@
       "slug": "dantelli-saten-kirmizi-buyuk-beden-sort-takim",
       "url": "product.html?p=dantelli-saten-kirmizi-buyuk-beden-sort-takim",
       "title": "Dantelli Saten Kırmızı Büyük Beden Şort Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -15764,7 +16362,9 @@
       "slug": "dantelli-saten-gri-buyuk-beden-sort-takim",
       "url": "product.html?p=dantelli-saten-gri-buyuk-beden-sort-takim",
       "title": "Dantelli Saten Gri Büyük Beden Şort Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -15816,7 +16416,9 @@
       "slug": "genis-dantelli-saten-gri-buyuk-beden-sort-takim",
       "url": "product.html?p=genis-dantelli-saten-gri-buyuk-beden-sort-takim",
       "title": "Geniş Dantelli Saten Gri Büyük Beden Şort Takım",
-      "price": 671,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -15868,7 +16470,9 @@
       "slug": "dantelli-saten-pudra-buyuk-beden-sort-takim",
       "url": "product.html?p=dantelli-saten-pudra-buyuk-beden-sort-takim",
       "title": "Dantelli Saten Pudra Büyük Beden Şort Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -15920,7 +16524,9 @@
       "slug": "dantelli-saten-su-yesili-buyuk-beden-sort-takim",
       "url": "product.html?p=dantelli-saten-su-yesili-buyuk-beden-sort-takim",
       "title": "Dantelli Saten Su Yeşili Büyük Beden Şort Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -15929,7 +16535,7 @@
         "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/dantelli-saten-su-yesili-buyuk-beden-s-c-87fa.jpg"
       ],
       "colors": [
-        "Yeşil"
+        "Standart"
       ],
       "sizes": [
         "2XL",
@@ -15972,7 +16578,9 @@
       "slug": "dantelli-saten-lacivert-buyuk-beden-sort-takim",
       "url": "product.html?p=dantelli-saten-lacivert-buyuk-beden-sort-takim",
       "title": "Dantelli Saten Lacivert Büyük Beden Şort Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -16025,7 +16633,9 @@
       "slug": "dantelli-saten-murdum-buyuk-beden-sort-takim",
       "url": "product.html?p=dantelli-saten-murdum-buyuk-beden-sort-takim",
       "title": "Dantelli Saten Mürdüm Büyük Beden Şort Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -16077,7 +16687,9 @@
       "slug": "dekolteli-askili-siyah-buyuk-beden-saten-gecelik",
       "url": "product.html?p=dekolteli-askili-siyah-buyuk-beden-saten-gecelik",
       "title": "Dekolteli Askılı Siyah Büyük Beden Saten Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -16130,7 +16742,9 @@
       "slug": "su-yesil-dantelli-buyuk-beden-saten-gecelik",
       "url": "product.html?p=su-yesil-dantelli-buyuk-beden-saten-gecelik",
       "title": "Su Yeşil Dantelli Büyük Beden Saten Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -16140,7 +16754,7 @@
         "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/su-yesil-dantelli-buyuk-beden-saten-ge-959-22.jpg"
       ],
       "colors": [
-        "Yeşil"
+        "Standart"
       ],
       "sizes": [
         "2XL",
@@ -16183,7 +16797,9 @@
       "slug": "coton-yesil-buyuk-beden-bayan-pijama-takimi",
       "url": "product.html?p=coton-yesil-buyuk-beden-bayan-pijama-takimi",
       "title": "Coton  Yeşil Büyük Beden Bayan Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -16194,7 +16810,7 @@
         "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/coton-yesil-buyuk-beden-bayan-pijama-t-e3cc24.jpg"
       ],
       "colors": [
-        "Yeşil"
+        "Standart"
       ],
       "sizes": [
         "2XL",
@@ -16235,7 +16851,9 @@
       "slug": "yavruagzi-buyuk-beden-bayan-pijama-takimi",
       "url": "product.html?p=yavruagzi-buyuk-beden-bayan-pijama-takimi",
       "title": "Yavruağzı Büyük Beden Bayan Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -16287,7 +16905,9 @@
       "slug": "acik-mavi-buyuk-beden-bayan-pijama-takimi",
       "url": "product.html?p=acik-mavi-buyuk-beden-bayan-pijama-takimi",
       "title": "Açık Mavi Büyük Beden Bayan Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -16339,7 +16959,9 @@
       "slug": "dugmeli-coton-buyuk-beden-bayan-pijama-takimi",
       "url": "product.html?p=dugmeli-coton-buyuk-beden-bayan-pijama-takimi",
       "title": "Düğmeli Coton Büyük Beden Bayan Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -16391,7 +17013,9 @@
       "slug": "v-dantelli-coton-yesil-buyuk-beden-pijama-takimi",
       "url": "product.html?p=v-dantelli-coton-yesil-buyuk-beden-pijama-takimi",
       "title": "V Dantelli Coton Yeşil Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -16402,7 +17026,7 @@
         "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/v-dantelli-coton-yesil-buyuk-beden-pij-d-3ecb.jpg"
       ],
       "colors": [
-        "Yeşil"
+        "Standart"
       ],
       "sizes": [
         "2XL",
@@ -16444,7 +17068,9 @@
       "slug": "v-dantelli-coton-murdum-buyuk-beden-pijama-takimi",
       "url": "product.html?p=v-dantelli-coton-murdum-buyuk-beden-pijama-takimi",
       "title": "V Dantelli Mürdüm Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -16497,7 +17123,9 @@
       "slug": "v-dantel-coton-haki-yesil-buyuk-beden-pijama-takimi",
       "url": "product.html?p=v-dantel-coton-haki-yesil-buyuk-beden-pijama-takimi",
       "title": "V Dantel Haki Yeşil Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -16508,7 +17136,7 @@
         "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/v-dantel-coton-haki-yesil-buyuk-beden--2a-b0b.jpg"
       ],
       "colors": [
-        "Yeşil"
+        "Standart"
       ],
       "sizes": [
         "2XL",
@@ -16550,7 +17178,9 @@
       "slug": "v-dantelli-yavruagzi-buyuk-beden-pijama-takimi",
       "url": "product.html?p=v-dantelli-yavruagzi-buyuk-beden-pijama-takimi",
       "title": "V Dantelli Yavruağzı Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -16603,7 +17233,9 @@
       "slug": "v-dantelli-acik-mavi-buyuk-beden-pijama-takimi",
       "url": "product.html?p=v-dantelli-acik-mavi-buyuk-beden-pijama-takimi",
       "title": "V Dantelli Açık Mavi Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -16656,7 +17288,9 @@
       "slug": "v-dantelli-fistik-yesil-buyuk-beden-pijama-takimi",
       "url": "product.html?p=v-dantelli-fistik-yesil-buyuk-beden-pijama-takimi",
       "title": "V Dantelli Fıstık Yeşil Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -16667,7 +17301,7 @@
         "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/v-dantelli-fistik-yesil-buyuk-beden-pi-c928-9.jpg"
       ],
       "colors": [
-        "Yeşil"
+        "Standart"
       ],
       "sizes": [
         "2XL",
@@ -16709,7 +17343,9 @@
       "slug": "v-dantelli-viskon-buyuk-beden-pijama-takimi",
       "url": "product.html?p=v-dantelli-viskon-buyuk-beden-pijama-takimi",
       "title": "V Dantelli Viskon Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -16763,7 +17399,9 @@
       "slug": "v-dantelli-pembe-buyuk-beden-pijama-takimi",
       "url": "product.html?p=v-dantelli-pembe-buyuk-beden-pijama-takimi",
       "title": "V Dantelli Pembe Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -16816,7 +17454,9 @@
       "slug": "v-dantelli-gri-buyuk-beden-pijama-takimi",
       "url": "product.html?p=v-dantelli-gri-buyuk-beden-pijama-takimi",
       "title": "V Dantelli Gri Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -16869,7 +17509,9 @@
       "slug": "v-dantelli-pudra-buyuk-beden-pijama-takimi",
       "url": "product.html?p=v-dantelli-pudra-buyuk-beden-pijama-takimi",
       "title": "V Dantelli Pudra Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -16922,7 +17564,9 @@
       "slug": "v-dantelli-cepli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=v-dantelli-cepli-buyuk-beden-pijama-takimi",
       "title": "V Dantelli Cepli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -16975,7 +17619,9 @@
       "slug": "v-yaka-buyuk-beden-kapri-pijama-takimi",
       "url": "product.html?p=v-yaka-buyuk-beden-kapri-pijama-takimi",
       "title": "V Yaka Büyük Beden Kapri Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -17028,7 +17674,9 @@
       "slug": "dudak-desenli-buyuk-beden-kapri-pijama-takimi",
       "url": "product.html?p=dudak-desenli-buyuk-beden-kapri-pijama-takimi",
       "title": "Dudak Desenli Büyük Beden Kapri Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -17080,7 +17728,9 @@
       "slug": "desenli-kiremit-buyuk-beden-kapri-pijama-takimi",
       "url": "product.html?p=desenli-kiremit-buyuk-beden-kapri-pijama-takimi",
       "title": "Desenli Kiremit Büyük Beden Kapri Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -17132,7 +17782,9 @@
       "slug": "alti-cizgili-buyuk-beden-kapri-pijama-takimi",
       "url": "product.html?p=alti-cizgili-buyuk-beden-kapri-pijama-takimi",
       "title": "Altı Çizgili Büyük Beden Kapri Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -17184,7 +17836,9 @@
       "slug": "genis-kollu-siyah-buyuk-beden-pijama-takimi",
       "url": "product.html?p=genis-kollu-siyah-buyuk-beden-pijama-takimi",
       "title": "Geniş Kollu Siyah Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -17236,7 +17890,9 @@
       "slug": "gul-desenli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=gul-desenli-buyuk-beden-pijama-takimi",
       "title": "Gül Desenli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -17288,7 +17944,9 @@
       "slug": "alti-desenli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=alti-desenli-buyuk-beden-pijama-takimi",
       "title": "Altı Desenli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -17340,7 +17998,9 @@
       "slug": "alti-zebra-buyuk-beden-pijama-takimi",
       "url": "product.html?p=alti-zebra-buyuk-beden-pijama-takimi",
       "title": "Altı Zebra Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -17392,7 +18052,9 @@
       "slug": "omuz-dekolteli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=omuz-dekolteli-buyuk-beden-pijama-takimi",
       "title": "Omuz Dekolteli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -17444,7 +18106,9 @@
       "slug": "kayik-yaka-buyuk-beden-pijama-takimi1",
       "url": "product.html?p=kayik-yaka-buyuk-beden-pijama-takimi1",
       "title": "Kayık Yaka Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -17496,7 +18160,9 @@
       "slug": "acik-yaka-buyuk-beden-siyah-pijama-takimi",
       "url": "product.html?p=acik-yaka-buyuk-beden-siyah-pijama-takimi",
       "title": "Açık Yaka Büyük Beden Siyah Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -17548,7 +18214,9 @@
       "slug": "siyahli-kirmizi-buyuk-beden-pijama-takimi",
       "url": "product.html?p=siyahli-kirmizi-buyuk-beden-pijama-takimi",
       "title": "Siyahlı Kırmızı Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -17601,7 +18269,9 @@
       "slug": "kirmizili-siyah-buyuk-beden-pijama-takimi",
       "url": "product.html?p=kirmizili-siyah-buyuk-beden-pijama-takimi",
       "title": "Kırmızılı Siyah Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -17654,7 +18324,9 @@
       "slug": "yakasi-dantel-lacivert-buyuk-beden-pijama-takimi",
       "url": "product.html?p=yakasi-dantel-lacivert-buyuk-beden-pijama-takimi",
       "title": "Yakası Dantel Lacivert Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -17707,7 +18379,9 @@
       "slug": "dugmeli-siyah-kirmizi-buyuk-beden-pijama-takimi",
       "url": "product.html?p=dugmeli-siyah-kirmizi-buyuk-beden-pijama-takimi",
       "title": "Düğmeli Siyah Kırmızı Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -17760,7 +18434,9 @@
       "slug": "bulut-desenli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=bulut-desenli-buyuk-beden-pijama-takimi",
       "title": "Bulut Desenli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -17812,7 +18488,9 @@
       "slug": "siyah-beyaz-buyuk-beden-pijama-takimi",
       "url": "product.html?p=siyah-beyaz-buyuk-beden-pijama-takimi",
       "title": "Siyah Beyaz Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -17864,7 +18542,9 @@
       "slug": "alti-desenli-cepli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=alti-desenli-cepli-buyuk-beden-pijama-takimi",
       "title": "Altı Desenli Cepli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -17916,7 +18596,9 @@
       "slug": "sakal-dantelli-deseni-buyuk-beden-pijama-takimi",
       "url": "product.html?p=sakal-dantelli-deseni-buyuk-beden-pijama-takimi",
       "title": "Sakal Dantelli Deseni Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -17969,7 +18651,9 @@
       "slug": "stay-leoparli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=stay-leoparli-buyuk-beden-pijama-takimi",
       "title": "Stay Leoparlı Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -18022,7 +18706,9 @@
       "slug": "desenli-love-buyuk-beden-pijama-takimi",
       "url": "product.html?p=desenli-love-buyuk-beden-pijama-takimi",
       "title": "Desenli Love Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -18074,7 +18760,9 @@
       "slug": "pembe-siyah-buyuk-beden-pijama-takimi",
       "url": "product.html?p=pembe-siyah-buyuk-beden-pijama-takimi",
       "title": "Pembe Siyah Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -18127,7 +18815,9 @@
       "slug": "uzun-kollu-buyuk-beden-pijama-takimi",
       "url": "product.html?p=uzun-kollu-buyuk-beden-pijama-takimi",
       "title": "Uzun Kollu Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -18179,7 +18869,9 @@
       "slug": "uzun-kollu-yirtmacli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=uzun-kollu-yirtmacli-buyuk-beden-pijama-takimi",
       "title": "Uzun Kollu Yırtmaçlı Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -18230,7 +18922,9 @@
       "slug": "uzun-kollu-cicekli-dugmeli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=uzun-kollu-cicekli-dugmeli-buyuk-beden-pijama-takimi",
       "title": "Uzun Kollu Çiçekli Düğmeli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -18282,7 +18976,9 @@
       "slug": "uzun-kollu-dugmeli-cicekli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=uzun-kollu-dugmeli-cicekli-buyuk-beden-pijama-takimi",
       "title": "Uzun Kollu Düğmeli Çiçekli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -18334,7 +19030,9 @@
       "slug": "uzun-kollu-pembe-siyah-buyuk-beden-pijama-takimi",
       "url": "product.html?p=uzun-kollu-pembe-siyah-buyuk-beden-pijama-takimi",
       "title": "Uzun Kollu Pembe Siyah Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -18387,7 +19085,9 @@
       "slug": "uzun-kollu-wild-buyuk-beden-pijama-takimi",
       "url": "product.html?p=uzun-kollu-wild-buyuk-beden-pijama-takimi",
       "title": "Uzun Kollu Wild Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -18439,7 +19139,9 @@
       "slug": "uzun-kollu-alti-cicekli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=uzun-kollu-alti-cicekli-buyuk-beden-pijama-takimi",
       "title": "Uzun Kollu Altı Çiçekli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -18491,7 +19193,9 @@
       "slug": "uzun-kollu-tul-detayli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=uzun-kollu-tul-detayli-buyuk-beden-pijama-takimi",
       "title": "Uzun Kollu Tül Detaylı Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -18543,7 +19247,9 @@
       "slug": "desenli-tul-detayli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=desenli-tul-detayli-buyuk-beden-pijama-takimi",
       "title": "Desenli Tül Detaylı Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -18595,7 +19301,9 @@
       "slug": "lila-cicekli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=lila-cicekli-buyuk-beden-pijama-takimi",
       "title": "Lila Çiçekli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -18647,7 +19355,9 @@
       "slug": "cicekli-ustu-siyah-buyuk-beden-pijama-takimi",
       "url": "product.html?p=cicekli-ustu-siyah-buyuk-beden-pijama-takimi",
       "title": "Çiçekli Üstü Siyah Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -18699,7 +19409,9 @@
       "slug": "yakasi-dugmeli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=yakasi-dugmeli-buyuk-beden-pijama-takimi",
       "title": "Yakası Düğmeli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -18751,7 +19463,9 @@
       "slug": "yazi-desenli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=yazi-desenli-buyuk-beden-pijama-takimi",
       "title": "Yazı Desenli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -18803,7 +19517,9 @@
       "slug": "seritli-desenli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=seritli-desenli-buyuk-beden-pijama-takimi",
       "title": "Şeritli Desenli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -18855,7 +19571,9 @@
       "slug": "siyah-beyaz-desenli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=siyah-beyaz-desenli-buyuk-beden-pijama-takimi",
       "title": "Siyah Beyaz Desenli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -18907,7 +19625,9 @@
       "slug": "pacasi-dantelli-leoparli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=pacasi-dantelli-leoparli-buyuk-beden-pijama-takimi",
       "title": "Paçası Dantelli Leoparlı Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -18961,7 +19681,9 @@
       "slug": "yanlari-yirtmacli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=yanlari-yirtmacli-buyuk-beden-pijama-takimi",
       "title": "Yanları Yırtmaçlı Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -19013,7 +19735,9 @@
       "slug": "manset-pacali-buyuk-beden-pijama-takimi",
       "url": "product.html?p=manset-pacali-buyuk-beden-pijama-takimi",
       "title": "Manşet Paçalı Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -19065,7 +19789,9 @@
       "slug": "omuz-ustu-dantelli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=omuz-ustu-dantelli-buyuk-beden-pijama-takimi",
       "title": "Omuz Üstü Dantelli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -19118,7 +19844,9 @@
       "slug": "leopar-seritli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=leopar-seritli-buyuk-beden-pijama-takimi",
       "title": "Leopar Şeritli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -19171,7 +19899,9 @@
       "slug": "leopar-seritli-cepli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=leopar-seritli-cepli-buyuk-beden-pijama-takimi",
       "title": "Leopar Şeritli Cepli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -19224,7 +19954,9 @@
       "slug": "paca-genis-dantelli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=paca-genis-dantelli-buyuk-beden-pijama-takimi",
       "title": "Paça Geniş Dantelli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -19277,7 +20009,9 @@
       "slug": "leopar-siyah-cepli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=leopar-siyah-cepli-buyuk-beden-pijama-takimi",
       "title": "Leopar Siyah Cepli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -19331,7 +20065,9 @@
       "slug": "dugmeli-leopar-cepli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=dugmeli-leopar-cepli-buyuk-beden-pijama-takimi",
       "title": "Düğmeli Leopar Cepli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -19384,7 +20120,9 @@
       "slug": "dugmeli-dantelli-siyah-buyuk-beden-pijama-takimi",
       "url": "product.html?p=dugmeli-dantelli-siyah-buyuk-beden-pijama-takimi",
       "title": "Düğmeli Dantelli Siyah Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -19437,7 +20175,9 @@
       "slug": "genis-dantelli-siyah-buyuk-beden-pijama-takimi",
       "url": "product.html?p=genis-dantelli-siyah-buyuk-beden-pijama-takimi",
       "title": "Geniş Dantelli Siyah Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -19490,7 +20230,9 @@
       "slug": "genis-dantelli-leoparli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=genis-dantelli-leoparli-buyuk-beden-pijama-takimi",
       "title": "Geniş Dantelli Leoparlı Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -19544,7 +20286,9 @@
       "slug": "v-yaka-pudra-buyuk-beden-pijama-takimi",
       "url": "product.html?p=v-yaka-pudra-buyuk-beden-pijama-takimi",
       "title": "V Yaka Pudra Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -19597,7 +20341,9 @@
       "slug": "puanli-siyah-pembe-buyuk-beden-pijama-takimi",
       "url": "product.html?p=puanli-siyah-pembe-buyuk-beden-pijama-takimi",
       "title": "Puanlı Siyah Pembe Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -19650,7 +20396,9 @@
       "slug": "renkli-cicekli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=renkli-cicekli-buyuk-beden-pijama-takimi",
       "title": "Renkli Çiçekli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -19702,7 +20450,9 @@
       "slug": "yaka-ici-dantel-buyuk-beden-pijama-takimi",
       "url": "product.html?p=yaka-ici-dantel-buyuk-beden-pijama-takimi",
       "title": "Yaka İçi Dantel Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -19755,7 +20505,9 @@
       "slug": "ince-cizgili-pembe-siyah-buyuk-beden-pijama-takimi",
       "url": "product.html?p=ince-cizgili-pembe-siyah-buyuk-beden-pijama-takimi",
       "title": "İnce Çizgili Pembe Siyah Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -19808,7 +20560,9 @@
       "slug": "kucuk-cepli-siyah-buyuk-beden-pijama-takimi",
       "url": "product.html?p=kucuk-cepli-siyah-buyuk-beden-pijama-takimi",
       "title": "Küçük Cepli Siyah Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -19860,7 +20614,9 @@
       "slug": "yilan-desenli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=yilan-desenli-buyuk-beden-pijama-takimi",
       "title": "Yılan Desenli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -19912,7 +20668,9 @@
       "slug": "pembe-biyeli-cicekli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=pembe-biyeli-cicekli-buyuk-beden-pijama-takimi",
       "title": "Pembe Biyeli Çiçekli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -19964,7 +20722,9 @@
       "slug": "dugme-yaka-desenli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=dugme-yaka-desenli-buyuk-beden-pijama-takimi",
       "title": "Düğme Yaka Desenli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -20016,7 +20776,9 @@
       "slug": "kiremit-siyah-buyuk-beden-pijama-takimi",
       "url": "product.html?p=kiremit-siyah-buyuk-beden-pijama-takimi",
       "title": "Kiremit Siyah Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -20068,7 +20830,9 @@
       "slug": "ince-askili-desenli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=ince-askili-desenli-buyuk-beden-pijama-takimi",
       "title": "İnce Askılı Desenli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -20121,7 +20885,9 @@
       "slug": "ince-askili-lacivert-buyuk-beden-pijama-takimi",
       "url": "product.html?p=ince-askili-lacivert-buyuk-beden-pijama-takimi",
       "title": "İnce Askılı Lacivert Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -20174,7 +20940,9 @@
       "slug": "kollari-dantelli-lacivert-buyuk-beden-pijama-takimi",
       "url": "product.html?p=kollari-dantelli-lacivert-buyuk-beden-pijama-takimi",
       "title": "Kolları Dantelli Lacivert Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -20227,7 +20995,9 @@
       "slug": "gul-desenli-lacivert-buyuk-beden-pijama-takimi",
       "url": "product.html?p=gul-desenli-lacivert-buyuk-beden-pijama-takimi",
       "title": "Gül Desenli Lacivert Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -20279,7 +21049,9 @@
       "slug": "ip-askili-leopar-buyuk-beden-pijama-takimi",
       "url": "product.html?p=ip-askili-leopar-buyuk-beden-pijama-takimi",
       "title": "İp Askılı Leopar Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -20333,7 +21105,9 @@
       "slug": "cicekli-v-yaka-buyuk-beden-pijama-takimi",
       "url": "product.html?p=cicekli-v-yaka-buyuk-beden-pijama-takimi",
       "title": "Çiçekli V Yaka Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -20386,7 +21160,9 @@
       "slug": "cok-renkli-dugmeli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=cok-renkli-dugmeli-buyuk-beden-pijama-takimi",
       "title": "Çok Renkli Düğmeli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -20438,7 +21214,9 @@
       "slug": "cok-renkli-ip-askili-buyuk-beden-pijama-takimi",
       "url": "product.html?p=cok-renkli-ip-askili-buyuk-beden-pijama-takimi",
       "title": "Çok Renkli İp Askılı Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -20491,7 +21269,9 @@
       "slug": "siyah-dantelli-renkli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=siyah-dantelli-renkli-buyuk-beden-pijama-takimi",
       "title": "Siyah Dantelli Renkli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -20544,7 +21324,9 @@
       "slug": "genis-pacali-siyah-buyuk-beden-pijama-takimi",
       "url": "product.html?p=genis-pacali-siyah-buyuk-beden-pijama-takimi",
       "title": "Geniş Paçalı Siyah Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -20595,7 +21377,9 @@
       "slug": "kalpli-kirmizi-siyah-buyuk-beden-pijama-takimi",
       "url": "product.html?p=kalpli-kirmizi-siyah-buyuk-beden-pijama-takimi",
       "title": "Kalpli Kırmızı Siyah Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -20648,7 +21432,9 @@
       "slug": "kalpli-kirmizi-buyuk-beden-pijama-takimi",
       "url": "product.html?p=kalpli-kirmizi-buyuk-beden-pijama-takimi",
       "title": "Kalpli Kırmızı Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -20700,7 +21486,9 @@
       "slug": "kelebek-desenli-kiremit-buyuk-beden-pijama-takimi",
       "url": "product.html?p=kelebek-desenli-kiremit-buyuk-beden-pijama-takimi",
       "title": "Kelebek Desenli Kiremit Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -20753,7 +21541,9 @@
       "slug": "dudak-desenli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=dudak-desenli-buyuk-beden-pijama-takimi",
       "title": "Dudak Desenli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -20805,7 +21595,9 @@
       "slug": "genis-pacali-cepli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=genis-pacali-cepli-buyuk-beden-pijama-takimi",
       "title": "Geniş Paçalı Cepli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -20857,7 +21649,9 @@
       "slug": "genis-pacali-cepli-bordo-buyuk-beden-pijama-takimi",
       "url": "product.html?p=genis-pacali-cepli-bordo-buyuk-beden-pijama-takimi",
       "title": "Geniş Paçalı Cepli Bordo Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -20909,7 +21703,9 @@
       "slug": "dantelli-turuncu-buyuk-beden-pijama-takimi",
       "url": "product.html?p=dantelli-turuncu-buyuk-beden-pijama-takimi",
       "title": "Dantelli Turuncu Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -20962,7 +21758,9 @@
       "slug": "dantelli-haki-yesil-buyuk-beden-pijama-takimi",
       "url": "product.html?p=dantelli-haki-yesil-buyuk-beden-pijama-takimi",
       "title": "Dantelli Haki Yeşil Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -20973,7 +21771,7 @@
         "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/dantelli-haki-yesil-buyuk-beden-pijama--b73e-.jpg"
       ],
       "colors": [
-        "Yeşil"
+        "Standart"
       ],
       "sizes": [
         "2XL",
@@ -21015,7 +21813,9 @@
       "slug": "dantelli-mavi-buyuk-beden-pijama-takimi",
       "url": "product.html?p=dantelli-mavi-buyuk-beden-pijama-takimi",
       "title": "Dantelli Mavi Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -21068,7 +21868,9 @@
       "slug": "yaka-genis-dantelli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=yaka-genis-dantelli-buyuk-beden-pijama-takimi",
       "title": "Yaka Geniş Dantelli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -21121,7 +21923,9 @@
       "slug": "kirmizi-buyuk-beden-saten-atlet-sort-takim",
       "url": "product.html?p=kirmizi-buyuk-beden-saten-atlet-sort-takim",
       "title": "Kırmızı Büyük Beden Saten Atlet Şort Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -21172,7 +21976,9 @@
       "slug": "siyah-buyuk-beden-saten-atlet-sort-takim",
       "url": "product.html?p=siyah-buyuk-beden-saten-atlet-sort-takim",
       "title": "Siyah Büyük Beden Saten Atlet Şort Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -21223,7 +22029,9 @@
       "slug": "bordo-buyuk-beden-saten-atlet-sort-takim",
       "url": "product.html?p=bordo-buyuk-beden-saten-atlet-sort-takim",
       "title": "Bordo Büyük Beden Saten Atlet Şort Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -21274,7 +22082,9 @@
       "slug": "krem-buyuk-beden-saten-atlet-sort-takim",
       "url": "product.html?p=krem-buyuk-beden-saten-atlet-sort-takim",
       "title": "Krem Büyük Beden Saten Atlet Şort Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -21325,7 +22135,9 @@
       "slug": "beyaz-buyuk-beden-saten-atlet-sort-takim",
       "url": "product.html?p=beyaz-buyuk-beden-saten-atlet-sort-takim",
       "title": "Beyaz Büyük Beden Saten Atlet Şort Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -21376,7 +22188,9 @@
       "slug": "bacak-bantli-buyuk-beden-bordo-jartiyer-takim",
       "url": "product.html?p=bacak-bantli-buyuk-beden-bordo-jartiyer-takim",
       "title": "Bacak Bantlı Büyük Beden Bordo Jartiyer Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -21427,7 +22241,9 @@
       "slug": "bacak-bantli-buyuk-beden-zincirli-jartiyer-takim",
       "url": "product.html?p=bacak-bantli-buyuk-beden-zincirli-jartiyer-takim",
       "title": "Bacak Bantlı Büyük Beden Zincirli Jartiyer Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -21478,7 +22294,9 @@
       "slug": "bacak-bantli-buyuk-beden-siyah-jartiyer-takim",
       "url": "product.html?p=bacak-bantli-buyuk-beden-siyah-jartiyer-takim",
       "title": "Bacak Bantlı Büyük Beden Siyah Jartiyer Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -21531,7 +22349,9 @@
       "slug": "buyuk-beden-beyaz-saten-atlet-sort-takim",
       "url": "product.html?p=buyuk-beden-beyaz-saten-atlet-sort-takim",
       "title": "Büyük Beden Beyaz Saten Atlet Şort Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -21583,7 +22403,9 @@
       "slug": "buyuk-beden-siyah-saten-atlet-sort-takim",
       "url": "product.html?p=buyuk-beden-siyah-saten-atlet-sort-takim",
       "title": "Büyük Beden Siyah Saten Atlet Şort Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -21635,7 +22457,9 @@
       "slug": "baglamali-buyuk-beden-siyah-saten-atlet-sort-takim",
       "url": "product.html?p=baglamali-buyuk-beden-siyah-saten-atlet-sort-takim",
       "title": "Bağlamalı Büyük Beden Siyah Saten Atlet Şort Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -21687,7 +22511,9 @@
       "slug": "askili-buyuk-beden-siyah-saten-atlet-sort-takim",
       "url": "product.html?p=askili-buyuk-beden-siyah-saten-atlet-sort-takim",
       "title": "Askılı Büyük Beden Siyah Saten Atlet Şort Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -21740,7 +22566,9 @@
       "slug": "dantel-askili-buyuk-beden-siyah-saten-atlet-sort-takim",
       "url": "product.html?p=dantel-askili-buyuk-beden-siyah-saten-atlet-sort-takim",
       "title": "Dantel Askılı Büyük Beden Siyah Saten Atlet Şort Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -21793,7 +22621,9 @@
       "slug": "askili-buyuk-beden-kirmizi-saten-atlet-sort-takim",
       "url": "product.html?p=askili-buyuk-beden-kirmizi-saten-atlet-sort-takim",
       "title": "Askılı Büyük Beden Kırmızı Saten Atlet Şort Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -21845,7 +22675,9 @@
       "slug": "ip-askili-buyuk-beden-siyah-saten-atlet-sort-takim",
       "url": "product.html?p=ip-askili-buyuk-beden-siyah-saten-atlet-sort-takim",
       "title": "İp Askılı Büyük Beden Siyah Saten Atlet Şort Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -21898,7 +22730,9 @@
       "slug": "dantel-kenarli-buyuk-beden-siyah-saten-gecelik",
       "url": "product.html?p=dantel-kenarli-buyuk-beden-siyah-saten-gecelik",
       "title": "Dantel Kenarlı Büyük Beden Siyah Saten Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -21952,7 +22786,9 @@
       "slug": "dantel-kenarli-buyuk-beden-beyaz-saten-gecelik",
       "url": "product.html?p=dantel-kenarli-buyuk-beden-beyaz-saten-gecelik",
       "title": "Dantel Kenarlı Büyük Beden Beyaz Saten Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -22006,7 +22842,9 @@
       "slug": "ortasi-dantel-buyuk-beden-beyaz-saten-gecelik",
       "url": "product.html?p=ortasi-dantel-buyuk-beden-beyaz-saten-gecelik",
       "title": "Ortası Dantel Büyük Beden Beyaz Saten Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -22060,7 +22898,9 @@
       "slug": "dantel-yakali-buyuk-beden-siyah-saten-gecelik",
       "url": "product.html?p=dantel-yakali-buyuk-beden-siyah-saten-gecelik",
       "title": "Dantel Yakalı Büyük Beden Siyah Saten Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -22114,7 +22954,9 @@
       "slug": "dekolteli-buyuk-beden-kirmizi-saten-gecelik",
       "url": "product.html?p=dekolteli-buyuk-beden-kirmizi-saten-gecelik",
       "title": "Dekolteli Büyük Beden Kırmızı Saten Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -22167,7 +23009,9 @@
       "slug": "ip-orgulu-buyuk-beden-kirmizi-fantazi-gecelik",
       "url": "product.html?p=ip-orgulu-buyuk-beden-kirmizi-fantazi-gecelik",
       "title": "İp Örgülü Büyük Beden Kırmızı Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -22220,7 +23064,9 @@
       "slug": "ip-orgulu-buyuk-beden-beyaz-fantazi-gecelik",
       "url": "product.html?p=ip-orgulu-buyuk-beden-beyaz-fantazi-gecelik",
       "title": "İp Örgülü Büyük Beden Beyaz Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -22273,7 +23119,9 @@
       "slug": "ip-orgulu-buyuk-beden-pembe-fantazi-gecelik",
       "url": "product.html?p=ip-orgulu-buyuk-beden-pembe-fantazi-gecelik",
       "title": "İp Örgülü Büyük Beden Pembe Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -22326,7 +23174,9 @@
       "slug": "ip-orgulu-buyuk-beden-siyah-fantazi-gecelik",
       "url": "product.html?p=ip-orgulu-buyuk-beden-siyah-fantazi-gecelik",
       "title": "İp Örgülü Büyük Beden Siyah Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -22379,7 +23229,9 @@
       "slug": "cicek-dantel-buyuk-beden-siyah-fantazi-gecelik",
       "url": "product.html?p=cicek-dantel-buyuk-beden-siyah-fantazi-gecelik",
       "title": "Çiçek Dantel Büyük Beden Siyah Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -22433,7 +23285,9 @@
       "slug": "cicek-dantel-buyuk-beden-pembe-fantazi-gecelik",
       "url": "product.html?p=cicek-dantel-buyuk-beden-pembe-fantazi-gecelik",
       "title": "Çiçek Dantel Büyük Beden Pembe Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -22487,7 +23341,9 @@
       "slug": "cicek-dantel-buyuk-beden-kirmizi-fantazi-gecelik",
       "url": "product.html?p=cicek-dantel-buyuk-beden-kirmizi-fantazi-gecelik",
       "title": "Çiçek Dantel Büyük Beden Kırmızı Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -22541,7 +23397,9 @@
       "slug": "kirmizi-ekose-buyuk-beden-fantazi-kostum",
       "url": "product.html?p=kirmizi-ekose-buyuk-beden-fantazi-kostum",
       "title": "Kırmızı Ekose Büyük Beden Fantazi Kostüm",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -22593,7 +23451,9 @@
       "slug": "kravatli-kirmizi-ekose-buyuk-beden-fantazi-kostum",
       "url": "product.html?p=kravatli-kirmizi-ekose-buyuk-beden-fantazi-kostum",
       "title": "Kravatlı Kırmızı Ekose Büyük Beden Fantazi Kostüm",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -22645,7 +23505,9 @@
       "slug": "fransiz-buyuk-beden-fantazi-hizmetci-kostumu",
       "url": "product.html?p=fransiz-buyuk-beden-fantazi-hizmetci-kostumu",
       "title": "Fransız Büyük Beden Fantazi Hizmetçi Kostümü",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -22697,7 +23559,9 @@
       "slug": "genis-dantel-buyuk-beden-fantazi-hizmetci-kostumu",
       "url": "product.html?p=genis-dantel-buyuk-beden-fantazi-hizmetci-kostumu",
       "title": "Geniş Dantel Büyük Beden Fantazi Hizmetçi Kostümü",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -22752,7 +23616,9 @@
       "slug": "koyu-kahve-buyuk-beden-fantazi-gecelik",
       "url": "product.html?p=koyu-kahve-buyuk-beden-fantazi-gecelik",
       "title": "Koyu Kahve Büyük Beden Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -22805,7 +23671,9 @@
       "slug": "dantelli-beyaz-buyuk-beden-fantazi-gecelik-takim",
       "url": "product.html?p=dantelli-beyaz-buyuk-beden-fantazi-gecelik-takim",
       "title": "Dantelli Beyaz Büyük Beden Fantazi Gecelik Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -22858,7 +23726,9 @@
       "slug": "dantelli-siyah-buyuk-beden-fantazi-gecelik-takim",
       "url": "product.html?p=dantelli-siyah-buyuk-beden-fantazi-gecelik-takim",
       "title": "Dantelli Siyah Büyük Beden Fantazi Gecelik Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -22911,7 +23781,9 @@
       "slug": "dantelli-kirmizi-buyuk-beden-fantazi-gecelik-takim",
       "url": "product.html?p=dantelli-kirmizi-buyuk-beden-fantazi-gecelik-takim",
       "title": "Dantelli Kırmızı Büyük Beden Fantazi Gecelik Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -22964,7 +23836,9 @@
       "slug": "kirmizi-dantelli-buyuk-beden-fantazi-gecelik-takim",
       "url": "product.html?p=kirmizi-dantelli-buyuk-beden-fantazi-gecelik-takim",
       "title": "Kırmızı Dantelli Büyük Beden Fantazi Gecelik Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -23017,7 +23891,9 @@
       "slug": "siyah-dantelli-buyuk-beden-fantazi-gecelik-takim",
       "url": "product.html?p=siyah-dantelli-buyuk-beden-fantazi-gecelik-takim",
       "title": "Siyah Dantelli Büyük Beden Fantazi Gecelik Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -23070,7 +23946,9 @@
       "slug": "transparan-lacivert-buyuk-beden-fantazi-gecelik-takim",
       "url": "product.html?p=transparan-lacivert-buyuk-beden-fantazi-gecelik-takim",
       "title": "Transparan Lacivert Büyük Beden Fantazi Gecelik Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -23123,7 +24001,9 @@
       "slug": "transparan-pembe-buyuk-beden-fantazi-gecelik-takim",
       "url": "product.html?p=transparan-pembe-buyuk-beden-fantazi-gecelik-takim",
       "title": "Transparan Pembe Büyük Beden Fantazi Gecelik Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -23175,7 +24055,9 @@
       "slug": "yirtmacli-buyuk-beden-gecelik-sabahlik-takim",
       "url": "product.html?p=yirtmacli-buyuk-beden-gecelik-sabahlik-takim",
       "title": "Yırtmaçlı Büyük Beden Gecelik Sabahlık Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -23227,7 +24109,9 @@
       "slug": "yirtmacli-siyah-buyuk-beden-gecelik-sabahlik-takim",
       "url": "product.html?p=yirtmacli-siyah-buyuk-beden-gecelik-sabahlik-takim",
       "title": "Yırtmaçlı Siyah Büyük Beden Gecelik Sabahlık Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -23278,7 +24162,9 @@
       "slug": "cicek-dantelli-siyah-buyuk-beden-gecelik-sabahlik-takim",
       "url": "product.html?p=cicek-dantelli-siyah-buyuk-beden-gecelik-sabahlik-takim",
       "title": "Çiçek Dantelli Siyah Büyük Beden Gecelik Sabahlık Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -23331,7 +24217,9 @@
       "slug": "genis-kesim-buyuk-beden-kirmizi-saten-atlet-sort-takim",
       "url": "product.html?p=genis-kesim-buyuk-beden-kirmizi-saten-atlet-sort-takim",
       "title": "Geniş Kesim Büyük Beden Kırmızı Saten Atlet Şort Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -23383,7 +24271,9 @@
       "slug": "genis-kesim-buyuk-beden-beyaz-saten-atlet-sort-takim",
       "url": "product.html?p=genis-kesim-buyuk-beden-beyaz-saten-atlet-sort-takim",
       "title": "Geniş Kesim Büyük Beden Beyaz Saten Atlet Şort Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -23435,7 +24325,9 @@
       "slug": "genis-kesim-dantelli-buyuk-beden-beyaz-atlet-sort-takim",
       "url": "product.html?p=genis-kesim-dantelli-buyuk-beden-beyaz-atlet-sort-takim",
       "title": "Geniş Kesim Dantelli Büyük Beden Beyaz Atlet Şort Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -23487,7 +24379,9 @@
       "slug": "genis-kesim-kenar-dantelli-buyuk-beden-beyaz-atlet-sort-takim",
       "url": "product.html?p=genis-kesim-kenar-dantelli-buyuk-beden-beyaz-atlet-sort-takim",
       "title": "Geniş Kesim Kenar Dantelli Büyük Beden Beyaz Atlet Şort Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Büyük Beden",
       "categories": [
         "Büyük Beden"
@@ -23539,7 +24433,9 @@
       "slug": "yaka-dantelli-beyaz-buyuk-beden-saten-gecelik",
       "url": "product.html?p=yaka-dantelli-beyaz-buyuk-beden-saten-gecelik",
       "title": "Yaka Dantelli Beyaz Büyük Beden Saten Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -23593,7 +24489,9 @@
       "slug": "askili-dantelli-bordo-buyuk-beden-saten-gecelik",
       "url": "product.html?p=askili-dantelli-bordo-buyuk-beden-saten-gecelik",
       "title": "Askılı Dantelli Bordo Büyük Beden Saten Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -23648,7 +24546,9 @@
       "slug": "saten-dantelli-siyah-buyuk-beden-gecelik",
       "url": "product.html?p=saten-dantelli-siyah-buyuk-beden-gecelik",
       "title": "Saten Dantelli Siyah Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -23702,7 +24602,9 @@
       "slug": "saten-dantel-detayli-siyah-buyuk-beden-gecelik",
       "url": "product.html?p=saten-dantel-detayli-siyah-buyuk-beden-gecelik",
       "title": "Saten Dantel Detaylı Siyah Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -23755,7 +24657,9 @@
       "slug": "saten-dantel-detayli-kirmizi-buyuk-beden-gecelik",
       "url": "product.html?p=saten-dantel-detayli-kirmizi-buyuk-beden-gecelik",
       "title": "Saten Dantel Detaylı kırmızı Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -23809,7 +24713,9 @@
       "slug": "saten-dekolte-detayli-kirmizi-buyuk-beden-gecelik",
       "url": "product.html?p=saten-dekolte-detayli-kirmizi-buyuk-beden-gecelik",
       "title": "Saten Dekolte Detaylı kırmızı Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -23862,7 +24768,9 @@
       "slug": "kirmizi-dantelli-desenli-buyuk-beden-saten-gecelik",
       "url": "product.html?p=kirmizi-dantelli-desenli-buyuk-beden-saten-gecelik",
       "title": "Kırmızı Dantelli Desenli Büyük Beden Saten Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -23916,7 +24824,9 @@
       "slug": "dantelli-cicek-desenli-buyuk-beden-saten-gecelik",
       "url": "product.html?p=dantelli-cicek-desenli-buyuk-beden-saten-gecelik",
       "title": "Dantelli Çiçek Desenli Büyük Beden Saten Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -23970,7 +24880,9 @@
       "slug": "dantelli-seker-pembe-buyuk-beden-saten-gecelik",
       "url": "product.html?p=dantelli-seker-pembe-buyuk-beden-saten-gecelik",
       "title": "Dantelli Şeker Pembe Büyük Beden Saten Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -24024,7 +24936,9 @@
       "slug": "genis-dantelli-bakir-buyuk-beden-saten-gecelik",
       "url": "product.html?p=genis-dantelli-bakir-buyuk-beden-saten-gecelik",
       "title": "Geniş Dantelli Bakır Büyük Beden Saten Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -24078,7 +24992,9 @@
       "slug": "lacivert-dantelli-desenli-buyuk-beden-saten-gecelik",
       "url": "product.html?p=lacivert-dantelli-desenli-buyuk-beden-saten-gecelik",
       "title": "Lacivert Dantelli Desenli Büyük Beden Saten Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -24132,7 +25048,9 @@
       "slug": "dantelli-ipli-kirmizi-buyuk-beden-saten-gecelik",
       "url": "product.html?p=dantelli-ipli-kirmizi-buyuk-beden-saten-gecelik",
       "title": "Dantelli İpli Kırmızı Büyük Beden Saten Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -24186,7 +25104,9 @@
       "slug": "kusakli-bordo-buyuk-beden-saten-gecelik",
       "url": "product.html?p=kusakli-bordo-buyuk-beden-saten-gecelik",
       "title": "Kuşaklı Bordo Büyük Beden Saten Gecelik",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -24239,7 +25159,9 @@
       "slug": "sirti-acik-kirmizi-buyuk-beden-saten-gecelik",
       "url": "product.html?p=sirti-acik-kirmizi-buyuk-beden-saten-gecelik",
       "title": "Sırtı Açık Kırmızı Büyük Beden Saten Gecelik",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -24292,7 +25214,9 @@
       "slug": "sirti-dekolte-murdum-buyuk-beden-saten-gecelik",
       "url": "product.html?p=sirti-dekolte-murdum-buyuk-beden-saten-gecelik",
       "title": "Sırtı Dekolte Mürdüm Büyük Beden Saten Gecelik",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -24345,7 +25269,9 @@
       "slug": "dantelli-haki-yesil-buyuk-beden-saten-gecelik",
       "url": "product.html?p=dantelli-haki-yesil-buyuk-beden-saten-gecelik",
       "title": "Dantelli Haki Yeşil Büyük Beden Saten Gecelik",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -24356,7 +25282,7 @@
         "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/dantelli-haki-yesil-buyuk-beden-saten---4888b.jpg"
       ],
       "colors": [
-        "Yeşil"
+        "Standart"
       ],
       "sizes": [
         "2XL",
@@ -24399,7 +25325,9 @@
       "slug": "dantelli-bordo-saten-buyuk-beden-gecelik",
       "url": "product.html?p=dantelli-bordo-saten-buyuk-beden-gecelik",
       "title": "Dantelli Bordo Saten Büyük Beden Gecelik",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -24453,7 +25381,9 @@
       "slug": "transparan-detayli-lacivert-saten-buyuk-beden-gecelik",
       "url": "product.html?p=transparan-detayli-lacivert-saten-buyuk-beden-gecelik",
       "title": "Transparan Detaylı Lacivert Saten Büyük Beden Gecelik",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -24506,7 +25436,9 @@
       "slug": "buzgu-detayli-murdum-saten-buyuk-beden-gecelik",
       "url": "product.html?p=buzgu-detayli-murdum-saten-buyuk-beden-gecelik",
       "title": "Büzgü Detaylı Mürdüm Saten Büyük Beden Gecelik",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -24559,7 +25491,9 @@
       "slug": "gogsu-dantel-bordo-saten-buyuk-beden-gecelik",
       "url": "product.html?p=gogsu-dantel-bordo-saten-buyuk-beden-gecelik",
       "title": "Göğsü Dantel Bordo Saten Büyük Beden Gecelik",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -24613,7 +25547,9 @@
       "slug": "capraz-aski-siyah-saten-buyuk-beden-gecelik",
       "url": "product.html?p=capraz-aski-siyah-saten-buyuk-beden-gecelik",
       "title": "Çapraz Askı Siyah Saten Büyük Beden Gecelik",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -24667,7 +25603,9 @@
       "slug": "tul-detayli-kirmizi-saten-buyuk-beden-gecelik",
       "url": "product.html?p=tul-detayli-kirmizi-saten-buyuk-beden-gecelik",
       "title": "Tül Detaylı Kırmızı Saten Büyük Beden Gecelik",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -24720,7 +25658,9 @@
       "slug": "gogus-alti-dantel-murdum-saten-buyuk-beden-gecelik",
       "url": "product.html?p=gogus-alti-dantel-murdum-saten-buyuk-beden-gecelik",
       "title": "Göğüs Altı Dantel Mürdüm Saten Büyük Beden Gecelik",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -24774,7 +25714,9 @@
       "slug": "firfirli-dantelli-beyaz-saten-buyuk-beden-gecelik",
       "url": "product.html?p=firfirli-dantelli-beyaz-saten-buyuk-beden-gecelik",
       "title": "Fırfırlı Dantelli Beyaz Saten Büyük Beden Gecelik",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -24828,7 +25770,9 @@
       "slug": "tul-fiyonklu-dantelli-bordo-saten-buyuk-beden-gecelik",
       "url": "product.html?p=tul-fiyonklu-dantelli-bordo-saten-buyuk-beden-gecelik",
       "title": "Tül Fiyonklu Dantelli Bordo Saten Büyük Beden Gecelik",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -24882,7 +25826,9 @@
       "slug": "transparan-etekli-dantelli-vizon-saten-buyuk-beden-gecelik",
       "url": "product.html?p=transparan-etekli-dantelli-vizon-saten-buyuk-beden-gecelik",
       "title": "Transparan Etekli Dantelli Vizon Saten Büyük Beden Gecelik",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -24936,7 +25882,9 @@
       "slug": "onu-uzun-dantelli-siyah-saten-buyuk-beden-gecelik",
       "url": "product.html?p=onu-uzun-dantelli-siyah-saten-buyuk-beden-gecelik",
       "title": "Önü Uzun Dantelli Siyah Saten Büyük Beden Gecelik",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -24990,7 +25938,9 @@
       "slug": "dantelli-murdum-buyuk-beden-saten-gecelik",
       "url": "product.html?p=dantelli-murdum-buyuk-beden-saten-gecelik",
       "title": "Dantelli Mürdüm Büyük Beden Saten Gecelik",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -25044,7 +25994,9 @@
       "slug": "dantelli-siyah-buyuk-beden-saten-gecelik",
       "url": "product.html?p=dantelli-siyah-buyuk-beden-saten-gecelik",
       "title": "Dantelli Siyah Büyük Beden Saten Gecelik",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -25098,7 +26050,9 @@
       "slug": "capraz-aski-dantelli-siyah-buyuk-beden-saten-gecelik",
       "url": "product.html?p=capraz-aski-dantelli-siyah-buyuk-beden-saten-gecelik",
       "title": "Çapraz Askı Dantelli Siyah Büyük Beden Saten Gecelik",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Gecelik",
       "categories": [
         "Gecelik",

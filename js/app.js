@@ -717,7 +717,7 @@ async function initProductPage() {
 function populateProduct(p, all, catSlug) {
   if (p.seo && p.seo.title) document.title = p.seo.title;
   const h1 = document.querySelector('.product-info h1'); if (h1) h1.textContent = p.title;
-  const priceEl = document.querySelector('.product-info .text-2xl'); if (priceEl) priceEl.innerHTML = priceMarkup(p.price, p.slug);
+  const priceEl = document.querySelector('.product-info .text-2xl'); if (priceEl) priceEl.innerHTML = priceMarkup(p.price, p.listPrice, p.discount);
 
   const bc = document.querySelector('.breadcrumb');
   if (bc) bc.innerHTML = '<a href="index.html">Ana Sayfa</a> › <a href="category.html">' +
@@ -781,7 +781,7 @@ function populateProduct(p, all, catSlug) {
       '<a href="product.html?p=' + encodeURIComponent(x.slug) + '&c=' + encodeURIComponent(catSlug || '') + '" class="product-card">' +
       '<div class="product-card__image"><img src="' + x.images[0] + '" alt="' + escapeHtml(x.title) + '" loading="lazy"></div>' +
       '<p class="product-card__name">' + escapeHtml(x.title) + '</p>' +
-      '<p class="product-card__price">' + formatTRY(x.price) + '</p></a>').join('');
+      '<p class="product-card__price">' + priceMarkup(x.price, x.listPrice, x.discount) + '</p></a>').join('');
   }
 }
 
@@ -805,7 +805,7 @@ function catCardHTML(p, catSlug) {
     '<a href="product.html?p=' + encodeURIComponent(p.slug) + '&c=' + catSlug + '" class="product-card">' +
     '<div class="product-card__image" style="aspect-ratio:3/4;"><img src="' + p.images[0] + '" alt="' + escapeHtml(p.title) + '" loading="lazy"></div>' +
     '<p class="product-card__name">' + escapeHtml(p.title) + '</p>' +
-    '<p class="product-card__price">' + priceMarkup(p.price, p.slug) + '</p></a>' +
+    '<p class="product-card__price">' + priceMarkup(p.price, p.listPrice, p.discount) + '</p></a>' +
     '<button class="card-add" type="button" data-slug="' + escapeHtml(p.slug) + '">Sepete Ekle</button>' +
     '</div>';
 }
@@ -899,7 +899,7 @@ async function runSearch(q) {
         '<a href="product.html?p=' + encodeURIComponent(it.slug) + '&c=' + it.c + '" class="product-card">' +
         '<div class="product-card__image" style="aspect-ratio:3/4;"><img src="' + it.image + '" alt="' + escapeHtml(it.title) + '" loading="lazy"></div>' +
         '<p class="product-card__name">' + escapeHtml(it.title) + '</p>' +
-        '<p class="product-card__price">' + priceMarkup(it.price, it.slug) + '</p></a>').join('') + '</div>'
+        '<p class="product-card__price">' + priceMarkup(it.price, it.listPrice, it.discount) + '</p></a>').join('') + '</div>'
     : '<p class="search-hint">Sonuç bulunamadı.</p>';
 }
 function openSearch() { const ui = buildSearchUI(); ui.ov.classList.add('active'); lockScroll(); setTimeout(() => ui.input.focus(), 60); }
@@ -1066,19 +1066,14 @@ function cartAddItem({ title, price, size, color, image, qty }) {
   openCart();
 }
 
-// ── Campaign pricing (demo): show a struck list price + discount badge ───────
-const KG_DISCOUNTS = [0, 0, 0, 15, 20, 20, 25, 30, 30, 40];
-function discountFor(slug) {
-  let h = 0; for (const c of String(slug)) h = (h * 31 + c.charCodeAt(0)) >>> 0;
-  return KG_DISCOUNTS[h % KG_DISCOUNTS.length];
-}
-function priceMarkup(price, slug) {
-  const d = discountFor(slug);
-  if (!d) return '<span class="price-now">' + formatTRY(price) + '</span>';
-  const list = Math.round((price * 100 / (100 - d)) / 5) * 5;
-  return '<span class="price-now sale">' + formatTRY(price) + '</span>' +
-    '<span class="price-old">' + formatTRY(list) + '</span>' +
-    '<span class="price-off">%' + d + '</span>';
+// ── Campaign pricing (REAL: list price + discount from the site) ─────────────
+function priceMarkup(price, listPrice, discount) {
+  if (discount && listPrice && listPrice > price) {
+    return '<span class="price-now sale">' + formatTRY(price) + '</span>' +
+      '<span class="price-old">' + formatTRY(listPrice) + '</span>' +
+      '<span class="price-off">%' + discount + '</span>';
+  }
+  return '<span class="price-now">' + formatTRY(price) + '</span>';
 }
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -1111,7 +1106,7 @@ function homeCardHTML(it) {
   return '<a href="product.html?p=' + encodeURIComponent(it.slug) + '&c=' + it.c + '" class="product-card">' +
     '<div class="product-card__image" style="aspect-ratio:3/4;"><img src="' + it.image + '" alt="' + escapeHtml(it.title) + '" loading="lazy"></div>' +
     '<p class="product-card__name">' + escapeHtml(it.title) + '</p>' +
-    '<p class="product-card__price">' + priceMarkup(it.price, it.slug) + '</p></a>';
+    '<p class="product-card__price">' + priceMarkup(it.price, it.listPrice, it.discount) + '</p></a>';
 }
 async function initHome() {
   const elNew = document.getElementById('homeNew'), elLoved = document.getElementById('homeLoved');
@@ -1120,6 +1115,22 @@ async function initHome() {
   if (!data) return;
   if (elNew && data['new']) elNew.innerHTML = data['new'].map(homeCardHTML).join('');
   if (elLoved && data.loved) elLoved.innerHTML = data.loved.map(homeCardHTML).join('');
+
+  // Real category tile counts + links
+  const TILE = [
+    { kw: 'Gecelik', cat: 'Gecelik', slug: 'gecelik' },
+    { kw: 'Sütyen', cat: 'Sütyen', slug: 'sutyen' },
+    { kw: 'Fantazi', cat: 'Fantazi', slug: 'fantazi' },
+    { kw: 'Pijama', cat: 'Pijama', slug: 'pijama' }
+  ];
+  document.querySelectorAll('.category-card').forEach(card => {
+    const name = (card.querySelector('.category-card__name') || {}).textContent || '';
+    const m = TILE.find(t => name.includes(t.kw));
+    if (!m) return;
+    card.href = 'category.html?cat=' + encodeURIComponent(m.cat);
+    const cEl = card.querySelector('.category-card__count');
+    if (cEl && data.counts && data.counts[m.slug] != null) cEl.textContent = data.counts[m.slug] + ' ürün';
+  });
 }
 
 // ── Favorites (localStorage) ─────────────────────────────────────────────────

@@ -1,6 +1,6 @@
 {
   "$schema": "https://kadinimguzelim.com/schema/product-feed-v1",
-  "generator": "KadınımGuzelim AI Product Studio",
+  "generator": "KadınımGuzelim AI Product Studio (gerçek fiyat: KDV dahil + indirimOrani)",
   "generatedAt": "2026-06-15",
   "brand": "KadınımGuzelim",
   "currency": "TRY",
@@ -11,7 +11,9 @@
       "slug": "ince-askili-buyuk-beden-sortlu-pijama-takim",
       "url": "product.html?p=ince-askili-buyuk-beden-sortlu-pijama-takim",
       "title": "İnce Askılı Büyük Beden Şortlu Pijama Takım",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -64,7 +66,9 @@
       "slug": "dantelli-buyuk-beden-sortlu-pijama-takim",
       "url": "product.html?p=dantelli-buyuk-beden-sortlu-pijama-takim",
       "title": "Dantelli Büyük Beden Şortlu Pijama Takım",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -117,7 +121,9 @@
       "slug": "kisa-kollu-buyuk-beden-sortlu-pijama-takimi",
       "url": "product.html?p=kisa-kollu-buyuk-beden-sortlu-pijama-takimi",
       "title": "Kısa Kollu Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -169,7 +175,9 @@
       "slug": "desenli-kisa-kollu-buyuk-beden-sortlu-pijama-takimi",
       "url": "product.html?p=desenli-kisa-kollu-buyuk-beden-sortlu-pijama-takimi",
       "title": "Desenli Kısa Kollu Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -221,7 +229,9 @@
       "slug": "cicekli-buyuk-beden-sortlu-pijama-takimi",
       "url": "product.html?p=cicekli-buyuk-beden-sortlu-pijama-takimi",
       "title": "Çiçekli Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -273,7 +283,9 @@
       "slug": "kollari-dantelli-buyuk-beden-sortlu-pijama-takimi",
       "url": "product.html?p=kollari-dantelli-buyuk-beden-sortlu-pijama-takimi",
       "title": "Kolları Dantelli Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -326,7 +338,9 @@
       "slug": "kolsuz-siyah-buyuk-beden-sortlu-pijama-takimi",
       "url": "product.html?p=kolsuz-siyah-buyuk-beden-sortlu-pijama-takimi",
       "title": "Kolsuz Siyah Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -378,7 +392,9 @@
       "slug": "kirmizi-siyah-buyuk-beden-sortlu-pijama-takimi",
       "url": "product.html?p=kirmizi-siyah-buyuk-beden-sortlu-pijama-takimi",
       "title": "Kırmızı Siyah Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -431,7 +447,9 @@
       "slug": "siyah-buyuk-beden-sortlu-pijama-takimi",
       "url": "product.html?p=siyah-buyuk-beden-sortlu-pijama-takimi",
       "title": "Siyah Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -483,7 +501,9 @@
       "slug": "bisiklet-yaka-buyuk-beden-sortlu-pijama-takimi",
       "url": "product.html?p=bisiklet-yaka-buyuk-beden-sortlu-pijama-takimi",
       "title": "Bisiklet Yaka Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -535,7 +555,9 @@
       "slug": "alti-leoparli-buyuk-beden-sortlu-pijama-takimi",
       "url": "product.html?p=alti-leoparli-buyuk-beden-sortlu-pijama-takimi",
       "title": "Altı Leoparlı Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -588,7 +610,9 @@
       "slug": "love-yazili-buyuk-beden-sortlu-pijama-takimi",
       "url": "product.html?p=love-yazili-buyuk-beden-sortlu-pijama-takimi",
       "title": "Love Yazılı Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -640,7 +664,9 @@
       "slug": "bulut-desenli-buyuk-beden-sortlu-pijama-takimi",
       "url": "product.html?p=bulut-desenli-buyuk-beden-sortlu-pijama-takimi",
       "title": "Bulut Desenli Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -692,7 +718,9 @@
       "slug": "siyah-beyaz-buyuk-beden-sortlu-pijama-takimi",
       "url": "product.html?p=siyah-beyaz-buyuk-beden-sortlu-pijama-takimi",
       "title": "Siyah Beyaz Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -744,7 +772,9 @@
       "slug": "bordo-mavi-buyuk-beden-sortlu-pijama-takimi",
       "url": "product.html?p=bordo-mavi-buyuk-beden-sortlu-pijama-takimi",
       "title": "Bordo Mavi Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -797,7 +827,9 @@
       "slug": "dekolte-yaka-buyuk-beden-sortlu-pijama-takimi",
       "url": "product.html?p=dekolte-yaka-buyuk-beden-sortlu-pijama-takimi",
       "title": "Dekolte Yaka Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -849,7 +881,9 @@
       "slug": "pudra-buyuk-beden-sortlu-pijama-takimi",
       "url": "product.html?p=pudra-buyuk-beden-sortlu-pijama-takimi",
       "title": "Pudra Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -901,7 +935,9 @@
       "slug": "pembe-siyah-buyuk-beden-sortlu-pijama-takimi",
       "url": "product.html?p=pembe-siyah-buyuk-beden-sortlu-pijama-takimi",
       "title": "Pembe Siyah Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -954,7 +990,9 @@
       "slug": "cepli-siyah-buyuk-beden-sortlu-pijama-takimi",
       "url": "product.html?p=cepli-siyah-buyuk-beden-sortlu-pijama-takimi",
       "title": "Cepli Siyah Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -1006,7 +1044,9 @@
       "slug": "leopar-siyah-buyuk-beden-sortlu-pijama-takimi-ldy-10438",
       "url": "product.html?p=leopar-siyah-buyuk-beden-sortlu-pijama-takimi-ldy-10438",
       "title": "Leopar Siyah Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -1060,7 +1100,9 @@
       "slug": "dugmeli-siyah-buyuk-beden-sortlu-pijama-takimi",
       "url": "product.html?p=dugmeli-siyah-buyuk-beden-sortlu-pijama-takimi",
       "title": "Düğmeli Siyah Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -1112,7 +1154,9 @@
       "slug": "v-yaka-buyuk-beden-sortlu-pijama-takimi",
       "url": "product.html?p=v-yaka-buyuk-beden-sortlu-pijama-takimi",
       "title": "V Yaka Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -1165,7 +1209,9 @@
       "slug": "dantel-kenarli-buyuk-beden-sortlu-pijama-takimi-ldy-10442",
       "url": "product.html?p=dantel-kenarli-buyuk-beden-sortlu-pijama-takimi-ldy-10442",
       "title": "Dantel Kenarlı Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -1218,7 +1264,9 @@
       "slug": "askili-lacivert-buyuk-beden-sortlu-pijama-takimi-ldy-10443",
       "url": "product.html?p=askili-lacivert-buyuk-beden-sortlu-pijama-takimi-ldy-10443",
       "title": "Askılı Lacivert Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -1271,7 +1319,9 @@
       "slug": "leopar-desen-cepli-buyuk-beden-sortlu-pijama-takimi",
       "url": "product.html?p=leopar-desen-cepli-buyuk-beden-sortlu-pijama-takimi",
       "title": "Leopar Desen Cepli Büyük Beden Şortlu Pijama Takımı",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -1324,7 +1374,9 @@
       "slug": "leopar-desenli-saten-bayan-pijama-takim",
       "url": "product.html?p=leopar-desenli-saten-bayan-pijama-takim",
       "title": "Leopar Desenli Saten Bayan Pijama Takım",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 1970,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -1376,7 +1428,9 @@
       "slug": "ispanyol-paca-desenli-pantolon-bayan-pijama-takim",
       "url": "product.html?p=ispanyol-paca-desenli-pantolon-bayan-pijama-takim",
       "title": "İspanyol Paça Desenli Pantolon Bayan Pijama Takım",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 1970,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -1425,7 +1479,9 @@
       "slug": "desenli-ispanyol-paca-bayan-pantolon-pijama-takim",
       "url": "product.html?p=desenli-ispanyol-paca-bayan-pantolon-pijama-takim",
       "title": "Desenli İspanyol Paça Bayan Pantolon Pijama Takım",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 1970,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -1474,7 +1530,9 @@
       "slug": "cicek-desenli-ispanyol-paca-bayan-pijama-takim",
       "url": "product.html?p=cicek-desenli-ispanyol-paca-bayan-pijama-takim",
       "title": "Çiçek Desenli İspanyol Paça Bayan Pijama Takım",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 1970,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -1523,7 +1581,9 @@
       "slug": "mor-cicekli-ispanyol-paca-beyaz-bayan-pijama-takimi",
       "url": "product.html?p=mor-cicekli-ispanyol-paca-beyaz-bayan-pijama-takimi",
       "title": "Mor Çiçekli İspanyol Paça Beyaz Bayan Pijama Takımı",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 1970,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -1573,7 +1633,9 @@
       "slug": "cok-renkli-ispanyol-paca-bayan-pijama-takimi",
       "url": "product.html?p=cok-renkli-ispanyol-paca-bayan-pijama-takimi",
       "title": "Çok Renkli İspanyol Paça Bayan Pijama Takımı",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 1970,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -1622,7 +1684,9 @@
       "slug": "cok-renkli-ispanyol-paca-yesil-bayan-pijama-takimi",
       "url": "product.html?p=cok-renkli-ispanyol-paca-yesil-bayan-pijama-takimi",
       "title": "Çok Renkli İspanyol Paça Yeşil Bayan Pijama Takımı",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 1970,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -1632,7 +1696,7 @@
         "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/cok-renkli-ispanyol-paca-yesil-bayan-p-827202.jpg"
       ],
       "colors": [
-        "Yeşil"
+        "Standart"
       ],
       "sizes": [
         "S/M",
@@ -1671,7 +1735,9 @@
       "slug": "gul-desenli-ispanyol-paca-bayan-pijama-takimi",
       "url": "product.html?p=gul-desenli-ispanyol-paca-bayan-pijama-takimi",
       "title": "Gül Desenli İspanyol Paça Bayan Pijama Takımı",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 1970,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -1721,7 +1787,9 @@
       "slug": "buyuk-cicekli-ispanyol-paca-bayan-pijama-takimi",
       "url": "product.html?p=buyuk-cicekli-ispanyol-paca-bayan-pijama-takimi",
       "title": "Büyük Çiçekli İspanyol Paça Bayan Pijama Takımı",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 2186,
+      "discount": 36,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -1770,7 +1838,9 @@
       "slug": "kapusonlu-spor-model-100-pamuk-erkek-pijama-takimi",
       "url": "product.html?p=kapusonlu-spor-model-100-pamuk-erkek-pijama-takimi",
       "title": "Kapüşonlu Spor Model %100 Pamuk Erkek Pijama Takımı",
-      "price": 1726,
+      "price": 1899,
+      "listPrice": 3014,
+      "discount": 37,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -1821,7 +1891,9 @@
       "slug": "cicekli-buyuk-beden-saten-pijama-takimi",
       "url": "product.html?p=cicekli-buyuk-beden-saten-pijama-takimi",
       "title": "Çiçekli Büyük Beden Saten Pijama Takımı",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 1970,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -1874,7 +1946,9 @@
       "slug": "cicek-desenli-buyuk-beden-saten-pijama-takimi",
       "url": "product.html?p=cicek-desenli-buyuk-beden-saten-pijama-takimi",
       "title": "Çiçek Desenli Büyük Beden Saten Pijama Takımı",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 1970,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -1927,7 +2001,9 @@
       "slug": "cicek-desenli-buyuk-beden-gri-saten-pijama-takimi",
       "url": "product.html?p=cicek-desenli-buyuk-beden-gri-saten-pijama-takimi",
       "title": "Çiçek Desenli Büyük Beden Gri Saten Pijama Takımı",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 1970,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -1980,7 +2056,9 @@
       "slug": "buyuk-cicekli-buyuk-beden-saten-pijama-takimi",
       "url": "product.html?p=buyuk-cicekli-buyuk-beden-saten-pijama-takimi",
       "title": "Büyük Çiçekli Büyük Beden Saten Pijama Takımı",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 1970,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -2033,7 +2111,9 @@
       "slug": "buyuk-cicekli-buyuk-beden-siyah-saten-pijama-takimi",
       "url": "product.html?p=buyuk-cicekli-buyuk-beden-siyah-saten-pijama-takimi",
       "title": "Büyük Çiçekli Büyük Beden Siyah Saten Pijama Takımı",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 1970,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -2087,7 +2167,9 @@
       "slug": "gul-desenli-buyuk-beden-saten-pijama-takimi",
       "url": "product.html?p=gul-desenli-buyuk-beden-saten-pijama-takimi",
       "title": "Gül Desenli Büyük Beden Saten Pijama Takımı",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 1970,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -2140,7 +2222,9 @@
       "slug": "leopar-desenli-buyuk-beden-saten-pijama-takimi",
       "url": "product.html?p=leopar-desenli-buyuk-beden-saten-pijama-takimi",
       "title": "Leopar Desenli Büyük Beden Saten Pijama Takımı",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 1970,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -2194,7 +2278,9 @@
       "slug": "dekolteli-desenli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=dekolteli-desenli-buyuk-beden-pijama-takimi",
       "title": "Dekolteli Desenli Büyük Beden Pijama Takımı",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 1970,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -2247,7 +2333,9 @@
       "slug": "cicek-desenli-buyuk-beden-krem-pijama-takimi",
       "url": "product.html?p=cicek-desenli-buyuk-beden-krem-pijama-takimi",
       "title": "Çiçek Desenli Büyük Beden Krem Pijama Takımı",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 1970,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -2299,7 +2387,9 @@
       "slug": "cicek-desenli-buyuk-beden-yesil-pijama-takimi",
       "url": "product.html?p=cicek-desenli-buyuk-beden-yesil-pijama-takimi",
       "title": "Çiçek Desenli Büyük Beden Yeşil Pijama Takımı",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 1970,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -2310,7 +2400,7 @@
         "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/cicek-desenli-buyuk-beden-yesil-pijama-d-d90e.jpg"
       ],
       "colors": [
-        "Yeşil"
+        "Standart"
       ],
       "sizes": [
         "2XL",
@@ -2351,7 +2441,9 @@
       "slug": "mor-cicekli-buyuk-beden-beyaz-pijama-takimi",
       "url": "product.html?p=mor-cicekli-buyuk-beden-beyaz-pijama-takimi",
       "title": "Mor Çiçekli Büyük Beden Beyaz Pijama Takımı",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 1970,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -2404,7 +2496,9 @@
       "slug": "cicekli-buyuk-beden-renkli-pijama-takimi",
       "url": "product.html?p=cicekli-buyuk-beden-renkli-pijama-takimi",
       "title": "Çiçekli Büyük Beden Renkli Pijama Takımı",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 1970,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -2456,7 +2550,9 @@
       "slug": "beyaz-cicekli-buyuk-beden-yesil-pijama-takimi",
       "url": "product.html?p=beyaz-cicekli-buyuk-beden-yesil-pijama-takimi",
       "title": "Beyaz Çiçekli Büyük Beden Yeşil Pijama Takımı",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 1970,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -2467,7 +2563,7 @@
         "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/beyaz-cicekli-buyuk-beden-yesil-pijama--a572-.jpg"
       ],
       "colors": [
-        "Yeşil"
+        "Standart"
       ],
       "sizes": [
         "2XL",
@@ -2508,7 +2604,9 @@
       "slug": "gul-cicekli-buyuk-beden-dekolteli-pijama-takimi",
       "url": "product.html?p=gul-cicekli-buyuk-beden-dekolteli-pijama-takimi",
       "title": "Gül Çiçekli Büyük Beden Dekolteli Pijama Takımı",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 1970,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -2561,7 +2659,9 @@
       "slug": "genis-pacali-cicekli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=genis-pacali-cicekli-buyuk-beden-pijama-takimi",
       "title": "Geniş Paçalı Çiçekli Büyük Beden Pijama Takımı",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 1970,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -2613,7 +2713,9 @@
       "slug": "ispanyol-paca-cicekli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=ispanyol-paca-cicekli-buyuk-beden-pijama-takimi",
       "title": "İspanyol Paça Çiçekli Büyük Beden Pijama Takımı",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": 1970,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -2665,7 +2767,9 @@
       "slug": "zarif-dantelli-pembe-hamile-lohusa-pijama-takimi",
       "url": "product.html?p=zarif-dantelli-pembe-hamile-lohusa-pijama-takimi",
       "title": "Zarif Dantelli Pembe Hamile Lohusa Pijama Takımı",
-      "price": 1726,
+      "price": 1899,
+      "listPrice": 2566,
+      "discount": 26,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -2716,7 +2820,9 @@
       "slug": "zarif-dantelli-mavi-hamile-lohusa-pijama-takimi",
       "url": "product.html?p=zarif-dantelli-mavi-hamile-lohusa-pijama-takimi",
       "title": "Zarif Dantelli Pembe Hamile Lohusa Pijama Takımı",
-      "price": 1726,
+      "price": 1899,
+      "listPrice": 2566,
+      "discount": 26,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -2767,7 +2873,9 @@
       "slug": "zarif-dantelli-ekru-hamile-lohusa-pijama-takimi",
       "url": "product.html?p=zarif-dantelli-ekru-hamile-lohusa-pijama-takimi",
       "title": "Zarif Dantelli Pembe Hamile Lohusa Pijama Takımı",
-      "price": 1726,
+      "price": 1899,
+      "listPrice": 2566,
+      "discount": 26,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -2818,7 +2926,9 @@
       "slug": "dantelli-dugmeli-pembe-hamile-lohusa-pijama-takimi",
       "url": "product.html?p=dantelli-dugmeli-pembe-hamile-lohusa-pijama-takimi",
       "title": "Dantelli Düğmeli Pembe Hamile Lohusa Pijama Takımı",
-      "price": 1726,
+      "price": 1899,
+      "listPrice": 2566,
+      "discount": 26,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -2869,7 +2979,9 @@
       "slug": "dantelli-dugmeli-mavi-hamile-lohusa-pijama-takimi",
       "url": "product.html?p=dantelli-dugmeli-mavi-hamile-lohusa-pijama-takimi",
       "title": "Dantelli Düğmeli Mavi Hamile Lohusa Pijama Takımı",
-      "price": 1726,
+      "price": 1899,
+      "listPrice": 2566,
+      "discount": 26,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -2920,7 +3032,9 @@
       "slug": "dantelli-dugmeli-ekru-hamile-lohusa-pijama-takimi",
       "url": "product.html?p=dantelli-dugmeli-ekru-hamile-lohusa-pijama-takimi",
       "title": "Dantelli Düğmeli Ekru Hamile Lohusa Pijama Takımı",
-      "price": 1726,
+      "price": 1899,
+      "listPrice": 2566,
+      "discount": 26,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -2971,7 +3085,9 @@
       "slug": "dugmeli-gomlek-yakali-pembe-hamile-lohusa-pijama-takimi",
       "url": "product.html?p=dugmeli-gomlek-yakali-pembe-hamile-lohusa-pijama-takimi",
       "title": "Düğmeli Gömlek Yakalı Pembe Hamile Lohusa Pijama Takımı",
-      "price": 1726,
+      "price": 1899,
+      "listPrice": 2566,
+      "discount": 26,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -3020,7 +3136,9 @@
       "slug": "dugmeli-gomlek-yakali-mavi-hamile-lohusa-pijama-takimi",
       "url": "product.html?p=dugmeli-gomlek-yakali-mavi-hamile-lohusa-pijama-takimi",
       "title": "Düğmeli Gömlek Yakalı Mavi Hamile Lohusa Pijama Takımı",
-      "price": 1726,
+      "price": 1899,
+      "listPrice": 2566,
+      "discount": 26,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -3069,7 +3187,9 @@
       "slug": "dugmeli-gomlek-yakali-ekru-hamile-lohusa-pijama-takimi",
       "url": "product.html?p=dugmeli-gomlek-yakali-ekru-hamile-lohusa-pijama-takimi",
       "title": "Düğmeli Gömlek Yakalı Ekru Hamile Lohusa Pijama Takımı",
-      "price": 1726,
+      "price": 1899,
+      "listPrice": 2566,
+      "discount": 26,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -3118,7 +3238,9 @@
       "slug": "acilir-dugmeli-pembe-hamile-lohusa-pijama-takimi",
       "url": "product.html?p=acilir-dugmeli-pembe-hamile-lohusa-pijama-takimi",
       "title": "Açılır Düğmeli Pembe Hamile Lohusa Pijama Takımı",
-      "price": 1726,
+      "price": 1899,
+      "listPrice": 2566,
+      "discount": 26,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -3167,7 +3289,9 @@
       "slug": "acilir-dugmeli-mavi-hamile-lohusa-pijama-takimi",
       "url": "product.html?p=acilir-dugmeli-mavi-hamile-lohusa-pijama-takimi",
       "title": "Açılır Düğmeli Mavi Hamile Lohusa Pijama Takımı",
-      "price": 1726,
+      "price": 1899,
+      "listPrice": 2566,
+      "discount": 26,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -3216,7 +3340,9 @@
       "slug": "acilir-dugmeli-ekru-hamile-lohusa-pijama-takimi",
       "url": "product.html?p=acilir-dugmeli-ekru-hamile-lohusa-pijama-takimi",
       "title": "Açılır Düğmeli Ekru Hamile Lohusa Pijama Takımı",
-      "price": 1726,
+      "price": 1899,
+      "listPrice": 2566,
+      "discount": 26,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -3265,7 +3391,9 @@
       "slug": "cicek-dantelli-dugmeli-pembe-hamile-lohusa-pijama-takimi",
       "url": "product.html?p=cicek-dantelli-dugmeli-pembe-hamile-lohusa-pijama-takimi",
       "title": "Çiçek Dantelli Düğmeli Pembe Hamile Lohusa Pijama Takımı",
-      "price": 1726,
+      "price": 1899,
+      "listPrice": 2566,
+      "discount": 26,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -3316,7 +3444,9 @@
       "slug": "cicek-dantelli-dugmeli-mavi-hamile-lohusa-pijama-takimi",
       "url": "product.html?p=cicek-dantelli-dugmeli-mavi-hamile-lohusa-pijama-takimi",
       "title": "Çiçek Dantelli Düğmeli Mavi Hamile Lohusa Pijama Takımı",
-      "price": 1726,
+      "price": 1899,
+      "listPrice": 2566,
+      "discount": 26,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -3367,7 +3497,9 @@
       "slug": "cicek-dantelli-dugmeli-ekru-hamile-lohusa-pijama-takimi",
       "url": "product.html?p=cicek-dantelli-dugmeli-ekru-hamile-lohusa-pijama-takimi",
       "title": "Çiçek Dantelli Düğmeli Ekru Hamile Lohusa Pijama Takımı",
-      "price": 1726,
+      "price": 1899,
+      "listPrice": 2566,
+      "discount": 26,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -3418,7 +3550,9 @@
       "slug": "genis-kollu-dugmeli-pembe-hamile-lohusa-pijama-takimi",
       "url": "product.html?p=genis-kollu-dugmeli-pembe-hamile-lohusa-pijama-takimi",
       "title": "Geniş Kollu Düğmeli Pembe Hamile Lohusa Pijama Takımı",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": null,
+      "discount": 0,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -3467,7 +3601,9 @@
       "slug": "genis-kollu-dugmeli-mavi-hamile-lohusa-pijama-takimi",
       "url": "product.html?p=genis-kollu-dugmeli-mavi-hamile-lohusa-pijama-takimi",
       "title": "Geniş Kollu Düğmeli Mavi Hamile Lohusa Pijama Takımı",
-      "price": 1726,
+      "price": 1899,
+      "listPrice": 2566,
+      "discount": 26,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -3516,7 +3652,9 @@
       "slug": "genis-kollu-dugmeli-ekru-hamile-lohusa-pijama-takimi",
       "url": "product.html?p=genis-kollu-dugmeli-ekru-hamile-lohusa-pijama-takimi",
       "title": "Geniş Kollu Düğmeli Ekru Hamile Lohusa Pijama Takımı",
-      "price": 1726,
+      "price": 1899,
+      "listPrice": 2566,
+      "discount": 26,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -3565,7 +3703,9 @@
       "slug": "kisa-kollu-dugmeli-pembe-hamile-lohusa-pijama-takimi",
       "url": "product.html?p=kisa-kollu-dugmeli-pembe-hamile-lohusa-pijama-takimi",
       "title": "Kısa Kollu Düğmeli Pembe Hamile Lohusa Pijama Takımı",
-      "price": 1726,
+      "price": 1899,
+      "listPrice": 2566,
+      "discount": 26,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -3615,7 +3755,9 @@
       "slug": "kisa-kollu-dugmeli-mavi-hamile-lohusa-pijama-takimi",
       "url": "product.html?p=kisa-kollu-dugmeli-mavi-hamile-lohusa-pijama-takimi",
       "title": "Kısa Kollu Düğmeli Mavi Hamile Lohusa Pijama Takımı",
-      "price": 1726,
+      "price": 1899,
+      "listPrice": 2566,
+      "discount": 26,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -3665,7 +3807,9 @@
       "slug": "kisa-kollu-dugmeli-ekru-hamile-lohusa-pijama-takimi",
       "url": "product.html?p=kisa-kollu-dugmeli-ekru-hamile-lohusa-pijama-takimi",
       "title": "Kısa Kollu Düğmeli Ekru Hamile Lohusa Pijama Takımı",
-      "price": 1726,
+      "price": 1899,
+      "listPrice": 2566,
+      "discount": 26,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -3715,7 +3859,9 @@
       "slug": "dantel-kisa-kollu-dugmeli-ekru-hamile-lohusa-pijama-takimi",
       "url": "product.html?p=dantel-kisa-kollu-dugmeli-ekru-hamile-lohusa-pijama-takimi",
       "title": "Dantel Kısa Kollu Düğmeli Ekru Hamile Lohusa Pijama Takımı",
-      "price": 1726,
+      "price": 1899,
+      "listPrice": 2566,
+      "discount": 26,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -3767,7 +3913,9 @@
       "slug": "dantel-kisa-kollu-dugmeli-mavi-hamile-lohusa-pijama-takimi",
       "url": "product.html?p=dantel-kisa-kollu-dugmeli-mavi-hamile-lohusa-pijama-takimi",
       "title": "Dantel Kısa Kollu Düğmeli Mavi Hamile Lohusa Pijama Takımı",
-      "price": 1726,
+      "price": 1899,
+      "listPrice": 2566,
+      "discount": 26,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -3819,7 +3967,9 @@
       "slug": "dantel-kisa-kollu-dugmeli-pembe-hamile-lohusa-pijama-takimi",
       "url": "product.html?p=dantel-kisa-kollu-dugmeli-pembe-hamile-lohusa-pijama-takimi",
       "title": "Dantel Kısa Kollu Düğmeli Pembe Hamile Lohusa Pijama Takımı",
-      "price": 1726,
+      "price": 1899,
+      "listPrice": 2566,
+      "discount": 26,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -3871,7 +4021,9 @@
       "slug": "dantel-suslu-dugmeli-ekru-hamile-lohusa-pijama-takimi",
       "url": "product.html?p=dantel-suslu-dugmeli-ekru-hamile-lohusa-pijama-takimi",
       "title": "Dantel Süslü Düğmeli Ekru Hamile Lohusa Pijama Takımı",
-      "price": 1726,
+      "price": 1899,
+      "listPrice": 2566,
+      "discount": 26,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -3922,7 +4074,9 @@
       "slug": "dantel-suslu-dugmeli-mavi-hamile-lohusa-pijama-takimi",
       "url": "product.html?p=dantel-suslu-dugmeli-mavi-hamile-lohusa-pijama-takimi",
       "title": "Dantel Süslü Düğmeli Mavi Hamile Lohusa Pijama Takımı",
-      "price": 1726,
+      "price": 1899,
+      "listPrice": 2566,
+      "discount": 26,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -3973,7 +4127,9 @@
       "slug": "dantel-suslu-dugmeli-pembe-hamile-lohusa-pijama-takimi",
       "url": "product.html?p=dantel-suslu-dugmeli-pembe-hamile-lohusa-pijama-takimi",
       "title": "Dantel Süslü Düğmeli Pembe Hamile Lohusa Pijama Takımı",
-      "price": 1726,
+      "price": 1899,
+      "listPrice": 2566,
+      "discount": 26,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -4024,7 +4180,9 @@
       "slug": "dantel-islemeli-dugmeli-ekru-hamile-lohusa-pijama-takimi",
       "url": "product.html?p=dantel-islemeli-dugmeli-ekru-hamile-lohusa-pijama-takimi",
       "title": "Dantel İşlemeli Düğmeli Ekru Hamile Lohusa Pijama Takımı",
-      "price": 1726,
+      "price": 1899,
+      "listPrice": 2566,
+      "discount": 26,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -4076,7 +4234,9 @@
       "slug": "dantel-islemeli-dugmeli-mavi-hamile-lohusa-pijama-takimi",
       "url": "product.html?p=dantel-islemeli-dugmeli-mavi-hamile-lohusa-pijama-takimi",
       "title": "Dantel İşlemeli Düğmeli Mavi Hamile Lohusa Pijama Takımı",
-      "price": 1726,
+      "price": 1899,
+      "listPrice": 2566,
+      "discount": 26,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -4128,7 +4288,9 @@
       "slug": "dantel-islemeli-dugmeli-pembe-hamile-lohusa-pijama-takimi",
       "url": "product.html?p=dantel-islemeli-dugmeli-pembe-hamile-lohusa-pijama-takimi",
       "title": "Dantel İşlemeli Düğmeli Pembe Hamile Lohusa Pijama Takımı",
-      "price": 1726,
+      "price": 1899,
+      "listPrice": 2566,
+      "discount": 26,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -4180,7 +4342,9 @@
       "slug": "kollari-dantelli-dugmeli-ekru-hamile-lohusa-pijama-takimi",
       "url": "product.html?p=kollari-dantelli-dugmeli-ekru-hamile-lohusa-pijama-takimi",
       "title": "Kolları Dantelli Düğmeli Ekru Hamile Lohusa Pijama Takımı",
-      "price": 1726,
+      "price": 1899,
+      "listPrice": 2566,
+      "discount": 26,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -4232,7 +4396,9 @@
       "slug": "kollari-dantelli-dugmeli-mavi-hamile-lohusa-pijama-takimi",
       "url": "product.html?p=kollari-dantelli-dugmeli-mavi-hamile-lohusa-pijama-takimi",
       "title": "Kolları Dantelli Düğmeli Mavi Hamile Lohusa Pijama Takımı",
-      "price": 1726,
+      "price": 1899,
+      "listPrice": 2566,
+      "discount": 26,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -4284,7 +4450,9 @@
       "slug": "kollari-dantelli-dugmeli-pembe-hamile-lohusa-pijama-takimi",
       "url": "product.html?p=kollari-dantelli-dugmeli-pembe-hamile-lohusa-pijama-takimi",
       "title": "Kolları Dantelli Düğmeli Pembe Hamile Lohusa Pijama Takımı",
-      "price": 1726,
+      "price": 1899,
+      "listPrice": 2566,
+      "discount": 26,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -4336,7 +4504,9 @@
       "slug": "gupurlu-dugmeli-mavi-hamile-lohusa-pijama-takimi",
       "url": "product.html?p=gupurlu-dugmeli-mavi-hamile-lohusa-pijama-takimi",
       "title": "Güpürlü Düğmeli Mavi Hamile Lohusa Pijama Takımı",
-      "price": 1726,
+      "price": 1899,
+      "listPrice": 2566,
+      "discount": 26,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -4385,7 +4555,9 @@
       "slug": "gupurlu-dugmeli-ekru-hamile-lohusa-pijama-takimi",
       "url": "product.html?p=gupurlu-dugmeli-ekru-hamile-lohusa-pijama-takimi",
       "title": "Güpürlü Düğmeli Ekru Hamile Lohusa Pijama Takımı",
-      "price": 1726,
+      "price": 1899,
+      "listPrice": 2566,
+      "discount": 26,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -4434,7 +4606,9 @@
       "slug": "gupurlu-dugmeli-pembe-hamile-lohusa-pijama-takimi",
       "url": "product.html?p=gupurlu-dugmeli-pembe-hamile-lohusa-pijama-takimi",
       "title": "Güpürlü Düğmeli Pembe Hamile Lohusa Pijama Takımı",
-      "price": 1726,
+      "price": 1899,
+      "listPrice": 2566,
+      "discount": 26,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -4483,7 +4657,9 @@
       "slug": "acik-yaka-ekru-hamile-lohusa-pijama-takimi",
       "url": "product.html?p=acik-yaka-ekru-hamile-lohusa-pijama-takimi",
       "title": "Açık Yaka Ekru Hamile Lohusa Pijama Takımı",
-      "price": 1726,
+      "price": 1899,
+      "listPrice": 2566,
+      "discount": 26,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -4533,7 +4709,9 @@
       "slug": "acik-yaka-mavi-hamile-lohusa-pijama-takimi",
       "url": "product.html?p=acik-yaka-mavi-hamile-lohusa-pijama-takimi",
       "title": "Açık Yaka Mavi Hamile Lohusa Pijama Takımı",
-      "price": 1726,
+      "price": 1899,
+      "listPrice": 2566,
+      "discount": 26,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -4583,7 +4761,9 @@
       "slug": "acik-yaka-pembe-hamile-lohusa-pijama-takimi",
       "url": "product.html?p=acik-yaka-pembe-hamile-lohusa-pijama-takimi",
       "title": "Açık Yaka Pembe Hamile Lohusa Pijama Takımı",
-      "price": 1726,
+      "price": 1899,
+      "listPrice": 2566,
+      "discount": 26,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -4633,7 +4813,9 @@
       "slug": "dugmeli-pembe-hamile-lohusa-sabahlikli-pijama-takimi",
       "url": "product.html?p=dugmeli-pembe-hamile-lohusa-sabahlikli-pijama-takimi",
       "title": "Hamile Lohusa Sabahlıklı Pijama Takım",
-      "price": 2272,
+      "price": 2499,
+      "listPrice": 3124,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -4682,7 +4864,9 @@
       "slug": "dugmeli-mavi-hamile-lohusa-sabahlikli-pijama-takimi",
       "url": "product.html?p=dugmeli-mavi-hamile-lohusa-sabahlikli-pijama-takimi",
       "title": "Düğmeli Mavi Hamile Lohusa Sabahlıklı Pijama Takım",
-      "price": 2272,
+      "price": 2499,
+      "listPrice": 3124,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -4732,7 +4916,9 @@
       "slug": "dugmeli-ekru-hamile-lohusa-sabahlikli-pijama-takimi",
       "url": "product.html?p=dugmeli-ekru-hamile-lohusa-sabahlikli-pijama-takimi",
       "title": "Düğmeli Ekru Hamile Lohusa Sabahlıklı Pijama Takım",
-      "price": 2272,
+      "price": 2499,
+      "listPrice": 3124,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -4782,7 +4968,9 @@
       "slug": "genis-dantelli-dugmeli-pembe-hamile-lohusa-sabahlikli-pijama-takimi",
       "url": "product.html?p=genis-dantelli-dugmeli-pembe-hamile-lohusa-sabahlikli-pijama-takimi",
       "title": "Geniş Dantelli Düğmeli pembe Hamile Lohusa Sabahlıklı Pijama Takımı",
-      "price": 2272,
+      "price": 2499,
+      "listPrice": 3124,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -4834,7 +5022,9 @@
       "slug": "genis-dantelli-dugmeli-mavi-hamile-lohusa-sabahlikli-pijama-takimi",
       "url": "product.html?p=genis-dantelli-dugmeli-mavi-hamile-lohusa-sabahlikli-pijama-takimi",
       "title": "Geniş Dantelli Düğmeli Mavi Hamile Lohusa Sabahlıklı Pijama Takımı",
-      "price": 2272,
+      "price": 2499,
+      "listPrice": 3124,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -4886,7 +5076,9 @@
       "slug": "genis-dantelli-dugmeli-ekru-hamile-lohusa-sabahlikli-pijama-takimi",
       "url": "product.html?p=genis-dantelli-dugmeli-ekru-hamile-lohusa-sabahlikli-pijama-takimi",
       "title": "Geniş Dantelli Düğmeli Ekru Hamile Lohusa Sabahlıklı Pijama Takımı",
-      "price": 2272,
+      "price": 2499,
+      "listPrice": 3124,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -4937,7 +5129,9 @@
       "slug": "zarif-dantelli-dugmeli-pembe-hamile-lohusa-sabahlikli-pijama-takimi",
       "url": "product.html?p=zarif-dantelli-dugmeli-pembe-hamile-lohusa-sabahlikli-pijama-takimi",
       "title": "Zarif Dantelli Düğmeli Pembe Hamile Lohusa Sabahlıklı Pijama Takımı",
-      "price": 2272,
+      "price": 2499,
+      "listPrice": 3124,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -4989,7 +5183,9 @@
       "slug": "zarif-dantelli-dugmeli-mavi-hamile-lohusa-sabahlikli-pijama-takimi",
       "url": "product.html?p=zarif-dantelli-dugmeli-mavi-hamile-lohusa-sabahlikli-pijama-takimi",
       "title": "Zarif Dantelli Düğmeli Mavi Hamile Lohusa Sabahlıklı Pijama Takımı",
-      "price": 2272,
+      "price": 2499,
+      "listPrice": 3124,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -5041,7 +5237,9 @@
       "slug": "zarif-dantelli-dugmeli-ekru-hamile-lohusa-sabahlikli-pijama-takimi",
       "url": "product.html?p=zarif-dantelli-dugmeli-ekru-hamile-lohusa-sabahlikli-pijama-takimi",
       "title": "Zarif Dantelli Düğmeli Ekru Hamile Lohusa Sabahlıklı Pijama Takımı",
-      "price": 2272,
+      "price": 2499,
+      "listPrice": 3124,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -5093,7 +5291,9 @@
       "slug": "dantelli-islemeli-pembe-hamile-lohusa-sabahlikli-pijama-takimi",
       "url": "product.html?p=dantelli-islemeli-pembe-hamile-lohusa-sabahlikli-pijama-takimi",
       "title": "Dantelli İşlemeli Pembe Hamile Lohusa Sabahlıklı Pijama Takımı",
-      "price": 2272,
+      "price": 2499,
+      "listPrice": 3124,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -5145,7 +5345,9 @@
       "slug": "dantelli-islemeli-mavi-hamile-lohusa-sabahlikli-pijama-takimi",
       "url": "product.html?p=dantelli-islemeli-mavi-hamile-lohusa-sabahlikli-pijama-takimi",
       "title": "Dantelli İşlemeli Mavi Hamile Lohusa Sabahlıklı Pijama Takımı",
-      "price": 2272,
+      "price": 2499,
+      "listPrice": 3124,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -5196,7 +5398,9 @@
       "slug": "dantelli-islemeli-ekru-hamile-lohusa-sabahlikli-pijama-takimi",
       "url": "product.html?p=dantelli-islemeli-ekru-hamile-lohusa-sabahlikli-pijama-takimi",
       "title": "Dantelli İşlemeli Ekru Hamile Lohusa Sabahlıklı Pijama Takımı",
-      "price": 2272,
+      "price": 2499,
+      "listPrice": 3124,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -5247,7 +5451,9 @@
       "slug": "dantelli-pembe-baglamali-hamile-lohusa-sabahlikli-pijama-takimi",
       "url": "product.html?p=dantelli-pembe-baglamali-hamile-lohusa-sabahlikli-pijama-takimi",
       "title": "Dantelli Pembe Bağlamalı Hamile Lohusa Sabahlıklı Pijama Takımı",
-      "price": 2272,
+      "price": 2499,
+      "listPrice": 3124,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -5299,7 +5505,9 @@
       "slug": "dantelli-mavi-baglamali-hamile-lohusa-sabahlikli-pijama-takimi",
       "url": "product.html?p=dantelli-mavi-baglamali-hamile-lohusa-sabahlikli-pijama-takimi",
       "title": "Dantelli Mavi Bağlamalı Hamile Lohusa Sabahlıklı Pijama Takımı",
-      "price": 2272,
+      "price": 2499,
+      "listPrice": 3124,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -5351,7 +5559,9 @@
       "slug": "dantelli-ekru-baglamali-hamile-lohusa-sabahlikli-pijama-takimi",
       "url": "product.html?p=dantelli-ekru-baglamali-hamile-lohusa-sabahlikli-pijama-takimi",
       "title": "Dantelli Ekru Bağlamalı Hamile Lohusa Sabahlıklı Pijama Takımı",
-      "price": 2272,
+      "price": 2499,
+      "listPrice": 3124,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -5403,7 +5613,9 @@
       "slug": "cepli-pembe-baglamali-hamile-lohusa-sabahlikli-pijama-takimi",
       "url": "product.html?p=cepli-pembe-baglamali-hamile-lohusa-sabahlikli-pijama-takimi",
       "title": "Cepli Pembe Bağlamalı Hamile Lohusa Sabahlıklı Pijama Takımı",
-      "price": 2272,
+      "price": 2499,
+      "listPrice": 3124,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -5454,7 +5666,9 @@
       "slug": "cepli-mavi-baglamali-hamile-lohusa-sabahlikli-pijama-takimi",
       "url": "product.html?p=cepli-mavi-baglamali-hamile-lohusa-sabahlikli-pijama-takimi",
       "title": "Cepli Mavi Bağlamalı Hamile Lohusa Sabahlıklı Pijama Takımı",
-      "price": 2272,
+      "price": 2499,
+      "listPrice": 3124,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -5505,7 +5719,9 @@
       "slug": "cepli-ekru-baglamali-hamile-lohusa-sabahlikli-pijama-takimi",
       "url": "product.html?p=cepli-ekru-baglamali-hamile-lohusa-sabahlikli-pijama-takimi",
       "title": "Cepli Ekru Bağlamalı Hamile Lohusa Sabahlıklı Pijama Takımı",
-      "price": 2272,
+      "price": 2499,
+      "listPrice": 3124,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -5556,7 +5772,9 @@
       "slug": "genis-kollu-ekru-baglamali-hamile-lohusa-sabahlikli-pijama-takimi",
       "url": "product.html?p=genis-kollu-ekru-baglamali-hamile-lohusa-sabahlikli-pijama-takimi",
       "title": "Geniş Kollu Ekru Bağlamalı Hamile Lohusa Sabahlıklı Pijama Takımı",
-      "price": 2272,
+      "price": 2499,
+      "listPrice": 3124,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -5607,7 +5825,9 @@
       "slug": "genis-kollu-pembe-baglamali-hamile-lohusa-sabahlikli-pijama-takimi",
       "url": "product.html?p=genis-kollu-pembe-baglamali-hamile-lohusa-sabahlikli-pijama-takimi",
       "title": "Geniş Kollu Pembe Bağlamalı Hamile Lohusa Sabahlıklı Pijama Takımı",
-      "price": 2272,
+      "price": 2499,
+      "listPrice": 3124,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -5658,7 +5878,9 @@
       "slug": "genis-kollu-mavi-baglamali-hamile-lohusa-sabahlikli-pijama-takimi",
       "url": "product.html?p=genis-kollu-mavi-baglamali-hamile-lohusa-sabahlikli-pijama-takimi",
       "title": "Geniş Kollu Mavi Bağlamalı Hamile Lohusa Sabahlıklı Pijama Takımı",
-      "price": 2272,
+      "price": 2499,
+      "listPrice": 3124,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -5709,7 +5931,9 @@
       "slug": "dantel-cepli-pembe-hamile-lohusa-sabahlikli-pijama-takimi",
       "url": "product.html?p=dantel-cepli-pembe-hamile-lohusa-sabahlikli-pijama-takimi",
       "title": "Dantel Cepli Pembe Hamile Lohusa Sabahlıklı Pijama Takımı",
-      "price": 2272,
+      "price": 2499,
+      "listPrice": 5206,
+      "discount": 52,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -5762,7 +5986,9 @@
       "slug": "dantel-cepli-mavi-hamile-lohusa-sabahlikli-pijama-takimi",
       "url": "product.html?p=dantel-cepli-mavi-hamile-lohusa-sabahlikli-pijama-takimi",
       "title": "Dantel Cepli Mavi Hamile Lohusa Sabahlıklı Pijama Takımı",
-      "price": 2272,
+      "price": 2499,
+      "listPrice": 3124,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -5815,7 +6041,9 @@
       "slug": "dantel-cepli-ekru-hamile-lohusa-sabahlikli-pijama-takimi",
       "url": "product.html?p=dantel-cepli-ekru-hamile-lohusa-sabahlikli-pijama-takimi",
       "title": "Dantel Cepli Ekru Hamile Lohusa Sabahlıklı Pijama Takımı",
-      "price": 2272,
+      "price": 2499,
+      "listPrice": 5206,
+      "discount": 52,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -5868,7 +6096,9 @@
       "slug": "uzun-kollu-bayan-pijama-takimi",
       "url": "product.html?p=uzun-kollu-bayan-pijama-takimi",
       "title": "Uzun Kollu Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -5916,7 +6146,9 @@
       "slug": "leoparli-uzun-kollu-bayan-pijama-takimi",
       "url": "product.html?p=leoparli-uzun-kollu-bayan-pijama-takimi",
       "title": "Leoparlı Uzun Kollu Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -5967,7 +6199,9 @@
       "slug": "pembe-siyah-uzun-kollu-bayan-pijama-takimi",
       "url": "product.html?p=pembe-siyah-uzun-kollu-bayan-pijama-takimi",
       "title": "Pembe Siyah Uzun Kollu Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -6017,7 +6251,9 @@
       "slug": "leopar-desenli-dugmeli-bayan-pijama-takimi",
       "url": "product.html?p=leopar-desenli-dugmeli-bayan-pijama-takimi",
       "title": "Leopar Desenli Düğmeli Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -6068,7 +6304,9 @@
       "slug": "cicek-desenli-dugmeli-bayan-pijama-takimi",
       "url": "product.html?p=cicek-desenli-dugmeli-bayan-pijama-takimi",
       "title": "Çiçek Desenli Düğmeli Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -6117,7 +6355,9 @@
       "slug": "kirmizi-siyah-dugmeli-bayan-pijama-takimi",
       "url": "product.html?p=kirmizi-siyah-dugmeli-bayan-pijama-takimi",
       "title": "Kırmızı Siyah Düğmeli Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -6167,7 +6407,9 @@
       "slug": "zebra-desen-v-yaka-bayan-pijama-takimi",
       "url": "product.html?p=zebra-desen-v-yaka-bayan-pijama-takimi",
       "title": "Zebra Desen V Yaka Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -6218,7 +6460,9 @@
       "slug": "dantel-detayli-cepli-bayan-pijama-takimi",
       "url": "product.html?p=dantel-detayli-cepli-bayan-pijama-takimi",
       "title": "Dantel Detaylı Cepli Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -6269,7 +6513,9 @@
       "slug": "lila-cicekli-siyah-bayan-pijama-takimi",
       "url": "product.html?p=lila-cicekli-siyah-bayan-pijama-takimi",
       "title": "Lila Çiçekli Siyah Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -6318,7 +6564,9 @@
       "slug": "cicekli-mini-yirtmacli-siyah-bayan-pijama-takimi",
       "url": "product.html?p=cicekli-mini-yirtmacli-siyah-bayan-pijama-takimi",
       "title": "Çiçekli Mini Yırtmaçlı Siyah Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -6367,7 +6615,9 @@
       "slug": "cicekli-ustu-dantelli-siyah-bayan-pijama-takimi",
       "url": "product.html?p=cicekli-ustu-dantelli-siyah-bayan-pijama-takimi",
       "title": "Çiçekli Üstü Dantelli Siyah Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -6418,7 +6668,9 @@
       "slug": "bulut-desenli-cepli-bayan-pijama-takimi",
       "url": "product.html?p=bulut-desenli-cepli-bayan-pijama-takimi",
       "title": "Bulut Desenli Cepli Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -6467,7 +6719,9 @@
       "slug": "bulut-desenli-taytli-bayan-pijama-takimi",
       "url": "product.html?p=bulut-desenli-taytli-bayan-pijama-takimi",
       "title": "Bulut Desenli Taytlı Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -6516,7 +6770,9 @@
       "slug": "genis-askili-taytli-bayan-pijama-takimi",
       "url": "product.html?p=genis-askili-taytli-bayan-pijama-takimi",
       "title": "Geniş Askılı Taytlı Bayan Pijama Takımı",
-      "price": 708,
+      "price": 779,
+      "listPrice": 895,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -6567,7 +6823,9 @@
       "slug": "genis-askili-bayan-kaprili-pijama-takimi",
       "url": "product.html?p=genis-askili-bayan-kaprili-pijama-takimi",
       "title": "Geniş Askılı Bayan Kaprili Pijama Takımı",
-      "price": 708,
+      "price": 779,
+      "listPrice": 939,
+      "discount": 17,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -6618,7 +6876,9 @@
       "slug": "ince-askili-mavi-bayan-pijama-takimi",
       "url": "product.html?p=ince-askili-mavi-bayan-pijama-takimi",
       "title": "İnce Askılı Mavi Bayan Pijama Takımı",
-      "price": 708,
+      "price": 779,
+      "listPrice": 895,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -6669,7 +6929,9 @@
       "slug": "tul-detayli-cizgili-bayan-pijama-takimi",
       "url": "product.html?p=tul-detayli-cizgili-bayan-pijama-takimi",
       "title": "Tül Detaylı Çizgili Bayan Pijama Takımı",
-      "price": 708,
+      "price": 779,
+      "listPrice": 895,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -6717,7 +6979,9 @@
       "slug": "siyah-beyaz-cizgili-bayan-pijama-takimi",
       "url": "product.html?p=siyah-beyaz-cizgili-bayan-pijama-takimi",
       "title": "Siyah Beyaz Çizgili Bayan Pijama Takımı",
-      "price": 649,
+      "price": 779,
+      "listPrice": 895,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -6766,7 +7030,9 @@
       "slug": "omuz-dekolteli-bayan-pijama-takimi",
       "url": "product.html?p=omuz-dekolteli-bayan-pijama-takimi",
       "title": "Omuz Dekolteli Bayan Pijama Takımı",
-      "price": 708,
+      "price": 779,
+      "listPrice": 895,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -6814,7 +7080,9 @@
       "slug": "desenli-lacivert-bayan-pijama-takimi",
       "url": "product.html?p=desenli-lacivert-bayan-pijama-takimi",
       "title": "Desenli Lacivert Bayan Pijama Takımı",
-      "price": 708,
+      "price": 779,
+      "listPrice": 895,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -6862,7 +7130,9 @@
       "slug": "kalp-desenli-bayan-pijama-takimi",
       "url": "product.html?p=kalp-desenli-bayan-pijama-takimi",
       "title": "Kalp Desenli Bayan Pijama Takımı",
-      "price": 708,
+      "price": 779,
+      "listPrice": 895,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -6910,7 +7180,9 @@
       "slug": "desenli-haki-ekru-bayan-pijama-takimi",
       "url": "product.html?p=desenli-haki-ekru-bayan-pijama-takimi",
       "title": "Desenli Haki Ekru Bayan Pijama Takımı",
-      "price": 708,
+      "price": 779,
+      "listPrice": 895,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -6959,7 +7231,9 @@
       "slug": "omuzlari-dantel-bayan-pijama-takimi",
       "url": "product.html?p=omuzlari-dantel-bayan-pijama-takimi",
       "title": "Omuzları Dantel Bayan Pijama Takımı",
-      "price": 708,
+      "price": 779,
+      "listPrice": 895,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -7009,7 +7283,9 @@
       "slug": "gul-desenli-bayan-pijama-takimi",
       "url": "product.html?p=gul-desenli-bayan-pijama-takimi",
       "title": "Gül Desenli Bayan Pijama Takımı",
-      "price": 708,
+      "price": 779,
+      "listPrice": 895,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -7057,7 +7333,9 @@
       "slug": "alti-desenli-yesil-bayan-pijama-takimi",
       "url": "product.html?p=alti-desenli-yesil-bayan-pijama-takimi",
       "title": "Altı Desenli Yeşil Bayan Pijama Takımı",
-      "price": 708,
+      "price": 779,
+      "listPrice": 895,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -7067,7 +7345,7 @@
         "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/alti-desenli-yesil-bayan-pijama-takimi-b06f48.jpg"
       ],
       "colors": [
-        "Yeşil"
+        "Standart"
       ],
       "sizes": [
         "S/M",
@@ -7106,7 +7384,9 @@
       "slug": "omuz-dekolteli-pudra-bayan-pijama-takimi",
       "url": "product.html?p=omuz-dekolteli-pudra-bayan-pijama-takimi",
       "title": "Omuz Dekolteli Pudra Bayan Pijama Takımı",
-      "price": 708,
+      "price": 779,
+      "listPrice": 895,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -7155,7 +7435,9 @@
       "slug": "dantelli-pembe-ekru-bayan-pijama-takimi",
       "url": "product.html?p=dantelli-pembe-ekru-bayan-pijama-takimi",
       "title": "Dantelli Pembe Ekru Bayan Pijama Takımı",
-      "price": 708,
+      "price": 779,
+      "listPrice": 895,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -7207,7 +7489,9 @@
       "slug": "beyaz-cicekli-siyah-bayan-pijama-takimi",
       "url": "product.html?p=beyaz-cicekli-siyah-bayan-pijama-takimi",
       "title": "Beyaz Çiçekli Siyah Bayan Pijama Takımı",
-      "price": 708,
+      "price": 779,
+      "listPrice": 895,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -7256,7 +7540,9 @@
       "slug": "alti-leoparli-v-yaka-bayan-pijama-takimi",
       "url": "product.html?p=alti-leoparli-v-yaka-bayan-pijama-takimi",
       "title": "Altı Leoparlı V Yaka Bayan Pijama Takımı",
-      "price": 708,
+      "price": 779,
+      "listPrice": 895,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -7308,7 +7594,9 @@
       "slug": "alti-desenli-v-yaka-bayan-pijama-takimi",
       "url": "product.html?p=alti-desenli-v-yaka-bayan-pijama-takimi",
       "title": "Altı Desenli V Yaka Bayan Pijama Takımı",
-      "price": 708,
+      "price": 779,
+      "listPrice": 895,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -7359,7 +7647,9 @@
       "slug": "alti-desenli-kisa-kol-bayan-pijama-takimi",
       "url": "product.html?p=alti-desenli-kisa-kol-bayan-pijama-takimi",
       "title": "Altı Desenli Kısa Kol Bayan Pijama Takımı",
-      "price": 708,
+      "price": 779,
+      "listPrice": 895,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -7408,7 +7698,9 @@
       "slug": "onu-dantel-detay-bayan-pijama-takimi",
       "url": "product.html?p=onu-dantel-detay-bayan-pijama-takimi",
       "title": "Önü Dantel Detay Bayan Pijama Takımı",
-      "price": 708,
+      "price": 779,
+      "listPrice": 895,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -7459,7 +7751,9 @@
       "slug": "siyah-dantelli-dugmeli-bayan-pijama-takimi",
       "url": "product.html?p=siyah-dantelli-dugmeli-bayan-pijama-takimi",
       "title": "Siyah Dantelli Düğmeli Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -7510,7 +7804,9 @@
       "slug": "siyah-dantelli-leoparli-bayan-pijama-takimi",
       "url": "product.html?p=siyah-dantelli-leoparli-bayan-pijama-takimi",
       "title": "Siyah Dantelli Leoparlı Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -7563,7 +7859,9 @@
       "slug": "dantel-paca-desenli-bayan-pijama-takimi",
       "url": "product.html?p=dantel-paca-desenli-bayan-pijama-takimi",
       "title": "Dantel Paça Desenli Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -7614,7 +7912,9 @@
       "slug": "alti-cicek-desenli-bayan-pijama-takimi",
       "url": "product.html?p=alti-cicek-desenli-bayan-pijama-takimi",
       "title": "Altı Çiçek Desenli Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -7663,7 +7963,9 @@
       "slug": "ustu-desenli-alti-siyah-bayan-pijama-takimi",
       "url": "product.html?p=ustu-desenli-alti-siyah-bayan-pijama-takimi",
       "title": "Üstü Desenli Altı Siyah Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -7712,7 +8014,9 @@
       "slug": "rengarenk-cicekli-bayan-pijama-takimi",
       "url": "product.html?p=rengarenk-cicekli-bayan-pijama-takimi",
       "title": "Rengarenk Çiçekli Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -7760,7 +8064,9 @@
       "slug": "love-yazili-cepli-bayan-pijama-takimi",
       "url": "product.html?p=love-yazili-cepli-bayan-pijama-takimi",
       "title": "Love Yazılı Cepli Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -7809,7 +8115,9 @@
       "slug": "yazili-cepli-lacivert-bayan-pijama-takimi",
       "url": "product.html?p=yazili-cepli-lacivert-bayan-pijama-takimi",
       "title": "Yazılı Cepli Lacivert Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -7858,7 +8166,9 @@
       "slug": "lacivert-mini-yirtmac-bayan-pijama-takimi",
       "url": "product.html?p=lacivert-mini-yirtmac-bayan-pijama-takimi",
       "title": "Lacivert Mini Yırtmaç Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -7907,7 +8217,9 @@
       "slug": "buyuk-cicekli-bayan-pijama-takimi",
       "url": "product.html?p=buyuk-cicekli-bayan-pijama-takimi",
       "title": "Büyük Çiçekli Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -7955,7 +8267,9 @@
       "slug": "buyuk-cicekli-dantelli-bayan-pijama-takimi",
       "url": "product.html?p=buyuk-cicekli-dantelli-bayan-pijama-takimi",
       "title": "Büyük Çiçekli Dantelli Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -8006,7 +8320,9 @@
       "slug": "pacasi-manset-cepli-bayan-pijama-takimi",
       "url": "product.html?p=pacasi-manset-cepli-bayan-pijama-takimi",
       "title": "Paçası Manşet Cepli Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -8055,7 +8371,9 @@
       "slug": "genis-kollu-pembe-siyah-bayan-pijama-takimi",
       "url": "product.html?p=genis-kollu-pembe-siyah-bayan-pijama-takimi",
       "title": "Geniş Kollu Pembe Siyah Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -8105,7 +8423,9 @@
       "slug": "transparan-detayli-pembe-siyah-bayan-pijama-takimi",
       "url": "product.html?p=transparan-detayli-pembe-siyah-bayan-pijama-takimi",
       "title": "Transparan Detaylı Pembe Siyah Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -8155,7 +8475,9 @@
       "slug": "cicek-desenli-cepli-bayan-pijama-takimi",
       "url": "product.html?p=cicek-desenli-cepli-bayan-pijama-takimi",
       "title": "Çiçek Desenli Cepli Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -8204,7 +8526,9 @@
       "slug": "lila-cicek-cepli-bayan-pijama-takimi",
       "url": "product.html?p=lila-cicek-cepli-bayan-pijama-takimi",
       "title": "Lila Çiçek Cepli Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -8252,7 +8576,9 @@
       "slug": "yanlari-serit-cepli-bayan-pijama-takimi",
       "url": "product.html?p=yanlari-serit-cepli-bayan-pijama-takimi",
       "title": "Yanları Şerit Cepli Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -8301,7 +8627,9 @@
       "slug": "beyaz-puantiyeli-bayan-pijama-takimi",
       "url": "product.html?p=beyaz-puantiyeli-bayan-pijama-takimi",
       "title": "Beyaz Puantiyeli Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -8349,7 +8677,9 @@
       "slug": "v-yakali-lacivert-bayan-pijama-takimi",
       "url": "product.html?p=v-yakali-lacivert-bayan-pijama-takimi",
       "title": "V Yakalı Lacivert Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -8399,7 +8729,9 @@
       "slug": "viskon-penye-siyah-bayan-pijama-takimi",
       "url": "product.html?p=viskon-penye-siyah-bayan-pijama-takimi",
       "title": "Viskon Penye Siyah Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -8450,7 +8782,9 @@
       "slug": "bulut-desenli-bayan-pijama-takimi",
       "url": "product.html?p=bulut-desenli-bayan-pijama-takimi",
       "title": "Bulut Desenli Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -8498,7 +8832,9 @@
       "slug": "yazi-desenli-haki-ekru-bayan-pijama-takimi",
       "url": "product.html?p=yazi-desenli-haki-ekru-bayan-pijama-takimi",
       "title": "Yazı Desenli Haki Ekru Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -8547,7 +8883,9 @@
       "slug": "yildiz-desenli-leopar-ekru-bayan-pijama-takimi",
       "url": "product.html?p=yildiz-desenli-leopar-ekru-bayan-pijama-takimi",
       "title": "Yıldız Desenli Leopar Ekru Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -8599,7 +8937,9 @@
       "slug": "omuzlar-dantelli-bayan-pijama-takimi",
       "url": "product.html?p=omuzlar-dantelli-bayan-pijama-takimi",
       "title": "Omuzlar Dantelli Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -8649,7 +8989,9 @@
       "slug": "lale-cicekli-lacivert-bayan-pijama-takimi",
       "url": "product.html?p=lale-cicekli-lacivert-bayan-pijama-takimi",
       "title": "Lale Çiçekli Lacivert Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -8698,7 +9040,9 @@
       "slug": "kurdele-desenli-leoparli-bayan-pijama-takimi",
       "url": "product.html?p=kurdele-desenli-leoparli-bayan-pijama-takimi",
       "title": "Kurdele Desenli Leoparlı Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -8749,7 +9093,9 @@
       "slug": "kisa-kollu-pudra-bayan-pijama-takimi",
       "url": "product.html?p=kisa-kollu-pudra-bayan-pijama-takimi",
       "title": "Kısa Kollu Pudra Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -8798,7 +9144,9 @@
       "slug": "bisiklet-yakali-siyah-bayan-pijama-takimi",
       "url": "product.html?p=bisiklet-yakali-siyah-bayan-pijama-takimi",
       "title": "Bisiklet Yakalı Siyah Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -8847,7 +9195,9 @@
       "slug": "dugme-yakali-bayan-pijama-takimi",
       "url": "product.html?p=dugme-yakali-bayan-pijama-takimi",
       "title": "Düğme Yakalı Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -8895,7 +9245,9 @@
       "slug": "omuzlari-acik-yazili-bayan-pijama-takimi",
       "url": "product.html?p=omuzlari-acik-yazili-bayan-pijama-takimi",
       "title": "Omuzları Açık Yazılı Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -8944,7 +9296,9 @@
       "slug": "v-yakali-desenli-siyah-bayan-pijama-takimi",
       "url": "product.html?p=v-yakali-desenli-siyah-bayan-pijama-takimi",
       "title": "V Yakalı Desenli Siyah Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -8995,7 +9349,9 @@
       "slug": "dugmeli-yaka-desenli-bayan-pijama-takimi",
       "url": "product.html?p=dugmeli-yaka-desenli-bayan-pijama-takimi",
       "title": "Düğmeli Yaka Desenli Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -9044,7 +9400,9 @@
       "slug": "v-yaka-dantelli-laci-bayan-pijama-takimi",
       "url": "product.html?p=v-yaka-dantelli-laci-bayan-pijama-takimi",
       "title": "V Yaka Dantelli Laci Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -9096,7 +9454,9 @@
       "slug": "pembe-beyaz-saten-atlet-sort-pijama-takimi",
       "url": "product.html?p=pembe-beyaz-saten-atlet-sort-pijama-takimi",
       "title": "Pembe Beyaz Saten Atlet Şort Pijama Takımı",
-      "price": 1635,
+      "price": 1799,
+      "listPrice": 2499,
+      "discount": 28,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -9147,7 +9507,9 @@
       "slug": "gomlek-yaka-pembe-saten-atlet-sort-pijama-takimi",
       "url": "product.html?p=gomlek-yaka-pembe-saten-atlet-sort-pijama-takimi",
       "title": "Gömlek Yaka Pembe Saten Atlet Şort Pijama Takımı",
-      "price": 1635,
+      "price": 1799,
+      "listPrice": 2499,
+      "discount": 28,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -9200,7 +9562,9 @@
       "slug": "gomlek-yaka-cizgili-saten-atlet-sort-pijama-takimi",
       "url": "product.html?p=gomlek-yaka-cizgili-saten-atlet-sort-pijama-takimi",
       "title": "Gömlek Yaka Çizgili Saten Atlet Şort Pijama Takımı",
-      "price": 1635,
+      "price": 1799,
+      "listPrice": 2499,
+      "discount": 28,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -9253,7 +9617,9 @@
       "slug": "gomlek-yaka-ince-cizgili-saten-atlet-sort-pijama-takimi",
       "url": "product.html?p=gomlek-yaka-ince-cizgili-saten-atlet-sort-pijama-takimi",
       "title": "Gömlek Yaka İnce Çizgili Saten Atlet Şort Pijama Takımı",
-      "price": 1635,
+      "price": 1799,
+      "listPrice": 2499,
+      "discount": 28,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -9306,7 +9672,9 @@
       "slug": "gomlek-yaka-dugmeli-saten-atlet-sort-pijama-takimi",
       "url": "product.html?p=gomlek-yaka-dugmeli-saten-atlet-sort-pijama-takimi",
       "title": "Gömlek Yaka Düğmeli Saten Atlet Şort Pijama Takımı",
-      "price": 1635,
+      "price": 1799,
+      "listPrice": 2499,
+      "discount": 28,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -9358,7 +9726,9 @@
       "slug": "gomlek-yakali-dugmeli-saten-atlet-sort-pijama-takimi",
       "url": "product.html?p=gomlek-yakali-dugmeli-saten-atlet-sort-pijama-takimi",
       "title": "Gömlek Yakalı Düğmeli Saten Atlet Şort Pijama Takımı",
-      "price": 1635,
+      "price": 1799,
+      "listPrice": 2499,
+      "discount": 28,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -9411,7 +9781,9 @@
       "slug": "gomlek-yakali-siyah-saten-atlet-sort-pijama-takimi",
       "url": "product.html?p=gomlek-yakali-siyah-saten-atlet-sort-pijama-takimi",
       "title": "Gömlek Yakalı Siyah Saten Atlet Şort Pijama Takımı",
-      "price": 1635,
+      "price": 1799,
+      "listPrice": 2499,
+      "discount": 28,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -9462,7 +9834,9 @@
       "slug": "gomlek-yakali-ekru-saten-atlet-sort-pijama-takimi",
       "url": "product.html?p=gomlek-yakali-ekru-saten-atlet-sort-pijama-takimi",
       "title": "Gömlek Yakalı Ekru Saten Atlet Şort Pijama Takımı",
-      "price": 1635,
+      "price": 1799,
+      "listPrice": 2499,
+      "discount": 28,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -9513,7 +9887,9 @@
       "slug": "gomlek-yakali-beyaz-saten-atlet-sort-pijama-takimi",
       "url": "product.html?p=gomlek-yakali-beyaz-saten-atlet-sort-pijama-takimi",
       "title": "Gömlek Yakalı Beyaz Saten Atlet Şort Pijama Takımı",
-      "price": 1635,
+      "price": 1799,
+      "listPrice": 2499,
+      "discount": 28,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -9564,7 +9940,9 @@
       "slug": "gomlek-yakali-murdum-saten-atlet-sort-pijama-takimi",
       "url": "product.html?p=gomlek-yakali-murdum-saten-atlet-sort-pijama-takimi",
       "title": "Gömlek Yakalı Mürdüm Saten Atlet Şort Pijama Takımı",
-      "price": 1635,
+      "price": 1799,
+      "listPrice": 2499,
+      "discount": 28,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -9615,7 +9993,9 @@
       "slug": "pembe-beyaz-saten-atlet-sort-pijama-takimi1",
       "url": "product.html?p=pembe-beyaz-saten-atlet-sort-pijama-takimi1",
       "title": "Pembe Beyaz Saten Atlet Şort Pijama Takımı",
-      "price": 1635,
+      "price": 1799,
+      "listPrice": 2499,
+      "discount": 28,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -9666,7 +10046,9 @@
       "slug": "dugmeli-pembe-saten-atlet-sort-pijama-takimi",
       "url": "product.html?p=dugmeli-pembe-saten-atlet-sort-pijama-takimi",
       "title": "Düğmeli Pembe Saten Atlet Şort Pijama Takımı",
-      "price": 1635,
+      "price": 1799,
+      "listPrice": 2499,
+      "discount": 28,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -9719,7 +10101,9 @@
       "slug": "dugmeli-kirmizi-saten-atlet-sort-pijama-takimi",
       "url": "product.html?p=dugmeli-kirmizi-saten-atlet-sort-pijama-takimi",
       "title": "Düğmeli Kırmızı Saten Atlet Şort Pijama Takımı",
-      "price": 1635,
+      "price": 1799,
+      "listPrice": 2499,
+      "discount": 28,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -9772,7 +10156,9 @@
       "slug": "dugmeli-siyah-saten-atlet-sort-pijama-takimi",
       "url": "product.html?p=dugmeli-siyah-saten-atlet-sort-pijama-takimi",
       "title": "Düğmeli Siyah Saten Atlet Şort Pijama Takımı",
-      "price": 1635,
+      "price": 1799,
+      "listPrice": 2499,
+      "discount": 28,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -9825,7 +10211,9 @@
       "slug": "dugmeli-beyaz-saten-atlet-sort-pijama-takimi",
       "url": "product.html?p=dugmeli-beyaz-saten-atlet-sort-pijama-takimi",
       "title": "Düğmeli Beyaz Saten Atlet Şort Pijama Takımı",
-      "price": 1635,
+      "price": 1799,
+      "listPrice": 2499,
+      "discount": 28,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -9878,7 +10266,9 @@
       "slug": "dugmeli-lacivert-saten-atlet-sort-pijama-takimi",
       "url": "product.html?p=dugmeli-lacivert-saten-atlet-sort-pijama-takimi",
       "title": "Düğmeli Lacivert Saten Atlet Şort Pijama Takımı",
-      "price": 1635,
+      "price": 1799,
+      "listPrice": 2499,
+      "discount": 28,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -9931,7 +10321,9 @@
       "slug": "pembe-beyaz-uzun-kollu-saten-pijama-takimi",
       "url": "product.html?p=pembe-beyaz-uzun-kollu-saten-pijama-takimi",
       "title": "Pembe Beyaz Uzun Kollu Saten Pijama Takımı",
-      "price": 1363,
+      "price": 1499,
+      "listPrice": null,
+      "discount": 0,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -9982,7 +10374,9 @@
       "slug": "pembe-siyah-uzun-kollu-saten-pijama-takimi",
       "url": "product.html?p=pembe-siyah-uzun-kollu-saten-pijama-takimi",
       "title": "Pembe Siyah Uzun Kollu Saten Pijama Takımı",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2665,
+      "discount": 25,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -10034,7 +10428,9 @@
       "slug": "ince-cizgili-uzun-kollu-saten-pijama-takimi",
       "url": "product.html?p=ince-cizgili-uzun-kollu-saten-pijama-takimi",
       "title": "İnce Çizgili Uzun Kollu Saten Pijama Takımı",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2665,
+      "discount": 25,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -10085,7 +10481,9 @@
       "slug": "cizgili-uzun-kollu-fusya-saten-pijama-takimi",
       "url": "product.html?p=cizgili-uzun-kollu-fusya-saten-pijama-takimi",
       "title": "Çizgili Uzun Kollu Fuşya Saten Pijama Takımı",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2665,
+      "discount": 25,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -10136,7 +10534,9 @@
       "slug": "gomlek-yakali-uzun-kollu-saten-pijama-takimi",
       "url": "product.html?p=gomlek-yakali-uzun-kollu-saten-pijama-takimi",
       "title": "Gömlek Yakalı Uzun Kollu Saten Pijama Takımı",
-      "price": 1363,
+      "price": 1499,
+      "listPrice": null,
+      "discount": 0,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -10187,7 +10587,9 @@
       "slug": "gomlek-yakali-yesil-pembe-saten-pijama-takimi",
       "url": "product.html?p=gomlek-yakali-yesil-pembe-saten-pijama-takimi",
       "title": "Gömlek Yakalı Yeşil Pembe Saten Pijama Takımı",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2665,
+      "discount": 25,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -10197,8 +10599,7 @@
         "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/gomlek-yakali-yesil-pembe-saten-pijama-8739-3.jpg"
       ],
       "colors": [
-        "Pembe",
-        "Yeşil"
+        "Pembe"
       ],
       "sizes": [
         "S/M",
@@ -10239,7 +10640,9 @@
       "slug": "gomlek-yakali-siyah-beyaz-saten-pijama-takimi",
       "url": "product.html?p=gomlek-yakali-siyah-beyaz-saten-pijama-takimi",
       "title": "Gömlek Yakalı Siyah Beyaz Saten Pijama Takımı",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2665,
+      "discount": 25,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -10290,7 +10693,9 @@
       "slug": "gomlek-yakali-kirmizi-beyaz-saten-pijama-takimi",
       "url": "product.html?p=gomlek-yakali-kirmizi-beyaz-saten-pijama-takimi",
       "title": "Gömlek Yakalı Kırmızı Beyaz Saten Pijama Takımı",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2665,
+      "discount": 25,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -10341,7 +10746,9 @@
       "slug": "gomlek-yakali-leopar-saten-pijama-takimi",
       "url": "product.html?p=gomlek-yakali-leopar-saten-pijama-takimi",
       "title": "Gömlek Yakalı Leopar Saten Pijama Takımı",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2665,
+      "discount": 25,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -10393,7 +10800,9 @@
       "slug": "gomlek-yakali-lacivert-saten-pijama-takimi",
       "url": "product.html?p=gomlek-yakali-lacivert-saten-pijama-takimi",
       "title": "Gömlek Yakalı Lacivert Saten Pijama Takımı",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2665,
+      "discount": 25,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -10444,7 +10853,9 @@
       "slug": "gomlek-yakali-siyah-saten-pijama-takimi",
       "url": "product.html?p=gomlek-yakali-siyah-saten-pijama-takimi",
       "title": "Gömlek Yakalı Siyah Saten Pijama Takımı",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2665,
+      "discount": 25,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -10495,7 +10906,9 @@
       "slug": "gomlek-yakali-kirmizi-saten-pijama-takimi",
       "url": "product.html?p=gomlek-yakali-kirmizi-saten-pijama-takimi",
       "title": "Gömlek Yakalı Kırmızı Saten Pijama Takımı",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2665,
+      "discount": 25,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -10546,7 +10959,9 @@
       "slug": "gomlek-yakali-dugmeli-pudra-saten-pijama-takimi",
       "url": "product.html?p=gomlek-yakali-dugmeli-pudra-saten-pijama-takimi",
       "title": "Gömlek Yakalı Düğmeli Pudra Saten Pijama Takımı",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2665,
+      "discount": 25,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -10597,7 +11012,9 @@
       "slug": "gomlek-yakali-dugmeli-beyaz-saten-pijama-takimi",
       "url": "product.html?p=gomlek-yakali-dugmeli-beyaz-saten-pijama-takimi",
       "title": "Gömlek Yakalı Düğmeli Beyaz Saten Pijama Takımı",
-      "price": 1272,
+      "price": 1399,
+      "listPrice": null,
+      "discount": 0,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -10648,7 +11065,9 @@
       "slug": "gomlek-yakali-kisa-kol-kirmizi-saten-pijama-takimi",
       "url": "product.html?p=gomlek-yakali-kisa-kol-kirmizi-saten-pijama-takimi",
       "title": "Gömlek Yakalı Kısa Kol Kırmızı Saten Pijama Takımı",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -10699,7 +11118,9 @@
       "slug": "gomlek-yakali-kisa-kol-lacivert-saten-pijama-takimi",
       "url": "product.html?p=gomlek-yakali-kisa-kol-lacivert-saten-pijama-takimi",
       "title": "Gömlek Yakalı Kısa Kol Lacivert Saten Pijama Takımı",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -10750,7 +11171,9 @@
       "slug": "gomlek-yakali-kisa-kol-pembe-saten-pijama-takimi",
       "url": "product.html?p=gomlek-yakali-kisa-kol-pembe-saten-pijama-takimi",
       "title": "Gömlek Yakalı Kısa Kol Pembe Saten Pijama Takımı",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -10801,7 +11224,9 @@
       "slug": "gomlek-yakali-kisa-kol-siyah-saten-pijama-takimi",
       "url": "product.html?p=gomlek-yakali-kisa-kol-siyah-saten-pijama-takimi",
       "title": "Gömlek Yakalı Kısa Kol Siyah Saten Pijama Takımı",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -10852,7 +11277,9 @@
       "slug": "gomlek-yakali-kisa-kol-beyaz-saten-pijama-takimi",
       "url": "product.html?p=gomlek-yakali-kisa-kol-beyaz-saten-pijama-takimi",
       "title": "Gömlek Yakalı Kısa Kol Beyaz Saten Pijama Takımı",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -10903,7 +11330,9 @@
       "slug": "tuylu-yakali-beyaz-saten-pijama-takimi",
       "url": "product.html?p=tuylu-yakali-beyaz-saten-pijama-takimi",
       "title": "Tüylü Yakalı Beyaz Saten Pijama Takımı",
-      "price": 2272,
+      "price": 2499,
+      "listPrice": 3675,
+      "discount": 32,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -10954,7 +11383,9 @@
       "slug": "tuylu-yakali-siyah-saten-pijama-takimi",
       "url": "product.html?p=tuylu-yakali-siyah-saten-pijama-takimi",
       "title": "Tüylü Yakalı Siyah Saten Pijama Takımı",
-      "price": 2272,
+      "price": 2499,
+      "listPrice": 3675,
+      "discount": 32,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -11005,7 +11436,9 @@
       "slug": "tuylu-yakali-kirmizi-saten-pijama-takimi",
       "url": "product.html?p=tuylu-yakali-kirmizi-saten-pijama-takimi",
       "title": "Tüylü Yakalı Kırmızı Saten Pijama Takımı",
-      "price": 2272,
+      "price": 2499,
+      "listPrice": 3675,
+      "discount": 32,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -11056,7 +11489,9 @@
       "slug": "tuylu-yakali-pembe-saten-pijama-takimi",
       "url": "product.html?p=tuylu-yakali-pembe-saten-pijama-takimi",
       "title": "Tüylü Yakalı Pembe Saten Pijama Takımı",
-      "price": 2272,
+      "price": 2499,
+      "listPrice": 3675,
+      "discount": 32,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -11107,7 +11542,9 @@
       "slug": "yakali-siyah-fume-saten-pijama-takimi",
       "url": "product.html?p=yakali-siyah-fume-saten-pijama-takimi",
       "title": "Yakalı Siyah Füme Saten Pijama Takımı",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -11158,7 +11595,9 @@
       "slug": "yakali-pembe-beyaz-saten-pijama-takimi",
       "url": "product.html?p=yakali-pembe-beyaz-saten-pijama-takimi",
       "title": "Yakalı Pembe Beyaz Saten Pijama Takımı",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -11209,7 +11648,9 @@
       "slug": "yakali-mavi-beyaz-saten-pijama-takimi",
       "url": "product.html?p=yakali-mavi-beyaz-saten-pijama-takimi",
       "title": "Yakalı Mavi Beyaz Saten Pijama Takımı",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -11260,7 +11701,9 @@
       "slug": "yakali-acik-kahverengi-saten-pijama-takimi",
       "url": "product.html?p=yakali-acik-kahverengi-saten-pijama-takimi",
       "title": "Yakalı Açık Kahverengi Saten Pijama Takımı",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -11311,7 +11754,9 @@
       "slug": "yakali-siyah-cizgili-pembe-saten-pijama-takimi",
       "url": "product.html?p=yakali-siyah-cizgili-pembe-saten-pijama-takimi",
       "title": "Yakalı Siyah Çizgili Pembe Saten Pijama Takımı",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -11363,7 +11808,9 @@
       "slug": "yakali-cizgili-acik-yesil-saten-pijama-takimi",
       "url": "product.html?p=yakali-cizgili-acik-yesil-saten-pijama-takimi",
       "title": "Yakalı Çizgili Açık Yeşil Saten Pijama Takımı",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -11373,7 +11820,7 @@
         "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/yakali-cizgili-acik-yesil-saten-pijama-9e8852.jpg"
       ],
       "colors": [
-        "Yeşil"
+        "Standart"
       ],
       "sizes": [
         "S/M",
@@ -11414,7 +11861,9 @@
       "slug": "yakali-kalpli-siyah-saten-pijama-takimi",
       "url": "product.html?p=yakali-kalpli-siyah-saten-pijama-takimi",
       "title": "Yakalı Kalpli Siyah Saten Pijama Takımı",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -11465,7 +11914,9 @@
       "slug": "yakali-kalpli-ekru-saten-pijama-takimi",
       "url": "product.html?p=yakali-kalpli-ekru-saten-pijama-takimi",
       "title": "Yakalı Kalpli Ekru Saten Pijama Takımı",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -11515,7 +11966,9 @@
       "slug": "yakali-kalpli-beyaz-saten-pijama-takimi",
       "url": "product.html?p=yakali-kalpli-beyaz-saten-pijama-takimi",
       "title": "Yakalı Kalpli Beyaz Saten Pijama Takımı",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -11566,7 +12019,9 @@
       "slug": "yakali-kalpli-bordo-saten-pijama-takimi",
       "url": "product.html?p=yakali-kalpli-bordo-saten-pijama-takimi",
       "title": "Yakalı Kalpli Bordo Saten Pijama Takımı",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -11617,7 +12072,9 @@
       "slug": "yakali-pembe-kalpli-beyaz-saten-pijama-takimi",
       "url": "product.html?p=yakali-pembe-kalpli-beyaz-saten-pijama-takimi",
       "title": "Yakalı Pembe Kalpli Beyaz Saten Pijama Takımı",
-      "price": 1817,
+      "price": 1999,
+      "listPrice": 2856,
+      "discount": 30,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -11668,7 +12125,9 @@
       "slug": "kayik-yaka-buyuk-beden-pijama-takimi",
       "url": "product.html?p=kayik-yaka-buyuk-beden-pijama-takimi",
       "title": "Kayık Yaka Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -11721,7 +12180,9 @@
       "slug": "alti-cizgili-buyuk-beden-pijama-takimi",
       "url": "product.html?p=alti-cizgili-buyuk-beden-pijama-takimi",
       "title": "Altı Çizgili Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -11773,7 +12234,9 @@
       "slug": "dantelli-cicekli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=dantelli-cicekli-buyuk-beden-pijama-takimi",
       "title": "Dantelli Çiçekli Büyük Beden Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": null,
+      "discount": 0,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -11826,7 +12289,9 @@
       "slug": "tul-detayli-cicekli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=tul-detayli-cicekli-buyuk-beden-pijama-takimi",
       "title": "Tül Detaylı Çiçekli Büyük Beden Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": null,
+      "discount": 0,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -11878,7 +12343,9 @@
       "slug": "gul-desenli-fusya-buyuk-beden-pijama-takimi",
       "url": "product.html?p=gul-desenli-fusya-buyuk-beden-pijama-takimi",
       "title": "Gül Desenli Fuşya Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -11930,7 +12397,9 @@
       "slug": "gul-desenli-lila-buyuk-beden-pijama-takimi",
       "url": "product.html?p=gul-desenli-lila-buyuk-beden-pijama-takimi",
       "title": "Gül Desenli Lila Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -11982,7 +12451,9 @@
       "slug": "gul-desenli-haki-buyuk-beden-pijama-takimi",
       "url": "product.html?p=gul-desenli-haki-buyuk-beden-pijama-takimi",
       "title": "Gül Desenli Haki Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -12034,7 +12505,9 @@
       "slug": "desenli-mor-buyuk-beden-pijama-takimi",
       "url": "product.html?p=desenli-mor-buyuk-beden-pijama-takimi",
       "title": "Desenli Mor Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -12086,7 +12559,9 @@
       "slug": "baklava-desenli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=baklava-desenli-buyuk-beden-pijama-takimi",
       "title": "Baklava Desenli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -12138,7 +12613,9 @@
       "slug": "cok-renkli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=cok-renkli-buyuk-beden-pijama-takimi",
       "title": "Çok Renkli Büyük Beden Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -12190,7 +12667,9 @@
       "slug": "baklava-desenli-lacivert-buyuk-beden-pijama-takimi",
       "url": "product.html?p=baklava-desenli-lacivert-buyuk-beden-pijama-takimi",
       "title": "Baklava Desenli Lacivert Büyük Beden Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -12242,7 +12721,9 @@
       "slug": "leoparli-ip-aski-buyuk-beden-pijama-takimi",
       "url": "product.html?p=leoparli-ip-aski-buyuk-beden-pijama-takimi",
       "title": "Leoparlı İp Askı Büyük Beden Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -12296,7 +12777,9 @@
       "slug": "desenli-kisa-kol-buyuk-beden-pijama-takimi",
       "url": "product.html?p=desenli-kisa-kol-buyuk-beden-pijama-takimi",
       "title": "Desenli Kısa Kol Büyük Beden Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -12348,7 +12831,9 @@
       "slug": "bordo-mavi-buyuk-beden-pijama-takimi",
       "url": "product.html?p=bordo-mavi-buyuk-beden-pijama-takimi",
       "title": "Bordo Mavi Büyük Beden Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -12401,7 +12886,9 @@
       "slug": "file-yakali-buyuk-beden-pijama-takimi",
       "url": "product.html?p=file-yakali-buyuk-beden-pijama-takimi",
       "title": "File Yakalı Büyük Beden Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -12453,7 +12940,9 @@
       "slug": "v-yakali-pudra-buyuk-beden-pijama-takimi",
       "url": "product.html?p=v-yakali-pudra-buyuk-beden-pijama-takimi",
       "title": "V Yakalı Pudra Büyük Beden Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -12506,7 +12995,9 @@
       "slug": "siyah-puanli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=siyah-puanli-buyuk-beden-pijama-takimi",
       "title": "Siyah Puanlı Büyük Beden Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -12558,7 +13049,9 @@
       "slug": "pembe-ekru-buyuk-beden-pijama-takimi",
       "url": "product.html?p=pembe-ekru-buyuk-beden-pijama-takimi",
       "title": "Pembe Ekru Büyük Beden Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -12611,7 +13104,9 @@
       "slug": "dantel-suslu-buyuk-beden-bayan-pijama-takimi",
       "url": "product.html?p=dantel-suslu-buyuk-beden-bayan-pijama-takimi",
       "title": "Dantel Süslü Büyük Beden Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -12664,7 +13159,9 @@
       "slug": "ince-cizgili-buyuk-beden-bayan-pijama-takimi",
       "url": "product.html?p=ince-cizgili-buyuk-beden-bayan-pijama-takimi",
       "title": "İnce Çizgili Büyük Beden Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -12716,7 +13213,9 @@
       "slug": "yuvarlak-yaka-buyuk-beden-bayan-pijama-takimi",
       "url": "product.html?p=yuvarlak-yaka-buyuk-beden-bayan-pijama-takimi",
       "title": "Yuvarlak Yaka Büyük Beden Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -12768,7 +13267,9 @@
       "slug": "dantel-suslu-leoparli-buyuk-beden-bayan-pijama-takimi",
       "url": "product.html?p=dantel-suslu-leoparli-buyuk-beden-bayan-pijama-takimi",
       "title": "Dantel Süslü Leoparlı Büyük Beden Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -12822,7 +13323,9 @@
       "slug": "yazili-siyah-buyuk-beden-bayan-pijama-takimi",
       "url": "product.html?p=yazili-siyah-buyuk-beden-bayan-pijama-takimi",
       "title": "Yazılı Siyah Büyük Beden Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -12874,7 +13377,9 @@
       "slug": "genis-kollu-buyuk-beden-bayan-pijama-takimi",
       "url": "product.html?p=genis-kollu-buyuk-beden-bayan-pijama-takimi",
       "title": "Geniş Kollu Büyük Beden Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -12926,7 +13431,9 @@
       "slug": "dantel-yakali-buyuk-beden-bayan-pijama-takimi",
       "url": "product.html?p=dantel-yakali-buyuk-beden-bayan-pijama-takimi",
       "title": "Dantel Yakalı Büyük Beden Bayan Pijama Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -12979,7 +13486,9 @@
       "slug": "cep-detayli-buyuk-beden-bayan-pijama-takimi",
       "url": "product.html?p=cep-detayli-buyuk-beden-bayan-pijama-takimi",
       "title": "Cep Detaylı Büyük Beden Bayan Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -13030,7 +13539,9 @@
       "slug": "omuz-dekolte-buyuk-beden-bayan-pijama-takimi",
       "url": "product.html?p=omuz-dekolte-buyuk-beden-bayan-pijama-takimi",
       "title": "Omuz Dekolte Büyük Beden Bayan Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1665,
+      "discount": 40,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -13081,7 +13592,9 @@
       "slug": "ustu-dekolteli-buyuk-beden-bayan-pijama-takimi",
       "url": "product.html?p=ustu-dekolteli-buyuk-beden-bayan-pijama-takimi",
       "title": "Üstü Dekolteli Büyük Beden Bayan Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -13132,7 +13645,9 @@
       "slug": "yaka-dugmeli-buyuk-beden-bayan-pijama-takimi",
       "url": "product.html?p=yaka-dugmeli-buyuk-beden-bayan-pijama-takimi",
       "title": "Yaka Düğmeli Büyük Beden Bayan Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -13184,7 +13699,9 @@
       "slug": "dantelli-gullu-buyuk-beden-bayan-pijama-takimi",
       "url": "product.html?p=dantelli-gullu-buyuk-beden-bayan-pijama-takimi",
       "title": "Dantelli Güllü Büyük Beden Bayan Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -13237,7 +13754,9 @@
       "slug": "petrol-yesili-buyuk-beden-bayan-pijama-takimi",
       "url": "product.html?p=petrol-yesili-buyuk-beden-bayan-pijama-takimi",
       "title": "Petrol Yeşili Büyük Beden Bayan Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -13248,7 +13767,7 @@
         "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/petrol-yesili-buyuk-beden-bayan-pijama-fd48-4.jpg"
       ],
       "colors": [
-        "Yeşil"
+        "Standart"
       ],
       "sizes": [
         "2XL",
@@ -13289,7 +13808,9 @@
       "slug": "ayicik-desenli-tulum-pijama",
       "url": "product.html?p=ayicik-desenli-tulum-pijama",
       "title": "Ayıcık Desenli Tulum Pijama",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -13336,7 +13857,9 @@
       "slug": "uzun-kollu-pembe-desenli-tulum-pijama",
       "url": "product.html?p=uzun-kollu-pembe-desenli-tulum-pijama",
       "title": "Uzun Kollu Pembe Desenli Tulum Pijama",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -13384,7 +13907,9 @@
       "slug": "uzun-kollu-dudak-desenli-siyah-tulum-pijama",
       "url": "product.html?p=uzun-kollu-dudak-desenli-siyah-tulum-pijama",
       "title": "Uzun Kollu Dudak Desenli Siyah Tulum Pijama",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -13432,7 +13957,9 @@
       "slug": "uzun-kollu-leopar-desenli-tulum-pijama",
       "url": "product.html?p=uzun-kollu-leopar-desenli-tulum-pijama",
       "title": "Uzun Kollu Leopar Desenli Tulum Pijama",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -13485,7 +14012,9 @@
       "slug": "uzun-kollu-kedi-desenli-tulum-pijama",
       "url": "product.html?p=uzun-kollu-kedi-desenli-tulum-pijama",
       "title": "Uzun Kollu Kedi Desenli Tulum Pijama",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -13535,7 +14064,9 @@
       "slug": "uzun-kollu-kedi-desenli-pembe-tulum-pijama",
       "url": "product.html?p=uzun-kollu-kedi-desenli-pembe-tulum-pijama",
       "title": "Uzun Kollu Kedi Desenli Pembe Tulum Pijama",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -13585,7 +14116,9 @@
       "slug": "kisa-kollu-desenli-pembe-tulum-pijama",
       "url": "product.html?p=kisa-kollu-desenli-pembe-tulum-pijama",
       "title": "Kısa Kollu Desenli Pembe Tulum Pijama",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -13635,7 +14168,9 @@
       "slug": "uzun-kollu-dugmeli-pembe-tulum-pijama",
       "url": "product.html?p=uzun-kollu-dugmeli-pembe-tulum-pijama",
       "title": "Uzun Kollu Düğmeli Pembe Tulum Pijama",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -13685,7 +14220,9 @@
       "slug": "uzun-kollu-dugmeli-ekru-tulum-pijama",
       "url": "product.html?p=uzun-kollu-dugmeli-ekru-tulum-pijama",
       "title": "Uzun Kollu Düğmeli Ekru Tulum Pijama",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -13733,7 +14270,9 @@
       "slug": "uzun-kollu-dugmeli-siyah-tulum-pijama",
       "url": "product.html?p=uzun-kollu-dugmeli-siyah-tulum-pijama",
       "title": "Uzun Kollu Düğmeli Siyah Tulum Pijama",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -13783,7 +14322,9 @@
       "slug": "uzun-kollu-dugmeli-beyaz-tulum-pijama",
       "url": "product.html?p=uzun-kollu-dugmeli-beyaz-tulum-pijama",
       "title": "Uzun Kollu Düğmeli Beyaz Tulum Pijama",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -13832,7 +14373,9 @@
       "slug": "uzun-kollu-dugmeli-gul-tulum-pijama",
       "url": "product.html?p=uzun-kollu-dugmeli-gul-tulum-pijama",
       "title": "Uzun Kollu Düğmeli Gül Tulum Pijama",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -13882,7 +14425,9 @@
       "slug": "uzun-kollu-dugmeli-krem-tulum-pijama",
       "url": "product.html?p=uzun-kollu-dugmeli-krem-tulum-pijama",
       "title": "Uzun Kollu Düğmeli Krem Tulum Pijama",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -13932,7 +14477,9 @@
       "slug": "dugmeli-uzun-kollu-tulum-pijama",
       "url": "product.html?p=dugmeli-uzun-kollu-tulum-pijama",
       "title": "Düğmeli Uzun Kollu Tulum Pijama",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -13982,7 +14529,9 @@
       "slug": "dugmeli-kisa-kollu-kirmizi-tulum-pijama",
       "url": "product.html?p=dugmeli-kisa-kollu-kirmizi-tulum-pijama",
       "title": "Düğmeli Kısa Kollu Kırmızı Tulum Pijama",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -14032,7 +14581,9 @@
       "slug": "beyaz-biyeli-siyah-saten-pijama-takimi",
       "url": "product.html?p=beyaz-biyeli-siyah-saten-pijama-takimi",
       "title": "Beyaz Biyeli Siyah Saten Pijama Takımı",
-      "price": 1545,
+      "price": 1699,
+      "listPrice": 2393,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -14082,7 +14633,9 @@
       "slug": "beyaz-biyeli-lacivert-saten-pijama-takimi",
       "url": "product.html?p=beyaz-biyeli-lacivert-saten-pijama-takimi",
       "title": "Beyaz Biyeli Lacivert Saten Pijama Takımı",
-      "price": 1545,
+      "price": 1699,
+      "listPrice": 2393,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -14132,7 +14685,9 @@
       "slug": "beyaz-biyeli-kirmizi-saten-pijama-takimi",
       "url": "product.html?p=beyaz-biyeli-kirmizi-saten-pijama-takimi",
       "title": "Beyaz Biyeli Kırmızı Saten Pijama Takımı",
-      "price": 1545,
+      "price": 1699,
+      "listPrice": 2393,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -14182,7 +14737,9 @@
       "slug": "beyaz-biyeli-bordo-saten-pijama-takimi",
       "url": "product.html?p=beyaz-biyeli-bordo-saten-pijama-takimi",
       "title": "Beyaz Biyeli Bordo Saten Pijama Takımı",
-      "price": 1545,
+      "price": 1699,
+      "listPrice": 2393,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -14232,7 +14789,9 @@
       "slug": "siyah-biyeli-beyaz-saten-pijama-takimi",
       "url": "product.html?p=siyah-biyeli-beyaz-saten-pijama-takimi",
       "title": "Siyah Biyeli Beyaz Saten Pijama Takımı",
-      "price": 1545,
+      "price": 1699,
+      "listPrice": 2393,
+      "discount": 29,
       "category": "Pijama",
       "categories": [
         "Pijama"
@@ -14282,7 +14841,9 @@
       "slug": "coton-yesil-buyuk-beden-bayan-pijama-takimi",
       "url": "product.html?p=coton-yesil-buyuk-beden-bayan-pijama-takimi",
       "title": "Coton  Yeşil Büyük Beden Bayan Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -14293,7 +14854,7 @@
         "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/coton-yesil-buyuk-beden-bayan-pijama-t-e3cc24.jpg"
       ],
       "colors": [
-        "Yeşil"
+        "Standart"
       ],
       "sizes": [
         "2XL",
@@ -14334,7 +14895,9 @@
       "slug": "yavruagzi-buyuk-beden-bayan-pijama-takimi",
       "url": "product.html?p=yavruagzi-buyuk-beden-bayan-pijama-takimi",
       "title": "Yavruağzı Büyük Beden Bayan Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -14386,7 +14949,9 @@
       "slug": "acik-mavi-buyuk-beden-bayan-pijama-takimi",
       "url": "product.html?p=acik-mavi-buyuk-beden-bayan-pijama-takimi",
       "title": "Açık Mavi Büyük Beden Bayan Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -14438,7 +15003,9 @@
       "slug": "dugmeli-coton-buyuk-beden-bayan-pijama-takimi",
       "url": "product.html?p=dugmeli-coton-buyuk-beden-bayan-pijama-takimi",
       "title": "Düğmeli Coton Büyük Beden Bayan Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -14490,7 +15057,9 @@
       "slug": "v-dantelli-coton-yesil-buyuk-beden-pijama-takimi",
       "url": "product.html?p=v-dantelli-coton-yesil-buyuk-beden-pijama-takimi",
       "title": "V Dantelli Coton Yeşil Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -14501,7 +15070,7 @@
         "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/v-dantelli-coton-yesil-buyuk-beden-pij-d-3ecb.jpg"
       ],
       "colors": [
-        "Yeşil"
+        "Standart"
       ],
       "sizes": [
         "2XL",
@@ -14543,7 +15112,9 @@
       "slug": "v-dantelli-coton-murdum-buyuk-beden-pijama-takimi",
       "url": "product.html?p=v-dantelli-coton-murdum-buyuk-beden-pijama-takimi",
       "title": "V Dantelli Mürdüm Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -14596,7 +15167,9 @@
       "slug": "v-dantel-coton-haki-yesil-buyuk-beden-pijama-takimi",
       "url": "product.html?p=v-dantel-coton-haki-yesil-buyuk-beden-pijama-takimi",
       "title": "V Dantel Haki Yeşil Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -14607,7 +15180,7 @@
         "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/v-dantel-coton-haki-yesil-buyuk-beden--2a-b0b.jpg"
       ],
       "colors": [
-        "Yeşil"
+        "Standart"
       ],
       "sizes": [
         "2XL",
@@ -14649,7 +15222,9 @@
       "slug": "v-dantelli-yavruagzi-buyuk-beden-pijama-takimi",
       "url": "product.html?p=v-dantelli-yavruagzi-buyuk-beden-pijama-takimi",
       "title": "V Dantelli Yavruağzı Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -14702,7 +15277,9 @@
       "slug": "v-dantelli-acik-mavi-buyuk-beden-pijama-takimi",
       "url": "product.html?p=v-dantelli-acik-mavi-buyuk-beden-pijama-takimi",
       "title": "V Dantelli Açık Mavi Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -14755,7 +15332,9 @@
       "slug": "v-dantelli-fistik-yesil-buyuk-beden-pijama-takimi",
       "url": "product.html?p=v-dantelli-fistik-yesil-buyuk-beden-pijama-takimi",
       "title": "V Dantelli Fıstık Yeşil Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -14766,7 +15345,7 @@
         "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/v-dantelli-fistik-yesil-buyuk-beden-pi-c928-9.jpg"
       ],
       "colors": [
-        "Yeşil"
+        "Standart"
       ],
       "sizes": [
         "2XL",
@@ -14808,7 +15387,9 @@
       "slug": "v-dantelli-viskon-buyuk-beden-pijama-takimi",
       "url": "product.html?p=v-dantelli-viskon-buyuk-beden-pijama-takimi",
       "title": "V Dantelli Viskon Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -14862,7 +15443,9 @@
       "slug": "v-dantelli-pembe-buyuk-beden-pijama-takimi",
       "url": "product.html?p=v-dantelli-pembe-buyuk-beden-pijama-takimi",
       "title": "V Dantelli Pembe Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -14915,7 +15498,9 @@
       "slug": "v-dantelli-gri-buyuk-beden-pijama-takimi",
       "url": "product.html?p=v-dantelli-gri-buyuk-beden-pijama-takimi",
       "title": "V Dantelli Gri Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -14968,7 +15553,9 @@
       "slug": "v-dantelli-pudra-buyuk-beden-pijama-takimi",
       "url": "product.html?p=v-dantelli-pudra-buyuk-beden-pijama-takimi",
       "title": "V Dantelli Pudra Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -15021,7 +15608,9 @@
       "slug": "v-dantelli-cepli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=v-dantelli-cepli-buyuk-beden-pijama-takimi",
       "title": "V Dantelli Cepli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -15074,7 +15663,9 @@
       "slug": "v-yaka-buyuk-beden-kapri-pijama-takimi",
       "url": "product.html?p=v-yaka-buyuk-beden-kapri-pijama-takimi",
       "title": "V Yaka Büyük Beden Kapri Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -15127,7 +15718,9 @@
       "slug": "dudak-desenli-buyuk-beden-kapri-pijama-takimi",
       "url": "product.html?p=dudak-desenli-buyuk-beden-kapri-pijama-takimi",
       "title": "Dudak Desenli Büyük Beden Kapri Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -15179,7 +15772,9 @@
       "slug": "desenli-kiremit-buyuk-beden-kapri-pijama-takimi",
       "url": "product.html?p=desenli-kiremit-buyuk-beden-kapri-pijama-takimi",
       "title": "Desenli Kiremit Büyük Beden Kapri Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -15231,7 +15826,9 @@
       "slug": "alti-cizgili-buyuk-beden-kapri-pijama-takimi",
       "url": "product.html?p=alti-cizgili-buyuk-beden-kapri-pijama-takimi",
       "title": "Altı Çizgili Büyük Beden Kapri Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -15283,7 +15880,9 @@
       "slug": "genis-kollu-siyah-buyuk-beden-pijama-takimi",
       "url": "product.html?p=genis-kollu-siyah-buyuk-beden-pijama-takimi",
       "title": "Geniş Kollu Siyah Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -15335,7 +15934,9 @@
       "slug": "gul-desenli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=gul-desenli-buyuk-beden-pijama-takimi",
       "title": "Gül Desenli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -15387,7 +15988,9 @@
       "slug": "alti-desenli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=alti-desenli-buyuk-beden-pijama-takimi",
       "title": "Altı Desenli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -15439,7 +16042,9 @@
       "slug": "alti-zebra-buyuk-beden-pijama-takimi",
       "url": "product.html?p=alti-zebra-buyuk-beden-pijama-takimi",
       "title": "Altı Zebra Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -15491,7 +16096,9 @@
       "slug": "omuz-dekolteli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=omuz-dekolteli-buyuk-beden-pijama-takimi",
       "title": "Omuz Dekolteli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -15543,7 +16150,9 @@
       "slug": "kayik-yaka-buyuk-beden-pijama-takimi1",
       "url": "product.html?p=kayik-yaka-buyuk-beden-pijama-takimi1",
       "title": "Kayık Yaka Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -15595,7 +16204,9 @@
       "slug": "acik-yaka-buyuk-beden-siyah-pijama-takimi",
       "url": "product.html?p=acik-yaka-buyuk-beden-siyah-pijama-takimi",
       "title": "Açık Yaka Büyük Beden Siyah Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -15647,7 +16258,9 @@
       "slug": "siyahli-kirmizi-buyuk-beden-pijama-takimi",
       "url": "product.html?p=siyahli-kirmizi-buyuk-beden-pijama-takimi",
       "title": "Siyahlı Kırmızı Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -15700,7 +16313,9 @@
       "slug": "kirmizili-siyah-buyuk-beden-pijama-takimi",
       "url": "product.html?p=kirmizili-siyah-buyuk-beden-pijama-takimi",
       "title": "Kırmızılı Siyah Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -15753,7 +16368,9 @@
       "slug": "yakasi-dantel-lacivert-buyuk-beden-pijama-takimi",
       "url": "product.html?p=yakasi-dantel-lacivert-buyuk-beden-pijama-takimi",
       "title": "Yakası Dantel Lacivert Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -15806,7 +16423,9 @@
       "slug": "dugmeli-siyah-kirmizi-buyuk-beden-pijama-takimi",
       "url": "product.html?p=dugmeli-siyah-kirmizi-buyuk-beden-pijama-takimi",
       "title": "Düğmeli Siyah Kırmızı Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -15859,7 +16478,9 @@
       "slug": "bulut-desenli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=bulut-desenli-buyuk-beden-pijama-takimi",
       "title": "Bulut Desenli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -15911,7 +16532,9 @@
       "slug": "siyah-beyaz-buyuk-beden-pijama-takimi",
       "url": "product.html?p=siyah-beyaz-buyuk-beden-pijama-takimi",
       "title": "Siyah Beyaz Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -15963,7 +16586,9 @@
       "slug": "alti-desenli-cepli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=alti-desenli-cepli-buyuk-beden-pijama-takimi",
       "title": "Altı Desenli Cepli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -16015,7 +16640,9 @@
       "slug": "sakal-dantelli-deseni-buyuk-beden-pijama-takimi",
       "url": "product.html?p=sakal-dantelli-deseni-buyuk-beden-pijama-takimi",
       "title": "Sakal Dantelli Deseni Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -16068,7 +16695,9 @@
       "slug": "stay-leoparli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=stay-leoparli-buyuk-beden-pijama-takimi",
       "title": "Stay Leoparlı Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -16121,7 +16750,9 @@
       "slug": "desenli-love-buyuk-beden-pijama-takimi",
       "url": "product.html?p=desenli-love-buyuk-beden-pijama-takimi",
       "title": "Desenli Love Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -16173,7 +16804,9 @@
       "slug": "pembe-siyah-buyuk-beden-pijama-takimi",
       "url": "product.html?p=pembe-siyah-buyuk-beden-pijama-takimi",
       "title": "Pembe Siyah Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -16226,7 +16859,9 @@
       "slug": "uzun-kollu-buyuk-beden-pijama-takimi",
       "url": "product.html?p=uzun-kollu-buyuk-beden-pijama-takimi",
       "title": "Uzun Kollu Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -16278,7 +16913,9 @@
       "slug": "uzun-kollu-yirtmacli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=uzun-kollu-yirtmacli-buyuk-beden-pijama-takimi",
       "title": "Uzun Kollu Yırtmaçlı Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -16329,7 +16966,9 @@
       "slug": "uzun-kollu-cicekli-dugmeli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=uzun-kollu-cicekli-dugmeli-buyuk-beden-pijama-takimi",
       "title": "Uzun Kollu Çiçekli Düğmeli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -16381,7 +17020,9 @@
       "slug": "uzun-kollu-dugmeli-cicekli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=uzun-kollu-dugmeli-cicekli-buyuk-beden-pijama-takimi",
       "title": "Uzun Kollu Düğmeli Çiçekli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -16433,7 +17074,9 @@
       "slug": "uzun-kollu-pembe-siyah-buyuk-beden-pijama-takimi",
       "url": "product.html?p=uzun-kollu-pembe-siyah-buyuk-beden-pijama-takimi",
       "title": "Uzun Kollu Pembe Siyah Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -16486,7 +17129,9 @@
       "slug": "uzun-kollu-wild-buyuk-beden-pijama-takimi",
       "url": "product.html?p=uzun-kollu-wild-buyuk-beden-pijama-takimi",
       "title": "Uzun Kollu Wild Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -16538,7 +17183,9 @@
       "slug": "uzun-kollu-alti-cicekli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=uzun-kollu-alti-cicekli-buyuk-beden-pijama-takimi",
       "title": "Uzun Kollu Altı Çiçekli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -16590,7 +17237,9 @@
       "slug": "uzun-kollu-tul-detayli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=uzun-kollu-tul-detayli-buyuk-beden-pijama-takimi",
       "title": "Uzun Kollu Tül Detaylı Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -16642,7 +17291,9 @@
       "slug": "desenli-tul-detayli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=desenli-tul-detayli-buyuk-beden-pijama-takimi",
       "title": "Desenli Tül Detaylı Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -16694,7 +17345,9 @@
       "slug": "lila-cicekli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=lila-cicekli-buyuk-beden-pijama-takimi",
       "title": "Lila Çiçekli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -16746,7 +17399,9 @@
       "slug": "cicekli-ustu-siyah-buyuk-beden-pijama-takimi",
       "url": "product.html?p=cicekli-ustu-siyah-buyuk-beden-pijama-takimi",
       "title": "Çiçekli Üstü Siyah Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -16798,7 +17453,9 @@
       "slug": "yakasi-dugmeli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=yakasi-dugmeli-buyuk-beden-pijama-takimi",
       "title": "Yakası Düğmeli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -16850,7 +17507,9 @@
       "slug": "yazi-desenli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=yazi-desenli-buyuk-beden-pijama-takimi",
       "title": "Yazı Desenli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -16902,7 +17561,9 @@
       "slug": "seritli-desenli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=seritli-desenli-buyuk-beden-pijama-takimi",
       "title": "Şeritli Desenli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -16954,7 +17615,9 @@
       "slug": "siyah-beyaz-desenli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=siyah-beyaz-desenli-buyuk-beden-pijama-takimi",
       "title": "Siyah Beyaz Desenli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -17006,7 +17669,9 @@
       "slug": "pacasi-dantelli-leoparli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=pacasi-dantelli-leoparli-buyuk-beden-pijama-takimi",
       "title": "Paçası Dantelli Leoparlı Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -17060,7 +17725,9 @@
       "slug": "yanlari-yirtmacli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=yanlari-yirtmacli-buyuk-beden-pijama-takimi",
       "title": "Yanları Yırtmaçlı Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -17112,7 +17779,9 @@
       "slug": "manset-pacali-buyuk-beden-pijama-takimi",
       "url": "product.html?p=manset-pacali-buyuk-beden-pijama-takimi",
       "title": "Manşet Paçalı Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -17164,7 +17833,9 @@
       "slug": "omuz-ustu-dantelli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=omuz-ustu-dantelli-buyuk-beden-pijama-takimi",
       "title": "Omuz Üstü Dantelli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -17217,7 +17888,9 @@
       "slug": "leopar-seritli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=leopar-seritli-buyuk-beden-pijama-takimi",
       "title": "Leopar Şeritli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -17270,7 +17943,9 @@
       "slug": "leopar-seritli-cepli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=leopar-seritli-cepli-buyuk-beden-pijama-takimi",
       "title": "Leopar Şeritli Cepli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -17323,7 +17998,9 @@
       "slug": "paca-genis-dantelli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=paca-genis-dantelli-buyuk-beden-pijama-takimi",
       "title": "Paça Geniş Dantelli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -17376,7 +18053,9 @@
       "slug": "leopar-siyah-cepli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=leopar-siyah-cepli-buyuk-beden-pijama-takimi",
       "title": "Leopar Siyah Cepli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -17430,7 +18109,9 @@
       "slug": "dugmeli-leopar-cepli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=dugmeli-leopar-cepli-buyuk-beden-pijama-takimi",
       "title": "Düğmeli Leopar Cepli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -17483,7 +18164,9 @@
       "slug": "dugmeli-dantelli-siyah-buyuk-beden-pijama-takimi",
       "url": "product.html?p=dugmeli-dantelli-siyah-buyuk-beden-pijama-takimi",
       "title": "Düğmeli Dantelli Siyah Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -17536,7 +18219,9 @@
       "slug": "genis-dantelli-siyah-buyuk-beden-pijama-takimi",
       "url": "product.html?p=genis-dantelli-siyah-buyuk-beden-pijama-takimi",
       "title": "Geniş Dantelli Siyah Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -17589,7 +18274,9 @@
       "slug": "genis-dantelli-leoparli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=genis-dantelli-leoparli-buyuk-beden-pijama-takimi",
       "title": "Geniş Dantelli Leoparlı Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -17643,7 +18330,9 @@
       "slug": "v-yaka-pudra-buyuk-beden-pijama-takimi",
       "url": "product.html?p=v-yaka-pudra-buyuk-beden-pijama-takimi",
       "title": "V Yaka Pudra Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -17696,7 +18385,9 @@
       "slug": "puanli-siyah-pembe-buyuk-beden-pijama-takimi",
       "url": "product.html?p=puanli-siyah-pembe-buyuk-beden-pijama-takimi",
       "title": "Puanlı Siyah Pembe Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -17749,7 +18440,9 @@
       "slug": "renkli-cicekli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=renkli-cicekli-buyuk-beden-pijama-takimi",
       "title": "Renkli Çiçekli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -17801,7 +18494,9 @@
       "slug": "yaka-ici-dantel-buyuk-beden-pijama-takimi",
       "url": "product.html?p=yaka-ici-dantel-buyuk-beden-pijama-takimi",
       "title": "Yaka İçi Dantel Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -17854,7 +18549,9 @@
       "slug": "ince-cizgili-pembe-siyah-buyuk-beden-pijama-takimi",
       "url": "product.html?p=ince-cizgili-pembe-siyah-buyuk-beden-pijama-takimi",
       "title": "İnce Çizgili Pembe Siyah Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -17907,7 +18604,9 @@
       "slug": "kucuk-cepli-siyah-buyuk-beden-pijama-takimi",
       "url": "product.html?p=kucuk-cepli-siyah-buyuk-beden-pijama-takimi",
       "title": "Küçük Cepli Siyah Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -17959,7 +18658,9 @@
       "slug": "yilan-desenli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=yilan-desenli-buyuk-beden-pijama-takimi",
       "title": "Yılan Desenli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -18011,7 +18712,9 @@
       "slug": "pembe-biyeli-cicekli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=pembe-biyeli-cicekli-buyuk-beden-pijama-takimi",
       "title": "Pembe Biyeli Çiçekli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -18063,7 +18766,9 @@
       "slug": "dugme-yaka-desenli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=dugme-yaka-desenli-buyuk-beden-pijama-takimi",
       "title": "Düğme Yaka Desenli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -18115,7 +18820,9 @@
       "slug": "kiremit-siyah-buyuk-beden-pijama-takimi",
       "url": "product.html?p=kiremit-siyah-buyuk-beden-pijama-takimi",
       "title": "Kiremit Siyah Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -18167,7 +18874,9 @@
       "slug": "ince-askili-desenli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=ince-askili-desenli-buyuk-beden-pijama-takimi",
       "title": "İnce Askılı Desenli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -18220,7 +18929,9 @@
       "slug": "ince-askili-lacivert-buyuk-beden-pijama-takimi",
       "url": "product.html?p=ince-askili-lacivert-buyuk-beden-pijama-takimi",
       "title": "İnce Askılı Lacivert Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -18273,7 +18984,9 @@
       "slug": "kollari-dantelli-lacivert-buyuk-beden-pijama-takimi",
       "url": "product.html?p=kollari-dantelli-lacivert-buyuk-beden-pijama-takimi",
       "title": "Kolları Dantelli Lacivert Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -18326,7 +19039,9 @@
       "slug": "gul-desenli-lacivert-buyuk-beden-pijama-takimi",
       "url": "product.html?p=gul-desenli-lacivert-buyuk-beden-pijama-takimi",
       "title": "Gül Desenli Lacivert Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -18378,7 +19093,9 @@
       "slug": "ip-askili-leopar-buyuk-beden-pijama-takimi",
       "url": "product.html?p=ip-askili-leopar-buyuk-beden-pijama-takimi",
       "title": "İp Askılı Leopar Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -18432,7 +19149,9 @@
       "slug": "cicekli-v-yaka-buyuk-beden-pijama-takimi",
       "url": "product.html?p=cicekli-v-yaka-buyuk-beden-pijama-takimi",
       "title": "Çiçekli V Yaka Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -18485,7 +19204,9 @@
       "slug": "cok-renkli-dugmeli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=cok-renkli-dugmeli-buyuk-beden-pijama-takimi",
       "title": "Çok Renkli Düğmeli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -18537,7 +19258,9 @@
       "slug": "cok-renkli-ip-askili-buyuk-beden-pijama-takimi",
       "url": "product.html?p=cok-renkli-ip-askili-buyuk-beden-pijama-takimi",
       "title": "Çok Renkli İp Askılı Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -18590,7 +19313,9 @@
       "slug": "siyah-dantelli-renkli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=siyah-dantelli-renkli-buyuk-beden-pijama-takimi",
       "title": "Siyah Dantelli Renkli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -18643,7 +19368,9 @@
       "slug": "genis-pacali-siyah-buyuk-beden-pijama-takimi",
       "url": "product.html?p=genis-pacali-siyah-buyuk-beden-pijama-takimi",
       "title": "Geniş Paçalı Siyah Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -18694,7 +19421,9 @@
       "slug": "kalpli-kirmizi-siyah-buyuk-beden-pijama-takimi",
       "url": "product.html?p=kalpli-kirmizi-siyah-buyuk-beden-pijama-takimi",
       "title": "Kalpli Kırmızı Siyah Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -18747,7 +19476,9 @@
       "slug": "kalpli-kirmizi-buyuk-beden-pijama-takimi",
       "url": "product.html?p=kalpli-kirmizi-buyuk-beden-pijama-takimi",
       "title": "Kalpli Kırmızı Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -18799,7 +19530,9 @@
       "slug": "kelebek-desenli-kiremit-buyuk-beden-pijama-takimi",
       "url": "product.html?p=kelebek-desenli-kiremit-buyuk-beden-pijama-takimi",
       "title": "Kelebek Desenli Kiremit Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -18852,7 +19585,9 @@
       "slug": "dudak-desenli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=dudak-desenli-buyuk-beden-pijama-takimi",
       "title": "Dudak Desenli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -18904,7 +19639,9 @@
       "slug": "genis-pacali-cepli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=genis-pacali-cepli-buyuk-beden-pijama-takimi",
       "title": "Geniş Paçalı Cepli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -18956,7 +19693,9 @@
       "slug": "genis-pacali-cepli-bordo-buyuk-beden-pijama-takimi",
       "url": "product.html?p=genis-pacali-cepli-bordo-buyuk-beden-pijama-takimi",
       "title": "Geniş Paçalı Cepli Bordo Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -19008,7 +19747,9 @@
       "slug": "dantelli-turuncu-buyuk-beden-pijama-takimi",
       "url": "product.html?p=dantelli-turuncu-buyuk-beden-pijama-takimi",
       "title": "Dantelli Turuncu Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -19061,7 +19802,9 @@
       "slug": "dantelli-haki-yesil-buyuk-beden-pijama-takimi",
       "url": "product.html?p=dantelli-haki-yesil-buyuk-beden-pijama-takimi",
       "title": "Dantelli Haki Yeşil Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -19072,7 +19815,7 @@
         "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/dantelli-haki-yesil-buyuk-beden-pijama--b73e-.jpg"
       ],
       "colors": [
-        "Yeşil"
+        "Standart"
       ],
       "sizes": [
         "2XL",
@@ -19114,7 +19857,9 @@
       "slug": "dantelli-mavi-buyuk-beden-pijama-takimi",
       "url": "product.html?p=dantelli-mavi-buyuk-beden-pijama-takimi",
       "title": "Dantelli Mavi Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",
@@ -19167,7 +19912,9 @@
       "slug": "yaka-genis-dantelli-buyuk-beden-pijama-takimi",
       "url": "product.html?p=yaka-genis-dantelli-buyuk-beden-pijama-takimi",
       "title": "Yaka Geniş Dantelli Büyük Beden Pijama Takımı",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Pijama",
       "categories": [
         "Pijama",

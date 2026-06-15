@@ -1,6 +1,6 @@
 {
   "$schema": "https://kadinimguzelim.com/schema/product-feed-v1",
-  "generator": "KadınımGuzelim AI Product Studio",
+  "generator": "KadınımGuzelim AI Product Studio (gerçek fiyat: KDV dahil + indirimOrani)",
   "generatedAt": "2026-06-15",
   "brand": "KadınımGuzelim",
   "currency": "TRY",
@@ -11,7 +11,9 @@
       "slug": "dikissiz-sporcu-toparlayici-sutyen-korse",
       "url": "product.html?p=dikissiz-sporcu-toparlayici-sutyen-korse",
       "title": "Dikişsiz Sporcu Toparlayıcı Sütyen Korse",
-      "price": 454,
+      "price": 499,
+      "listPrice": 624,
+      "discount": 20,
       "category": "Sütyen",
       "categories": [
         "Sütyen",
@@ -61,7 +63,9 @@
       "slug": "dantel-pembe-fantazi-bralet-sutyen-takimi",
       "url": "product.html?p=dantel-pembe-fantazi-bralet-sutyen-takimi",
       "title": "Dantel Pembe Fantazi Bralet Sütyen Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -115,7 +119,9 @@
       "slug": "brodeli-c-cup-ekru-sutyen-takim",
       "url": "product.html?p=brodeli-c-cup-ekru-sutyen-takim",
       "title": "Brodeli C Cup Ekru Sütyen Takım",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Sütyen",
       "categories": [
         "Sütyen"
@@ -164,7 +170,9 @@
       "slug": "brodeli-c-cup-kirmizi-sutyen-takim",
       "url": "product.html?p=brodeli-c-cup-kirmizi-sutyen-takim",
       "title": "Brodeli C Cup Kırmızı Sütyen Takım",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Sütyen",
       "categories": [
         "Sütyen"
@@ -212,7 +220,9 @@
       "slug": "brodeli-c-cup-siyah-sutyen-takim",
       "url": "product.html?p=brodeli-c-cup-siyah-sutyen-takim",
       "title": "Brodeli C Cup Siyah Sütyen Takım",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Sütyen",
       "categories": [
         "Sütyen"
@@ -259,7 +269,9 @@
       "slug": "papatyali-mavi-desteksiz-sutyen-takim",
       "url": "product.html?p=papatyali-mavi-desteksiz-sutyen-takim",
       "title": "Papatyalı Mavi Desteksiz Sütyen Takım",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Sütyen",
       "categories": [
         "Sütyen"
@@ -307,7 +319,9 @@
       "slug": "yesil-cicekli-desteksiz-sutyen-takim",
       "url": "product.html?p=yesil-cicekli-desteksiz-sutyen-takim",
       "title": "Yeşil Çiçekli Desteksiz Sütyen Takım",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Sütyen",
       "categories": [
         "Sütyen"
@@ -318,7 +332,7 @@
         "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/yesil-cicekli-desteksiz-sutyen-takim-b25397.jpg"
       ],
       "colors": [
-        "Yeşil"
+        "Standart"
       ],
       "sizes": [
         "S/M",
@@ -356,7 +370,9 @@
       "slug": "destekli-bustiyerli-pembe-sutyen-takim",
       "url": "product.html?p=destekli-bustiyerli-pembe-sutyen-takim",
       "title": "Destekli Büstiyerli Pembe Sütyen Takım",
-      "price": 1181,
+      "price": 1299,
+      "listPrice": 1883,
+      "discount": 31,
       "category": "Sütyen",
       "categories": [
         "Sütyen",
@@ -404,7 +420,9 @@
       "slug": "bralet-lacivert-sutyen-takim",
       "url": "product.html?p=bralet-lacivert-sutyen-takim",
       "title": "Bralet Lacivert Sütyen Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 986,
+      "discount": 19,
       "category": "Sütyen",
       "categories": [
         "Sütyen"
@@ -453,7 +471,9 @@
       "slug": "seffaf-askili-destekli-sutyen",
       "url": "product.html?p=seffaf-askili-destekli-sutyen",
       "title": "Şeffaf Askılı Destekli Sütyen",
-      "price": 481,
+      "price": 529,
+      "listPrice": null,
+      "discount": 0,
       "category": "Sütyen",
       "categories": [
         "Sütyen"
@@ -502,7 +522,9 @@
       "slug": "jasmin-desteksiz-sutyen",
       "url": "product.html?p=jasmin-desteksiz-sutyen",
       "title": "Jasmin Desteksiz Sütyen",
-      "price": 635,
+      "price": 699,
+      "listPrice": 752,
+      "discount": 7,
       "category": "Sütyen",
       "categories": [
         "Sütyen"
@@ -549,7 +571,9 @@
       "slug": "dantelli-toparlayici-sutyen",
       "url": "product.html?p=dantelli-toparlayici-sutyen",
       "title": "Dantelli Toparlayıcı Sütyen",
-      "price": 545,
+      "price": 599,
+      "listPrice": 894,
+      "discount": 33,
       "category": "Sütyen",
       "categories": [
         "Sütyen"
@@ -599,7 +623,9 @@
       "slug": "dantelli-bralet-fantazi-beyaz-jartiyer-takim",
       "url": "product.html?p=dantelli-bralet-fantazi-beyaz-jartiyer-takim",
       "title": "Dantelli Bralet Fantazi Beyaz Jartiyer Takım",
-      "price": 635,
+      "price": 699,
+      "listPrice": 985,
+      "discount": 29,
       "category": "Fantazi",
       "categories": [
         "Fantazi",

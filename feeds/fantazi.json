@@ -1,6 +1,6 @@
 {
   "$schema": "https://kadinimguzelim.com/schema/product-feed-v1",
-  "generator": "KadınımGuzelim AI Product Studio",
+  "generator": "KadınımGuzelim AI Product Studio (gerçek fiyat: KDV dahil + indirimOrani)",
   "generatedAt": "2026-06-15",
   "brand": "KadınımGuzelim",
   "currency": "TRY",
@@ -11,7 +11,9 @@
       "slug": "dantelli-siyah-buyuk-beden-fantazi-gecelik",
       "url": "product.html?p=dantelli-siyah-buyuk-beden-fantazi-gecelik",
       "title": "Dantelli Siyah Büyük Beden Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -65,7 +67,9 @@
       "slug": "dantelli-mor-buyuk-beden-fantazi-gecelik",
       "url": "product.html?p=dantelli-mor-buyuk-beden-fantazi-gecelik",
       "title": "Dantelli Mor Büyük Beden Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -119,7 +123,9 @@
       "slug": "dantelli-bordo-buyuk-beden-fantazi-gecelik",
       "url": "product.html?p=dantelli-bordo-buyuk-beden-fantazi-gecelik",
       "title": "Dantelli Bordo Büyük Beden Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -173,7 +179,9 @@
       "slug": "dantelli-bordo-fantazi-buyuk-beden-gecelik",
       "url": "product.html?p=dantelli-bordo-fantazi-buyuk-beden-gecelik",
       "title": "Dantelli Bordo Fantezi Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -228,7 +236,9 @@
       "slug": "dantelli-siyah-fantazi-buyuk-beden-gecelik",
       "url": "product.html?p=dantelli-siyah-fantazi-buyuk-beden-gecelik",
       "title": "Dantelli Siyah Fantazi Büyük Beden Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -284,7 +294,9 @@
       "slug": "cicekli-siyah-dantelli-buyuk-beden-fantazi-gecelik",
       "url": "product.html?p=cicekli-siyah-dantelli-buyuk-beden-fantazi-gecelik",
       "title": "Çiçekli Siyah Dantelli Büyük Beden Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -338,7 +350,9 @@
       "slug": "seksi-mini-dantelli-buyuk-beden-fantazi-gecelik",
       "url": "product.html?p=seksi-mini-dantelli-buyuk-beden-fantazi-gecelik",
       "title": "Seksi Mini Dantelli Büyük Beden Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -393,7 +407,9 @@
       "slug": "desenli-dantelli-koyu-yesil-buyuk-beden-fantazi-gecelik",
       "url": "product.html?p=desenli-dantelli-koyu-yesil-buyuk-beden-fantazi-gecelik",
       "title": "Desenli Dantelli Koyu Yeşil Büyük Beden Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -405,7 +421,7 @@
         "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/desenli-dantelli-koyu-yesil-buyuk-bede-52-c29.jpg"
       ],
       "colors": [
-        "Yeşil"
+        "Standart"
       ],
       "sizes": [
         "2XL",
@@ -447,7 +463,9 @@
       "slug": "dantelli-mini-pembe-buyuk-beden-fantazi-gecelik",
       "url": "product.html?p=dantelli-mini-pembe-buyuk-beden-fantazi-gecelik",
       "title": "Dantelli Mini Pembe Büyük Beden Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -502,7 +520,9 @@
       "slug": "3-parca-dantelli-siyah-buyuk-beden-fantazi-gecelik",
       "url": "product.html?p=3-parca-dantelli-siyah-buyuk-beden-fantazi-gecelik",
       "title": "3 Parça Dantelli Siyah Büyük Beden Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -556,7 +576,9 @@
       "slug": "genis-dantelli-ekru-buyuk-beden-fantazi-gecelik",
       "url": "product.html?p=genis-dantelli-ekru-buyuk-beden-fantazi-gecelik",
       "title": "Geniş Dantelli Ekru Büyük Beden Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -610,7 +632,9 @@
       "slug": "yanlari-acik-bordo-buyuk-beden-fantazi-gecelik",
       "url": "product.html?p=yanlari-acik-bordo-buyuk-beden-fantazi-gecelik",
       "title": "Yanları Açık Bordo Büyük Beden Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -663,7 +687,9 @@
       "slug": "transparan-dantelli-fantazi-siyah-babydoll",
       "url": "product.html?p=transparan-dantelli-fantazi-siyah-babydoll",
       "title": "Transparan Dantelli Fantazi Siyah Babydoll",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -713,7 +739,9 @@
       "slug": "seksi-transparan-fantazi-siyah-babydoll",
       "url": "product.html?p=seksi-transparan-fantazi-siyah-babydoll",
       "title": "Seksi Transparan Fantazi Siyah Babydoll",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -761,7 +789,9 @@
       "slug": "dantelli-siyah-buyuk-beden-fantazi-jartiyer-takim",
       "url": "product.html?p=dantelli-siyah-buyuk-beden-fantazi-jartiyer-takim",
       "title": "Dantelli Siyah Büyük Beden Fantazi Jartiyer Takım",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -814,7 +844,9 @@
       "slug": "mini-siyah-buyuk-beden-fantazi-jartiyer-takim",
       "url": "product.html?p=mini-siyah-buyuk-beden-fantazi-jartiyer-takim",
       "title": "Mini Siyah Büyük Beden Fantazi Jartiyer Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -866,7 +898,9 @@
       "slug": "mini-kirmizi-buyuk-beden-fantazi-jartiyer-takim",
       "url": "product.html?p=mini-kirmizi-buyuk-beden-fantazi-jartiyer-takim",
       "title": "Mini Kırmızı Büyük Beden Fantazi Jartiyer Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -918,7 +952,9 @@
       "slug": "dekolteli-siyah-buyuk-beden-fantazi-jartiyer-takim",
       "url": "product.html?p=dekolteli-siyah-buyuk-beden-fantazi-jartiyer-takim",
       "title": "Dekolteli Siyah Büyük Beden Fantazi Jartiyer Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -970,7 +1006,9 @@
       "slug": "seksi-siyah-buyuk-beden-fantazi-jartiyer-takim",
       "url": "product.html?p=seksi-siyah-buyuk-beden-fantazi-jartiyer-takim",
       "title": "Seksi Siyah Büyük Beden Fantazi Jartiyer Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -1022,7 +1060,9 @@
       "slug": "seksi-kirmizi-buyuk-beden-fantazi-jartiyer-takim",
       "url": "product.html?p=seksi-kirmizi-buyuk-beden-fantazi-jartiyer-takim",
       "title": "Seksi Kırmızı Büyük Beden Fantazi Jartiyer Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -1073,7 +1113,9 @@
       "slug": "siyah-dantelli-buyuk-beden-fantazi-jartiyer-takim",
       "url": "product.html?p=siyah-dantelli-buyuk-beden-fantazi-jartiyer-takim",
       "title": "Siyah Dantelli Büyük Beden Fantazi Jartiyer Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -1126,7 +1168,9 @@
       "slug": "lame-siyah-buyuk-beden-fantazi-jartiyer-takim",
       "url": "product.html?p=lame-siyah-buyuk-beden-fantazi-jartiyer-takim",
       "title": "Lame Siyah Büyük Beden Fantazi Jartiyer Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -1178,7 +1222,9 @@
       "slug": "lame-kirmizi-buyuk-beden-fantazi-jartiyer-takim",
       "url": "product.html?p=lame-kirmizi-buyuk-beden-fantazi-jartiyer-takim",
       "title": "Lame Kırmızı Büyük Beden Fantazi Jartiyer Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -1230,7 +1276,9 @@
       "slug": "parlak-kirmizi-buyuk-beden-fantazi-jartiyer-takim",
       "url": "product.html?p=parlak-kirmizi-buyuk-beden-fantazi-jartiyer-takim",
       "title": "Parlak Kırmızı Büyük Beden Fantazi Jartiyer Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -1282,7 +1330,9 @@
       "slug": "parlak-siyah-buyuk-beden-fantazi-jartiyer-takim",
       "url": "product.html?p=parlak-siyah-buyuk-beden-fantazi-jartiyer-takim",
       "title": "Parlak Siyah Büyük Beden Fantazi Jartiyer Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -1334,7 +1384,9 @@
       "slug": "dantelli-lame-bordo-buyuk-beden-fantazi-gecelik",
       "url": "product.html?p=dantelli-lame-bordo-buyuk-beden-fantazi-gecelik",
       "title": "Dantelli Lame Bordo Büyük Beden Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1289,
+      "discount": 38,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -1388,7 +1440,9 @@
       "slug": "dantelli-lame-siyah-buyuk-beden-fantazi-gecelik",
       "url": "product.html?p=dantelli-lame-siyah-buyuk-beden-fantazi-gecelik",
       "title": "Dantelli Lame Siyah Büyük Beden Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -1442,7 +1496,9 @@
       "slug": "lame-kirmizi-buyuk-beden-fantazi-gecelik-takim",
       "url": "product.html?p=lame-kirmizi-buyuk-beden-fantazi-gecelik-takim",
       "title": "Lame Kırmızı Büyük Beden Fantazi Gecelik Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -1495,7 +1551,9 @@
       "slug": "lame-siyah-buyuk-beden-fantazi-gecelik-takim",
       "url": "product.html?p=lame-siyah-buyuk-beden-fantazi-gecelik-takim",
       "title": "Lame Siyah Büyük Beden Fantazi Gecelik Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -1548,7 +1606,9 @@
       "slug": "parlak-siyah-buyuk-beden-fantazi-gecelik-takim",
       "url": "product.html?p=parlak-siyah-buyuk-beden-fantazi-gecelik-takim",
       "title": "Parlak Siyah Büyük Beden Fantazi Gecelik Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -1601,7 +1661,9 @@
       "slug": "gogus-dekolte-buyuk-beden-fantazi-gecelik",
       "url": "product.html?p=gogus-dekolte-buyuk-beden-fantazi-gecelik",
       "title": "Göğüs Dekolte Büyük Beden Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -1653,7 +1715,9 @@
       "slug": "gogus-dekolte-kirmizi-buyuk-beden-fantazi-gecelik",
       "url": "product.html?p=gogus-dekolte-kirmizi-buyuk-beden-fantazi-gecelik",
       "title": "Göğüs Dekolte Kırmızı Büyük Beden Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -1705,7 +1769,9 @@
       "slug": "buyuk-beden-fantazi-denizci-kostumu",
       "url": "product.html?p=buyuk-beden-fantazi-denizci-kostumu",
       "title": "Büyük Beden Fantazi Denizci Kostümü",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -1756,7 +1822,9 @@
       "slug": "buyuk-beden-fantazi-ekoseli-kostum",
       "url": "product.html?p=buyuk-beden-fantazi-ekoseli-kostum",
       "title": "Büyük Beden Fantazi Ekoseli Kostüm",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -1807,7 +1875,9 @@
       "slug": "buyuk-beden-fantazi-mor-ekoseli-kostum",
       "url": "product.html?p=buyuk-beden-fantazi-mor-ekoseli-kostum",
       "title": "Büyük Beden Fantazi Mor Ekoseli Kostüm",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -1859,7 +1929,9 @@
       "slug": "buyuk-beden-fantazi-hizmetci-kostumu",
       "url": "product.html?p=buyuk-beden-fantazi-hizmetci-kostumu",
       "title": "Büyük Beden Fantazi Hizmetçi Kostümü",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -1910,7 +1982,9 @@
       "slug": "parlak-kirmizi-fantazi-deri-gecelik",
       "url": "product.html?p=parlak-kirmizi-fantazi-deri-gecelik",
       "title": "Parlak Kırmızı Fantazi Deri Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -1959,7 +2033,9 @@
       "slug": "dekolteli-siyah-fantazi-deri-gecelik",
       "url": "product.html?p=dekolteli-siyah-fantazi-deri-gecelik",
       "title": "Dekolteli Siyah Fantazi Deri Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -2008,7 +2084,9 @@
       "slug": "bagcik-detay-siyah-fantazi-deri-gecelik",
       "url": "product.html?p=bagcik-detay-siyah-fantazi-deri-gecelik",
       "title": "Bağcık Detay Siyah Fantazi Deri Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -2058,7 +2136,9 @@
       "slug": "siyah-fantazi-vucut-corabi",
       "url": "product.html?p=siyah-fantazi-vucut-corabi",
       "title": "Siyah Fantazi Vücut Çorabı",
-      "price": 545,
+      "price": 599,
+      "listPrice": 894,
+      "discount": 33,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -2105,7 +2185,9 @@
       "slug": "kirmizi-fantazi-hizmetci-kostumu",
       "url": "product.html?p=kirmizi-fantazi-hizmetci-kostumu",
       "title": "Kırmızı Fantazi Hizmetçi Kostümü",
-      "price": 726,
+      "price": 799,
+      "listPrice": 918,
+      "discount": 13,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -2152,7 +2234,9 @@
       "slug": "detayli-arkasi-acik-fantazi-bodysuit",
       "url": "product.html?p=detayli-arkasi-acik-fantazi-bodysuit",
       "title": "Detaylı Arkası Açık Fantazi Bodysuit",
-      "price": 454,
+      "price": 499,
+      "listPrice": 624,
+      "discount": 20,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -2201,7 +2285,9 @@
       "slug": "7-parca-fantazi-kelepce-kirbac-seti",
       "url": "product.html?p=7-parca-fantazi-kelepce-kirbac-seti",
       "title": "7 Parça Fantazi Kelepçe Kırbaç Seti",
-      "price": 635,
+      "price": 699,
+      "listPrice": 985,
+      "discount": 29,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -2248,7 +2334,9 @@
       "slug": "dantel-pembe-fantazi-bralet-sutyen-takimi",
       "url": "product.html?p=dantel-pembe-fantazi-bralet-sutyen-takimi",
       "title": "Dantel Pembe Fantazi Bralet Sütyen Takımı",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -2302,7 +2390,9 @@
       "slug": "dantel-isleme-buyuk-beden-fantazi-lacivert-gecelik",
       "url": "product.html?p=dantel-isleme-buyuk-beden-fantazi-lacivert-gecelik",
       "title": "Dantel İşleme Büyük Beden Fantazi Lacivert Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 1226,
+      "discount": 43,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -2358,7 +2448,9 @@
       "slug": "dantel-isleme-buyuk-beden-fantazi-kirmizi-gecelik",
       "url": "product.html?p=dantel-isleme-buyuk-beden-fantazi-kirmizi-gecelik",
       "title": "Dantel İşleme Büyük Beden Fantazi Kırmızı Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 1226,
+      "discount": 43,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -2414,7 +2506,9 @@
       "slug": "dantel-isleme-buyuk-beden-fantazi-yesil-gecelik",
       "url": "product.html?p=dantel-isleme-buyuk-beden-fantazi-yesil-gecelik",
       "title": "Dantel İşleme Büyük Beden Fantazi Yeşil Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 1226,
+      "discount": 43,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -2428,7 +2522,7 @@
         "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/dantel-isleme-buyuk-beden-fantazi-yesi-29f565.jpg"
       ],
       "colors": [
-        "Yeşil"
+        "Standart"
       ],
       "sizes": [
         "2XL",
@@ -2470,7 +2564,9 @@
       "slug": "dantel-isleme-buyuk-beden-fantazi-siyah-gecelik",
       "url": "product.html?p=dantel-isleme-buyuk-beden-fantazi-siyah-gecelik",
       "title": "Dantel İşleme Büyük Beden Fantazi Siyah Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 1226,
+      "discount": 43,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -2526,7 +2622,9 @@
       "slug": "yanlari-yirtmac-buyuk-beden-fantazi-siyah-gecelik",
       "url": "product.html?p=yanlari-yirtmac-buyuk-beden-fantazi-siyah-gecelik",
       "title": "Etkileyici Duruş",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -2574,7 +2672,9 @@
       "slug": "genis-kollu-buyuk-beden-fantazi-siyah-gecelik",
       "url": "product.html?p=genis-kollu-buyuk-beden-fantazi-siyah-gecelik",
       "title": "Geniş Kollu Büyük Beden Fantazi Siyah Gecelik",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -2627,7 +2727,9 @@
       "slug": "3-parca-buyuk-beden-fantazi-gecelik-takim",
       "url": "product.html?p=3-parca-buyuk-beden-fantazi-gecelik-takim",
       "title": "3 Parça Büyük Beden Fantazi Gecelik Takım",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -2681,7 +2783,9 @@
       "slug": "firfirli-buyuk-beden-siyah-fantazi-gecelik",
       "url": "product.html?p=firfirli-buyuk-beden-siyah-fantazi-gecelik",
       "title": "Fırfırlı Büyük Beden Siyah Fantazi Gecelik",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -2735,7 +2839,9 @@
       "slug": "derin-yirtmac-buyuk-beden-kirmizi-fantazi-gecelik",
       "url": "product.html?p=derin-yirtmac-buyuk-beden-kirmizi-fantazi-gecelik",
       "title": "Derin Yırtmaç Büyük Beden Kırmızı Fantazi Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 985,
+      "discount": 29,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -2789,7 +2895,9 @@
       "slug": "derin-yirtmac-buyuk-beden-siyah-fantazi-gecelik",
       "url": "product.html?p=derin-yirtmac-buyuk-beden-siyah-fantazi-gecelik",
       "title": "Derin Yırtmaç Büyük Beden Siyah Fantazi Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 985,
+      "discount": 29,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -2842,7 +2950,9 @@
       "slug": "full-dantel-buyuk-beden-siyah-fantazi-gecelik",
       "url": "product.html?p=full-dantel-buyuk-beden-siyah-fantazi-gecelik",
       "title": "Full Dantel Büyük Beden Siyah Fantazi Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 985,
+      "discount": 29,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -2896,7 +3006,9 @@
       "slug": "full-dantel-buyuk-beden-kirmizi-fantazi-gecelik",
       "url": "product.html?p=full-dantel-buyuk-beden-kirmizi-fantazi-gecelik",
       "title": "Full Dantel Büyük Beden Kırmızı Fantazi Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 985,
+      "discount": 29,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -2950,7 +3062,9 @@
       "slug": "gogus-dekolte-buyuk-beden-kirmizi-fantazi-gecelik",
       "url": "product.html?p=gogus-dekolte-buyuk-beden-kirmizi-fantazi-gecelik",
       "title": "Göğüs Dekolte Büyük Beden Kırmızı Fantazi Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 1226,
+      "discount": 43,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -3005,7 +3119,9 @@
       "slug": "gogus-dekolte-buyuk-beden-siyah-fantazi-gecelik",
       "url": "product.html?p=gogus-dekolte-buyuk-beden-siyah-fantazi-gecelik",
       "title": "Göğüs Dekolte Büyük Beden Siyah Fantazi Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 1226,
+      "discount": 43,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -3059,7 +3175,9 @@
       "slug": "uclari-capraz-buyuk-beden-siyah-fantazi-gecelik",
       "url": "product.html?p=uclari-capraz-buyuk-beden-siyah-fantazi-gecelik",
       "title": "Uçları Çapraz Büyük Beden Siyah Fantazi Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 1226,
+      "discount": 43,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -3112,7 +3230,9 @@
       "slug": "uclari-capraz-buyuk-beden-kirmizi-fantazi-gecelik",
       "url": "product.html?p=uclari-capraz-buyuk-beden-kirmizi-fantazi-gecelik",
       "title": "Uçları Çapraz Büyük Beden Kırmızı Fantazi Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 1226,
+      "discount": 43,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -3165,7 +3285,9 @@
       "slug": "mini-yirtmaclar-buyuk-beden-kirmizi-fantazi-gecelik",
       "url": "product.html?p=mini-yirtmaclar-buyuk-beden-kirmizi-fantazi-gecelik",
       "title": "Mini Yırtmaçlar Büyük Beden Kırmızı Fantazi Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 985,
+      "discount": 29,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -3220,7 +3342,9 @@
       "slug": "mini-yirtmaclar-buyuk-beden-siyah-fantazi-gecelik",
       "url": "product.html?p=mini-yirtmaclar-buyuk-beden-siyah-fantazi-gecelik",
       "title": "Mini Yırtmaçlar Büyük Beden Siyah Fantazi Gecelik",
-      "price": 635,
+      "price": 699,
+      "listPrice": 985,
+      "discount": 29,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -3275,7 +3399,9 @@
       "slug": "dantelli-bralet-fantazi-beyaz-jartiyer-takim",
       "url": "product.html?p=dantelli-bralet-fantazi-beyaz-jartiyer-takim",
       "title": "Dantelli Bralet Fantazi Beyaz Jartiyer Takım",
-      "price": 635,
+      "price": 699,
+      "listPrice": 985,
+      "discount": 29,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -3327,7 +3453,9 @@
       "slug": "dantelli-fantazi-mavi-jartiyer-takim",
       "url": "product.html?p=dantelli-fantazi-mavi-jartiyer-takim",
       "title": "Dantelli Fantazi Mavi Jartiyer Takım",
-      "price": 635,
+      "price": 699,
+      "listPrice": 985,
+      "discount": 29,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -3377,7 +3505,9 @@
       "slug": "full-dantelli-siyah-fantazi-jartiyer-takim",
       "url": "product.html?p=full-dantelli-siyah-fantazi-jartiyer-takim",
       "title": "Full Dantelli Siyah Fantazi Jartiyer Takım",
-      "price": 635,
+      "price": 699,
+      "listPrice": 985,
+      "discount": 29,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -3428,7 +3558,9 @@
       "slug": "seritli-fantazi-kirmizi-jartiyer-takim",
       "url": "product.html?p=seritli-fantazi-kirmizi-jartiyer-takim",
       "title": "Şeritli Fantazi Kırmızı Jartiyer Takım",
-      "price": 635,
+      "price": 699,
+      "listPrice": 985,
+      "discount": 29,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -3476,7 +3608,9 @@
       "slug": "dantelli-beyaz-fantazi-jartiyer-takim",
       "url": "product.html?p=dantelli-beyaz-fantazi-jartiyer-takim",
       "title": "Dantelli Beyaz Fantazi Jartiyer Takım",
-      "price": 635,
+      "price": 699,
+      "listPrice": 985,
+      "discount": 29,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -3526,7 +3660,9 @@
       "slug": "bustiyerli-kirmizi-fantazi-jartiyer-takim",
       "url": "product.html?p=bustiyerli-kirmizi-fantazi-jartiyer-takim",
       "title": "Büstiyerli Kırmızı Fantazi Jartiyer Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -3575,7 +3711,9 @@
       "slug": "etekli-beyaz-fantazi-jartiyer-takim",
       "url": "product.html?p=etekli-beyaz-fantazi-jartiyer-takim",
       "title": "Etekli Beyaz Fantazi Jartiyer Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -3623,7 +3761,9 @@
       "slug": "dekolteli-fantazi-beyaz-jartiyer-takim",
       "url": "product.html?p=dekolteli-fantazi-beyaz-jartiyer-takim",
       "title": "Dekolteli Fantazi Beyaz Jartiyer Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -3671,7 +3811,9 @@
       "slug": "bagcikli-fantazi-siyah-jartiyer-takim",
       "url": "product.html?p=bagcikli-fantazi-siyah-jartiyer-takim",
       "title": "Bağcıklı Fantazi Siyah Jartiyer Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -3719,7 +3861,9 @@
       "slug": "bagcikli-fantazi-kirmizi-jartiyer-takim",
       "url": "product.html?p=bagcikli-fantazi-kirmizi-jartiyer-takim",
       "title": "Bağcıklı Fantazi Kırmızı Jartiyer Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -3767,7 +3911,9 @@
       "slug": "ip-orgulu-buyuk-beden-kirmizi-fantazi-gecelik",
       "url": "product.html?p=ip-orgulu-buyuk-beden-kirmizi-fantazi-gecelik",
       "title": "İp Örgülü Büyük Beden Kırmızı Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -3820,7 +3966,9 @@
       "slug": "ip-orgulu-buyuk-beden-beyaz-fantazi-gecelik",
       "url": "product.html?p=ip-orgulu-buyuk-beden-beyaz-fantazi-gecelik",
       "title": "İp Örgülü Büyük Beden Beyaz Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -3873,7 +4021,9 @@
       "slug": "ip-orgulu-buyuk-beden-pembe-fantazi-gecelik",
       "url": "product.html?p=ip-orgulu-buyuk-beden-pembe-fantazi-gecelik",
       "title": "İp Örgülü Büyük Beden Pembe Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -3926,7 +4076,9 @@
       "slug": "ip-orgulu-buyuk-beden-siyah-fantazi-gecelik",
       "url": "product.html?p=ip-orgulu-buyuk-beden-siyah-fantazi-gecelik",
       "title": "İp Örgülü Büyük Beden Siyah Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -3979,7 +4131,9 @@
       "slug": "cicek-dantel-buyuk-beden-siyah-fantazi-gecelik",
       "url": "product.html?p=cicek-dantel-buyuk-beden-siyah-fantazi-gecelik",
       "title": "Çiçek Dantel Büyük Beden Siyah Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -4033,7 +4187,9 @@
       "slug": "cicek-dantel-buyuk-beden-pembe-fantazi-gecelik",
       "url": "product.html?p=cicek-dantel-buyuk-beden-pembe-fantazi-gecelik",
       "title": "Çiçek Dantel Büyük Beden Pembe Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -4087,7 +4243,9 @@
       "slug": "cicek-dantel-buyuk-beden-kirmizi-fantazi-gecelik",
       "url": "product.html?p=cicek-dantel-buyuk-beden-kirmizi-fantazi-gecelik",
       "title": "Çiçek Dantel Büyük Beden Kırmızı Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -4141,7 +4299,9 @@
       "slug": "kirmizi-ekose-buyuk-beden-fantazi-kostum",
       "url": "product.html?p=kirmizi-ekose-buyuk-beden-fantazi-kostum",
       "title": "Kırmızı Ekose Büyük Beden Fantazi Kostüm",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -4193,7 +4353,9 @@
       "slug": "kravatli-kirmizi-ekose-buyuk-beden-fantazi-kostum",
       "url": "product.html?p=kravatli-kirmizi-ekose-buyuk-beden-fantazi-kostum",
       "title": "Kravatlı Kırmızı Ekose Büyük Beden Fantazi Kostüm",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -4245,7 +4407,9 @@
       "slug": "fransiz-buyuk-beden-fantazi-hizmetci-kostumu",
       "url": "product.html?p=fransiz-buyuk-beden-fantazi-hizmetci-kostumu",
       "title": "Fransız Büyük Beden Fantazi Hizmetçi Kostümü",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -4297,7 +4461,9 @@
       "slug": "genis-dantel-buyuk-beden-fantazi-hizmetci-kostumu",
       "url": "product.html?p=genis-dantel-buyuk-beden-fantazi-hizmetci-kostumu",
       "title": "Geniş Dantel Büyük Beden Fantazi Hizmetçi Kostümü",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
@@ -4352,7 +4518,9 @@
       "slug": "koyu-kahve-buyuk-beden-fantazi-gecelik",
       "url": "product.html?p=koyu-kahve-buyuk-beden-fantazi-gecelik",
       "title": "Koyu Kahve Büyük Beden Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -4405,7 +4573,9 @@
       "slug": "dantelli-beyaz-buyuk-beden-fantazi-gecelik-takim",
       "url": "product.html?p=dantelli-beyaz-buyuk-beden-fantazi-gecelik-takim",
       "title": "Dantelli Beyaz Büyük Beden Fantazi Gecelik Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -4458,7 +4628,9 @@
       "slug": "dantelli-siyah-buyuk-beden-fantazi-gecelik-takim",
       "url": "product.html?p=dantelli-siyah-buyuk-beden-fantazi-gecelik-takim",
       "title": "Dantelli Siyah Büyük Beden Fantazi Gecelik Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -4511,7 +4683,9 @@
       "slug": "dantelli-kirmizi-buyuk-beden-fantazi-gecelik-takim",
       "url": "product.html?p=dantelli-kirmizi-buyuk-beden-fantazi-gecelik-takim",
       "title": "Dantelli Kırmızı Büyük Beden Fantazi Gecelik Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -4564,7 +4738,9 @@
       "slug": "kirmizi-dantelli-buyuk-beden-fantazi-gecelik-takim",
       "url": "product.html?p=kirmizi-dantelli-buyuk-beden-fantazi-gecelik-takim",
       "title": "Kırmızı Dantelli Büyük Beden Fantazi Gecelik Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -4617,7 +4793,9 @@
       "slug": "siyah-dantelli-buyuk-beden-fantazi-gecelik-takim",
       "url": "product.html?p=siyah-dantelli-buyuk-beden-fantazi-gecelik-takim",
       "title": "Siyah Dantelli Büyük Beden Fantazi Gecelik Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -4670,7 +4848,9 @@
       "slug": "transparan-lacivert-buyuk-beden-fantazi-gecelik-takim",
       "url": "product.html?p=transparan-lacivert-buyuk-beden-fantazi-gecelik-takim",
       "title": "Transparan Lacivert Büyük Beden Fantazi Gecelik Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -4723,7 +4903,9 @@
       "slug": "transparan-pembe-buyuk-beden-fantazi-gecelik-takim",
       "url": "product.html?p=transparan-pembe-buyuk-beden-fantazi-gecelik-takim",
       "title": "Transparan Pembe Büyük Beden Fantazi Gecelik Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -4775,7 +4957,9 @@
       "slug": "britli-siyah-fantazi-string",
       "url": "product.html?p=britli-siyah-fantazi-string",
       "title": "Britli Siyah Fantazi String",
-      "price": 226,
+      "price": 249,
+      "listPrice": 389,
+      "discount": 36,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -4822,7 +5006,9 @@
       "slug": "dantelli-siyah-fantazi-string",
       "url": "product.html?p=dantelli-siyah-fantazi-string",
       "title": "Dantelli Siyah Fantazi String",
-      "price": 226,
+      "price": 249,
+      "listPrice": 389,
+      "discount": 36,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -4871,7 +5057,9 @@
       "slug": "cicek-desenli-siyah-fantazi-string",
       "url": "product.html?p=cicek-desenli-siyah-fantazi-string",
       "title": "Çiçek Desenli Siyah Fantazi String",
-      "price": 226,
+      "price": 249,
+      "listPrice": 389,
+      "discount": 36,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -4919,7 +5107,9 @@
       "slug": "metal-suslu-beyaz-fantazi-string",
       "url": "product.html?p=metal-suslu-beyaz-fantazi-string",
       "title": "Metal Süslü Beyaz Fantazi String",
-      "price": 226,
+      "price": 249,
+      "listPrice": 389,
+      "discount": 36,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -4967,7 +5157,9 @@
       "slug": "parlak-ipli-ekru-fantazi-string",
       "url": "product.html?p=parlak-ipli-ekru-fantazi-string",
       "title": "Parlak İpli Ekru Fantazi String",
-      "price": 226,
+      "price": 249,
+      "listPrice": 389,
+      "discount": 36,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -5015,7 +5207,9 @@
       "slug": "zincir-suslu-ekru-fantazi-string",
       "url": "product.html?p=zincir-suslu-ekru-fantazi-string",
       "title": "Zincir Süslü Ekru Fantazi String",
-      "price": 226,
+      "price": 249,
+      "listPrice": 389,
+      "discount": 36,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -5063,7 +5257,9 @@
       "slug": "zincir-suslu-dantelli-fantazi-string",
       "url": "product.html?p=zincir-suslu-dantelli-fantazi-string",
       "title": "Zincir Süslü Dantelli Fantazi String",
-      "price": 226,
+      "price": 249,
+      "listPrice": 389,
+      "discount": 36,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -5113,7 +5309,9 @@
       "slug": "zincirli-dantelli-siyah-fantazi-string",
       "url": "product.html?p=zincirli-dantelli-siyah-fantazi-string",
       "title": "Zincirli Dantelli Siyah Fantazi String",
-      "price": 226,
+      "price": 249,
+      "listPrice": 389,
+      "discount": 36,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -5163,7 +5361,9 @@
       "slug": "zincirli-dantelli-sari-fantazi-string",
       "url": "product.html?p=zincirli-dantelli-sari-fantazi-string",
       "title": "Zincirli Dantelli Sarı Fantazi String",
-      "price": 226,
+      "price": 249,
+      "listPrice": 389,
+      "discount": 36,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -5213,7 +5413,9 @@
       "slug": "kalp-zincirli-beyaz-fantazi-tanga",
       "url": "product.html?p=kalp-zincirli-beyaz-fantazi-tanga",
       "title": "Kalp Zincirli Beyaz Fantazi Tanga",
-      "price": 226,
+      "price": 249,
+      "listPrice": 389,
+      "discount": 36,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -5261,7 +5463,9 @@
       "slug": "kelebek-zincirli-beyaz-fantazi-tanga",
       "url": "product.html?p=kelebek-zincirli-beyaz-fantazi-tanga",
       "title": "Kelebek Zincirli Beyaz Fantazi Tanga",
-      "price": 226,
+      "price": 249,
+      "listPrice": 389,
+      "discount": 36,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -5309,7 +5513,9 @@
       "slug": "metal-aksesuar-kirmizi-fantazi-tanga",
       "url": "product.html?p=metal-aksesuar-kirmizi-fantazi-tanga",
       "title": "Metal Aksesuar Kırmızı Fantazi Tanga",
-      "price": 226,
+      "price": 249,
+      "listPrice": 389,
+      "discount": 36,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -5357,7 +5563,9 @@
       "slug": "metal-aksesuar-beyaz-fantazi-tanga",
       "url": "product.html?p=metal-aksesuar-beyaz-fantazi-tanga",
       "title": "Metal Aksesuar Beyaz Fantazi Tanga",
-      "price": 226,
+      "price": 249,
+      "listPrice": 389,
+      "discount": 36,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -5405,7 +5613,9 @@
       "slug": "metal-aksesuar-acik-mavi-fantazi-tanga",
       "url": "product.html?p=metal-aksesuar-acik-mavi-fantazi-tanga",
       "title": "Metal Aksesuar Açık Mavi Fantazi Tanga",
-      "price": 145,
+      "price": 159,
+      "listPrice": null,
+      "discount": 0,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -5454,7 +5664,9 @@
       "slug": "yuksel-bel-dantelli-siyah-fantazi-kulot",
       "url": "product.html?p=yuksel-bel-dantelli-siyah-fantazi-kulot",
       "title": "Yüksel Bel Dantelli Siyah Fantazi Külot",
-      "price": 226,
+      "price": 249,
+      "listPrice": 389,
+      "discount": 36,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -5505,7 +5717,9 @@
       "slug": "genis-dantelli-kirmizi-fantazi-kulot",
       "url": "product.html?p=genis-dantelli-kirmizi-fantazi-kulot",
       "title": "Geniş Dantelli Kırmızı Fantazi Külot",
-      "price": 226,
+      "price": 249,
+      "listPrice": 389,
+      "discount": 36,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -5554,7 +5768,9 @@
       "slug": "arkasi-halka-ipli-siyah-fantazi-kulot",
       "url": "product.html?p=arkasi-halka-ipli-siyah-fantazi-kulot",
       "title": "Arkası Halka İpli Siyah Fantazi Külot",
-      "price": 226,
+      "price": 249,
+      "listPrice": 389,
+      "discount": 36,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -5603,7 +5819,9 @@
       "slug": "arkasi-kalpli-zumrut-fantazi-kulot",
       "url": "product.html?p=arkasi-kalpli-zumrut-fantazi-kulot",
       "title": "Arkası Kalpli Zümrüt Fantazi Külot",
-      "price": 226,
+      "price": 249,
+      "listPrice": 389,
+      "discount": 36,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -5651,7 +5869,9 @@
       "slug": "v-tasarim-beyaz-fantazi-kulot",
       "url": "product.html?p=v-tasarim-beyaz-fantazi-kulot",
       "title": "V Tasarım Beyaz Fantazi Külot",
-      "price": 226,
+      "price": 249,
+      "listPrice": 389,
+      "discount": 36,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -5698,7 +5918,9 @@
       "slug": "kucuk-v-tasarim-beyaz-fantazi-kulot",
       "url": "product.html?p=kucuk-v-tasarim-beyaz-fantazi-kulot",
       "title": "Küçük V Tasarım Beyaz Fantazi Külot",
-      "price": 226,
+      "price": 249,
+      "listPrice": 389,
+      "discount": 36,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -5746,7 +5968,9 @@
       "slug": "ipli-dantelli-beyaz-fantazi-tanga",
       "url": "product.html?p=ipli-dantelli-beyaz-fantazi-tanga",
       "title": "İpli Dantelli Beyaz Fantazi Tanga",
-      "price": 226,
+      "price": 249,
+      "listPrice": 389,
+      "discount": 36,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -5795,7 +6019,9 @@
       "slug": "dantelli-beyaz-fantazi-zincirli-tanga",
       "url": "product.html?p=dantelli-beyaz-fantazi-zincirli-tanga",
       "title": "Dantelli Beyaz Fantazi Zincirli Tanga",
-      "price": 226,
+      "price": 249,
+      "listPrice": 389,
+      "discount": 36,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -5845,7 +6071,9 @@
       "slug": "tutulu-pembe-fantazi-kostum",
       "url": "product.html?p=tutulu-pembe-fantazi-kostum",
       "title": "Tütülü Pembe Fantazi Kostüm",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -5892,7 +6120,9 @@
       "slug": "etekli-fantazi-hizmetci-kiz-kostumu",
       "url": "product.html?p=etekli-fantazi-hizmetci-kiz-kostumu",
       "title": "Etekli Fantazi Hizmetçi Kız Kostümü",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -5940,7 +6170,9 @@
       "slug": "etekli-pembe-fantazi-hizmetci-kiz-kostumu",
       "url": "product.html?p=etekli-pembe-fantazi-hizmetci-kiz-kostumu",
       "title": "Etekli Pembe Fantazi Hizmetçi Kız Kostümü",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -5990,7 +6222,9 @@
       "slug": "etekli-kirmizi-fantazi-hizmetci-kiz-kostumu",
       "url": "product.html?p=etekli-kirmizi-fantazi-hizmetci-kiz-kostumu",
       "title": "Etekli Kırmızı Fantazi Hizmetçi Kız Kostümü",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -6041,7 +6275,9 @@
       "slug": "bagcikli-fantazi-hizmetci-kiz-kostumu",
       "url": "product.html?p=bagcikli-fantazi-hizmetci-kiz-kostumu",
       "title": "Bağcıklı Fantazi Hizmetçi Kız Kostümü",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -6091,7 +6327,9 @@
       "slug": "siyah-dantelli-fantazi-hizmetci-kiz-kostumu",
       "url": "product.html?p=siyah-dantelli-fantazi-hizmetci-kiz-kostumu",
       "title": "Siyah Dantelli Fantazi Hizmetçi Kız Kostümü",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -6142,7 +6380,9 @@
       "slug": "corapli-siyah-kirmizi-fantazi-kostum",
       "url": "product.html?p=corapli-siyah-kirmizi-fantazi-kostum",
       "title": "Çoraplı Siyah Kırmızı Fantazi Kostüm",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -6191,7 +6431,9 @@
       "slug": "yirtmacli-dekolteli-kirmizi-fantazi-kostum",
       "url": "product.html?p=yirtmacli-dekolteli-kirmizi-fantazi-kostum",
       "title": "Yırtmaçlı Dekolteli Kırmızı Fantazi Kostüm",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -6241,7 +6483,9 @@
       "slug": "fiyonk-kenarli-beyaz-fantazi-gecelik",
       "url": "product.html?p=fiyonk-kenarli-beyaz-fantazi-gecelik",
       "title": "Fiyonk Kenarlı Beyaz Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1110,
+      "discount": 28,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -6290,7 +6534,9 @@
       "slug": "capraz-etekli-lacivert-fantazi-gecelik",
       "url": "product.html?p=capraz-etekli-lacivert-fantazi-gecelik",
       "title": "Çapraz Etekli Lacivert Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1289,
+      "discount": 38,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -6339,7 +6585,9 @@
       "slug": "capraz-etekli-kirmizi-fantazi-gecelik",
       "url": "product.html?p=capraz-etekli-kirmizi-fantazi-gecelik",
       "title": "Çapraz Etekli Kırmızı Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1289,
+      "discount": 38,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -6388,7 +6636,9 @@
       "slug": "capraz-etekli-siyah-fantazi-gecelik",
       "url": "product.html?p=capraz-etekli-siyah-fantazi-gecelik",
       "title": "Çapraz Etekli Siyah Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1598,
+      "discount": 50,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -6438,7 +6688,9 @@
       "slug": "capraz-etekli-yesil-fantazi-gecelik",
       "url": "product.html?p=capraz-etekli-yesil-fantazi-gecelik",
       "title": "Çapraz Etekli Yeşil Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1598,
+      "discount": 50,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -6450,7 +6702,7 @@
         "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/capraz-etekli-yesil-fantazi-gecelik-4f02e5.jpg"
       ],
       "colors": [
-        "Yeşil"
+        "Standart"
       ],
       "sizes": [
         "S/M",
@@ -6488,7 +6740,9 @@
       "slug": "onu-bagcikli-kirmizi-fantazi-gecelik",
       "url": "product.html?p=onu-bagcikli-kirmizi-fantazi-gecelik",
       "title": "Önü Bağcıklı Kırmızı Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -6537,7 +6791,9 @@
       "slug": "kenar-dantelli-beyaz-fantazi-gecelik",
       "url": "product.html?p=kenar-dantelli-beyaz-fantazi-gecelik",
       "title": "Kenar Dantelli Beyaz Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -6588,7 +6844,9 @@
       "slug": "derin-dekolteli-dantelli-bordo-fantazi-gecelik",
       "url": "product.html?p=derin-dekolteli-dantelli-bordo-fantazi-gecelik",
       "title": "Derin Dekolteli Dantelli Bordo Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -6640,7 +6898,9 @@
       "slug": "dantelli-transparan-siyah-mini-fantazi-gecelik",
       "url": "product.html?p=dantelli-transparan-siyah-mini-fantazi-gecelik",
       "title": "Dantelli Transparan Siyah Mini Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -6692,7 +6952,9 @@
       "slug": "onu-orgulu-bordo-fantazi-gecelik",
       "url": "product.html?p=onu-orgulu-bordo-fantazi-gecelik",
       "title": "Önü Örgülü Bordo Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -6741,7 +7003,9 @@
       "slug": "onden-yirtmacli-kirmizi-fantazi-gecelik",
       "url": "product.html?p=onden-yirtmacli-kirmizi-fantazi-gecelik",
       "title": "Önden Yırtmaçlı Kırmızı Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -6790,7 +7054,9 @@
       "slug": "onden-yirtmacli-pembe-fantazi-gecelik",
       "url": "product.html?p=onden-yirtmacli-pembe-fantazi-gecelik",
       "title": "Önden Yırtmaçlı Pembe Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -6839,7 +7105,9 @@
       "slug": "onden-yirtmacli-lacivert-fantazi-gecelik",
       "url": "product.html?p=onden-yirtmacli-lacivert-fantazi-gecelik",
       "title": "Önden Yırtmaçlı Lacivert Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -6890,7 +7158,9 @@
       "slug": "capraz-etekli-beyaz-fantazi-gecelik",
       "url": "product.html?p=capraz-etekli-beyaz-fantazi-gecelik",
       "title": "Çapraz Etekli Beyaz Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -6939,7 +7209,9 @@
       "slug": "dantelli-3-lu-siyah-fantazi-gecelik-takim",
       "url": "product.html?p=dantelli-3-lu-siyah-fantazi-gecelik-takim",
       "title": "Dantelli 3 Lü Siyah Fantazi Gecelik Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -6990,7 +7262,9 @@
       "slug": "zincir-detayli-kirmizi-fantazi-gecelik-takim",
       "url": "product.html?p=zincir-detayli-kirmizi-fantazi-gecelik-takim",
       "title": "Zincir Detaylı Kırmızı Fantazi Gecelik Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -7039,7 +7313,9 @@
       "slug": "bacak-bantli-bordo-fantazi-gecelik-takim",
       "url": "product.html?p=bacak-bantli-bordo-fantazi-gecelik-takim",
       "title": "Bacak Bantlı Bordo Fantazi Gecelik Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -7091,7 +7367,9 @@
       "slug": "bacak-bantli-pembe-fantazi-gecelik-takim",
       "url": "product.html?p=bacak-bantli-pembe-fantazi-gecelik-takim",
       "title": "Bacak Bantlı Pembe Fantazi Gecelik Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -7143,7 +7421,9 @@
       "slug": "genis-kollu-pembe-fantazi-gecelik-takim",
       "url": "product.html?p=genis-kollu-pembe-fantazi-gecelik-takim",
       "title": "Geniş Kollu Pembe Fantazi Gecelik Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -7195,7 +7475,9 @@
       "slug": "genis-kollu-siyah-fantazi-gecelik-takim",
       "url": "product.html?p=genis-kollu-siyah-fantazi-gecelik-takim",
       "title": "Geniş Kollu Siyah Fantazi Gecelik Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -7245,7 +7527,9 @@
       "slug": "dekolteli-siyah-fantazi-babydoll",
       "url": "product.html?p=dekolteli-siyah-fantazi-babydoll",
       "title": "Dekolteli Siyah Fantazi Babydoll",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -7292,7 +7576,9 @@
       "slug": "tul-eldivenli-siyah-fantazi-deri-gecelik",
       "url": "product.html?p=tul-eldivenli-siyah-fantazi-deri-gecelik",
       "title": "Tül Eldivenli Siyah Fantazi Deri Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -7342,7 +7628,9 @@
       "slug": "bacak-bantli-kirmizi-fantazi-deri-gecelik",
       "url": "product.html?p=bacak-bantli-kirmizi-fantazi-deri-gecelik",
       "title": "Bacak Bantlı Kırmızı Fantazi Deri Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -7392,7 +7680,9 @@
       "slug": "bacak-bantli-siyah-fantazi-deri-gecelik",
       "url": "product.html?p=bacak-bantli-siyah-fantazi-deri-gecelik",
       "title": "Bacak Bantlı Siyah Fantazi Deri Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -7442,7 +7732,9 @@
       "slug": "zincir-suslu-siyah-fantazi-deri-gecelik-takim",
       "url": "product.html?p=zincir-suslu-siyah-fantazi-deri-gecelik-takim",
       "title": "Zincir Süslü Siyah Fantazi Deri Gecelik Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -7492,7 +7784,9 @@
       "slug": "file-detayli-kirmizi-fantazi-deri-gecelik-takim",
       "url": "product.html?p=file-detayli-kirmizi-fantazi-deri-gecelik-takim",
       "title": "File Detaylı Kırmızı Fantazi Deri Gecelik Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -7542,7 +7836,9 @@
       "slug": "file-detayli-siyah-fantazi-deri-gecelik-takim",
       "url": "product.html?p=file-detayli-siyah-fantazi-deri-gecelik-takim",
       "title": "File Detaylı Siyah Fantazi Deri Gecelik Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -7592,7 +7888,9 @@
       "slug": "dantelli-parlak-kirmizi-fantazi-deri-gecelik",
       "url": "product.html?p=dantelli-parlak-kirmizi-fantazi-deri-gecelik",
       "title": "Dantelli Parlak Kırmızı Fantazi Deri Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -7644,7 +7942,9 @@
       "slug": "bagcikli-parlak-siyah-fantazi-deri-gecelik",
       "url": "product.html?p=bagcikli-parlak-siyah-fantazi-deri-gecelik",
       "title": "Bağcıklı Parlak Siyah Fantazi Deri Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -7694,7 +7994,9 @@
       "slug": "dekolteli-parlak-siyah-fantazi-deri-gecelik",
       "url": "product.html?p=dekolteli-parlak-siyah-fantazi-deri-gecelik",
       "title": "Dekolteli Parlak Siyah Fantazi Deri Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -7744,7 +8046,9 @@
       "slug": "kalp-halkali-dantelli-siyah-fantazi-kulot",
       "url": "product.html?p=kalp-halkali-dantelli-siyah-fantazi-kulot",
       "title": "Kalp Halkalı Dantelli Siyah Fantazi Külot",
-      "price": 226,
+      "price": 249,
+      "listPrice": 389,
+      "discount": 36,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -7795,7 +8099,9 @@
       "slug": "metal-aksesuar-suslu-siyah-fantazi-tanga",
       "url": "product.html?p=metal-aksesuar-suslu-siyah-fantazi-tanga",
       "title": "Metal Aksesuar Süslü Siyah Fantazi Tanga",
-      "price": 226,
+      "price": 249,
+      "listPrice": 389,
+      "discount": 36,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -7844,7 +8150,9 @@
       "slug": "metal-aksesuarli-fantazi-siyah-tanga",
       "url": "product.html?p=metal-aksesuarli-fantazi-siyah-tanga",
       "title": "Metal Aksesuarlı Fantazi Siyah Tanga",
-      "price": 145,
+      "price": 159,
+      "listPrice": null,
+      "discount": 0,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -7892,7 +8200,9 @@
       "slug": "uc-seritli-kirmizi-fantazi-string",
       "url": "product.html?p=uc-seritli-kirmizi-fantazi-string",
       "title": "Üç Şeritli Kırmızı Fantazi String",
-      "price": 226,
+      "price": 249,
+      "listPrice": 389,
+      "discount": 36,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -7939,7 +8249,9 @@
       "slug": "yani-zincirli-siyah-fantazi-gecelik",
       "url": "product.html?p=yani-zincirli-siyah-fantazi-gecelik",
       "title": "Yanı Zincirli Siyah Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -7988,7 +8300,9 @@
       "slug": "onu-bagcikli-kirmizi-fantazi-gecelik1",
       "url": "product.html?p=onu-bagcikli-kirmizi-fantazi-gecelik1",
       "title": "Önü Bağcıklı Kırmızı Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -8037,7 +8351,9 @@
       "slug": "metal-suslu-siyah-fantazi-gecelik",
       "url": "product.html?p=metal-suslu-siyah-fantazi-gecelik",
       "title": "Metal Süslü Siyah Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -8086,7 +8402,9 @@
       "slug": "onu-genis-dantelli-siyah-fantazi-gecelik",
       "url": "product.html?p=onu-genis-dantelli-siyah-fantazi-gecelik",
       "title": "Önü Geniş Dantelli Siyah Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -8138,7 +8456,9 @@
       "slug": "onu-bagcik-dantelli-siyah-fantazi-gecelik",
       "url": "product.html?p=onu-bagcik-dantelli-siyah-fantazi-gecelik",
       "title": "Önü Bağcık Dantelli Siyah Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -8190,7 +8510,9 @@
       "slug": "onu-orgulu-dantelli-bordo-fantazi-gecelik",
       "url": "product.html?p=onu-orgulu-dantelli-bordo-fantazi-gecelik",
       "title": "Önü Örgülü Dantelli Bordo Fantazi Gecelik",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Gecelik",
       "categories": [
         "Gecelik",
@@ -8242,7 +8564,9 @@
       "slug": "firfir-etekli-bordo-fantazi-babydoll",
       "url": "product.html?p=firfir-etekli-bordo-fantazi-babydoll",
       "title": "Fırfır Etekli Bordo Fantazi Babydoll",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -8290,7 +8614,9 @@
       "slug": "dekolteli-fransiz-siyah-fantazi-hizmetci-kostumu",
       "url": "product.html?p=dekolteli-fransiz-siyah-fantazi-hizmetci-kostumu",
       "title": "Dekolteli Fransız Siyah Fantazi Hizmetçi Kostümü",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -8339,7 +8665,9 @@
       "slug": "ekoseli-siyah-dantelli-fantazi-kostum",
       "url": "product.html?p=ekoseli-siyah-dantelli-fantazi-kostum",
       "title": "Ekoseli Siyah Dantelli Fantazi Kostüm",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Fantazi",
       "categories": [
         "Fantazi"
@@ -8389,7 +8717,9 @@
       "slug": "kirmizi-beyaz-fantazi-hemsire-kostumu",
       "url": "product.html?p=kirmizi-beyaz-fantazi-hemsire-kostumu",
       "title": "Kırmızı Beyaz Fantazi Hemşire Kostümü",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Fantazi",
       "categories": [
         "Fantazi"

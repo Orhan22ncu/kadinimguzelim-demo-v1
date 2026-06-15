@@ -1,6 +1,6 @@
 {
   "$schema": "https://kadinimguzelim.com/schema/product-feed-v1",
-  "generator": "KadınımGuzelim AI Product Studio",
+  "generator": "KadınımGuzelim AI Product Studio (gerçek fiyat: KDV dahil + indirimOrani)",
   "generatedAt": "2026-06-15",
   "brand": "KadınımGuzelim",
   "currency": "TRY",
@@ -11,7 +11,9 @@
       "slug": "pamuklu-erkek-korse-atlet",
       "url": "product.html?p=pamuklu-erkek-korse-atlet",
       "title": "Pamuklu Erkek Korse Atlet",
-      "price": 1090,
+      "price": 1199,
+      "listPrice": 1620,
+      "discount": 26,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -60,7 +62,9 @@
       "slug": "yildizli-buyuk-beden-bustiyer-tayt-fitness-takim",
       "url": "product.html?p=yildizli-buyuk-beden-bustiyer-tayt-fitness-takim",
       "title": "Yıldızlı Büyük Beden Büstiyer Tayt Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse",
@@ -111,7 +115,9 @@
       "slug": "yildiz-desenli-buyuk-beden-bustiyer-tayt-fitness-takim",
       "url": "product.html?p=yildiz-desenli-buyuk-beden-bustiyer-tayt-fitness-takim",
       "title": "Yıldız Desenli Büyük Beden Büstiyer Tayt Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse",
@@ -162,7 +168,9 @@
       "slug": "cok-renkli-buyuk-beden-bustiyer-tayt-fitness-takim",
       "url": "product.html?p=cok-renkli-buyuk-beden-bustiyer-tayt-fitness-takim",
       "title": "Çok Renkli Büyük Beden Büstiyer Tayt Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse",
@@ -213,7 +221,9 @@
       "slug": "beyaz-cizgili-buyuk-beden-bustiyer-tayt-fitness-takim",
       "url": "product.html?p=beyaz-cizgili-buyuk-beden-bustiyer-tayt-fitness-takim",
       "title": "Beyaz Çizgili Büyük Beden Büstiyer Tayt Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse",
@@ -264,7 +274,9 @@
       "slug": "renkli-buyuk-beden-bustiyer-tayt-fitness-takim",
       "url": "product.html?p=renkli-buyuk-beden-bustiyer-tayt-fitness-takim",
       "title": "Renkli Büyük Beden Büstiyer Tayt Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse",
@@ -316,7 +328,9 @@
       "slug": "yesil-desenli-buyuk-beden-bustiyer-tayt-fitness-takim",
       "url": "product.html?p=yesil-desenli-buyuk-beden-bustiyer-tayt-fitness-takim",
       "title": "Yeşil Desenli Büyük Beden Büstiyer Tayt Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse",
@@ -326,7 +340,7 @@
         "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/yesil-desenli-buyuk-beden-bustiyer-tay-8228-e.jpg"
       ],
       "colors": [
-        "Yeşil"
+        "Standart"
       ],
       "sizes": [
         "2XL",
@@ -367,7 +381,9 @@
       "slug": "beyaz-cizgi-buyuk-beden-bustiyer-tayt-fitness-takim",
       "url": "product.html?p=beyaz-cizgi-buyuk-beden-bustiyer-tayt-fitness-takim",
       "title": "Beyaz Çizgi Büyük Beden Büstiyer Tayt Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse",
@@ -419,7 +435,9 @@
       "slug": "desenli-spor-tayt-bustiyer-fitness-takim",
       "url": "product.html?p=desenli-spor-tayt-bustiyer-fitness-takim",
       "title": "Desenli Spor Tayt Büstiyer Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -469,7 +487,9 @@
       "slug": "cok-renkli-spor-tayt-bustiyer-fitness-takim",
       "url": "product.html?p=cok-renkli-spor-tayt-bustiyer-fitness-takim",
       "title": "Çok Renkli Spor Tayt Büstiyer Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -518,7 +538,9 @@
       "slug": "mor-desenli-spor-tayt-bustiyer-fitness-takim",
       "url": "product.html?p=mor-desenli-spor-tayt-bustiyer-fitness-takim",
       "title": "Mor Desenli Spor Tayt Büstiyer Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -567,7 +589,9 @@
       "slug": "cizgi-desenli-spor-tayt-bustiyer-fitness-takim",
       "url": "product.html?p=cizgi-desenli-spor-tayt-bustiyer-fitness-takim",
       "title": "Çizgi Desenli Spor Tayt Büstiyer Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -616,7 +640,9 @@
       "slug": "turkuaz-desenli-spor-tayt-bustiyer-fitness-takim",
       "url": "product.html?p=turkuaz-desenli-spor-tayt-bustiyer-fitness-takim",
       "title": "Turkuaz Desenli Spor Tayt Büstiyer Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -665,7 +691,9 @@
       "slug": "beyaz-siyah-spor-tayt-bustiyer-fitness-takim",
       "url": "product.html?p=beyaz-siyah-spor-tayt-bustiyer-fitness-takim",
       "title": "Beyaz Siyah Spor Tayt Büstiyer Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -714,7 +742,9 @@
       "slug": "puan-desenli-spor-tayt-bustiyer-fitness-takim",
       "url": "product.html?p=puan-desenli-spor-tayt-bustiyer-fitness-takim",
       "title": "Puan Desenli Spor Tayt Büstiyer Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -763,7 +793,9 @@
       "slug": "genis-askili-spor-tayt-bustiyer-fitness-takim",
       "url": "product.html?p=genis-askili-spor-tayt-bustiyer-fitness-takim",
       "title": "Geniş Askılı Spor Tayt Büstiyer Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -814,7 +846,9 @@
       "slug": "rengarenk-spor-tayt-bustiyer-fitness-takim",
       "url": "product.html?p=rengarenk-spor-tayt-bustiyer-fitness-takim",
       "title": "Rengarenk Spor Tayt Büstiyer Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -863,7 +897,9 @@
       "slug": "beyaz-gri-spor-tayt-bustiyer-fitness-takim",
       "url": "product.html?p=beyaz-gri-spor-tayt-bustiyer-fitness-takim",
       "title": "Beyaz Gri Spor Tayt Büstiyer Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -912,7 +948,9 @@
       "slug": "kalin-aski-spor-tayt-bustiyer-fitness-takim",
       "url": "product.html?p=kalin-aski-spor-tayt-bustiyer-fitness-takim",
       "title": "Kalın Askı Spor Tayt Büstiyer Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -962,7 +1000,9 @@
       "slug": "kalin-askili-spor-tayt-bustiyer-fitness-takim",
       "url": "product.html?p=kalin-askili-spor-tayt-bustiyer-fitness-takim",
       "title": "Kalın Askılı Spor Tayt Büstiyer Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -1014,7 +1054,9 @@
       "slug": "dijital-desen-spor-tayt-bustiyer-fitness-takim",
       "url": "product.html?p=dijital-desen-spor-tayt-bustiyer-fitness-takim",
       "title": "Dijital Desen Spor Tayt Büstiyer Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -1062,7 +1104,9 @@
       "slug": "dijital-desenli-spor-tayt-bustiyer-fitness-takim",
       "url": "product.html?p=dijital-desenli-spor-tayt-bustiyer-fitness-takim",
       "title": "Dijital Desenli Spor Tayt Büstiyer Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -1110,7 +1154,9 @@
       "slug": "mavili-spor-tayt-bustiyer-fitness-takim",
       "url": "product.html?p=mavili-spor-tayt-bustiyer-fitness-takim",
       "title": "Dijital Desenli Spor Tayt Büstiyer Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -1158,7 +1204,9 @@
       "slug": "ince-cizgili-tayt-bustiyer-fitness-takim",
       "url": "product.html?p=ince-cizgili-tayt-bustiyer-fitness-takim",
       "title": "İnce Çizgili Tayt Büstiyer Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -1206,7 +1254,9 @@
       "slug": "rengarenk-cizgili-tayt-bustiyer-fitness-takim",
       "url": "product.html?p=rengarenk-cizgili-tayt-bustiyer-fitness-takim",
       "title": "Rengarenk Çizgili Tayt Büstiyer Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -1255,7 +1305,9 @@
       "slug": "rengarenk-desen-tayt-bustiyer-fitness-takim",
       "url": "product.html?p=rengarenk-desen-tayt-bustiyer-fitness-takim",
       "title": "Rengarenk Desen Tayt Büstiyer Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -1304,7 +1356,9 @@
       "slug": "beyaz-cizgi-desen-tayt-bustiyer-fitness-takim",
       "url": "product.html?p=beyaz-cizgi-desen-tayt-bustiyer-fitness-takim",
       "title": "Beyaz Çizgi Desen Tayt Büstiyer Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -1353,7 +1407,9 @@
       "slug": "cizgi-desen-sort-bustiyer-fitness-takim",
       "url": "product.html?p=cizgi-desen-sort-bustiyer-fitness-takim",
       "title": "Çizgi Desen Şort Büstiyer Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -1402,7 +1458,9 @@
       "slug": "cizgi-desen-siyah-sort-bustiyer-fitness-takim",
       "url": "product.html?p=cizgi-desen-siyah-sort-bustiyer-fitness-takim",
       "title": "Çizgi Desen Siyah Şort Büstiyer Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -1451,7 +1509,9 @@
       "slug": "rengarenk-desen-sort-bustiyer-fitness-takim",
       "url": "product.html?p=rengarenk-desen-sort-bustiyer-fitness-takim",
       "title": "Rengarenk Desen Şort Büstiyer Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -1500,7 +1560,9 @@
       "slug": "turkuaz-siyah-sort-bustiyer-fitness-takim",
       "url": "product.html?p=turkuaz-siyah-sort-bustiyer-fitness-takim",
       "title": "Turkuaz Siyah Şort Büstiyer Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -1549,7 +1611,9 @@
       "slug": "siyah-beyaz-sort-bustiyer-fitness-takim",
       "url": "product.html?p=siyah-beyaz-sort-bustiyer-fitness-takim",
       "title": "Siyah Beyaz Şort Büstiyer Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -1598,7 +1662,9 @@
       "slug": "mor-cizgili-sort-bustiyer-fitness-takim",
       "url": "product.html?p=mor-cizgili-sort-bustiyer-fitness-takim",
       "title": "Mor Çizgili Şort Büstiyer Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -1647,7 +1713,9 @@
       "slug": "puan-desenli-sort-bustiyer-fitness-takim",
       "url": "product.html?p=puan-desenli-sort-bustiyer-fitness-takim",
       "title": "Puan Desenli Şort Büstiyer Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -1696,7 +1764,9 @@
       "slug": "puan-desen-sort-bustiyer-fitness-takim",
       "url": "product.html?p=puan-desen-sort-bustiyer-fitness-takim",
       "title": "Puan Desen Şort Büstiyer Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -1745,7 +1815,9 @@
       "slug": "siyah-ekru-sort-bustiyer-fitness-takim",
       "url": "product.html?p=siyah-ekru-sort-bustiyer-fitness-takim",
       "title": "Siyah Ekru Şort Büstiyer Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -1795,7 +1867,9 @@
       "slug": "yanlari-desenli-sort-bustiyer-fitness-takim",
       "url": "product.html?p=yanlari-desenli-sort-bustiyer-fitness-takim",
       "title": "Yanları Desenli Şort Büstiyer Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -1844,7 +1918,9 @@
       "slug": "desenli-sort-crop-bustiyer-fitness-takim",
       "url": "product.html?p=desenli-sort-crop-bustiyer-fitness-takim",
       "title": "Desenli Şort Crop Büstiyer Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -1893,7 +1969,9 @@
       "slug": "dijital-desenli-sort-crop-bustiyer-fitness-takim",
       "url": "product.html?p=dijital-desenli-sort-crop-bustiyer-fitness-takim",
       "title": "Dijital Desenli Şort Crop Büstiyer Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -1942,7 +2020,9 @@
       "slug": "yanlari-dijital-desenli-sort-crop-bustiyer-fitness-takim",
       "url": "product.html?p=yanlari-dijital-desenli-sort-crop-bustiyer-fitness-takim",
       "title": "Yanları Dijital Desenli Şort Crop Büstiyer Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -1991,7 +2071,9 @@
       "slug": "desenli-yesil-siyah-sort-crop-bustiyer-fitness-takim",
       "url": "product.html?p=desenli-yesil-siyah-sort-crop-bustiyer-fitness-takim",
       "title": "Desenli Yeşil Siyah Şort Crop Büstiyer Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -2001,8 +2083,7 @@
         "https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/desenli-yesil-siyah-sort-crop-bustiyer-4958-9.jpg"
       ],
       "colors": [
-        "Siyah",
-        "Yeşil"
+        "Siyah"
       ],
       "sizes": [
         "S/M",
@@ -2041,7 +2122,9 @@
       "slug": "cizgili-sort-crop-bustiyer-fitness-takim",
       "url": "product.html?p=cizgili-sort-crop-bustiyer-fitness-takim",
       "title": "Çizgili Şort Crop Büstiyer Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -2090,7 +2173,9 @@
       "slug": "cizgili-renkli-sort-crop-bustiyer-fitness-takim",
       "url": "product.html?p=cizgili-renkli-sort-crop-bustiyer-fitness-takim",
       "title": "Çizgili Renkli Şort Crop Büstiyer Fitness Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -2139,7 +2224,9 @@
       "slug": "kadin-modal-genis-yaka-sifir-kol-body",
       "url": "product.html?p=kadin-modal-genis-yaka-sifir-kol-body",
       "title": "Kadın Modal Geniş Yaka Sıfır Kol Body",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1388,
+      "discount": 28,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -2190,7 +2277,9 @@
       "slug": "double-orgu-toparlayici-straplez-bustiyer",
       "url": "product.html?p=double-orgu-toparlayici-straplez-bustiyer",
       "title": "Double Örgü Toparlayıcı Straplez Büstiyer",
-      "price": 635,
+      "price": 699,
+      "listPrice": 985,
+      "discount": 29,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -2237,7 +2326,9 @@
       "slug": "genis-askili-bayan-korse-atlet",
       "url": "product.html?p=genis-askili-bayan-korse-atlet",
       "title": "Geniş Askılı Bayan Korse Atlet",
-      "price": 545,
+      "price": 599,
+      "listPrice": 951,
+      "discount": 37,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -2289,7 +2380,9 @@
       "slug": "seamless-toparlayici-siyah-bustiyer-korse",
       "url": "product.html?p=seamless-toparlayici-siyah-bustiyer-korse",
       "title": "Seamless Toparlayıcı Siyah Büstiyer Korse",
-      "price": 545,
+      "price": 599,
+      "listPrice": 722,
+      "discount": 17,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -2338,7 +2431,9 @@
       "slug": "yuksek-bel-bayan-pacali-ten-korse",
       "url": "product.html?p=yuksek-bel-bayan-pacali-ten-korse",
       "title": "Yüksek Bel Bayan Paçalı Ten Korse",
-      "price": 635,
+      "price": 699,
+      "listPrice": 813,
+      "discount": 14,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -2386,7 +2481,9 @@
       "slug": "dikissiz-sporcu-toparlayici-sutyen-korse",
       "url": "product.html?p=dikissiz-sporcu-toparlayici-sutyen-korse",
       "title": "Dikişsiz Sporcu Toparlayıcı Sütyen Korse",
-      "price": 454,
+      "price": 499,
+      "listPrice": 624,
+      "discount": 20,
       "category": "Sütyen",
       "categories": [
         "Sütyen",
@@ -2436,7 +2533,9 @@
       "slug": "dantelli-yuksek-bel-siyah-slip-korse",
       "url": "product.html?p=dantelli-yuksek-bel-siyah-slip-korse",
       "title": "Dantelli Yüksek Bel Siyah Slip Korse",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -2488,7 +2587,9 @@
       "slug": "gogsu-acik-siyah-elbise-korse",
       "url": "product.html?p=gogsu-acik-siyah-elbise-korse",
       "title": "Göğsü Açık Siyah Elbise Korse",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -2537,7 +2638,9 @@
       "slug": "dikissiz-askili-siyah-body-korse",
       "url": "product.html?p=dikissiz-askili-siyah-body-korse",
       "title": "Dikişsiz Askılı Siyah Body Korse",
-      "price": 817,
+      "price": 899,
+      "listPrice": 1153,
+      "discount": 22,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -2588,7 +2691,9 @@
       "slug": "siyah-bayan-bel-korse",
       "url": "product.html?p=siyah-bayan-bel-korse",
       "title": "Siyah Bayan Bel Korse",
-      "price": 454,
+      "price": 499,
+      "listPrice": 624,
+      "discount": 20,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -2637,7 +2742,9 @@
       "slug": "askili-latex-sekillendirici-agrafli-korse",
       "url": "product.html?p=askili-latex-sekillendirici-agrafli-korse",
       "title": "Askılı Latex Şekillendirici Agraflı Korse",
-      "price": 1363,
+      "price": 1499,
+      "listPrice": 2053,
+      "discount": 27,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -2689,7 +2796,9 @@
       "slug": "anti-selulit-siyah-tayt-korse",
       "url": "product.html?p=anti-selulit-siyah-tayt-korse",
       "title": "Anti Selülit Siyah Tayt Korse",
-      "price": 807,
+      "price": 888,
+      "listPrice": 1057,
+      "discount": 16,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -2738,7 +2847,9 @@
       "slug": "double-yuksek-bel-boxer-siyah-lazer-korse",
       "url": "product.html?p=double-yuksek-bel-boxer-siyah-lazer-korse",
       "title": "Double Yüksek Bel Boxer Siyah Lazer Korse",
-      "price": 2272,
+      "price": 2499,
+      "listPrice": 3570,
+      "discount": 30,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -2788,7 +2899,9 @@
       "slug": "dantelli-jartiyerli-bustiyer-takim",
       "url": "product.html?p=dantelli-jartiyerli-bustiyer-takim",
       "title": "Dantelli Jartiyerli Büstiyer Takım",
-      "price": 908,
+      "price": 999,
+      "listPrice": 1249,
+      "discount": 20,
       "category": "Body & Korse",
       "categories": [
         "Body & Korse"
@@ -2837,7 +2950,9 @@
       "slug": "destekli-bustiyerli-pembe-sutyen-takim",
       "url": "product.html?p=destekli-bustiyerli-pembe-sutyen-takim",
       "title": "Destekli Büstiyerli Pembe Sütyen Takım",
-      "price": 1181,
+      "price": 1299,
+      "listPrice": 1883,
+      "discount": 31,
       "category": "Sütyen",
       "categories": [
         "Sütyen",
@@ -2885,7 +3000,9 @@
       "slug": "bustiyerli-kirmizi-fantazi-jartiyer-takim",
       "url": "product.html?p=bustiyerli-kirmizi-fantazi-jartiyer-takim",
       "title": "Büstiyerli Kırmızı Fantazi Jartiyer Takım",
-      "price": 726,
+      "price": 799,
+      "listPrice": 1065,
+      "discount": 25,
       "category": "Fantazi",
       "categories": [
         "Fantazi",
