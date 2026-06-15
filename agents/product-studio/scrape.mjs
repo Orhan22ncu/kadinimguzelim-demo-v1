@@ -7,12 +7,17 @@ const urls = [...sm.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>m[1]).slice(0, 34);
 
 function meta(html, prop){ const m = html.match(new RegExp('<meta property="'+prop+'" content="([^"]*)"')); return m ? m[1].replace(/&amp;/g,'&') : null; }
 function images(html){
-  const set = new Set();
+  // Prefer the high-res /urunresimleri/buyuk/ variant; dedupe by filename so a
+  // small thumbnail and the large of the same image collapse to the large one.
+  const map = new Map();
   for (const m of html.matchAll(/https:\/\/static\.ticimax\.cloud\/cdn-cgi\/image\/[^"' ]*?\/uploads\/urunresimleri\/[^"' ]+?\.(?:jpg|jpeg|png)/gi)){
-    const file = m[0].split('/uploads/')[1];
-    set.add('https://static.ticimax.cloud/cdn-cgi/image/width=1000,quality=82/75855/uploads/'+file);
+    let file = m[0].split('/uploads/')[1]
+      .replace('urunresimleri/', 'urunresimleri/buyuk/')
+      .replace('buyuk/buyuk/', 'buyuk/');
+    const base = file.split('/').pop();
+    if (!map.has(base)) map.set(base, 'https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/' + file);
   }
-  return [...set].slice(0,4);
+  return [...map.values()].slice(0, 4);
 }
 function price(html){ const m = html.match(/satisFiyati["']?\s*:\s*([0-9]+(?:\.[0-9]+)?)/i); return m ? Math.round(parseFloat(m[1])) : null; }
 
