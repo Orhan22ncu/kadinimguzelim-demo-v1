@@ -537,3 +537,52 @@ document.addEventListener('DOMContentLoaded', () => {
   initPremiumZoom();
   initFullscreenGallery();
 });
+
+/* ── Blur-up (LQIP) progressive image loading ────────────────────────────────
+   Derives a tiny placeholder from the Ticimax Cloudflare image transform, shows
+   it blurred, then fades in the full image. Fails gracefully (no CDN transform
+   → no placeholder, image still loads normally). Runs on every page.          */
+function lqipMicroUrl(src) {
+  if (!/\/cdn-cgi\/image\//.test(src)) return null;
+  return src.replace(/\/cdn-cgi\/image\/[^/]+\//, '/cdn-cgi/image/width=40,quality=35/');
+}
+
+function lqipBlurUp(img) {
+  const wrap = img.parentElement;
+  if (!wrap || img.dataset.lqip) return;
+  const micro = lqipMicroUrl(img.currentSrc || img.src);
+  if (!micro) return;
+  img.dataset.lqip = '1';
+
+  if (getComputedStyle(wrap).position === 'static') wrap.style.position = 'relative';
+  if (getComputedStyle(wrap).overflow === 'visible') wrap.style.overflow = 'hidden';
+
+  const ph = document.createElement('div');
+  ph.className = 'lqip-ph';
+  ph.style.backgroundImage = 'url("' + micro + '")';
+  wrap.insertBefore(ph, img);
+  img.classList.add('lqip-img');
+
+  const done = () => {
+    img.classList.add('lqip-loaded');
+    wrap.classList.add('lqip-done');
+    setTimeout(() => { if (ph.parentNode) ph.remove(); }, 520);
+  };
+  if (img.complete && img.naturalWidth > 0) {
+    done();
+  } else {
+    img.addEventListener('load', done, { once: true });
+    img.addEventListener('error', () => {
+      img.classList.add('lqip-loaded');
+      if (ph.parentNode) ph.remove();
+    }, { once: true });
+  }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  const targets = [];
+  const main = document.getElementById('mainImage');
+  if (main) targets.push(main);
+  document.querySelectorAll('.product-card__image img').forEach(i => targets.push(i));
+  targets.forEach(lqipBlurUp);
+});
