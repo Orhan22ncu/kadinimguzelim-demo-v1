@@ -277,12 +277,21 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
    Guarded by .product-gallery presence — no effect on other pages.
    ═════════════════════════════════════════════════════════════════════════════ */
 
-// Demo callout points for the current product (max 4). Coords are % of the frame.
-const PRODUCT_CALLOUTS = [
+// Callout points for the current product (max 4). Coords are % of the frame.
+let PRODUCT_CALLOUTS = [
   { x: 50, y: 20, label: 'Fransız Dantel' },
   { x: 30, y: 52, label: 'Ayarlanabilir Askı' },
   { x: 64, y: 68, label: 'Yumuşak Saten Doku' },
   { x: 46, y: 88, label: 'Düşük Transparanlık' }
+];
+
+// Colour name → swatch hex (fallback neutral).
+const KG_COLORS = {
+  'Bordo': '#7A1F1F', 'Siyah': '#1A1A1A', 'Ekru': '#F5F0EB', 'Leopar': '#C8A45D',
+  'Pudra': '#E8C4C0', 'Lacivert': '#1F2A44', 'Kırmızı': '#B3242B', 'Standart': '#B8A99A'
+};
+const CALLOUT_COORDS = [
+  { x: 50, y: 20 }, { x: 30, y: 52 }, { x: 64, y: 68 }, { x: 46, y: 88 }
 ];
 
 // Crisp variant for fullscreen pinch-zoom (loaded on demand, not on page load).
@@ -544,6 +553,7 @@ function initFullscreenGallery() {
 function initCallouts() {
   const main = document.querySelector('.product-gallery__main');
   if (!main) return;
+  if (main.querySelector('.callout-layer')) return; // idempotent
 
   const layer = document.createElement('div');
   layer.className = 'callout-layer';
@@ -607,6 +617,7 @@ function initInlineGallery() {
   if (!main || !mainImg) return;
   const thumbs = [...document.querySelectorAll('.product-gallery__thumbs img')];
   if (thumbs.length <= 1) return;
+  if (document.querySelector('.inline-dots')) return; // idempotent
 
   const dots = document.createElement('div');
   dots.className = 'inline-dots';
@@ -673,15 +684,125 @@ function initStickyVariant() {
   update();
 }
 
-document.addEventListener('DOMContentLoaded', () => {
+// ── Product feed (shared) ────────────────────────────────────────────────────
+async function loadFeed() {
+  if (window.__kgFeed) return window.__kgFeed;
+  try {
+    const r = await fetch('products.json', { cache: 'no-cache' });
+    const data = await r.json();
+    window.__kgFeed = data.products || [];
+  } catch (e) { window.__kgFeed = []; }
+  return window.__kgFeed;
+}
+
+// ── Data-driven PDP: product.html?p=<slug> populates from the feed ───────────
+async function initProductPage() {
+  const slug = new URLSearchParams(location.search).get('p');
+  if (!slug) return; // no slug → keep the default hardcoded product
+  const products = await loadFeed();
+  const p = products.find(x => x.slug === slug || x.id === slug);
+  if (p) populateProduct(p, products);
+}
+
+function populateProduct(p, all) {
+  if (p.seo && p.seo.title) document.title = p.seo.title;
+  const h1 = document.querySelector('.product-info h1'); if (h1) h1.textContent = p.title;
+  const priceEl = document.querySelector('.product-info .text-2xl'); if (priceEl) priceEl.textContent = formatTRY(p.price);
+
+  const bc = document.querySelector('.breadcrumb');
+  if (bc) bc.innerHTML = '<a href="index.html">Ana Sayfa</a> › <a href="category.html">' +
+    escapeHtml(p.category || 'Gecelik') + '</a> › ' + escapeHtml(p.title);
+
+  const main = document.getElementById('mainImage');
+  if (main && p.images && p.images.length) { main.src = p.images[0]; main.alt = p.title; }
+  const thumbs = document.querySelector('.product-gallery__thumbs');
+  if (thumbs && p.images && p.images.length) {
+    thumbs.innerHTML = p.images.map((src, i) =>
+      '<img class="' + (i === 0 ? 'active' : '') + '" src="' + src + '" onclick="changeImage(this)" alt="' +
+      escapeHtml(p.title) + '" loading="lazy">').join('');
+  }
+
+  if (p.fabric) {
+    const grid = document.querySelector('.fabric-card__grid');
+    if (grid) {
+      const rows = [['Doku', p.fabric.doku], ['Esneklik', p.fabric.esneklik], ['Transparanlık', p.fabric.transparanlik],
+        ['Dantel', p.fabric.dantel], ['Kalıp', p.fabric.kalip], ['İçerik', p.fabric.icerik]].filter(r => r[1]);
+      grid.innerHTML = rows.map(r => '<div class="fabric-row"><dt>' + escapeHtml(r[0]) + '</dt><dd>' + escapeHtml(r[1]) + '</dd></div>').join('');
+    }
+  }
+
+  if (p.callouts && p.callouts.length) {
+    PRODUCT_CALLOUTS = p.callouts.slice(0, 4).map((label, i) => ({ x: CALLOUT_COORDS[i].x, y: CALLOUT_COORDS[i].y, label }));
+  }
+
+  const sizeWrap = document.querySelector('.size-options');
+  if (sizeWrap && p.sizes) {
+    sizeWrap.innerHTML = p.sizes.map((s, i) => '<button class="size-btn' + (i === 0 ? ' active' : '') + '">' + escapeHtml(s) + '</button>').join('');
+    sizeWrap.querySelectorAll('.size-btn').forEach(b => b.addEventListener('click', function () {
+      if (this.disabled) return;
+      sizeWrap.querySelectorAll('.size-btn').forEach(x => x.classList.remove('active'));
+      this.classList.add('active');
+    }));
+  }
+  const swWrap = document.querySelector('.swatches');
+  if (swWrap && p.colors) {
+    swWrap.innerHTML = p.colors.map((c, i) => '<span class="swatch' + (i === 0 ? ' active' : '') +
+      '" style="background:' + (KG_COLORS[c] || '#B8A99A') + ';" title="' + escapeHtml(c) + '"></span>').join('');
+    swWrap.querySelectorAll('.swatch').forEach(s => s.addEventListener('click', function () {
+      swWrap.querySelectorAll('.swatch').forEach(x => x.classList.remove('active'));
+      this.classList.add('active');
+    }));
+  }
+
+  const ld = document.querySelector('script[type="application/ld+json"]');
+  if (ld) ld.textContent = JSON.stringify({
+    '@context': 'https://schema.org', '@type': 'Product', name: p.title,
+    image: p.images && p.images[0], description: (p.seo && p.seo.description) || p.description,
+    brand: { '@type': 'Brand', name: 'KadınımGuzelim' }, category: p.category, color: p.colors,
+    offers: { '@type': 'Offer', priceCurrency: 'TRY', price: String(p.price), availability: 'https://schema.org/InStock' },
+    aggregateRating: p.rating ? { '@type': 'AggregateRating', ratingValue: String(p.rating.value), reviewCount: String(p.rating.count) } : undefined
+  });
+
+  const sticky = document.getElementById('stickyAdd'); if (sticky) sticky.textContent = 'SEPETE EKLE — ' + formatTRY(p.price);
+
+  const scroll = document.querySelector('.product-scroll');
+  if (scroll && all) {
+    scroll.innerHTML = all.filter(x => x.slug !== p.slug).slice(0, 6).map(x =>
+      '<a href="product.html?p=' + encodeURIComponent(x.slug) + '" class="product-card">' +
+      '<div class="product-card__image"><img src="' + x.images[0] + '" alt="' + escapeHtml(x.title) + '" loading="lazy"></div>' +
+      '<p class="product-card__name">' + escapeHtml(x.title) + '</p>' +
+      '<p class="product-card__price">' + formatTRY(x.price) + '</p></a>').join('');
+  }
+}
+
+// ── Dynamic category grid from the feed ──────────────────────────────────────
+async function initCatalog() {
+  const grid = document.getElementById('catalogGrid');
+  if (!grid) return;
+  const products = await loadFeed();
+  if (!products.length) return;
+  const cnt = document.getElementById('catalogCount');
+  if (cnt) cnt.textContent = products.length + ' ürün';
+  grid.innerHTML = products.map(p =>
+    '<a href="product.html?p=' + encodeURIComponent(p.slug) + '" class="product-card">' +
+    '<div class="product-card__image" style="aspect-ratio:3/4;"><img src="' + p.images[0] + '" alt="' + escapeHtml(p.title) + '" loading="lazy"></div>' +
+    '<p class="product-card__name">' + escapeHtml(p.title) + '</p>' +
+    '<p class="product-card__price">' + formatTRY(p.price) + '</p></a>').join('');
+  grid.querySelectorAll('.product-card__image img').forEach(lqipBlurUp);
+}
+
+document.addEventListener('DOMContentLoaded', async () => {
   if (!document.querySelector('.product-gallery')) return;
-  initCallouts();        // before zoom so layer sits under lens interactions cleanly
+  await initProductPage();   // populate from ?p before any gallery init reads the DOM
+  initCallouts();
   initPremiumZoom();
   initFullscreenGallery();
   initMotion();
   initInlineGallery();
   initStickyVariant();
 });
+
+document.addEventListener('DOMContentLoaded', initCatalog);
 
 /* ── Blur-up (LQIP) progressive image loading ────────────────────────────────
    Derives a tiny placeholder from the Ticimax Cloudflare image transform, shows
