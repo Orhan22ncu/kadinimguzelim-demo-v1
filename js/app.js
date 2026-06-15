@@ -587,7 +587,7 @@ function lqipBlurUp(img) {
   const done = () => {
     img.classList.add('lqip-loaded');
     wrap.classList.add('lqip-done');
-    setTimeout(() => { if (ph.parentNode) ph.remove(); }, 520);
+    setTimeout(() => { if (ph.parentNode) ph.remove(); }, 1200);
   };
   if (img.complete && img.naturalWidth > 0) {
     done();

@@ -1481,13 +1481,13 @@ button:focus-visible {
   background-size: cover; background-position: center;
   filter: blur(16px);
   transform: scale(1.08);
-  transition: opacity 450ms ease;
+  transition: opacity 1100ms ease;
 }
 .lqip-img {
   position: relative;
   z-index: 2;
   opacity: 0;
-  transition: opacity 450ms ease;
+  transition: opacity 1100ms ease;
 }
 .lqip-img.lqip-loaded { opacity: 1; }
 .lqip-done .lqip-ph { opacity: 0; }
