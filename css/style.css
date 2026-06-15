@@ -1488,3 +1488,40 @@ button:focus-visible {
 }
 .lqip-img.lqip-loaded { opacity: 1; }
 .lqip-done .lqip-ph { opacity: 0; }
+
+/* ── Ken Burns motion preview (honest pseudo-video from the still) ───────────── */
+.gallery-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: var(--space-md); }
+.gallery-actions .callout-toggle { margin-top: 0; }
+
+.motion-toggle {
+  display: inline-flex; align-items: center; gap: 7px;
+  margin-top: 0;
+  background: var(--color-dark);
+  border: 1px solid var(--color-dark);
+  color: #fff;
+  font-family: var(--font-ui);
+  font-size: 12px; font-weight: 600; letter-spacing: 0.02em;
+  padding: 9px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background var(--transition-fast);
+}
+.motion-toggle:hover { background: var(--color-dark-deep); }
+.motion-toggle svg { width: 13px; height: 13px; fill: currentColor; stroke: none; }
+.motion-toggle.is-on { background: var(--color-rose); border-color: var(--color-rose); }
+
+@keyframes kb-drape {
+  0%   { transform: scale(1.06) translate(0, 0); }
+  50%  { transform: scale(1.12) translate(-2%, -2%); }
+  100% { transform: scale(1.06) translate(2%, 1%); }
+}
+.product-gallery__main.motion { cursor: pointer; }
+.product-gallery__main.motion img#mainImage {
+  animation: kb-drape 12s ease-in-out infinite alternate;
+}
+.product-gallery__main.motion .callout-layer,
+.product-gallery__main.motion .zoom-hint { opacity: 0; pointer-events: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  .product-gallery__main.motion img#mainImage { animation: none; }
+}

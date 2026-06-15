@@ -286,7 +286,7 @@ function initPremiumZoom() {
   }
 
   function onMove(e) {
-    if (!fine.matches) return;
+    if (!fine.matches || main.classList.contains('motion')) return;
     ensureEls();
     const r = main.getBoundingClientRect();
     const src = mainImg.currentSrc || mainImg.src;
@@ -308,7 +308,7 @@ function initPremiumZoom() {
   }
 
   function enter() {
-    if (!fine.matches) return;
+    if (!fine.matches || main.classList.contains('motion')) return;
     ensureEls();
     lens.classList.add('active');
     panel.classList.add('active');
@@ -531,11 +531,32 @@ function initCallouts() {
   }
 }
 
+// ── Ken Burns motion preview (honest pseudo-video from the still) ─────────────
+function initMotion() {
+  const main = document.querySelector('.product-gallery__main');
+  const btn = document.getElementById('motionToggle');
+  if (!main || !btn) return;
+  const label = btn.querySelector('span');
+
+  function set(on) {
+    main.classList.toggle('motion', on);
+    btn.classList.toggle('is-on', on);
+    if (label) label.textContent = on ? 'Durdur' : 'Hareketi Gör';
+  }
+  btn.addEventListener('click', () => set(!main.classList.contains('motion')));
+
+  // Tapping the moving image stops motion (and must not open fullscreen).
+  main.addEventListener('click', (e) => {
+    if (main.classList.contains('motion')) { e.stopPropagation(); set(false); }
+  }, true); // capture: runs before the fullscreen open handler
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   if (!document.querySelector('.product-gallery')) return;
   initCallouts();        // before zoom so layer sits under lens interactions cleanly
   initPremiumZoom();
   initFullscreenGallery();
+  initMotion();
 });
 
 /* ── Blur-up (LQIP) progressive image loading ────────────────────────────────
