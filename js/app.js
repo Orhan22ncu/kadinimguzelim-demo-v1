@@ -917,6 +917,7 @@ async function runSearch(q) {
   const data = await loadJSON('feeds/search.json');
   const items = (data && data.items) || [];
   const hits = items.filter(it => it.title.toLocaleLowerCase('tr-TR').includes(q)).slice(0, 40);
+  if (window.track) window.track('search', { search_term: q }, { fb: 'Search' });
   ui.results.innerHTML = hits.length
     ? '<p class="search-hint">' + hits.length + ' sonuç</p><div class="category-grid">' + hits.map(it =>
         '<a href="product.html?p=' + encodeURIComponent(it.slug) + '&c=' + it.c + '" class="product-card">' +
@@ -1087,6 +1088,9 @@ function cartAddItem({ title, price, size, color, image, qty }) {
   if (existing) existing.qty += (qty || 1);
   else arr.push({ id, title, price, size, color, image, qty: qty || 1 });
   cartWrite(arr);
+  if (window.track) window.track('add_to_cart',
+    { currency: 'TRY', value: price * (qty || 1), items: [{ item_name: title, price: price, quantity: qty || 1 }] },
+    { fb: 'AddToCart' });
   haptic(12);
   showToast('Sepete eklendi');
   openCart();
@@ -1235,4 +1239,31 @@ function initFavorites() {
   favRefresh();
 }
 
-document.addEventListener('DOMContentLoaded', () => { initHome(); initFavorites(); });
+// ── Newsletter: posts to SITE_CONFIG.NEWSLETTER_ENDPOINT if set, else demo-saves ─
+function initNewsletter() {
+  document.querySelectorAll('form').forEach((form) => {
+    const email = form.querySelector('input[type="email"]');
+    if (!email) return;
+    if (!email.name) email.name = 'email';
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const addr = (email.value || '').trim();
+      if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(addr)) { showToast('Geçerli bir e-posta girin'); return; }
+      const ep = (window.SITE_CONFIG || {}).NEWSLETTER_ENDPOINT;
+      if (ep) {
+        try {
+          await fetch(ep, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+            body: JSON.stringify({ email: addr })
+          });
+        } catch (err) { /* network failure → still confirm to user */ }
+      }
+      if (window.track) window.track('newsletter_signup', { method: 'footer' }, { fb: 'Lead' });
+      email.value = '';
+      showToast('Kaydınız alındı, teşekkürler!');
+    });
+  });
+}
+
+document.addEventListener('DOMContentLoaded', () => { initHome(); initFavorites(); initNewsletter(); });

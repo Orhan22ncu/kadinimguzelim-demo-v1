@@ -15,18 +15,26 @@ Open: http://localhost:8766
 
 | File | Size | Purpose |
 |------|------|---------|
-| `index.html` | 19.9 KB | Homepage |
-| `category.html` | 10.8 KB | Category page (Saten Gecelik) |
-| `product.html` | 16.2 KB | Product page (Bordo Saten Gecelik) |
-| `css/style.css` | 26.1 KB | Shared stylesheet |
-| `js/app.js` | 6.7 KB | Shared interactions |
+| `index.html` | ~23 KB | Homepage (data-driven featured + favorites) |
+| `category.html` | ~13 KB | Category page (filters, sort, load-more) |
+| `product.html` | ~23 KB | Product page (gallery, zoom, variants, cart) |
+| `css/style.css` | ~51 KB | Shared stylesheet |
+| `js/app.js` | ~60 KB | Shared interactions (catalog, cart, search, favorites) |
+| `js/site-config.js` | ~2 KB | Analytics + newsletter config gate (GA4 / Meta Pixel / form endpoint) |
+| `feeds/*.json` | per-category | 1088 products split across 8 category feeds + search/index |
+| `sitemap.xml` | ~250 KB | 1095 URLs (home + 6 categories + 1088 products) |
+| `robots.txt` | <1 KB | Allow-all + sitemap pointer |
 
 ### External Dependencies
 
 - Google Fonts (Playfair Display, Inter, Montserrat)
-- Product images from Ticimax CDN (static.ticimax.cloud)
+- Product images from Ticimax CDN (static.ticimax.cloud) — ⚠️ 3rd-party, single point of failure
+- Analytics (optional): GA4 + Meta Pixel — inactive until IDs set in `js/site-config.js`
 
 No backend. No database. No build step. Pure static HTML/CSS/JS.
+
+**Live deploy:** GitHub Pages, auto-publishes on push to `main` → https://orhan22ncu.github.io/kadinimguzelim-demo-v1/
+(Vercel is NOT used — its CLI path was never authenticated.)
 
 ### Browser Support
 
