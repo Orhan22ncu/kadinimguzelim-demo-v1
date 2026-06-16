@@ -717,7 +717,7 @@ async function initProductPage() {
 function populateProduct(p, all, catSlug) {
   if (p.seo && p.seo.title) document.title = p.seo.title;
   const h1 = document.querySelector('.product-info h1'); if (h1) h1.textContent = p.title;
-  const priceEl = document.querySelector('.product-info .text-2xl'); if (priceEl) priceEl.innerHTML = priceMarkup(p.price, p.listPrice, p.discount);
+  const priceEl = document.querySelector('.product-info .text-2xl'); if (priceEl) { priceEl.dataset.price = String(p.price); priceEl.innerHTML = priceMarkup(p.price, p.listPrice, p.discount); }
 
   const bc = document.querySelector('.breadcrumb');
   if (bc) bc.innerHTML = '<a href="index.html">Ana Sayfa</a> › <a href="category.html">' +
@@ -1055,9 +1055,12 @@ function cartRefresh() {
 function addToCartFromPage() {
   const titleEl = document.querySelector('.product-info h1');
   const title = titleEl ? titleEl.textContent.trim() : 'Ürün';
-  const priceEl = document.querySelector('.product-info .text-2xl') ||
+  const priceBox = document.querySelector('.product-info .text-2xl');
+  const priceEl = (priceBox && priceBox.querySelector('.price-now')) || priceBox ||
     [...document.querySelectorAll('.product-info p')].find(p => /₺/.test(p.textContent));
-  const price = priceEl ? (parseInt(priceEl.textContent.replace(/[^\d]/g, ''), 10) || 0) : 0;
+  const price = (priceBox && priceBox.dataset.price)
+    ? (parseInt(priceBox.dataset.price, 10) || 0)
+    : (priceEl ? (parseInt(priceEl.textContent.replace(/[^\d]/g, ''), 10) || 0) : 0);
   const sizeEl = document.querySelector('.size-btn.active');
   const colorEl = document.querySelector('.swatch.active');
   const size = sizeEl ? sizeEl.textContent.trim() : null;
@@ -1205,8 +1208,11 @@ function currentProductForFav() {
   const params = new URLSearchParams(location.search);
   const title = (document.querySelector('.product-info h1') || {}).textContent;
   const t = title ? title.trim() : 'Ürün';
-  const priceEl = document.querySelector('.product-info .text-2xl .price-now') || document.querySelector('.product-info .text-2xl');
-  const price = priceEl ? (parseInt(priceEl.textContent.replace(/[^\d]/g, ''), 10) || 0) : 0;
+  const priceBox = document.querySelector('.product-info .text-2xl');
+  const priceEl = (priceBox && priceBox.querySelector('.price-now')) || priceBox;
+  const price = (priceBox && priceBox.dataset.price)
+    ? (parseInt(priceBox.dataset.price, 10) || 0)
+    : (priceEl ? (parseInt(priceEl.textContent.replace(/[^\d]/g, ''), 10) || 0) : 0);
   const image = (document.getElementById('mainImage') || {}).src || '';
   return { slug: params.get('p') || slugify(t), title: t, price, image, c: params.get('c') || '' };
 }
