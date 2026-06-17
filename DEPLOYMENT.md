@@ -33,8 +33,12 @@ Open: http://localhost:8766
 
 No backend. No database. No build step. Pure static HTML/CSS/JS.
 
-**Live deploy:** GitHub Pages, auto-publishes on push to `main` → https://orhan22ncu.github.io/kadinimguzelim-demo-v1/
-(Vercel is NOT used — its CLI path was never authenticated.)
+**Live deploy:** Push to `main` auto-deploys to BOTH:
+- **Vercel (PRODUCTION — what the client sees):** https://kadinimguzelim-demo-v1.vercel.app
+- GitHub Pages (mirror): https://orhan22ncu.github.io/kadinimguzelim-demo-v1/
+
+Canonical host across all pages, `sitemap.xml` and `robots.txt` = the Vercel URL.
+(Note: `kadinimguzelim.vercel.app` is an old/dead alias → 404. Use `kadinimguzelim-demo-v1.vercel.app`.)
 
 ### Browser Support
 
