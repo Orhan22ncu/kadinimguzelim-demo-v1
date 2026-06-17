@@ -552,6 +552,21 @@ ul, ol {
   display: flex;
   flex-direction: column;
   gap: var(--space-sm);
+  padding: var(--space-sm);
+  background: var(--color-white);
+  border: 1px solid rgba(45, 45, 45, 0.08);   /* resting: restrained hairline (luxury) */
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  transition: border-color var(--transition-base), box-shadow var(--transition-base), transform var(--transition-base);
+}
+
+/* Hover (desktop): the frame becomes a defined gold border + gentle lift */
+@media (hover: hover) and (pointer: fine) {
+  .product-card:hover {
+    border-color: var(--color-gold);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-3px);
+  }
 }
 
 .product-card__image {
@@ -597,9 +612,10 @@ ul, ol {
 
 .product-card__price {
   font-family: var(--font-ui);
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 600;
   color: var(--color-dark);
+  letter-spacing: 0.01em;
 }
 
 /* Horizontal scroll product row */
@@ -618,7 +634,7 @@ ul, ol {
 }
 
 .product-scroll .product-card {
-  flex: 0 0 160px;
+  flex: 0 0 170px;   /* a touch wider so the framed card + padding breathes */
   scroll-snap-align: start;
 }
 
@@ -1630,10 +1646,18 @@ body { max-width: 100%; }
   z-index: 400;
   display: flex; flex-direction: column;
   transform: translateX(100%);
-  transition: transform var(--transition-base);
+  /* visibility:hidden while closed removes this off-canvas panel from the pannable
+     area (fixed elements escape body{overflow-x:hidden} on iOS → horizontal page drift).
+     Delay the change to hidden until the slide-out finishes. Mirrors .search-overlay. */
+  visibility: hidden;
+  transition: transform var(--transition-base), visibility 0s linear var(--transition-base);
   box-shadow: -8px 0 30px rgba(0,0,0,0.18);
 }
-.cart-drawer.active { transform: translateX(0); }
+.cart-drawer.active {
+  transform: translateX(0);
+  visibility: visible;
+  transition: transform var(--transition-base), visibility 0s;
+}
 .cart-drawer__head {
   display: flex; align-items: center; justify-content: space-between;
   padding: var(--space-lg);
