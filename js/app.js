@@ -798,7 +798,7 @@ function wireNav() {
 
 // ── Dynamic category grid from the feed (filtered by ?cat) ───────────────────
 const CAT_PAGE = 24;
-let catState = { items: [], shown: 0, slug: '', sort: 'rec' };
+let catState = { items: [], page: 1, slug: '', sort: 'rec' };
 
 function catCardHTML(p, catSlug) {
   return '<div class="product-card-wrap">' +
@@ -823,19 +823,55 @@ function filteredSorted() {
   if (catState.colors && catState.colors.size) a = a.filter(p => (p.colors || []).some(c => catState.colors.has(c)));
   return sortItems(a, catState.sort);
 }
-function renderCatalogPage(reset) {
+function totalPages(list) { return Math.max(1, Math.ceil(list.length / CAT_PAGE)); }
+
+// Numbered pager: ‹ 1 … 4 [5] 6 … 21 › — always shows first/last + a window around current.
+function renderPager(list) {
+  const pager = document.querySelector('.pagination');
+  if (!pager) return;
+  const pages = totalPages(list);
+  if (pages <= 1) { pager.innerHTML = ''; pager.style.display = 'none'; return; }
+  pager.style.display = '';
+  const cur = catState.page, win = 1;
+  const nums = [];
+  for (let p = 1; p <= pages; p++) {
+    if (p === 1 || p === pages || (p >= cur - win && p <= cur + win)) nums.push(p);
+    else if (nums[nums.length - 1] !== '…') nums.push('…');
+  }
+  let html = '<button type="button" class="pg-nav" data-go="prev"' + (cur === 1 ? ' disabled' : '') + ' aria-label="Önceki">‹</button>';
+  nums.forEach(n => {
+    html += (n === '…')
+      ? '<span class="pg-gap">…</span>'
+      : '<button type="button" class="' + (n === cur ? 'active' : '') + '" data-go="' + n + '"' + (n === cur ? ' aria-current="page"' : '') + '>' + n + '</button>';
+  });
+  html += '<button type="button" class="pg-nav" data-go="next"' + (cur === pages ? ' disabled' : '') + ' aria-label="Sonraki">›</button>';
+  pager.innerHTML = html;
+}
+
+// Render the current page (replaces the grid). resetToFirst=true after a filter/sort change.
+function renderCatalogPage(resetToFirst) {
   const grid = document.getElementById('catalogGrid');
   const list = filteredSorted();
-  if (reset) {
-    grid.innerHTML = ''; catState.shown = 0;
-    const cnt = document.getElementById('catalogCount'); if (cnt) cnt.textContent = list.length + ' ürün';
-    if (!list.length) grid.innerHTML = '<p class="cart-empty" style="grid-column:1/-1;">Filtreye uygun ürün bulunamadı.</p>';
+  const cnt = document.getElementById('catalogCount'); if (cnt) cnt.textContent = list.length + ' ürün';
+  if (resetToFirst) catState.page = 1;
+  const pages = totalPages(list);
+  if (catState.page > pages) catState.page = pages;
+  if (!list.length) {
+    grid.innerHTML = '<p class="cart-empty" style="grid-column:1/-1;">Filtreye uygun ürün bulunamadı.</p>';
+    renderPager(list);
+    return;
   }
-  const next = list.slice(catState.shown, catState.shown + CAT_PAGE);
-  grid.insertAdjacentHTML('beforeend', next.map(p => catCardHTML(p, catState.slug)).join(''));
-  catState.shown += next.length;
-  const more = document.getElementById('catMore');
-  if (more) more.style.display = catState.shown < list.length ? '' : 'none';
+  const start = (catState.page - 1) * CAT_PAGE;
+  grid.innerHTML = list.slice(start, start + CAT_PAGE).map(p => catCardHTML(p, catState.slug)).join('');
+  renderPager(list);
+}
+
+function gotoPage(p) {
+  const list = filteredSorted();
+  catState.page = Math.max(1, Math.min(totalPages(list), p));
+  renderCatalogPage(false);
+  const grid = document.getElementById('catalogGrid');
+  if (grid) grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 async function initCatalog() {
   const grid = document.getElementById('catalogGrid');
@@ -843,7 +879,7 @@ async function initCatalog() {
   const catName = new URLSearchParams(location.search).get('cat') || 'Gecelik';
   const catSlug = CAT_SLUG[catName] || 'gecelik';
   const products = await loadCategoryFeed(catSlug);
-  catState = { items: products, shown: 0, slug: catSlug, sort: 'rec', price: null, colors: new Set() };
+  catState = { items: products, page: 1, slug: catSlug, sort: 'rec', price: null, colors: new Set() };
 
   const heading = document.querySelector('.section-title'); if (heading) heading.textContent = catName;
   document.title = catName + ' — KadınımGuzelim';
@@ -871,12 +907,15 @@ async function initCatalog() {
     renderCatalogPage(true);
   }));
 
-  let more = document.getElementById('catMore');
-  if (!more) {
-    more = document.createElement('button'); more.id = 'catMore'; more.type = 'button';
-    more.className = 'btn btn--outline cat-more'; more.textContent = 'Daha Fazla Göster';
-    grid.parentElement.appendChild(more);
-    more.addEventListener('click', () => renderCatalogPage(false));
+  const pager = document.querySelector('.pagination');
+  if (pager && !pager.dataset.wired) {
+    pager.dataset.wired = '1';
+    pager.addEventListener('click', (e) => {
+      const b = e.target.closest('button[data-go]');
+      if (!b || b.disabled) return;
+      const go = b.dataset.go;
+      gotoPage(go === 'prev' ? catState.page - 1 : go === 'next' ? catState.page + 1 : +go);
+    });
   }
 
   if (!grid.dataset.qa) {

@@ -1099,25 +1099,44 @@ ul, ol {
   margin-top: var(--space-2xl);
 }
 
-.pagination a {
-  width: 40px;
+.pagination a,
+.pagination button {
+  min-width: 40px;
   height: 40px;
+  padding: 0 6px;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 1px solid var(--color-gray-light);
+  background: var(--color-white);
+  color: var(--color-dark);
   font-family: var(--font-ui);
   font-size: 13px;
   font-weight: 500;
   border-radius: var(--radius-sm);
+  cursor: pointer;
   transition: all var(--transition-fast);
 }
 
 .pagination a:hover,
-.pagination a.active {
+.pagination button:hover:not(:disabled),
+.pagination a.active,
+.pagination button.active {
   background: var(--color-dark);
   color: var(--color-white);
   border-color: var(--color-dark);
+}
+
+.pagination button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.pagination .pg-gap {
+  display: flex;
+  align-items: center;
+  color: var(--color-gray);
+  padding: 0 2px;
 }
 
 /* ═════════════════════════════════════════════════════════════════════════════
