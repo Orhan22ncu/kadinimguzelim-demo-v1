@@ -858,20 +858,39 @@ function renderCatalogPage(resetToFirst) {
   if (catState.page > pages) catState.page = pages;
   if (!list.length) {
     grid.innerHTML = '<p class="cart-empty" style="grid-column:1/-1;">Filtreye uygun ürün bulunamadı.</p>';
-    renderPager(list);
+    renderPager(list); renderMore(list);
     return;
   }
   const start = (catState.page - 1) * CAT_PAGE;
   grid.innerHTML = list.slice(start, start + CAT_PAGE).map(p => catCardHTML(p, catState.slug)).join('');
-  renderPager(list);
+  renderPager(list); renderMore(list);
 }
 
+// "Daha Fazla Göster" visibility — shown while there are pages beyond the current one.
+function renderMore(list) {
+  const more = document.getElementById('catMore');
+  if (!more) return;
+  more.style.display = catState.page < totalPages(list) ? '' : 'none';
+}
+
+// Numbered click = jump (replace grid with that page). Load-more = append the next page below.
 function gotoPage(p) {
   const list = filteredSorted();
   catState.page = Math.max(1, Math.min(totalPages(list), p));
   renderCatalogPage(false);
   const grid = document.getElementById('catalogGrid');
   if (grid) grid.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function appendNextPage() {
+  const list = filteredSorted();
+  if (catState.page >= totalPages(list)) return;
+  catState.page += 1;
+  const grid = document.getElementById('catalogGrid');
+  const start = (catState.page - 1) * CAT_PAGE;
+  grid.insertAdjacentHTML('beforeend', list.slice(start, start + CAT_PAGE).map(p => catCardHTML(p, catState.slug)).join(''));
+  renderPager(list);   // pager highlight advances to the newly loaded page
+  renderMore(list);
 }
 async function initCatalog() {
   const grid = document.getElementById('catalogGrid');
@@ -916,6 +935,15 @@ async function initCatalog() {
       const go = b.dataset.go;
       gotoPage(go === 'prev' ? catState.page - 1 : go === 'next' ? catState.page + 1 : +go);
     });
+  }
+
+  // "Daha Fazla Göster" — appends the next page; sits between the grid and the numbered pager.
+  let more = document.getElementById('catMore');
+  if (!more) {
+    more = document.createElement('button'); more.id = 'catMore'; more.type = 'button';
+    more.className = 'btn btn--outline cat-more'; more.textContent = 'Daha Fazla Göster';
+    grid.parentElement.insertBefore(more, pager || null);
+    more.addEventListener('click', appendNextPage);
   }
 
   if (!grid.dataset.qa) {
