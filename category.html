@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
   <meta name="description" content="KadınımGuzelim kategorileri — gecelik, sütyen, fantazi, pijama, body & korse, büyük beden. Fiyat ve renge göre filtrele, kampanyalı ürünleri keşfet.">
   <link rel="canonical" href="https://kadinimguzelim-demo-v1.vercel.app/category.html">
-  <link rel="stylesheet" href="css/style.css?v=20260619a">
+  <link rel="stylesheet" href="css/style.css?v=20260621a">
   <script src="js/site-config.js?v=20260616a"></script>
 </head>
 <body>
@@ -59,6 +59,16 @@
       <li><a href="category.html">Büyük Beden</a></li>
     </ul>
   </nav>
+
+  <!-- CATEGORY BANNER (#6) — başlık alanına görselli banner; görsel + alt metin initCatalog'da set edilir -->
+  <div class="category-banner">
+    <img id="catBannerImg" src="https://static.ticimax.cloud/cdn-cgi/image/width=1200,quality=85/75855/uploads/urunresimleri/buyuk/dantelli-bordo-gecelik-sabahlik-takim-0a0-29.jpg" alt="Kategori" loading="eager">
+    <div class="category-banner__overlay"></div>
+    <div class="container category-banner__content">
+      <h1 class="section-title">Gecelik &amp; Sabahlık</h1>
+      <p class="category-banner__sub" id="catBannerSub">Premium koleksiyon · her bedende</p>
+    </div>
+  </div>
 
   <!-- BREADCRUMB -->
   <div class="container">
@@ -119,7 +129,6 @@
   <!-- CATEGORY CONTENT -->
   <section class="py-lg bg-white">
     <div class="container">
-      <h1 class="section-title">Gecelik & Sabahlık</h1>
       <p class="text-gray text-sm mt-sm" id="catalogCount">4 ürün</p>
 
       <div class="category-grid mt-xl" id="catalogGrid">
@@ -259,6 +268,6 @@
     </div>
   </footer>
 
-  <script src="js/app.js?v=20260619b"></script>
+  <script src="js/app.js?v=20260621a"></script>
 </body>
 </html>

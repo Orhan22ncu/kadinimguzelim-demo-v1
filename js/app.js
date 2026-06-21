@@ -903,6 +903,11 @@ async function initCatalog() {
   const heading = document.querySelector('.section-title'); if (heading) heading.textContent = catName;
   document.title = catName + ' — KadınımGuzelim';
   const cnt = document.getElementById('catalogCount'); if (cnt) cnt.textContent = products.length + ' ürün';
+  // Kategori banner'ı (#6): görseli ilk üründen al, alt metni kategoriye göre yaz
+  const bImg = document.getElementById('catBannerImg');
+  if (bImg && products[0] && products[0].images && products[0].images[0]) { bImg.src = products[0].images[0]; bImg.alt = catName; }
+  const bSub = document.getElementById('catBannerSub');
+  if (bSub) bSub.textContent = products.length + ' ürün · premium koleksiyon';
 
   if (!products.length) {
     grid.innerHTML = '<p class="cart-empty" style="grid-column:1/-1;">Bu kategoride ürün bulunamadı.</p>';
@@ -1166,9 +1171,10 @@ function cartAddItem({ title, price, size, color, image, qty }) {
 // ── Campaign pricing (REAL: list price + discount from the site) ─────────────
 function priceMarkup(price, listPrice, discount) {
   if (discount && listPrice && listPrice > price) {
-    return '<span class="price-now sale">' + formatTRY(price) + '</span>' +
+    // Sıra: %indirim → üstü çizili eski fiyat → güncel fiyat (#1/#8). CSS order da pekiştirir.
+    return '<span class="price-off">%' + discount + '</span>' +
       '<span class="price-old">' + formatTRY(listPrice) + '</span>' +
-      '<span class="price-off">%' + discount + '</span>';
+      '<span class="price-now sale">' + formatTRY(price) + '</span>';
   }
   return '<span class="price-now">' + formatTRY(price) + '</span>';
 }
