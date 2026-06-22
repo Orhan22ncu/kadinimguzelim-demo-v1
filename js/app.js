@@ -717,6 +717,20 @@ async function initProductPage() {
 function populateProduct(p, all, catSlug) {
   if (p.seo && p.seo.title) document.title = p.seo.title;
   const h1 = document.querySelector('.product-info h1'); if (h1) h1.textContent = p.title;
+
+  // Gerçek puan + yorum sayısı (#2) — statik bloğu güncelle, veri yoksa gizle.
+  const rStars = document.querySelector('.product-info .stars');
+  const rRow = rStars ? rStars.parentElement : null;
+  if (rRow) {
+    if (p.rating && p.rating.value) {
+      const full = Math.round(p.rating.value);
+      rStars.textContent = '★★★★★'.slice(0, full) + '☆☆☆☆☆'.slice(0, 5 - full);
+      const valEl = rRow.querySelector('.font-semibold'); if (valEl) valEl.textContent = p.rating.value.toFixed(1);
+      const cntEl = rRow.querySelector('a'); if (cntEl) cntEl.textContent = (p.rating.count || 0) + ' Yorum →';
+      rRow.style.display = '';
+    } else { rRow.style.display = 'none'; }
+  }
+
   const priceEl = document.querySelector('.product-info .text-2xl'); if (priceEl) { priceEl.dataset.price = String(p.price); priceEl.innerHTML = priceMarkup(p.price, p.listPrice, p.discount); }
 
   const bc = document.querySelector('.breadcrumb');
@@ -800,11 +814,22 @@ function wireNav() {
 const CAT_PAGE = 24;
 let catState = { items: [], page: 1, slug: '', sort: 'rec' };
 
+// Gerçek puan + değerlendirme sayısı (#2). Veri yoksa boş döner (gizlenir).
+function ratingInner(r) {
+  if (!r || !r.value) return '';
+  const full = Math.round(r.value);
+  const stars = '★★★★★'.slice(0, full) + '☆☆☆☆☆'.slice(0, 5 - full);
+  return '<span class="rating-stars">' + stars + '</span>' +
+    '<span class="rating-val">' + r.value.toFixed(1) + '</span>' +
+    (r.count ? '<span class="rating-cnt">(' + r.count + ')</span>' : '');
+}
 function catCardHTML(p, catSlug) {
+  const rating = p.rating ? '<p class="card-rating">' + ratingInner(p.rating) + '</p>' : '';
   return '<div class="product-card-wrap">' +
     '<a href="product.html?p=' + encodeURIComponent(p.slug) + '&c=' + catSlug + '" class="product-card">' +
     '<div class="product-card__image" style="aspect-ratio:3/4;"><img src="' + p.images[0] + '" alt="' + escapeHtml(p.title) + '" loading="lazy"></div>' +
     '<p class="product-card__name">' + escapeHtml(p.title) + '</p>' +
+    rating +
     '<p class="product-card__price">' + priceMarkup(p.price, p.listPrice, p.discount) + '</p></a>' +
     '<button class="card-add" type="button" data-slug="' + escapeHtml(p.slug) + '">Sepete Ekle</button>' +
     '</div>';
@@ -817,10 +842,21 @@ function sortItems(items, sort) {
 }
 const PRICE_BUCKETS = [[0, 700, '0 – 700 ₺'], [700, 900, '700 – 900 ₺'], [900, 1100, '900 – 1.100 ₺'], [1100, Infinity, '1.100 ₺ +']];
 function catColors() { const s = new Set(); catState.items.forEach(p => (p.colors || []).forEach(c => { if (c && c !== 'Standart') s.add(c); })); return [...s]; }
+// Materyal (#3): dağınık fabric.icerik/doku + başlıktan temiz etikete normalize et.
+const KG_MATERIALS = ['Saten', 'Dantel', 'Penye', 'Tül', 'Şifon', 'Viskon', 'Pamuk', 'Kadife', 'File', 'Modal', 'Deri'];
+function materialsOf(p) {
+  const f = p.fabric || {};
+  const hay = ((f.icerik || '') + ' ' + (f.doku || '') + ' ' + (p.title || '')).toLocaleLowerCase('tr-TR');
+  return KG_MATERIALS.filter(m => hay.includes(m.toLocaleLowerCase('tr-TR')));
+}
+function catSizes() { const s = new Set(); catState.items.forEach(p => (p.sizes || []).forEach(z => { if (z) s.add(z); })); return [...s]; }
+function catMaterials() { const s = new Set(); catState.items.forEach(p => materialsOf(p).forEach(m => s.add(m))); return [...s]; }
 function filteredSorted() {
   let a = catState.items;
   if (catState.price) { const lo = catState.price[0], hi = catState.price[1]; a = a.filter(p => p.price >= lo && p.price < hi); }
   if (catState.colors && catState.colors.size) a = a.filter(p => (p.colors || []).some(c => catState.colors.has(c)));
+  if (catState.sizes && catState.sizes.size) a = a.filter(p => (p.sizes || []).some(z => catState.sizes.has(z)));
+  if (catState.materials && catState.materials.size) a = a.filter(p => materialsOf(p).some(m => catState.materials.has(m)));
   return sortItems(a, catState.sort);
 }
 function totalPages(list) { return Math.max(1, Math.ceil(list.length / CAT_PAGE)); }
@@ -898,7 +934,7 @@ async function initCatalog() {
   const catName = new URLSearchParams(location.search).get('cat') || 'Gecelik';
   const catSlug = CAT_SLUG[catName] || 'gecelik';
   const products = await loadCategoryFeed(catSlug);
-  catState = { items: products, page: 1, slug: catSlug, sort: 'rec', price: null, colors: new Set() };
+  catState = { items: products, page: 1, slug: catSlug, sort: 'rec', price: null, colors: new Set(), sizes: new Set(), materials: new Set() };
 
   const heading = document.querySelector('.section-title'); if (heading) heading.textContent = catName;
   document.title = catName + ' — KadınımGuzelim';
@@ -916,18 +952,25 @@ async function initCatalog() {
 
   let controls = document.getElementById('catControls');
   if (!controls) { controls = document.createElement('div'); controls.id = 'catControls'; controls.className = 'cat-controls'; grid.parentElement.insertBefore(controls, grid); }
-  const colorList = catColors();
+  const chipGroup = (label, list, kind) => (list.length > 1)
+    ? '<div class="cat-chips"><span class="cat-chips__lbl">' + label + '</span>' +
+        list.map(v => '<button type="button" class="filter-chip" data-kind="' + kind + '" data-val="' + escapeHtml(v) + '">' + escapeHtml(v) + '</button>').join('') +
+      '</div>'
+    : '';
   controls.innerHTML =
     '<label class="cat-ctrl">Sırala <select id="catSort"><option value="rec">Önerilen</option><option value="asc">Fiyat ↑</option><option value="desc">Fiyat ↓</option></select></label>' +
     '<label class="cat-ctrl">Fiyat <select id="catPrice"><option value="-1">Tümü</option>' +
       PRICE_BUCKETS.map((b, i) => '<option value="' + i + '">' + b[2] + '</option>').join('') + '</select></label>' +
-    (colorList.length > 1 ? '<div class="cat-colors">' + colorList.map(c => '<button type="button" class="color-chip" data-color="' + escapeHtml(c) + '">' + escapeHtml(c) + '</button>').join('') + '</div>' : '');
+    chipGroup('Renk', catColors(), 'color') +
+    chipGroup('Beden', catSizes(), 'size') +
+    chipGroup('Materyal', catMaterials(), 'material');
   document.getElementById('catSort').addEventListener('change', (e) => { catState.sort = e.target.value; renderCatalogPage(true); });
   document.getElementById('catPrice').addEventListener('change', (e) => { const v = +e.target.value; catState.price = v < 0 ? null : [PRICE_BUCKETS[v][0], PRICE_BUCKETS[v][1]]; renderCatalogPage(true); });
-  controls.querySelectorAll('.color-chip').forEach(ch => ch.addEventListener('click', () => {
-    const c = ch.dataset.color;
-    if (catState.colors.has(c)) { catState.colors.delete(c); ch.classList.remove('active'); }
-    else { catState.colors.add(c); ch.classList.add('active'); }
+  controls.querySelectorAll('.filter-chip').forEach(ch => ch.addEventListener('click', () => {
+    const kind = ch.dataset.kind, val = ch.dataset.val;
+    const set = kind === 'color' ? catState.colors : kind === 'size' ? catState.sizes : catState.materials;
+    if (set.has(val)) { set.delete(val); ch.classList.remove('active'); }
+    else { set.add(val); ch.classList.add('active'); }
     renderCatalogPage(true);
   }));
 
@@ -1340,3 +1383,57 @@ function initNewsletter() {
 }
 
 document.addEventListener('DOMContentLoaded', () => { initHome(); initFavorites(); initNewsletter(); });
+
+/* ═════════════════════════════════════════════════════════════════════════════
+   TRUST + URGENCY — discreet packaging (#1) + weekly countdown strip (#4)
+   ═════════════════════════════════════════════════════════════════════════════ */
+// İç giyime özgü en güçlü güven sinyali: gizli paketleme. Her .trust-grid'e ekle.
+function initDiscreetPackaging() {
+  document.querySelectorAll('.trust-grid').forEach(grid => {
+    if (grid.querySelector('.trust-item--discreet')) return;
+    const d = document.createElement('div');
+    d.className = 'trust-item trust-item--discreet';
+    d.innerHTML = '<div class="trust-item__icon">🤍</div>' +
+      '<p class="trust-item__title">Gizli Paketleme</p>' +
+      '<p class="trust-item__desc">Kapıda içerik belli olmaz</p>';
+    grid.appendChild(d);
+  });
+}
+
+// Zaman sınırlı aciliyet: bu haftanın sonuna (Pazar 23:59) canlı geri sayım.
+// Dürüst: sahte stok yok; gerçek haftalık deadline, hafta başında geri gelir.
+function initPromoStrip() {
+  const now = new Date();
+  const end = new Date(now);
+  const dayMon0 = (now.getDay() + 6) % 7;          // Pazartesi=0 … Pazar=6
+  end.setDate(now.getDate() + (6 - dayMon0));
+  end.setHours(23, 59, 59, 999);
+  const key = 'kg_promo_' + end.toISOString().slice(0, 10);
+  try { if (localStorage.getItem(key) === '1') return; } catch (e) {}
+
+  const strip = document.createElement('div');
+  strip.className = 'promo-strip';
+  strip.innerHTML = '<span class="promo-strip__txt">⏳ Haftanın fırsatları — Pazar gece yarısına kadar</span>' +
+    '<span class="promo-strip__time" aria-live="off"></span>' +
+    '<button class="promo-strip__x" type="button" aria-label="Kapat">✕</button>';
+  document.body.insertBefore(strip, document.body.firstChild);
+
+  const timeEl = strip.querySelector('.promo-strip__time');
+  let iv = null;
+  function tick() {
+    const ms = end - new Date();
+    if (ms <= 0) { timeEl.textContent = ''; if (iv) clearInterval(iv); return; }
+    const d = Math.floor(ms / 86400000), h = Math.floor(ms / 3600000) % 24,
+          m = Math.floor(ms / 60000) % 60, s = Math.floor(ms / 1000) % 60;
+    const p2 = n => String(n).padStart(2, '0');
+    timeEl.textContent = (d > 0 ? d + 'g ' : '') + p2(h) + ':' + p2(m) + ':' + p2(s);
+  }
+  tick(); iv = setInterval(tick, 1000);
+  strip.querySelector('.promo-strip__x').addEventListener('click', () => {
+    if (iv) clearInterval(iv);
+    strip.remove();
+    try { localStorage.setItem(key, '1'); } catch (e) {}
+  });
+}
+
+document.addEventListener('DOMContentLoaded', () => { initPromoStrip(); initDiscreetPackaging(); });

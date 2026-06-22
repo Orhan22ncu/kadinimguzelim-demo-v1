@@ -1833,3 +1833,34 @@ body { max-width: 100%; }
 .ship-bar { height: 6px; background: var(--color-cream-warm); border-radius: 999px; overflow: hidden; }
 .ship-bar span { display: block; height: 100%; background: var(--color-gold); transition: width 300ms ease; }
 .ship-msg.done + .ship-bar span { background: #2e7d4f; }
+
+/* ── Filter chips: Renk / Beden / Materyal (#3) ──────────────────────────────── */
+.cat-chips { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.cat-chips__lbl { font-family: var(--font-ui); font-size: 12px; color: var(--color-gray); margin-right: 2px; }
+.filter-chip { font-family: var(--font-ui); font-size: 12px; color: var(--color-dark); background: #fff; border: 1px solid var(--color-cream-warm); border-radius: 999px; padding: 6px 12px; cursor: pointer; transition: all var(--transition-fast); }
+.filter-chip:hover { border-color: var(--color-gold); }
+.filter-chip.active { background: var(--color-dark); color: #fff; border-color: var(--color-dark); }
+
+/* ── Real rating on cards + PDP (#2) ─────────────────────────────────────────── */
+.card-rating { display: flex; align-items: center; gap: 5px; margin: 4px 0 0; font-family: var(--font-ui); font-size: 12px; }
+.card-rating .rating-stars { color: var(--color-gold); letter-spacing: 1px; font-size: 12px; }
+.card-rating .rating-val { font-weight: 600; color: var(--color-dark); }
+.card-rating .rating-cnt { color: var(--color-gray); }
+
+/* ── Weekly countdown / urgency strip (#4) ───────────────────────────────────── */
+.promo-strip {
+  display: flex; align-items: center; justify-content: center; gap: 12px;
+  background: var(--color-dark); color: var(--color-white);
+  font-family: var(--font-ui); font-size: 12px; letter-spacing: 0.02em;
+  padding: 9px 44px 9px 16px; position: relative; text-align: center;
+}
+.promo-strip__time { font-weight: 700; color: var(--color-gold); font-variant-numeric: tabular-nums; }
+.promo-strip__x {
+  position: absolute; right: 12px; top: 50%; transform: translateY(-50%);
+  background: none; border: none; color: inherit; font-size: 14px; line-height: 1;
+  cursor: pointer; opacity: 0.65; padding: 4px;
+}
+.promo-strip__x:hover { opacity: 1; }
+@media (max-width: 600px) {
+  .promo-strip { font-size: 11px; gap: 8px; padding: 8px 36px 8px 12px; }
+}
